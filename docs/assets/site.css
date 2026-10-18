@@ -68,6 +68,7 @@ section.band{padding:64px 0;border-bottom:1px solid var(--rule)}
 .cta p{color:#b9c6d4;margin:0}
 @media(max-width:860px){.cta{grid-template-columns:1fr;padding:28px}}
 .pagehead{background:#fff;border-bottom:1px solid var(--rule);padding:48px 0 40px}
+.pagehead .kicker{margin-bottom:20px}
 .pagehead h1{font-size:clamp(34px,5vw,52px);font-weight:900;margin:0 0 10px}
 .pagehead p{font-size:18px;color:var(--ink-2);margin:0;max-width:38em}
 .doc{max-width:760px;padding:44px 0 64px}
