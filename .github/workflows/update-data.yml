@@ -2,7 +2,7 @@ name: Update data
 
 on:
   schedule:
-    - cron: "20 5 * * *"      # every day 05:20 UTC (Gazette notices for the week land by Monday morning)
+    - cron: "20 2 * * *"      # every day 02:20 UTC, inside the Gazette's overnight window for bulk requests
   workflow_dispatch:
     inputs:
       start:
@@ -21,6 +21,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   build:
@@ -53,3 +54,11 @@ jobs:
           git commit -m "Data update $(date -u +%Y-%m-%d)" || echo "nothing to commit"
           git pull --rebase origin main
           git push origin HEAD:main
+      - name: Continue backfill if unfinished
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if grep -q '"complete": false' docs/data/backfill_status.json; then
+            gh workflow run update-data.yml --ref main -f start=2020-01-01 -f max_minutes=320
+          fi

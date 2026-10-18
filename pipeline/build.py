@@ -1,69 +1,91 @@
 #!/usr/bin/env python3
 """
-Appointed public data builder.
+Appointed public data builder, version 2.
 
-Downloads UK corporate insolvency notices from The Gazette (official public
-record), assigns each to a UK region using the map point The Gazette attaches
-to the notice, and publishes AGGREGATED weekly counts only.
+Reads UK corporate insolvency notices from The Gazette (London, Edinburgh and
+Belfast editions), turns NOTICES into EVENTS (one per company per procedure),
+and publishes aggregated weekly counts plus the Appointed distress index.
 
-What is published (docs/data/):
-  weekly_region.csv   week_start, notice_type, region, count
-  weekly_uk.csv       week_start, notice_type, count, located, unlocated
-  summary.json        latest complete week vs each region's own 52-week average
-  meta.json           when it ran, coverage, definitions, sources
+Stages
+  1. fetch     notice-level rows for each month, kept in a PRIVATE build cache
+               (.cache/notices/, never committed): notice id, code, edition,
+               publication date, company key, region, HMRC-petitioner flag.
+  2. events    notices -> events (de-duplicated by company number).
+  3. publish   aggregated weekly counts, quality measures, index (docs/data/).
 
-What is NOT published: company names, notice text, addresses or map points.
-Map points are only used in memory (and in a private build cache) to find the
-region, then thrown away.
+What is published: counts only. No company names, numbers, notice text,
+addresses or map points.
 
-Runs on GitHub Actions. Standard library only.
+Date basis: the free feed does not expose the appointment/order date, so events
+are dated by the week the FIRST notice for that event was published.
+
+Standard library only. Runs on GitHub Actions.
 """
-import argparse, csv, datetime as dt, json, os, sys, time, urllib.parse, urllib.request, urllib.error
-from collections import defaultdict
+import argparse, csv, datetime as dt, json, math, os, re, sys, time, urllib.parse, urllib.request, urllib.error
+from collections import defaultdict, Counter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "docs", "data")
-CHUNKS = os.path.join(ROOT, "docs", "data", "monthly")      # aggregated monthly chunks (resumable backfill)
-CACHE = os.path.join(ROOT, ".cache")                        # private: NOT committed (see .gitignore)
+CACHE = os.path.join(ROOT, ".cache")
+NOTICE_CACHE = os.path.join(CACHE, "notices")
 GEO_CACHE = os.path.join(CACHE, "geo.csv")
+METHOD_VERSION = "2.0"
 
-UA = "AppointedDataBot/1.0 (+https://github.com/appointeduk-cyber/appointed-data; appointeduk@gmail.com)"
+UA = "AppointedDataBot/2.0 (+https://github.com/appointeduk-cyber/appointed-data; appointeduk@gmail.com)"
 GAZETTE = "https://www.thegazette.co.uk/all-notices/notice/data.json"
 POSTCODES = "https://api.postcodes.io/postcodes"
+GAZ_DELAY = 2.0      # Gazette fair-use policy: max 5 requests per 10 seconds
+PC_DELAY = 0.3
 
-# Gazette notice codes counted. Solvent closures (members' voluntary liquidation, code 2432) are excluded.
-TYPES = {
-    "2410": "Administration",
-    "2421": "Administrative receivership",
-    "2423": "Receivership",
-    "2443": "Creditors' voluntary liquidation",
-    "2452": "Winding-up order",
-    "2450": "Winding-up petition",
-    "2603": "Disclaimer",
+EDITIONS = {"London": "England and Wales", "Edinburgh": "Scotland", "Belfast": "Northern Ireland"}
+CODES = {
+    "2410": "Appointment of administrators",
+    "2421": "Appointment of administrative receivers",
+    "2423": "Appointment of receivers",
+    "2441": "CVL resolution for winding up",
+    "2443": "CVL appointment of liquidators",
+    "2450": "Petition to wind up (company)",
+    "2451": "Petition to wind up (partnership)",
+    "2452": "Winding-up order (company)",
+    "2603": "Notice of disclaimer",
 }
 REGIONS = ["North East", "North West", "Yorkshire and The Humber", "East Midlands", "West Midlands",
            "East of England", "London", "South East", "South West", "Wales", "Scotland", "Northern Ireland"]
 UNKNOWN = "Unknown"
 
-GAZ_DELAY = 1.2      # seconds between Gazette requests (be polite)
-PC_DELAY = 0.3
+# components: headline (ADM, CVL, WUO); separate indicator (PET); memo items
+COMPONENTS = {
+    "ADM": "Administrations",
+    "CVL": "Creditors' voluntary liquidations",
+    "WUO": "Winding-up orders",
+    "PET": "Winding-up petitions",
+    "PET_HMRC": "Winding-up petitions brought by HMRC",
+    "ADM_TO_CVL": "Administrations moving to CVL (excluded from CVL)",
+    "MEMO_AR": "Administrative receiverships (memo)",
+    "MEMO_REC": "Receiver appointments (memo, not legally required to be gazetted)",
+    "MEMO_DIS": "Disclaimers (memo, not legally required to be gazetted)",
+}
+HEADLINE = ["ADM", "CVL", "WUO"]
+BASELINE = ("2024-01-01", "2025-12-31")      # "recent normal" = 100
+PET_START = "2022-04-04"                     # first Monday after petition restrictions ended (31 Mar 2022)
+COVID_RESTRICTED = ("2020-03-01", "2022-03-31")
+MIN_CELL = 20
 
 
 def log(*a):
     print(*a, flush=True)
 
 
+# ---------------------------------------------------------------- HTTP
 def http(url, data=None, tries=6, delay=GAZ_DELAY):
     body = None
     headers = {"User-Agent": UA, "Accept": "application/json"}
     if data is not None:
-        body = json.dumps(data).encode()
-        headers["Content-Type"] = "application/json"
-    wait = 5
+        body = json.dumps(data).encode(); headers["Content-Type"] = "application/json"
+    wait = 10
     for attempt in range(tries):
         try:
-            req = urllib.request.Request(url, data=body, headers=headers)
-            with urllib.request.urlopen(req, timeout=60) as r:
+            with urllib.request.urlopen(urllib.request.Request(url, data=body, headers=headers), timeout=60) as r:
                 raw = r.read()
             time.sleep(delay)
             return json.loads(raw.decode("utf-8"))
@@ -80,55 +102,52 @@ def http(url, data=None, tries=6, delay=GAZ_DELAY):
     raise RuntimeError(f"giving up on {url}")
 
 
-def find_entries(doc):
-    """Return (entries, total) from a Gazette data.json response, tolerant of layout."""
+def entries_of(doc):
     total = None
     if isinstance(doc, dict):
-        for k in ("f:total", "total"):
-            if k in doc:
-                try: total = int(doc[k])
-                except (TypeError, ValueError): pass
+        try: total = int(doc.get("f:total"))
+        except (TypeError, ValueError): pass
         ent = doc.get("entry")
         if ent is None and isinstance(doc.get("feed"), dict):
-            return find_entries(doc["feed"])
+            return entries_of(doc["feed"])
         if isinstance(ent, dict): ent = [ent]
-        return (ent or []), total
+        return ent or [], total
     return [], total
 
 
-def gazette_month(code, start, end):
-    """All notices of one code published between start and end (inclusive dates)."""
-    out, page, total = [], 1, None
-    while True:
-        q = {"noticetypes": code, "start-publish-date": start.isoformat(), "end-publish-date": end.isoformat(),
-             "results-page-size": "100", "results-page": str(page), "sort-by": "oldest-date"}
-        doc = http(GAZETTE + "?" + urllib.parse.urlencode(q))
-        ents, t = find_entries(doc)
-        if total is None: total = t
-        for e in ents:
-            if str(e.get("f:notice-code", code)) != code:
-                continue
-            pub = (e.get("published") or e.get("updated") or "")[:10]
-            gp = e.get("geo:Point") or {}
-            try:
-                lat, lon = float(gp.get("geo:lat")), float(gp.get("geo:long"))
-            except (TypeError, ValueError):
-                lat = lon = None
-            out.append({"id": e.get("id", ""), "date": pub, "lat": lat, "lon": lon})
-        if not ents or len(ents) < 100 or (total is not None and page * 100 >= total):
-            break
-        page += 1
-        if page > 200:
-            log(f"  WARNING: stopped paging at 200 for {code} {start}"); break
-    # de-duplicate by notice id
-    seen, uniq = set(), []
-    for r in out:
-        if r["id"] in seen: continue
-        seen.add(r["id"]); uniq.append(r)
-    return uniq, total
+# ---------------------------------------------------------------- parsing
+TAG = re.compile(r"<[^>]+>")
+NUM = re.compile(r"(?:company|registered|registration)\s*(?:number|no\.?)\s*[:\-]?\s*"
+                 r"((?:SC|NI|OC|SO|NC|SL|FC|SE|R0|GE|LP|IP|SP|RS|AC|CE|CS|NF|NL|SF|SA|SR|SZ|ZC)?\s?\d{5,8})", re.I)
+HMRC = re.compile(r"revenue\s*(?:and|&)\s*customs|\bHMRC\b|H\s?M\s?R\s?C", re.I)
+PETITIONER = re.compile(r"petition(?:er)?\b", re.I)
+SUFFIX = re.compile(r"\b(LIMITED|LTD|PLC|LLP|L\.L\.P\.|CIC|COMPANY|CO)\b\.?", re.I)
 
 
-# ---------- region lookup (postcodes.io reverse geocode, cached privately) ----------
+def text_of(e):
+    c = e.get("content")
+    if isinstance(c, dict): c = c.get("#text") or c.get("$") or json.dumps(c)
+    return TAG.sub(" ", str(c or ""))
+
+
+def company_key(e, txt):
+    m = NUM.search(txt)
+    if m:
+        n = re.sub(r"\s", "", m.group(1)).upper()
+        if n.isdigit(): n = n.zfill(8)
+        return "C:" + n, True
+    title = str(e.get("title") or "").upper()
+    title = SUFFIX.sub("", re.sub(r"[^A-Z0-9 &]", " ", title))
+    return "N:" + re.sub(r"\s+", " ", title).strip(), False
+
+
+def hmrc_flag(code, txt):
+    if code not in ("2450", "2451"): return ""
+    if HMRC.search(txt): return "1"
+    return "0" if PETITIONER.search(txt) else "?"   # "?" = petitioner not visible in the truncated text
+
+
+# ---------------------------------------------------------------- geo
 def load_geo():
     m = {}
     if os.path.exists(GEO_CACHE):
@@ -141,191 +160,349 @@ def load_geo():
 def save_geo(m):
     os.makedirs(CACHE, exist_ok=True)
     with open(GEO_CACHE, "w", newline="") as f:
-        w = csv.writer(f)
-        for k, v in m.items(): w.writerow([k, v])
+        csv.writer(f).writerows(m.items())
 
 
-def key(lat, lon):
-    return f"{lat:.4f},{lon:.4f}"
+def gkey(lat, lon): return f"{lat:.4f},{lon:.4f}"
 
 
 def region_of(res):
     if not res: return UNKNOWN
-    r = res[0]
-    country = r.get("country")
-    if country == "England":
-        reg = r.get("region")
-        return reg if reg in REGIONS else UNKNOWN
-    if country in ("Scotland", "Wales", "Northern Ireland"):
-        return country
-    return UNKNOWN
+    r = res[0]; c = r.get("country")
+    if c == "England":
+        return r.get("region") if r.get("region") in REGIONS else UNKNOWN
+    return c if c in ("Scotland", "Wales", "Northern Ireland") else UNKNOWN
 
 
 def geocode(points, cache):
-    todo = sorted({key(a, b) for a, b in points if a is not None and key(a, b) not in cache})
+    todo = sorted({gkey(a, b) for a, b in points if a is not None and gkey(a, b) not in cache})
     for i in range(0, len(todo), 100):
         batch = todo[i:i + 100]
         body = {"geolocations": [{"latitude": float(k.split(",")[0]), "longitude": float(k.split(",")[1]),
                                   "radius": 2000, "limit": 1} for k in batch]}
         doc = http(POSTCODES, data=body, delay=PC_DELAY)
-        results = doc.get("result") or []
-        for k, item in zip(batch, results):
+        for k, item in zip(batch, doc.get("result") or []):
             cache[k] = region_of((item or {}).get("result"))
     return cache
 
 
-# ---------- dates ----------
-def monday(d):
-    return d - dt.timedelta(days=d.weekday())
+# ---------------------------------------------------------------- stage 1: fetch
+FIELDS = ["id", "code", "edition", "date", "key", "has_number", "region", "located", "hmrc"]
 
 
-def months(start, end):
-    d = start.replace(day=1)
-    while d <= end:
-        nxt = (d.replace(day=28) + dt.timedelta(days=4)).replace(day=1)
-        yield d, min(nxt - dt.timedelta(days=1), end)
-        d = nxt
+def fetch_month(m_start, m_end, geo):
+    rows, seen, totals = [], set(), {}
+    for code in CODES:
+        for ed in EDITIONS:
+            page, got, total = 1, 0, None
+            while True:
+                q = {"noticetypes": code, "edition": ed, "start-publish-date": m_start.isoformat(),
+                     "end-publish-date": m_end.isoformat(), "results-page-size": "100",
+                     "results-page": str(page), "sort-by": "oldest-date"}
+                ents, t = entries_of(http(GAZETTE + "?" + urllib.parse.urlencode(q)))
+                if total is None: total = t
+                batch = []
+                for e in ents:
+                    if str(e.get("f:notice-code", code)) != code: continue
+                    nid = str(e.get("id", ""))
+                    if not nid or nid in seen: continue
+                    seen.add(nid)
+                    gp = e.get("geo:Point") or {}
+                    try: lat, lon = float(gp.get("geo:lat")), float(gp.get("geo:long"))
+                    except (TypeError, ValueError): lat = lon = None
+                    txt = text_of(e)
+                    key, has_num = company_key(e, txt)
+                    batch.append({"id": nid.rsplit("/", 1)[-1], "code": code, "edition": ed,
+                                  "date": (e.get("published") or e.get("updated") or "")[:10],
+                                  "key": key, "has_number": "1" if has_num else "0",
+                                  "_lat": lat, "_lon": lon, "hmrc": hmrc_flag(code, txt)})
+                geo = geocode([(b["_lat"], b["_lon"]) for b in batch], geo)
+                for b in batch:
+                    reg = geo.get(gkey(b["_lat"], b["_lon"]), UNKNOWN) if b["_lat"] is not None else UNKNOWN
+                    b["located"] = "1" if reg != UNKNOWN else "0"
+                    if reg == UNKNOWN and ed in ("Edinburgh", "Belfast"):
+                        reg = EDITIONS[ed]          # nation is certain from the edition even without a map point
+                    b["region"] = reg
+                    del b["_lat"], b["_lon"]
+                rows += batch; got += len(ents)
+                if not ents or len(ents) < 100 or (total is not None and page * 100 >= total): break
+                page += 1
+                if page > 300: log(f"  WARNING paging cap {code} {ed} {m_start}"); break
+            totals[f"{code}/{ed}"] = {"gazette_total": total, "rows": got}
+        log(f"  {m_start:%Y-%m} {code}: {sum(1 for r in rows if r['code'] == code)} notices")
+    return rows, totals, geo
 
 
-# ---------- build ----------
-def build_month(m_start, m_end, cache):
-    rows = defaultdict(int)          # (week_start, code, region) -> count
-    stats = {}
-    for code in TYPES:
-        notices, total = gazette_month(code, m_start, m_end)
-        cache = geocode([(n["lat"], n["lon"]) for n in notices], cache)
-        located = 0
-        for n in notices:
-            try: d = dt.date.fromisoformat(n["date"])
-            except ValueError: continue
-            reg = cache.get(key(n["lat"], n["lon"]), UNKNOWN) if n["lat"] is not None else UNKNOWN
-            if reg != UNKNOWN: located += 1
-            rows[(monday(d).isoformat(), code, reg)] += 1
-        stats[code] = {"notices": len(notices), "gazette_total": total, "located": located}
-        log(f"  {m_start:%Y-%m} {code} {TYPES[code]}: {len(notices)} notices, {located} located")
-    return rows, stats, cache
+def write_notice_cache(tag, rows, totals):
+    os.makedirs(NOTICE_CACHE, exist_ok=True)
+    with open(os.path.join(NOTICE_CACHE, f"{tag}.csv"), "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=FIELDS); w.writeheader(); w.writerows(rows)
+    with open(os.path.join(NOTICE_CACHE, f"{tag}.totals.json"), "w") as f:
+        json.dump(totals, f)
 
 
-def write_chunk(month, rows, stats):
-    os.makedirs(CHUNKS, exist_ok=True)
-    with open(os.path.join(CHUNKS, f"{month}.csv"), "w", newline="") as f:
-        w = csv.writer(f)
-        w.writerow(["week_start", "code", "region", "count"])
-        for (wk, code, reg), c in sorted(rows.items()):
-            w.writerow([wk, code, reg, c])
-    with open(os.path.join(CHUNKS, f"{month}.stats.json"), "w") as f:
-        json.dump(stats, f, indent=1)
-
-
-def assemble(today):
-    """Combine monthly chunks into the published files."""
-    agg = defaultdict(int)
-    stats = {}
-    for fn in sorted(os.listdir(CHUNKS)):
+def load_notices():
+    rows = []
+    for fn in sorted(os.listdir(NOTICE_CACHE)):
         if fn.endswith(".csv"):
-            with open(os.path.join(CHUNKS, fn), newline="") as f:
-                for r in csv.DictReader(f):
-                    agg[(r["week_start"], r["code"], r["region"])] += int(r["count"])
-        elif fn.endswith(".stats.json"):
-            stats[fn[:7]] = json.load(open(os.path.join(CHUNKS, fn)))
+            with open(os.path.join(NOTICE_CACHE, fn), newline="") as f:
+                rows += list(csv.DictReader(f))
+    return rows
 
-    weeks = sorted({k[0] for k in agg})
-    this_monday = monday(today).isoformat()
-    complete = [w for w in weeks if w < this_monday]
 
-    with open(os.path.join(OUT, "weekly_region.csv"), "w", newline="") as f:
-        w = csv.writer(f); w.writerow(["week_start", "notice_type", "region", "count"])
-        for wk in weeks:
-            for code, name in TYPES.items():
-                for reg in REGIONS + [UNKNOWN]:
-                    w.writerow([wk, name, reg, agg.get((wk, code, reg), 0)])
+# ---------------------------------------------------------------- stage 2: events
+def d(s): return dt.date.fromisoformat(s)
+def monday(x): return x - dt.timedelta(days=x.weekday())
 
-    with open(os.path.join(OUT, "weekly_uk.csv"), "w", newline="") as f:
-        w = csv.writer(f); w.writerow(["week_start", "notice_type", "count", "located", "unlocated"])
-        for wk in weeks:
-            for code, name in TYPES.items():
-                tot = sum(agg.get((wk, code, r), 0) for r in REGIONS + [UNKNOWN])
-                unl = agg.get((wk, code, UNKNOWN), 0)
-                w.writerow([wk, name, tot, tot - unl, unl])
 
-    # summary: latest complete week vs own trailing 52-week average (the 52 weeks BEFORE it)
-    summary = {"latest_week": None, "regions": {}, "uk": {}}
-    if len(complete) >= 2:
-        lw = complete[-1]; base = complete[-53:-1]
-        summary["latest_week"] = lw
-        summary["baseline_weeks"] = len(base)
-        insolv = [c for c in TYPES if c != "2450" and c != "2603"]   # headline = insolvencies, excl. petitions/disclaimers
-        for reg in REGIONS:
-            now = sum(agg.get((lw, c, reg), 0) for c in insolv)
-            avg = sum(agg.get((b, c, reg), 0) for b in base for c in insolv) / max(len(base), 1)
-            summary["regions"][reg] = {"this_week": now, "avg_52w": round(avg, 2),
-                                       "vs_usual_pct": round((now / avg - 1) * 100) if avg else None}
-        for code, name in TYPES.items():
-            now = sum(agg.get((lw, code, r), 0) for r in REGIONS + [UNKNOWN])
-            avg = sum(agg.get((b, code, r), 0) for b in base for r in REGIONS + [UNKNOWN]) / max(len(base), 1)
-            summary["uk"][name] = {"this_week": now, "avg_52w": round(avg, 2),
-                                   "vs_usual_pct": round((now / avg - 1) * 100) if avg else None}
-    with open(os.path.join(OUT, "summary.json"), "w") as f:
-        json.dump(summary, f, indent=1)
+def build_events(notices):
+    """Collapse notices into events. Returns list of (component, date, edition, region, extra)."""
+    by_code = defaultdict(list)
+    for n in notices:
+        if n["date"]: by_code[n["code"]].append(n)
+    for v in by_code.values(): v.sort(key=lambda r: r["date"])
+    events, q = [], Counter()
 
-    tot = sum(s["notices"] for m in stats.values() for s in m.values())
-    loc = sum(s["located"] for m in stats.values() for s in m.values())
-    meta = {
-        "updated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-        "first_week": weeks[0] if weeks else None,
-        "last_week": weeks[-1] if weeks else None,
-        "last_complete_week": complete[-1] if complete else None,
-        "current_week_is_partial": bool(weeks and weeks[-1] >= this_monday),
-        "notices_counted": tot,
-        "share_with_region": round(loc / tot, 4) if tot else None,
-        "notice_types": TYPES,
-        "regions": REGIONS + [UNKNOWN],
-        "definitions": {
-            "week_start": "Monday of the week the notice was published in The Gazette (not the date of the insolvency itself).",
-            "region": "From the map point The Gazette attaches to each notice, matched to the nearest postcode (postcodes.io, ONS data). 'Unknown' where the notice has no map point or none within 2km.",
-            "headline_insolvencies": "Administration + receiverships + creditors' voluntary liquidation + winding-up orders. Petitions and disclaimers are reported separately; members' voluntary liquidations (solvent) are excluded.",
-            "covid_restrictions": "Winding-up petitions were restricted by law from 27 April 2020 to 31 March 2022 (Corporate Insolvency and Governance Act 2020 and follow-on regulations). Petition and winding-up order numbers in that period are artificially low.",
-        },
-        "covid_restriction_period": {"start": "2020-04-27", "end": "2022-03-31"},
-        "sources": ["The Gazette (thegazette.co.uk), Open Government Licence; notice counts only, no personal data reused",
-                    "postcodes.io (ONS Postcode Directory), Open Government Licence"],
-        "monthly_stats": stats,
+    def collapse(rows, window_days, comp):
+        last = {}
+        out = []
+        for r in rows:
+            k, t = r["key"], d(r["date"])
+            if k in last and (t - last[k]).days <= window_days:
+                q[f"{comp}_duplicates"] += 1
+                continue
+            last[k] = t
+            out.append(r)
+        q[f"{comp}_notices"] += len(rows); q[f"{comp}_events"] += len(out)
+        return out
+
+    adm = collapse(by_code["2410"], 365, "ADM")
+    adm_dates = defaultdict(list)
+    for r in adm:
+        events.append(("ADM", r["date"], r["edition"], r["region"], ""))
+        adm_dates[r["key"]].append(d(r["date"]))
+
+    cvl_rows = sorted(by_code["2441"] + by_code["2443"], key=lambda r: r["date"])
+    for r in collapse(cvl_rows, 120, "CVL"):
+        t = d(r["date"])
+        if any(0 <= (t - a).days <= 548 for a in adm_dates.get(r["key"], [])):
+            events.append(("ADM_TO_CVL", r["date"], r["edition"], r["region"], "")); continue
+        events.append(("CVL", r["date"], r["edition"], r["region"], ""))
+
+    for r in collapse(by_code["2452"], 365, "WUO"):
+        events.append(("WUO", r["date"], r["edition"], r["region"], ""))
+
+    pet_rows = sorted(by_code["2450"] + by_code["2451"], key=lambda r: r["date"])
+    for r in collapse(pet_rows, 180, "PET"):
+        events.append(("PET", r["date"], r["edition"], r["region"], r["hmrc"]))
+        if r["hmrc"] == "1":
+            events.append(("PET_HMRC", r["date"], r["edition"], r["region"], ""))
+        q[f"PET_hmrc_{ {'1': 'yes', '0': 'no', '?': 'unknown'}.get(r['hmrc'], 'unknown') }"] += 1
+
+    for code, comp in (("2421", "MEMO_AR"), ("2423", "MEMO_REC"), ("2603", "MEMO_DIS")):
+        for r in collapse(by_code[code], 365, comp):
+            events.append((comp, r["date"], r["edition"], r["region"], ""))
+    return events, q
+
+
+# ---------------------------------------------------------------- stage 3: publish
+def wsum(series, weeks, i, n):
+    return sum(series.get(weeks[j], 0) for j in range(max(0, i - n + 1), i + 1))
+
+
+def publish(notices, events, q, today, fetch_totals):
+    os.makedirs(OUT, exist_ok=True)
+    this_monday = monday(today)
+    first = monday(d(min(n["date"] for n in notices if n["date"])))
+    weeks, w = [], first
+    while w < this_monday:            # complete weeks only
+        weeks.append(w.isoformat()); w += dt.timedelta(days=7)
+    wset = set(weeks)
+
+    # weekly counts: component x nation x region
+    cnt = Counter()
+    for comp, date, ed, reg, _ in events:
+        wk = monday(d(date)).isoformat()
+        if wk in wset: cnt[(wk, comp, EDITIONS[ed], reg)] += 1
+    nations = list(EDITIONS.values())
+    with open(os.path.join(OUT, "weekly_components.csv"), "w", newline="") as f:
+        wr = csv.writer(f); wr.writerow(["week_start", "component", "nation", "region", "count"])
+        for (wk, comp, nat, reg), c in sorted(cnt.items()):
+            wr.writerow([wk, comp, nat, reg, c])
+
+    # monthly England & Wales (London edition) for reconciliation with Insolvency Service
+    mon = Counter()
+    for comp, date, ed, reg, _ in events:
+        if ed == "London": mon[(date[:7], comp)] += 1
+    with open(os.path.join(OUT, "monthly_england_wales.csv"), "w", newline="") as f:
+        wr = csv.writer(f); wr.writerow(["month", "component", "count"])
+        for (m, comp), c in sorted(mon.items()): wr.writerow([m, comp, c])
+
+    # national (UK) weekly series per component
+    uk = {c: Counter() for c in COMPONENTS}
+    reg_hl = {r: Counter() for r in REGIONS + [UNKNOWN]}
+    for (wk, comp, nat, reg), c in cnt.items():
+        uk[comp][wk] += c
+        if comp in HEADLINE: reg_hl[reg][wk] += c
+
+    base_idx = [i for i, wk in enumerate(weeks) if BASELINE[0] <= wk <= BASELINE[1]]
+    have_base = len(base_idx) >= 52
+    idx_rows, meta_idx = [], {}
+    if have_base:
+        S4 = {k: [wsum(uk[k], weeks, i, 4) for i in range(len(weeks))] for k in COMPONENTS}
+        S13 = {k: [wsum(uk[k], weeks, i, 13) for i in range(len(weeks))] for k in COMPONENTS}
+        B4 = {k: sum(S4[k][i] for i in base_idx) / len(base_idx) for k in COMPONENTS}
+        # volatility-equalised weights: 1 / sd of 13-week log changes during the baseline
+        sds = {}
+        for k in HEADLINE:
+            ch = [math.log(S13[k][i] / S13[k][i - 13]) for i in base_idx if i >= 13 and S13[k][i] > 0 and S13[k][i - 13] > 0]
+            m = sum(ch) / len(ch)
+            sds[k] = math.sqrt(sum((x - m) ** 2 for x in ch) / (len(ch) - 1))
+        inv = {k: 1 / sds[k] for k in HEADLINE}
+        wts = {k: inv[k] / sum(inv.values()) for k in HEADLINE}
+        Bpet_idx = [i for i in base_idx if weeks[i] >= PET_START]
+        Bpet = sum(S4["PET"][i] for i in Bpet_idx) / len(Bpet_idx)
+        for i, wk in enumerate(weeks):
+            if i < 3: continue
+            ci = {k: 100 * S4[k][i] / B4[k] if B4[k] else None for k in HEADLINE}
+            head = sum(wts[k] * ci[k] for k in HEADLINE)
+            eq = sum(ci.values()) / 3
+            plain = 100 * sum(S4[k][i] for k in HEADLINE) / sum(B4[k] for k in HEADLINE)
+            pet = 100 * S4["PET"][i] / Bpet if wk >= PET_START else None
+            hm = S4["PET_HMRC"][i] / S4["PET"][i] if wk >= PET_START and S4["PET"][i] else None
+            idx_rows.append({
+                "week_start": wk, "index": round(head, 1), "equal_weight": round(eq, 1), "plain_count": round(plain, 1),
+                "administrations": round(ci["ADM"], 1), "cvl": round(ci["CVL"], 1), "winding_up_orders": round(ci["WUO"], 1),
+                "events_4wk": sum(S4[k][i] for k in HEADLINE),
+                "petitions_index": round(pet, 1) if pet is not None else "",
+                "petitions_hmrc_share_detected": round(hm, 3) if hm is not None else "",
+                "provisional": "1" if i >= len(weeks) - 4 else "0",
+                "restricted_period": "1" if COVID_RESTRICTED[0] <= wk <= COVID_RESTRICTED[1] else "0",
+            })
+        with open(os.path.join(OUT, "index_weekly.csv"), "w", newline="") as f:
+            wr = csv.DictWriter(f, fieldnames=list(idx_rows[0].keys())); wr.writeheader(); wr.writerows(idx_rows)
+
+        # regional index on 13-week sums, suppressed under MIN_CELL; plus diffusion
+        R13 = {r: [wsum(reg_hl[r], weeks, i, 13) for i in range(len(weeks))] for r in reg_hl}
+        RB = {r: sum(R13[r][i] for i in base_idx) / len(base_idx) for r in reg_hl}
+        with open(os.path.join(OUT, "index_regional.csv"), "w", newline="") as f:
+            wr = csv.writer(f); wr.writerow(["week_start", "region", "events_13wk", "index_13wk", "vs_year_earlier_pct"])
+            for i, wk in enumerate(weeks):
+                if i < 12: continue
+                for r in REGIONS + [UNKNOWN]:
+                    s = R13[r][i]
+                    ix = round(100 * s / RB[r], 1) if s >= MIN_CELL and RB[r] else ""
+                    yoy = round((s / R13[r][i - 52] - 1) * 100, 1) if i >= 52 and R13[r][i - 52] >= MIN_CELL and s >= MIN_CELL else ""
+                    wr.writerow([wk, r, s, ix, yoy])
+        diff = []
+        for i, wk in enumerate(weeks):
+            if i < 64: continue
+            up = flat = n = 0
+            for r in REGIONS:
+                a, b = R13[r][i], R13[r][i - 52]
+                if a < MIN_CELL or b < MIN_CELL: continue
+                n += 1; ch = a / b - 1
+                if ch > 0.02: up += 1
+                elif ch >= -0.02: flat += 1
+            if n: diff.append((wk, round(100 * (up + 0.5 * flat) / n, 1), n))
+        with open(os.path.join(OUT, "diffusion_regions.csv"), "w", newline="") as f:
+            wr = csv.writer(f); wr.writerow(["week_start", "diffusion", "regions_counted"]); wr.writerows(diff)
+        meta_idx = {"weights": {k: round(v, 4) for k, v in wts.items()},
+                    "sd_13wk_log_change": {k: round(v, 4) for k, v in sds.items()},
+                    "baseline_4wk_mean": {k: round(B4[k], 2) for k in COMPONENTS},
+                    "petitions_baseline_4wk_mean": round(Bpet, 2)}
+        latest = idx_rows[-1]
+        summary = {"latest_week": latest["week_start"], "index": latest["index"], "provisional": latest["provisional"] == "1",
+                   "change_vs_4wk_ago": round(latest["index"] - idx_rows[-5]["index"], 1),
+                   "change_vs_year_ago": round(latest["index"] - idx_rows[-53]["index"], 1) if len(idx_rows) > 53 else None,
+                   "components": {"administrations": latest["administrations"], "cvl": latest["cvl"],
+                                  "winding_up_orders": latest["winding_up_orders"]},
+                   "petitions_index": latest["petitions_index"], "equal_weight": latest["equal_weight"],
+                   "plain_count": latest["plain_count"]}
+        with open(os.path.join(OUT, "summary.json"), "w") as f: json.dump(summary, f, indent=1)
+
+    # quality measures
+    tot = len(notices)
+    by = defaultdict(list)
+    for n in notices: by[n["code"]].append(n)
+    quality = {
+        "notices": tot,
+        "notices_by_code": {c: len(v) for c, v in sorted(by.items())},
+        "notices_by_edition": dict(Counter(n["edition"] for n in notices)),
+        "share_with_company_number": {c: round(sum(r["has_number"] == "1" for r in v) / len(v), 4) for c, v in by.items() if v},
+        "share_located_by_map_point": round(sum(n["located"] == "1" for n in notices) / tot, 4) if tot else None,
+        "share_region_unknown": round(sum(n["region"] == UNKNOWN for n in notices) / tot, 4) if tot else None,
+        "dedup": {k: v for k, v in sorted(q.items())},
     }
-    with open(os.path.join(OUT, "meta.json"), "w") as f:
-        json.dump(meta, f, indent=1)
-    log(f"assembled {len(weeks)} weeks, {tot} notices, {loc} located")
+    for comp in ("ADM", "CVL", "WUO", "PET"):
+        nn, ee = q.get(f"{comp}_notices", 0), q.get(f"{comp}_events", 0)
+        if nn: quality["dedup"][f"{comp}_notices_per_event"] = round(nn / ee, 3)
+    meta = {
+        "method_version": METHOD_VERSION,
+        "updated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+        "first_week": weeks[0] if weeks else None, "last_complete_week": weeks[-1] if weeks else None,
+        "baseline": {"from": BASELINE[0], "to": BASELINE[1], "meaning": "100 = average 4-week total in 2024-25 ('recent normal', not a long-run average)"},
+        "components": COMPONENTS, "headline_components": HEADLINE, "gazette_codes": CODES,
+        "index": meta_idx, "quality": quality, "fetch_totals": fetch_totals,
+        "rules": {
+            "unit": "One event per company per procedure (company number from the notice; company name where no number is shown). Repeat notices for the same company within 365 days (120 for CVLs, 180 for petitions) are not counted again.",
+            "date_basis": "Week (Monday start) in which the first notice for the event was published in The Gazette. The free feed does not expose the appointment or order date.",
+            "cvl": "Resolution (2441) and liquidator appointment (2443) notices are merged into one event. Companies with an administration in the previous 18 months are counted separately as administration-to-CVL moves, not as new CVLs.",
+            "petitions": "Separate indicator from 4 April 2022, after Covid restrictions ended. HMRC share counts petitions where HMRC is visible in the notice summary; the summary is sometimes truncated, so this is a lower bound.",
+            "small_numbers": f"Regional figures use 13-week totals; cells with fewer than {MIN_CELL} events are not shown.",
+            "weights": "Each headline component weighted by 1 / (standard deviation of its 13-week log change during 2024-25), normalised to sum to 1 (Conference Board method).",
+            "provisional": "The latest 4 weeks are provisional.",
+            "restricted_period": "Winding-up petitions were restricted by law from spring 2020 to 31 March 2022 (Corporate Insolvency and Governance Act 2020 and follow-on regulations).",
+        },
+        "sources": ["Contains public sector information licensed under the Open Government Licence v3.0. Source: The Gazette (London, Edinburgh and Belfast editions).",
+                    "postcodes.io (ONS Postcode Directory), Open Government Licence"],
+        "not_official": "This is not an official statistic. The Insolvency Service's monthly figures are the authoritative measure.",
+    }
+    with open(os.path.join(OUT, "meta.json"), "w") as f: json.dump(meta, f, indent=1)
+    log(f"published: {len(weeks)} weeks, {tot} notices, {len(events)} events")
+
+
+# ---------------------------------------------------------------- main
+def months(start, end):
+    x = start.replace(day=1)
+    while x <= end:
+        nxt = (x.replace(day=28) + dt.timedelta(days=4)).replace(day=1)
+        yield x, min(nxt - dt.timedelta(days=1), end); x = nxt
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--start", default="2020-01-01")
-    ap.add_argument("--end", default=None, help="default: today")
+    ap.add_argument("--end", default=None)
     ap.add_argument("--max-minutes", type=float, default=300)
-    ap.add_argument("--refresh-days", type=int, default=45, help="re-fetch months ending within this many days")
+    ap.add_argument("--refresh-days", type=int, default=45)
     a = ap.parse_args()
     today = dt.date.today()
-    start = dt.date.fromisoformat(a.start)
-    end = dt.date.fromisoformat(a.end) if a.end else today
-    os.makedirs(OUT, exist_ok=True); os.makedirs(CHUNKS, exist_ok=True)
-    t0 = time.time()
-    cache = load_geo()
-    done_all = True
-    for m_start, m_end in months(start, end):
-        tag = f"{m_start:%Y-%m}"
-        exists = os.path.exists(os.path.join(CHUNKS, f"{tag}.csv"))
-        fresh = (today - m_end).days <= a.refresh_days
-        if exists and not fresh:
+    start, end = d(a.start), (d(a.end) if a.end else today)
+    os.makedirs(NOTICE_CACHE, exist_ok=True); os.makedirs(OUT, exist_ok=True)
+    t0, geo, complete, fetch_totals = time.time(), load_geo(), True, {}
+    for ms, me in months(start, end):
+        tag = f"{ms:%Y-%m}"
+        p = os.path.join(NOTICE_CACHE, f"{tag}.csv")
+        if os.path.exists(p) and (today - me).days > a.refresh_days:
+            tp = os.path.join(NOTICE_CACHE, f"{tag}.totals.json")
+            if os.path.exists(tp): fetch_totals[tag] = json.load(open(tp))
             continue
         if (time.time() - t0) / 60 > a.max_minutes:
-            log(f"time budget reached before {tag}; will continue next run"); done_all = False; break
-        log(f"month {tag} ({m_start} to {m_end})")
-        rows, stats, cache = build_month(m_start, m_end, cache)
-        write_chunk(tag, rows, stats)
-        save_geo(cache)
-    assemble(today)
+            log(f"time budget reached before {tag}; continuing next run"); complete = False; break
+        log(f"month {tag}")
+        rows, totals, geo = fetch_month(ms, me, geo)
+        write_notice_cache(tag, rows, totals); save_geo(geo); fetch_totals[tag] = totals
+    notices = load_notices()
+    events, q = build_events(notices)
+    if complete:
+        publish(notices, events, q, today, fetch_totals)
+    else:
+        log("backfill incomplete: published files left unchanged until the history is complete")
     with open(os.path.join(OUT, "backfill_status.json"), "w") as f:
-        json.dump({"complete": done_all, "checked_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}, f)
-    log("backfill complete" if done_all else "backfill partial")
+        json.dump({"method_version": METHOD_VERSION, "complete": complete,
+                   "months_cached": len([x for x in os.listdir(NOTICE_CACHE) if x.endswith('.csv')]),
+                   "checked_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}, f)
 
 
 if __name__ == "__main__":
