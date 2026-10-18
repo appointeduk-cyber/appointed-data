@@ -1,0 +1,230 @@
+week_start,code,region,count
+2025-09-01,2410,East of England,3
+2025-09-01,2410,London,8
+2025-09-01,2410,North East,4
+2025-09-01,2410,North West,3
+2025-09-01,2410,Scotland,1
+2025-09-01,2410,South East,1
+2025-09-01,2410,South West,5
+2025-09-01,2410,West Midlands,2
+2025-09-01,2410,Yorkshire and The Humber,2
+2025-09-01,2443,East Midlands,24
+2025-09-01,2443,East of England,35
+2025-09-01,2443,London,63
+2025-09-01,2443,North East,11
+2025-09-01,2443,North West,53
+2025-09-01,2443,Scotland,9
+2025-09-01,2443,South East,51
+2025-09-01,2443,South West,23
+2025-09-01,2443,Unknown,37
+2025-09-01,2443,Wales,10
+2025-09-01,2443,West Midlands,45
+2025-09-01,2443,Yorkshire and The Humber,31
+2025-09-01,2450,East Midlands,2
+2025-09-01,2450,East of England,13
+2025-09-01,2450,London,40
+2025-09-01,2450,North East,2
+2025-09-01,2450,North West,16
+2025-09-01,2450,Scotland,7
+2025-09-01,2450,South East,13
+2025-09-01,2450,South West,7
+2025-09-01,2450,Unknown,19
+2025-09-01,2450,Wales,1
+2025-09-01,2450,West Midlands,7
+2025-09-01,2450,Yorkshire and The Humber,4
+2025-09-01,2452,East Midlands,1
+2025-09-01,2452,East of England,2
+2025-09-01,2452,London,4
+2025-09-01,2452,South West,2
+2025-09-01,2452,Unknown,1
+2025-09-01,2452,Wales,1
+2025-09-01,2452,Yorkshire and The Humber,4
+2025-09-01,2603,East of England,2
+2025-09-01,2603,London,9
+2025-09-01,2603,North West,1
+2025-09-01,2603,Unknown,1
+2025-09-01,2603,West Midlands,1
+2025-09-08,2410,East Midlands,5
+2025-09-08,2410,East of England,4
+2025-09-08,2410,London,5
+2025-09-08,2410,North West,3
+2025-09-08,2410,Scotland,1
+2025-09-08,2410,South East,4
+2025-09-08,2410,South West,4
+2025-09-08,2410,Wales,1
+2025-09-08,2410,West Midlands,3
+2025-09-08,2410,Yorkshire and The Humber,1
+2025-09-08,2443,East Midlands,27
+2025-09-08,2443,East of England,44
+2025-09-08,2443,London,46
+2025-09-08,2443,North East,13
+2025-09-08,2443,North West,39
+2025-09-08,2443,Scotland,10
+2025-09-08,2443,South East,54
+2025-09-08,2443,South West,15
+2025-09-08,2443,Unknown,28
+2025-09-08,2443,Wales,11
+2025-09-08,2443,West Midlands,28
+2025-09-08,2443,Yorkshire and The Humber,25
+2025-09-08,2450,East Midlands,4
+2025-09-08,2450,East of England,3
+2025-09-08,2450,London,10
+2025-09-08,2450,North West,11
+2025-09-08,2450,Scotland,14
+2025-09-08,2450,South East,5
+2025-09-08,2450,South West,2
+2025-09-08,2450,Unknown,21
+2025-09-08,2450,Wales,2
+2025-09-08,2450,West Midlands,3
+2025-09-08,2450,Yorkshire and The Humber,2
+2025-09-08,2452,East Midlands,8
+2025-09-08,2452,East of England,6
+2025-09-08,2452,London,20
+2025-09-08,2452,North East,1
+2025-09-08,2452,North West,11
+2025-09-08,2452,South East,17
+2025-09-08,2452,South West,5
+2025-09-08,2452,Unknown,2
+2025-09-08,2452,Wales,4
+2025-09-08,2452,West Midlands,3
+2025-09-08,2452,Yorkshire and The Humber,3
+2025-09-08,2603,East of England,3
+2025-09-08,2603,London,20
+2025-09-08,2603,North West,1
+2025-09-08,2603,Unknown,1
+2025-09-15,2410,East Midlands,1
+2025-09-15,2410,East of England,3
+2025-09-15,2410,London,3
+2025-09-15,2410,North West,1
+2025-09-15,2410,Scotland,2
+2025-09-15,2410,South East,8
+2025-09-15,2410,South West,2
+2025-09-15,2410,Unknown,1
+2025-09-15,2410,Wales,1
+2025-09-15,2410,West Midlands,5
+2025-09-15,2410,Yorkshire and The Humber,1
+2025-09-15,2443,East Midlands,21
+2025-09-15,2443,East of England,35
+2025-09-15,2443,London,65
+2025-09-15,2443,North East,9
+2025-09-15,2443,North West,35
+2025-09-15,2443,Scotland,7
+2025-09-15,2443,South East,45
+2025-09-15,2443,South West,20
+2025-09-15,2443,Unknown,14
+2025-09-15,2443,Wales,7
+2025-09-15,2443,West Midlands,19
+2025-09-15,2443,Yorkshire and The Humber,19
+2025-09-15,2450,East Midlands,18
+2025-09-15,2450,East of England,8
+2025-09-15,2450,London,41
+2025-09-15,2450,North East,5
+2025-09-15,2450,North West,15
+2025-09-15,2450,Scotland,7
+2025-09-15,2450,South East,14
+2025-09-15,2450,South West,10
+2025-09-15,2450,Unknown,23
+2025-09-15,2450,Wales,5
+2025-09-15,2450,West Midlands,16
+2025-09-15,2450,Yorkshire and The Humber,13
+2025-09-15,2452,East Midlands,8
+2025-09-15,2452,East of England,7
+2025-09-15,2452,London,23
+2025-09-15,2452,North East,5
+2025-09-15,2452,North West,9
+2025-09-15,2452,South East,5
+2025-09-15,2452,South West,1
+2025-09-15,2452,Unknown,8
+2025-09-15,2452,Wales,9
+2025-09-15,2452,West Midlands,7
+2025-09-15,2452,Yorkshire and The Humber,5
+2025-09-15,2603,London,12
+2025-09-15,2603,South East,1
+2025-09-15,2603,South West,1
+2025-09-22,2410,East Midlands,1
+2025-09-22,2410,East of England,2
+2025-09-22,2410,London,3
+2025-09-22,2410,North East,1
+2025-09-22,2410,North West,3
+2025-09-22,2410,Scotland,1
+2025-09-22,2410,South East,6
+2025-09-22,2410,South West,3
+2025-09-22,2410,Wales,1
+2025-09-22,2410,West Midlands,1
+2025-09-22,2410,Yorkshire and The Humber,4
+2025-09-22,2443,East Midlands,32
+2025-09-22,2443,East of England,37
+2025-09-22,2443,London,63
+2025-09-22,2443,North East,13
+2025-09-22,2443,North West,52
+2025-09-22,2443,Scotland,12
+2025-09-22,2443,South East,43
+2025-09-22,2443,South West,22
+2025-09-22,2443,Unknown,25
+2025-09-22,2443,Wales,8
+2025-09-22,2443,West Midlands,30
+2025-09-22,2443,Yorkshire and The Humber,32
+2025-09-22,2450,East Midlands,1
+2025-09-22,2450,East of England,13
+2025-09-22,2450,London,23
+2025-09-22,2450,North East,1
+2025-09-22,2450,North West,11
+2025-09-22,2450,Scotland,18
+2025-09-22,2450,South East,22
+2025-09-22,2450,South West,11
+2025-09-22,2450,Unknown,27
+2025-09-22,2450,Wales,2
+2025-09-22,2450,West Midlands,9
+2025-09-22,2450,Yorkshire and The Humber,5
+2025-09-22,2452,East Midlands,1
+2025-09-22,2452,East of England,8
+2025-09-22,2452,London,20
+2025-09-22,2452,North East,3
+2025-09-22,2452,North West,13
+2025-09-22,2452,South East,9
+2025-09-22,2452,South West,4
+2025-09-22,2452,Unknown,5
+2025-09-22,2452,Wales,3
+2025-09-22,2452,West Midlands,6
+2025-09-22,2452,Yorkshire and The Humber,3
+2025-09-22,2603,London,15
+2025-09-22,2603,North West,1
+2025-09-22,2603,South East,1
+2025-09-29,2410,East Midlands,1
+2025-09-29,2410,East of England,1
+2025-09-29,2410,London,2
+2025-09-29,2410,North West,4
+2025-09-29,2410,South East,2
+2025-09-29,2410,Wales,1
+2025-09-29,2410,West Midlands,3
+2025-09-29,2443,East Midlands,4
+2025-09-29,2443,East of England,20
+2025-09-29,2443,London,28
+2025-09-29,2443,North East,2
+2025-09-29,2443,North West,14
+2025-09-29,2443,Scotland,3
+2025-09-29,2443,South East,21
+2025-09-29,2443,South West,4
+2025-09-29,2443,Unknown,16
+2025-09-29,2443,Wales,8
+2025-09-29,2443,West Midlands,18
+2025-09-29,2443,Yorkshire and The Humber,10
+2025-09-29,2450,East Midlands,1
+2025-09-29,2450,East of England,2
+2025-09-29,2450,London,5
+2025-09-29,2450,North West,4
+2025-09-29,2450,Scotland,4
+2025-09-29,2450,South East,1
+2025-09-29,2450,South West,1
+2025-09-29,2450,Unknown,2
+2025-09-29,2450,West Midlands,1
+2025-09-29,2450,Yorkshire and The Humber,1
+2025-09-29,2452,East Midlands,1
+2025-09-29,2452,London,10
+2025-09-29,2452,North West,2
+2025-09-29,2452,South East,2
+2025-09-29,2452,Unknown,1
+2025-09-29,2452,Wales,1
+2025-09-29,2452,Yorkshire and The Humber,1
+2025-09-29,2603,London,2
+2025-09-29,2603,South West,1

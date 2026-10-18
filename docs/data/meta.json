@@ -1,0 +1,3083 @@
+{
+ "updated_utc": "2026-10-18T15:55:15+00:00",
+ "first_week": "2019-12-30",
+ "last_week": "2026-10-12",
+ "last_complete_week": "2026-10-05",
+ "current_week_is_partial": true,
+ "notices_counted": 185226,
+ "share_with_region": 0.904,
+ "notice_types": {
+  "2410": "Administration",
+  "2421": "Administrative receivership",
+  "2423": "Receivership",
+  "2443": "Creditors' voluntary liquidation",
+  "2452": "Winding-up order",
+  "2450": "Winding-up petition",
+  "2603": "Disclaimer"
+ },
+ "regions": [
+  "North East",
+  "North West",
+  "Yorkshire and The Humber",
+  "East Midlands",
+  "West Midlands",
+  "East of England",
+  "London",
+  "South East",
+  "South West",
+  "Wales",
+  "Scotland",
+  "Northern Ireland",
+  "Unknown"
+ ],
+ "definitions": {
+  "week_start": "Monday of the week the notice was published in The Gazette (not the date of the insolvency itself).",
+  "region": "From the map point The Gazette attaches to each notice, matched to the nearest postcode (postcodes.io, ONS data). 'Unknown' where the notice has no map point or none within 2km.",
+  "headline_insolvencies": "Administration + receiverships + creditors' voluntary liquidation + winding-up orders. Petitions and disclaimers are reported separately; members' voluntary liquidations (solvent) are excluded.",
+  "covid_restrictions": "Winding-up petitions were restricted by law from 27 April 2020 to 31 March 2022 (Corporate Insolvency and Governance Act 2020 and follow-on regulations). Petition and winding-up order numbers in that period are artificially low."
+ },
+ "covid_restriction_period": {
+  "start": "2020-04-27",
+  "end": "2022-03-31"
+ },
+ "sources": [
+  "The Gazette (thegazette.co.uk), Open Government Licence; notice counts only, no personal data reused",
+  "postcodes.io (ONS Postcode Directory), Open Government Licence"
+ ],
+ "monthly_stats": {
+  "2020-01": {
+   "2410": {
+    "notices": 115,
+    "gazette_total": 115,
+    "located": 109
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 843,
+    "gazette_total": 843,
+    "located": 718
+   },
+   "2452": {
+    "notices": 241,
+    "gazette_total": 241,
+    "located": 184
+   },
+   "2450": {
+    "notices": 509,
+    "gazette_total": 509,
+    "located": 394
+   },
+   "2603": {
+    "notices": 131,
+    "gazette_total": 131,
+    "located": 45
+   }
+  },
+  "2020-02": {
+   "2410": {
+    "notices": 155,
+    "gazette_total": 155,
+    "located": 136
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1119,
+    "gazette_total": 1119,
+    "located": 976
+   },
+   "2452": {
+    "notices": 258,
+    "gazette_total": 258,
+    "located": 214
+   },
+   "2450": {
+    "notices": 526,
+    "gazette_total": 526,
+    "located": 421
+   },
+   "2603": {
+    "notices": 112,
+    "gazette_total": 112,
+    "located": 60
+   }
+  },
+  "2020-03": {
+   "2410": {
+    "notices": 185,
+    "gazette_total": 185,
+    "located": 167
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1216,
+    "gazette_total": 1216,
+    "located": 1064
+   },
+   "2452": {
+    "notices": 235,
+    "gazette_total": 235,
+    "located": 205
+   },
+   "2450": {
+    "notices": 399,
+    "gazette_total": 399,
+    "located": 305
+   },
+   "2603": {
+    "notices": 106,
+    "gazette_total": 106,
+    "located": 57
+   }
+  },
+  "2020-04": {
+   "2410": {
+    "notices": 114,
+    "gazette_total": 114,
+    "located": 110
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 954,
+    "gazette_total": 954,
+    "located": 851
+   },
+   "2452": {
+    "notices": 93,
+    "gazette_total": 93,
+    "located": 87
+   },
+   "2450": {
+    "notices": 154,
+    "gazette_total": 154,
+    "located": 111
+   },
+   "2603": {
+    "notices": 66,
+    "gazette_total": 66,
+    "located": 41
+   }
+  },
+  "2020-05": {
+   "2410": {
+    "notices": 112,
+    "gazette_total": 112,
+    "located": 100
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 745,
+    "gazette_total": 745,
+    "located": 663
+   },
+   "2452": {
+    "notices": 49,
+    "gazette_total": 49,
+    "located": 47
+   },
+   "2450": {
+    "notices": 87,
+    "gazette_total": 87,
+    "located": 54
+   },
+   "2603": {
+    "notices": 52,
+    "gazette_total": 52,
+    "located": 32
+   }
+  },
+  "2020-06": {
+   "2410": {
+    "notices": 121,
+    "gazette_total": 121,
+    "located": 107
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 683,
+    "gazette_total": 683,
+    "located": 580
+   },
+   "2452": {
+    "notices": 56,
+    "gazette_total": 56,
+    "located": 49
+   },
+   "2450": {
+    "notices": 103,
+    "gazette_total": 103,
+    "located": 77
+   },
+   "2603": {
+    "notices": 75,
+    "gazette_total": 75,
+    "located": 37
+   }
+  },
+  "2020-07": {
+   "2410": {
+    "notices": 174,
+    "gazette_total": 174,
+    "located": 164
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 748,
+    "gazette_total": 748,
+    "located": 627
+   },
+   "2452": {
+    "notices": 134,
+    "gazette_total": 134,
+    "located": 118
+   },
+   "2450": {
+    "notices": 88,
+    "gazette_total": 88,
+    "located": 65
+   },
+   "2603": {
+    "notices": 67,
+    "gazette_total": 67,
+    "located": 33
+   }
+  },
+  "2020-08": {
+   "2410": {
+    "notices": 102,
+    "gazette_total": 102,
+    "located": 98
+   },
+   "2421": {
+    "notices": 1,
+    "gazette_total": 1,
+    "located": 1
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 717,
+    "gazette_total": 717,
+    "located": 639
+   },
+   "2452": {
+    "notices": 103,
+    "gazette_total": 103,
+    "located": 97
+   },
+   "2450": {
+    "notices": 62,
+    "gazette_total": 62,
+    "located": 51
+   },
+   "2603": {
+    "notices": 92,
+    "gazette_total": 92,
+    "located": 51
+   }
+  },
+  "2020-09": {
+   "2410": {
+    "notices": 87,
+    "gazette_total": 87,
+    "located": 82
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 761,
+    "gazette_total": 761,
+    "located": 696
+   },
+   "2452": {
+    "notices": 60,
+    "gazette_total": 60,
+    "located": 55
+   },
+   "2450": {
+    "notices": 63,
+    "gazette_total": 63,
+    "located": 48
+   },
+   "2603": {
+    "notices": 67,
+    "gazette_total": 67,
+    "located": 61
+   }
+  },
+  "2020-10": {
+   "2410": {
+    "notices": 96,
+    "gazette_total": 96,
+    "located": 87
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 799,
+    "gazette_total": 799,
+    "located": 725
+   },
+   "2452": {
+    "notices": 60,
+    "gazette_total": 60,
+    "located": 58
+   },
+   "2450": {
+    "notices": 65,
+    "gazette_total": 65,
+    "located": 50
+   },
+   "2603": {
+    "notices": 127,
+    "gazette_total": 127,
+    "located": 123
+   }
+  },
+  "2020-11": {
+   "2410": {
+    "notices": 83,
+    "gazette_total": 83,
+    "located": 82
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 903,
+    "gazette_total": 903,
+    "located": 825
+   },
+   "2452": {
+    "notices": 45,
+    "gazette_total": 45,
+    "located": 45
+   },
+   "2450": {
+    "notices": 75,
+    "gazette_total": 75,
+    "located": 48
+   },
+   "2603": {
+    "notices": 110,
+    "gazette_total": 110,
+    "located": 106
+   }
+  },
+  "2020-12": {
+   "2410": {
+    "notices": 133,
+    "gazette_total": 133,
+    "located": 127
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1038,
+    "gazette_total": 1038,
+    "located": 955
+   },
+   "2452": {
+    "notices": 52,
+    "gazette_total": 52,
+    "located": 52
+   },
+   "2450": {
+    "notices": 66,
+    "gazette_total": 66,
+    "located": 47
+   },
+   "2603": {
+    "notices": 89,
+    "gazette_total": 89,
+    "located": 85
+   }
+  },
+  "2021-01": {
+   "2410": {
+    "notices": 47,
+    "gazette_total": 47,
+    "located": 45
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 541,
+    "gazette_total": 541,
+    "located": 492
+   },
+   "2452": {
+    "notices": 43,
+    "gazette_total": 43,
+    "located": 39
+   },
+   "2450": {
+    "notices": 52,
+    "gazette_total": 52,
+    "located": 44
+   },
+   "2603": {
+    "notices": 83,
+    "gazette_total": 83,
+    "located": 77
+   }
+  },
+  "2021-02": {
+   "2410": {
+    "notices": 64,
+    "gazette_total": 64,
+    "located": 64
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 721,
+    "gazette_total": 721,
+    "located": 663
+   },
+   "2452": {
+    "notices": 39,
+    "gazette_total": 39,
+    "located": 37
+   },
+   "2450": {
+    "notices": 47,
+    "gazette_total": 47,
+    "located": 40
+   },
+   "2603": {
+    "notices": 106,
+    "gazette_total": 106,
+    "located": 103
+   }
+  },
+  "2021-03": {
+   "2410": {
+    "notices": 89,
+    "gazette_total": 89,
+    "located": 86
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 995,
+    "gazette_total": 995,
+    "located": 914
+   },
+   "2452": {
+    "notices": 37,
+    "gazette_total": 37,
+    "located": 36
+   },
+   "2450": {
+    "notices": 46,
+    "gazette_total": 46,
+    "located": 27
+   },
+   "2603": {
+    "notices": 143,
+    "gazette_total": 143,
+    "located": 142
+   }
+  },
+  "2021-04": {
+   "2410": {
+    "notices": 57,
+    "gazette_total": 57,
+    "located": 55
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 918,
+    "gazette_total": 918,
+    "located": 838
+   },
+   "2452": {
+    "notices": 31,
+    "gazette_total": 31,
+    "located": 28
+   },
+   "2450": {
+    "notices": 52,
+    "gazette_total": 52,
+    "located": 46
+   },
+   "2603": {
+    "notices": 107,
+    "gazette_total": 107,
+    "located": 100
+   }
+  },
+  "2021-05": {
+   "2410": {
+    "notices": 45,
+    "gazette_total": 45,
+    "located": 45
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1016,
+    "gazette_total": 1016,
+    "located": 932
+   },
+   "2452": {
+    "notices": 39,
+    "gazette_total": 39,
+    "located": 38
+   },
+   "2450": {
+    "notices": 54,
+    "gazette_total": 54,
+    "located": 41
+   },
+   "2603": {
+    "notices": 87,
+    "gazette_total": 87,
+    "located": 81
+   }
+  },
+  "2021-06": {
+   "2410": {
+    "notices": 49,
+    "gazette_total": 49,
+    "located": 47
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1303,
+    "gazette_total": 1303,
+    "located": 1207
+   },
+   "2452": {
+    "notices": 40,
+    "gazette_total": 40,
+    "located": 40
+   },
+   "2450": {
+    "notices": 54,
+    "gazette_total": 54,
+    "located": 38
+   },
+   "2603": {
+    "notices": 90,
+    "gazette_total": 90,
+    "located": 88
+   }
+  },
+  "2021-07": {
+   "2410": {
+    "notices": 51,
+    "gazette_total": 51,
+    "located": 51
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1224,
+    "gazette_total": 1224,
+    "located": 1120
+   },
+   "2452": {
+    "notices": 34,
+    "gazette_total": 34,
+    "located": 32
+   },
+   "2450": {
+    "notices": 65,
+    "gazette_total": 65,
+    "located": 44
+   },
+   "2603": {
+    "notices": 113,
+    "gazette_total": 113,
+    "located": 109
+   }
+  },
+  "2021-08": {
+   "2410": {
+    "notices": 67,
+    "gazette_total": 67,
+    "located": 65
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1286,
+    "gazette_total": 1286,
+    "located": 1176
+   },
+   "2452": {
+    "notices": 43,
+    "gazette_total": 43,
+    "located": 42
+   },
+   "2450": {
+    "notices": 39,
+    "gazette_total": 39,
+    "located": 29
+   },
+   "2603": {
+    "notices": 144,
+    "gazette_total": 144,
+    "located": 139
+   }
+  },
+  "2021-09": {
+   "2410": {
+    "notices": 94,
+    "gazette_total": 94,
+    "located": 93
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1337,
+    "gazette_total": 1337,
+    "located": 1237
+   },
+   "2452": {
+    "notices": 21,
+    "gazette_total": 21,
+    "located": 19
+   },
+   "2450": {
+    "notices": 68,
+    "gazette_total": 68,
+    "located": 44
+   },
+   "2603": {
+    "notices": 99,
+    "gazette_total": 99,
+    "located": 98
+   }
+  },
+  "2021-10": {
+   "2410": {
+    "notices": 88,
+    "gazette_total": 88,
+    "located": 80
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1418,
+    "gazette_total": 1418,
+    "located": 1094
+   },
+   "2452": {
+    "notices": 37,
+    "gazette_total": 37,
+    "located": 31
+   },
+   "2450": {
+    "notices": 76,
+    "gazette_total": 76,
+    "located": 49
+   },
+   "2603": {
+    "notices": 73,
+    "gazette_total": 73,
+    "located": 62
+   }
+  },
+  "2021-11": {
+   "2410": {
+    "notices": 108,
+    "gazette_total": 108,
+    "located": 107
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1592,
+    "gazette_total": 1592,
+    "located": 1471
+   },
+   "2452": {
+    "notices": 70,
+    "gazette_total": 70,
+    "located": 64
+   },
+   "2450": {
+    "notices": 120,
+    "gazette_total": 120,
+    "located": 83
+   },
+   "2603": {
+    "notices": 134,
+    "gazette_total": 134,
+    "located": 127
+   }
+  },
+  "2021-12": {
+   "2410": {
+    "notices": 98,
+    "gazette_total": 98,
+    "located": 94
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1902,
+    "gazette_total": 1902,
+    "located": 1765
+   },
+   "2452": {
+    "notices": 49,
+    "gazette_total": 49,
+    "located": 41
+   },
+   "2450": {
+    "notices": 152,
+    "gazette_total": 152,
+    "located": 116
+   },
+   "2603": {
+    "notices": 128,
+    "gazette_total": 128,
+    "located": 119
+   }
+  },
+  "2022-01": {
+   "2410": {
+    "notices": 51,
+    "gazette_total": 51,
+    "located": 47
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 920,
+    "gazette_total": 920,
+    "located": 834
+   },
+   "2452": {
+    "notices": 105,
+    "gazette_total": 105,
+    "located": 103
+   },
+   "2450": {
+    "notices": 142,
+    "gazette_total": 142,
+    "located": 113
+   },
+   "2603": {
+    "notices": 101,
+    "gazette_total": 101,
+    "located": 96
+   }
+  },
+  "2022-02": {
+   "2410": {
+    "notices": 102,
+    "gazette_total": 102,
+    "located": 96
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1672,
+    "gazette_total": 1672,
+    "located": 1532
+   },
+   "2452": {
+    "notices": 88,
+    "gazette_total": 88,
+    "located": 80
+   },
+   "2450": {
+    "notices": 152,
+    "gazette_total": 152,
+    "located": 128
+   },
+   "2603": {
+    "notices": 99,
+    "gazette_total": 99,
+    "located": 90
+   }
+  },
+  "2022-03": {
+   "2410": {
+    "notices": 133,
+    "gazette_total": 133,
+    "located": 129
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1971,
+    "gazette_total": 1971,
+    "located": 1799
+   },
+   "2452": {
+    "notices": 135,
+    "gazette_total": 135,
+    "located": 127
+   },
+   "2450": {
+    "notices": 192,
+    "gazette_total": 192,
+    "located": 133
+   },
+   "2603": {
+    "notices": 124,
+    "gazette_total": 124,
+    "located": 120
+   }
+  },
+  "2022-04": {
+   "2410": {
+    "notices": 100,
+    "gazette_total": 100,
+    "located": 96
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1648,
+    "gazette_total": 1648,
+    "located": 1510
+   },
+   "2452": {
+    "notices": 117,
+    "gazette_total": 117,
+    "located": 110
+   },
+   "2450": {
+    "notices": 186,
+    "gazette_total": 186,
+    "located": 152
+   },
+   "2603": {
+    "notices": 101,
+    "gazette_total": 101,
+    "located": 92
+   }
+  },
+  "2022-05": {
+   "2410": {
+    "notices": 79,
+    "gazette_total": 79,
+    "located": 76
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1712,
+    "gazette_total": 1712,
+    "located": 1569
+   },
+   "2452": {
+    "notices": 165,
+    "gazette_total": 165,
+    "located": 156
+   },
+   "2450": {
+    "notices": 246,
+    "gazette_total": 246,
+    "located": 205
+   },
+   "2603": {
+    "notices": 105,
+    "gazette_total": 105,
+    "located": 99
+   }
+  },
+  "2022-06": {
+   "2410": {
+    "notices": 104,
+    "gazette_total": 104,
+    "located": 101
+   },
+   "2421": {
+    "notices": 1,
+    "gazette_total": 1,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1562,
+    "gazette_total": 1562,
+    "located": 1429
+   },
+   "2452": {
+    "notices": 151,
+    "gazette_total": 151,
+    "located": 142
+   },
+   "2450": {
+    "notices": 214,
+    "gazette_total": 214,
+    "located": 168
+   },
+   "2603": {
+    "notices": 69,
+    "gazette_total": 69,
+    "located": 64
+   }
+  },
+  "2022-07": {
+   "2410": {
+    "notices": 94,
+    "gazette_total": 94,
+    "located": 92
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1766,
+    "gazette_total": 1766,
+    "located": 1615
+   },
+   "2452": {
+    "notices": 169,
+    "gazette_total": 169,
+    "located": 161
+   },
+   "2450": {
+    "notices": 257,
+    "gazette_total": 257,
+    "located": 210
+   },
+   "2603": {
+    "notices": 80,
+    "gazette_total": 80,
+    "located": 72
+   }
+  },
+  "2022-08": {
+   "2410": {
+    "notices": 120,
+    "gazette_total": 120,
+    "located": 117
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1715,
+    "gazette_total": 1715,
+    "located": 1584
+   },
+   "2452": {
+    "notices": 183,
+    "gazette_total": 183,
+    "located": 181
+   },
+   "2450": {
+    "notices": 323,
+    "gazette_total": 323,
+    "located": 248
+   },
+   "2603": {
+    "notices": 80,
+    "gazette_total": 80,
+    "located": 70
+   }
+  },
+  "2022-09": {
+   "2410": {
+    "notices": 113,
+    "gazette_total": 113,
+    "located": 112
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1629,
+    "gazette_total": 1629,
+    "located": 1483
+   },
+   "2452": {
+    "notices": 215,
+    "gazette_total": 215,
+    "located": 205
+   },
+   "2450": {
+    "notices": 398,
+    "gazette_total": 398,
+    "located": 346
+   },
+   "2603": {
+    "notices": 74,
+    "gazette_total": 74,
+    "located": 66
+   }
+  },
+  "2022-10": {
+   "2410": {
+    "notices": 108,
+    "gazette_total": 108,
+    "located": 104
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1682,
+    "gazette_total": 1682,
+    "located": 1557
+   },
+   "2452": {
+    "notices": 181,
+    "gazette_total": 181,
+    "located": 179
+   },
+   "2450": {
+    "notices": 405,
+    "gazette_total": 405,
+    "located": 351
+   },
+   "2603": {
+    "notices": 55,
+    "gazette_total": 55,
+    "located": 51
+   }
+  },
+  "2022-11": {
+   "2410": {
+    "notices": 160,
+    "gazette_total": 160,
+    "located": 158
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1814,
+    "gazette_total": 1814,
+    "located": 1673
+   },
+   "2452": {
+    "notices": 307,
+    "gazette_total": 307,
+    "located": 300
+   },
+   "2450": {
+    "notices": 474,
+    "gazette_total": 474,
+    "located": 427
+   },
+   "2603": {
+    "notices": 100,
+    "gazette_total": 100,
+    "located": 97
+   }
+  },
+  "2022-12": {
+   "2410": {
+    "notices": 124,
+    "gazette_total": 124,
+    "located": 117
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1915,
+    "gazette_total": 1915,
+    "located": 1761
+   },
+   "2452": {
+    "notices": 241,
+    "gazette_total": 241,
+    "located": 234
+   },
+   "2450": {
+    "notices": 346,
+    "gazette_total": 346,
+    "located": 303
+   },
+   "2603": {
+    "notices": 82,
+    "gazette_total": 82,
+    "located": 78
+   }
+  },
+  "2023-01": {
+   "2410": {
+    "notices": 76,
+    "gazette_total": 76,
+    "located": 76
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1190,
+    "gazette_total": 1190,
+    "located": 1097
+   },
+   "2452": {
+    "notices": 151,
+    "gazette_total": 151,
+    "located": 150
+   },
+   "2450": {
+    "notices": 334,
+    "gazette_total": 334,
+    "located": 286
+   },
+   "2603": {
+    "notices": 65,
+    "gazette_total": 65,
+    "located": 62
+   }
+  },
+  "2023-02": {
+   "2410": {
+    "notices": 118,
+    "gazette_total": 118,
+    "located": 117
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1762,
+    "gazette_total": 1762,
+    "located": 1637
+   },
+   "2452": {
+    "notices": 181,
+    "gazette_total": 181,
+    "located": 178
+   },
+   "2450": {
+    "notices": 375,
+    "gazette_total": 375,
+    "located": 334
+   },
+   "2603": {
+    "notices": 43,
+    "gazette_total": 43,
+    "located": 41
+   }
+  },
+  "2023-03": {
+   "2410": {
+    "notices": 155,
+    "gazette_total": 155,
+    "located": 152
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 2148,
+    "gazette_total": 2148,
+    "located": 1965
+   },
+   "2452": {
+    "notices": 268,
+    "gazette_total": 268,
+    "located": 266
+   },
+   "2450": {
+    "notices": 397,
+    "gazette_total": 397,
+    "located": 356
+   },
+   "2603": {
+    "notices": 106,
+    "gazette_total": 106,
+    "located": 101
+   }
+  },
+  "2023-04": {
+   "2410": {
+    "notices": 141,
+    "gazette_total": 141,
+    "located": 137
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1697,
+    "gazette_total": 1697,
+    "located": 1565
+   },
+   "2452": {
+    "notices": 190,
+    "gazette_total": 190,
+    "located": 187
+   },
+   "2450": {
+    "notices": 409,
+    "gazette_total": 409,
+    "located": 354
+   },
+   "2603": {
+    "notices": 82,
+    "gazette_total": 82,
+    "located": 77
+   }
+  },
+  "2023-05": {
+   "2410": {
+    "notices": 123,
+    "gazette_total": 123,
+    "located": 123
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1856,
+    "gazette_total": 1856,
+    "located": 1733
+   },
+   "2452": {
+    "notices": 266,
+    "gazette_total": 266,
+    "located": 263
+   },
+   "2450": {
+    "notices": 348,
+    "gazette_total": 348,
+    "located": 303
+   },
+   "2603": {
+    "notices": 109,
+    "gazette_total": 109,
+    "located": 100
+   }
+  },
+  "2023-06": {
+   "2410": {
+    "notices": 145,
+    "gazette_total": 145,
+    "located": 143
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1913,
+    "gazette_total": 1913,
+    "located": 1773
+   },
+   "2452": {
+    "notices": 200,
+    "gazette_total": 200,
+    "located": 194
+   },
+   "2450": {
+    "notices": 533,
+    "gazette_total": 533,
+    "located": 486
+   },
+   "2603": {
+    "notices": 105,
+    "gazette_total": 105,
+    "located": 96
+   }
+  },
+  "2023-07": {
+   "2410": {
+    "notices": 166,
+    "gazette_total": 166,
+    "located": 164
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1664,
+    "gazette_total": 1664,
+    "located": 1529
+   },
+   "2452": {
+    "notices": 273,
+    "gazette_total": 273,
+    "located": 270
+   },
+   "2450": {
+    "notices": 353,
+    "gazette_total": 353,
+    "located": 306
+   },
+   "2603": {
+    "notices": 65,
+    "gazette_total": 65,
+    "located": 55
+   }
+  },
+  "2023-08": {
+   "2410": {
+    "notices": 160,
+    "gazette_total": 160,
+    "located": 158
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1858,
+    "gazette_total": 1858,
+    "located": 1708
+   },
+   "2452": {
+    "notices": 281,
+    "gazette_total": 281,
+    "located": 273
+   },
+   "2450": {
+    "notices": 447,
+    "gazette_total": 447,
+    "located": 377
+   },
+   "2603": {
+    "notices": 76,
+    "gazette_total": 76,
+    "located": 74
+   }
+  },
+  "2023-09": {
+   "2410": {
+    "notices": 135,
+    "gazette_total": 135,
+    "located": 131
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1701,
+    "gazette_total": 1701,
+    "located": 1573
+   },
+   "2452": {
+    "notices": 260,
+    "gazette_total": 260,
+    "located": 238
+   },
+   "2450": {
+    "notices": 469,
+    "gazette_total": 469,
+    "located": 386
+   },
+   "2603": {
+    "notices": 28,
+    "gazette_total": 28,
+    "located": 27
+   }
+  },
+  "2023-10": {
+   "2410": {
+    "notices": 177,
+    "gazette_total": 177,
+    "located": 177
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1907,
+    "gazette_total": 1907,
+    "located": 1753
+   },
+   "2452": {
+    "notices": 258,
+    "gazette_total": 258,
+    "located": 240
+   },
+   "2450": {
+    "notices": 454,
+    "gazette_total": 454,
+    "located": 399
+   },
+   "2603": {
+    "notices": 107,
+    "gazette_total": 107,
+    "located": 104
+   }
+  },
+  "2023-11": {
+   "2410": {
+    "notices": 120,
+    "gazette_total": 120,
+    "located": 118
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1868,
+    "gazette_total": 1868,
+    "located": 1704
+   },
+   "2452": {
+    "notices": 358,
+    "gazette_total": 358,
+    "located": 345
+   },
+   "2450": {
+    "notices": 436,
+    "gazette_total": 436,
+    "located": 356
+   },
+   "2603": {
+    "notices": 133,
+    "gazette_total": 133,
+    "located": 129
+   }
+  },
+  "2023-12": {
+   "2410": {
+    "notices": 124,
+    "gazette_total": 124,
+    "located": 121
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1953,
+    "gazette_total": 1953,
+    "located": 1734
+   },
+   "2452": {
+    "notices": 242,
+    "gazette_total": 242,
+    "located": 228
+   },
+   "2450": {
+    "notices": 279,
+    "gazette_total": 279,
+    "located": 223
+   },
+   "2603": {
+    "notices": 73,
+    "gazette_total": 73,
+    "located": 70
+   }
+  },
+  "2024-01": {
+   "2410": {
+    "notices": 128,
+    "gazette_total": 128,
+    "located": 128
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1331,
+    "gazette_total": 1331,
+    "located": 1187
+   },
+   "2452": {
+    "notices": 217,
+    "gazette_total": 217,
+    "located": 204
+   },
+   "2450": {
+    "notices": 584,
+    "gazette_total": 584,
+    "located": 518
+   },
+   "2603": {
+    "notices": 109,
+    "gazette_total": 109,
+    "located": 107
+   }
+  },
+  "2024-02": {
+   "2410": {
+    "notices": 181,
+    "gazette_total": 181,
+    "located": 178
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1854,
+    "gazette_total": 1854,
+    "located": 1670
+   },
+   "2452": {
+    "notices": 339,
+    "gazette_total": 339,
+    "located": 325
+   },
+   "2450": {
+    "notices": 421,
+    "gazette_total": 421,
+    "located": 365
+   },
+   "2603": {
+    "notices": 101,
+    "gazette_total": 101,
+    "located": 99
+   }
+  },
+  "2024-03": {
+   "2410": {
+    "notices": 162,
+    "gazette_total": 162,
+    "located": 159
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1818,
+    "gazette_total": 1818,
+    "located": 1596
+   },
+   "2452": {
+    "notices": 293,
+    "gazette_total": 293,
+    "located": 275
+   },
+   "2450": {
+    "notices": 472,
+    "gazette_total": 472,
+    "located": 402
+   },
+   "2603": {
+    "notices": 113,
+    "gazette_total": 113,
+    "located": 110
+   }
+  },
+  "2024-04": {
+   "2410": {
+    "notices": 137,
+    "gazette_total": 137,
+    "located": 136
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1877,
+    "gazette_total": 1877,
+    "located": 1706
+   },
+   "2452": {
+    "notices": 261,
+    "gazette_total": 261,
+    "located": 245
+   },
+   "2450": {
+    "notices": 582,
+    "gazette_total": 582,
+    "located": 490
+   },
+   "2603": {
+    "notices": 102,
+    "gazette_total": 102,
+    "located": 101
+   }
+  },
+  "2024-05": {
+   "2410": {
+    "notices": 137,
+    "gazette_total": 137,
+    "located": 136
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1799,
+    "gazette_total": 1799,
+    "located": 1606
+   },
+   "2452": {
+    "notices": 329,
+    "gazette_total": 329,
+    "located": 301
+   },
+   "2450": {
+    "notices": 418,
+    "gazette_total": 418,
+    "located": 349
+   },
+   "2603": {
+    "notices": 100,
+    "gazette_total": 100,
+    "located": 94
+   }
+  },
+  "2024-06": {
+   "2410": {
+    "notices": 134,
+    "gazette_total": 134,
+    "located": 132
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1634,
+    "gazette_total": 1634,
+    "located": 1461
+   },
+   "2452": {
+    "notices": 243,
+    "gazette_total": 243,
+    "located": 234
+   },
+   "2450": {
+    "notices": 553,
+    "gazette_total": 553,
+    "located": 501
+   },
+   "2603": {
+    "notices": 103,
+    "gazette_total": 103,
+    "located": 101
+   }
+  },
+  "2024-07": {
+   "2410": {
+    "notices": 166,
+    "gazette_total": 166,
+    "located": 162
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1782,
+    "gazette_total": 1782,
+    "located": 1597
+   },
+   "2452": {
+    "notices": 350,
+    "gazette_total": 350,
+    "located": 340
+   },
+   "2450": {
+    "notices": 367,
+    "gazette_total": 367,
+    "located": 297
+   },
+   "2603": {
+    "notices": 116,
+    "gazette_total": 116,
+    "located": 114
+   }
+  },
+  "2024-08": {
+   "2410": {
+    "notices": 115,
+    "gazette_total": 115,
+    "located": 113
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1713,
+    "gazette_total": 1713,
+    "located": 1528
+   },
+   "2452": {
+    "notices": 231,
+    "gazette_total": 231,
+    "located": 225
+   },
+   "2450": {
+    "notices": 502,
+    "gazette_total": 502,
+    "located": 445
+   },
+   "2603": {
+    "notices": 69,
+    "gazette_total": 69,
+    "located": 69
+   }
+  },
+  "2024-09": {
+   "2410": {
+    "notices": 161,
+    "gazette_total": 161,
+    "located": 159
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1496,
+    "gazette_total": 1496,
+    "located": 1305
+   },
+   "2452": {
+    "notices": 267,
+    "gazette_total": 267,
+    "located": 251
+   },
+   "2450": {
+    "notices": 403,
+    "gazette_total": 403,
+    "located": 326
+   },
+   "2603": {
+    "notices": 93,
+    "gazette_total": 93,
+    "located": 93
+   }
+  },
+  "2024-10": {
+   "2410": {
+    "notices": 124,
+    "gazette_total": 124,
+    "located": 121
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1697,
+    "gazette_total": 1697,
+    "located": 1482
+   },
+   "2452": {
+    "notices": 231,
+    "gazette_total": 231,
+    "located": 205
+   },
+   "2450": {
+    "notices": 410,
+    "gazette_total": 410,
+    "located": 349
+   },
+   "2603": {
+    "notices": 91,
+    "gazette_total": 91,
+    "located": 83
+   }
+  },
+  "2024-11": {
+   "2410": {
+    "notices": 128,
+    "gazette_total": 128,
+    "located": 127
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1524,
+    "gazette_total": 1524,
+    "located": 1361
+   },
+   "2452": {
+    "notices": 294,
+    "gazette_total": 294,
+    "located": 284
+   },
+   "2450": {
+    "notices": 652,
+    "gazette_total": 652,
+    "located": 587
+   },
+   "2603": {
+    "notices": 82,
+    "gazette_total": 82,
+    "located": 79
+   }
+  },
+  "2024-12": {
+   "2410": {
+    "notices": 145,
+    "gazette_total": 145,
+    "located": 140
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1771,
+    "gazette_total": 1771,
+    "located": 1579
+   },
+   "2452": {
+    "notices": 348,
+    "gazette_total": 348,
+    "located": 334
+   },
+   "2450": {
+    "notices": 321,
+    "gazette_total": 321,
+    "located": 264
+   },
+   "2603": {
+    "notices": 80,
+    "gazette_total": 80,
+    "located": 77
+   }
+  },
+  "2025-01": {
+   "2410": {
+    "notices": 112,
+    "gazette_total": 112,
+    "located": 106
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1172,
+    "gazette_total": 1172,
+    "located": 1031
+   },
+   "2452": {
+    "notices": 237,
+    "gazette_total": 237,
+    "located": 218
+   },
+   "2450": {
+    "notices": 764,
+    "gazette_total": 764,
+    "located": 684
+   },
+   "2603": {
+    "notices": 65,
+    "gazette_total": 65,
+    "located": 65
+   }
+  },
+  "2025-02": {
+   "2410": {
+    "notices": 131,
+    "gazette_total": 131,
+    "located": 129
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1717,
+    "gazette_total": 1717,
+    "located": 1525
+   },
+   "2452": {
+    "notices": 382,
+    "gazette_total": 382,
+    "located": 369
+   },
+   "2450": {
+    "notices": 475,
+    "gazette_total": 475,
+    "located": 423
+   },
+   "2603": {
+    "notices": 94,
+    "gazette_total": 94,
+    "located": 92
+   }
+  },
+  "2025-03": {
+   "2410": {
+    "notices": 165,
+    "gazette_total": 165,
+    "located": 160
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1798,
+    "gazette_total": 1798,
+    "located": 1615
+   },
+   "2452": {
+    "notices": 279,
+    "gazette_total": 279,
+    "located": 261
+   },
+   "2450": {
+    "notices": 619,
+    "gazette_total": 619,
+    "located": 545
+   },
+   "2603": {
+    "notices": 65,
+    "gazette_total": 65,
+    "located": 63
+   }
+  },
+  "2025-04": {
+   "2410": {
+    "notices": 127,
+    "gazette_total": 127,
+    "located": 123
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1755,
+    "gazette_total": 1755,
+    "located": 1559
+   },
+   "2452": {
+    "notices": 371,
+    "gazette_total": 371,
+    "located": 352
+   },
+   "2450": {
+    "notices": 561,
+    "gazette_total": 561,
+    "located": 493
+   },
+   "2603": {
+    "notices": 74,
+    "gazette_total": 74,
+    "located": 72
+   }
+  },
+  "2025-05": {
+   "2410": {
+    "notices": 132,
+    "gazette_total": 132,
+    "located": 126
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1708,
+    "gazette_total": 1708,
+    "located": 1507
+   },
+   "2452": {
+    "notices": 373,
+    "gazette_total": 373,
+    "located": 344
+   },
+   "2450": {
+    "notices": 723,
+    "gazette_total": 723,
+    "located": 617
+   },
+   "2603": {
+    "notices": 71,
+    "gazette_total": 71,
+    "located": 69
+   }
+  },
+  "2025-06": {
+   "2410": {
+    "notices": 116,
+    "gazette_total": 116,
+    "located": 113
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1707,
+    "gazette_total": 1707,
+    "located": 1520
+   },
+   "2452": {
+    "notices": 329,
+    "gazette_total": 329,
+    "located": 305
+   },
+   "2450": {
+    "notices": 553,
+    "gazette_total": 553,
+    "located": 494
+   },
+   "2603": {
+    "notices": 106,
+    "gazette_total": 106,
+    "located": 103
+   }
+  },
+  "2025-07": {
+   "2410": {
+    "notices": 164,
+    "gazette_total": 164,
+    "located": 164
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1798,
+    "gazette_total": 1798,
+    "located": 1573
+   },
+   "2452": {
+    "notices": 396,
+    "gazette_total": 396,
+    "located": 385
+   },
+   "2450": {
+    "notices": 528,
+    "gazette_total": 528,
+    "located": 483
+   },
+   "2603": {
+    "notices": 80,
+    "gazette_total": 80,
+    "located": 77
+   }
+  },
+  "2025-08": {
+   "2410": {
+    "notices": 128,
+    "gazette_total": 128,
+    "located": 124
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1646,
+    "gazette_total": 1646,
+    "located": 1448
+   },
+   "2452": {
+    "notices": 321,
+    "gazette_total": 321,
+    "located": 313
+   },
+   "2450": {
+    "notices": 591,
+    "gazette_total": 591,
+    "located": 505
+   },
+   "2603": {
+    "notices": 75,
+    "gazette_total": 75,
+    "located": 70
+   }
+  },
+  "2025-09": {
+   "2410": {
+    "notices": 128,
+    "gazette_total": 128,
+    "located": 127
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1545,
+    "gazette_total": 1545,
+    "located": 1425
+   },
+   "2452": {
+    "notices": 275,
+    "gazette_total": 275,
+    "located": 258
+   },
+   "2450": {
+    "notices": 548,
+    "gazette_total": 548,
+    "located": 456
+   },
+   "2603": {
+    "notices": 73,
+    "gazette_total": 73,
+    "located": 71
+   }
+  },
+  "2025-10": {
+   "2410": {
+    "notices": 133,
+    "gazette_total": 133,
+    "located": 132
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1812,
+    "gazette_total": 1812,
+    "located": 1679
+   },
+   "2452": {
+    "notices": 302,
+    "gazette_total": 302,
+    "located": 260
+   },
+   "2450": {
+    "notices": 718,
+    "gazette_total": 718,
+    "located": 604
+   },
+   "2603": {
+    "notices": 125,
+    "gazette_total": 125,
+    "located": 122
+   }
+  },
+  "2025-11": {
+   "2410": {
+    "notices": 146,
+    "gazette_total": 146,
+    "located": 144
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1475,
+    "gazette_total": 1475,
+    "located": 1353
+   },
+   "2452": {
+    "notices": 93,
+    "gazette_total": 93,
+    "located": 56
+   },
+   "2450": {
+    "notices": 525,
+    "gazette_total": 525,
+    "located": 456
+   },
+   "2603": {
+    "notices": 33,
+    "gazette_total": 33,
+    "located": 33
+   }
+  },
+  "2025-12": {
+   "2410": {
+    "notices": 149,
+    "gazette_total": 149,
+    "located": 149
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1722,
+    "gazette_total": 1722,
+    "located": 1583
+   },
+   "2452": {
+    "notices": 278,
+    "gazette_total": 278,
+    "located": 257
+   },
+   "2450": {
+    "notices": 276,
+    "gazette_total": 276,
+    "located": 218
+   },
+   "2603": {
+    "notices": 52,
+    "gazette_total": 52,
+    "located": 52
+   }
+  },
+  "2026-01": {
+   "2410": {
+    "notices": 138,
+    "gazette_total": 138,
+    "located": 134
+   },
+   "2421": {
+    "notices": 1,
+    "gazette_total": 1,
+    "located": 1
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1046,
+    "gazette_total": 1046,
+    "located": 957
+   },
+   "2452": {
+    "notices": 308,
+    "gazette_total": 308,
+    "located": 286
+   },
+   "2450": {
+    "notices": 702,
+    "gazette_total": 702,
+    "located": 644
+   },
+   "2603": {
+    "notices": 57,
+    "gazette_total": 57,
+    "located": 53
+   }
+  },
+  "2026-02": {
+   "2410": {
+    "notices": 150,
+    "gazette_total": 150,
+    "located": 149
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1556,
+    "gazette_total": 1556,
+    "located": 1439
+   },
+   "2452": {
+    "notices": 326,
+    "gazette_total": 326,
+    "located": 306
+   },
+   "2450": {
+    "notices": 475,
+    "gazette_total": 475,
+    "located": 397
+   },
+   "2603": {
+    "notices": 36,
+    "gazette_total": 36,
+    "located": 36
+   }
+  },
+  "2026-03": {
+   "2410": {
+    "notices": 376,
+    "gazette_total": 376,
+    "located": 372
+   },
+   "2421": {
+    "notices": 1,
+    "gazette_total": 1,
+    "located": 1
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1895,
+    "gazette_total": 1895,
+    "located": 1754
+   },
+   "2452": {
+    "notices": 315,
+    "gazette_total": 315,
+    "located": 279
+   },
+   "2450": {
+    "notices": 542,
+    "gazette_total": 542,
+    "located": 472
+   },
+   "2603": {
+    "notices": 67,
+    "gazette_total": 67,
+    "located": 64
+   }
+  },
+  "2026-04": {
+   "2410": {
+    "notices": 141,
+    "gazette_total": 141,
+    "located": 139
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1566,
+    "gazette_total": 1566,
+    "located": 1436
+   },
+   "2452": {
+    "notices": 277,
+    "gazette_total": 277,
+    "located": 245
+   },
+   "2450": {
+    "notices": 770,
+    "gazette_total": 770,
+    "located": 659
+   },
+   "2603": {
+    "notices": 108,
+    "gazette_total": 108,
+    "located": 106
+   }
+  },
+  "2026-05": {
+   "2410": {
+    "notices": 138,
+    "gazette_total": 138,
+    "located": 138
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1640,
+    "gazette_total": 1640,
+    "located": 1506
+   },
+   "2452": {
+    "notices": 373,
+    "gazette_total": 373,
+    "located": 334
+   },
+   "2450": {
+    "notices": 482,
+    "gazette_total": 482,
+    "located": 426
+   },
+   "2603": {
+    "notices": 93,
+    "gazette_total": 93,
+    "located": 87
+   }
+  },
+  "2026-06": {
+   "2410": {
+    "notices": 215,
+    "gazette_total": 215,
+    "located": 214
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1600,
+    "gazette_total": 1600,
+    "located": 1491
+   },
+   "2452": {
+    "notices": 277,
+    "gazette_total": 277,
+    "located": 251
+   },
+   "2450": {
+    "notices": 616,
+    "gazette_total": 616,
+    "located": 542
+   },
+   "2603": {
+    "notices": 153,
+    "gazette_total": 153,
+    "located": 151
+   }
+  },
+  "2026-07": {
+   "2410": {
+    "notices": 156,
+    "gazette_total": 156,
+    "located": 154
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1688,
+    "gazette_total": 1688,
+    "located": 1565
+   },
+   "2452": {
+    "notices": 330,
+    "gazette_total": 330,
+    "located": 307
+   },
+   "2450": {
+    "notices": 636,
+    "gazette_total": 636,
+    "located": 585
+   },
+   "2603": {
+    "notices": 104,
+    "gazette_total": 104,
+    "located": 101
+   }
+  },
+  "2026-08": {
+   "2410": {
+    "notices": 144,
+    "gazette_total": 144,
+    "located": 142
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1389,
+    "gazette_total": 1389,
+    "located": 1292
+   },
+   "2452": {
+    "notices": 321,
+    "gazette_total": 321,
+    "located": 304
+   },
+   "2450": {
+    "notices": 510,
+    "gazette_total": 510,
+    "located": 444
+   },
+   "2603": {
+    "notices": 106,
+    "gazette_total": 106,
+    "located": 103
+   }
+  },
+  "2026-09": {
+   "2410": {
+    "notices": 124,
+    "gazette_total": 124,
+    "located": 123
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 1503,
+    "gazette_total": 1503,
+    "located": 1346
+   },
+   "2452": {
+    "notices": 332,
+    "gazette_total": 332,
+    "located": 278
+   },
+   "2450": {
+    "notices": 534,
+    "gazette_total": 534,
+    "located": 446
+   },
+   "2603": {
+    "notices": 99,
+    "gazette_total": 99,
+    "located": 98
+   }
+  },
+  "2026-10": {
+   "2410": {
+    "notices": 86,
+    "gazette_total": 86,
+    "located": 83
+   },
+   "2421": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2423": {
+    "notices": 0,
+    "gazette_total": 0,
+    "located": 0
+   },
+   "2443": {
+    "notices": 833,
+    "gazette_total": 833,
+    "located": 741
+   },
+   "2452": {
+    "notices": 137,
+    "gazette_total": 137,
+    "located": 122
+   },
+   "2450": {
+    "notices": 439,
+    "gazette_total": 439,
+    "located": 396
+   },
+   "2603": {
+    "notices": 64,
+    "gazette_total": 64,
+    "located": 61
+   }
+  }
+ }
+}

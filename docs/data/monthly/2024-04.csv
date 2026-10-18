@@ -1,0 +1,234 @@
+week_start,code,region,count
+2024-04-01,2410,East Midlands,6
+2024-04-01,2410,East of England,5
+2024-04-01,2410,London,10
+2024-04-01,2410,North West,6
+2024-04-01,2410,South East,8
+2024-04-01,2410,South West,1
+2024-04-01,2410,West Midlands,3
+2024-04-01,2410,Yorkshire and The Humber,8
+2024-04-01,2443,East Midlands,26
+2024-04-01,2443,East of England,51
+2024-04-01,2443,London,79
+2024-04-01,2443,North East,16
+2024-04-01,2443,North West,34
+2024-04-01,2443,Scotland,21
+2024-04-01,2443,South East,47
+2024-04-01,2443,South West,33
+2024-04-01,2443,Unknown,50
+2024-04-01,2443,Wales,12
+2024-04-01,2443,West Midlands,25
+2024-04-01,2443,Yorkshire and The Humber,54
+2024-04-01,2450,East Midlands,5
+2024-04-01,2450,East of England,10
+2024-04-01,2450,London,32
+2024-04-01,2450,North East,4
+2024-04-01,2450,North West,8
+2024-04-01,2450,Scotland,19
+2024-04-01,2450,South East,16
+2024-04-01,2450,South West,6
+2024-04-01,2450,Unknown,20
+2024-04-01,2450,Wales,2
+2024-04-01,2450,West Midlands,17
+2024-04-01,2450,Yorkshire and The Humber,13
+2024-04-01,2452,East Midlands,2
+2024-04-01,2452,East of England,1
+2024-04-01,2452,London,2
+2024-04-01,2452,North West,4
+2024-04-01,2452,South East,2
+2024-04-01,2452,South West,3
+2024-04-01,2452,Unknown,2
+2024-04-01,2452,West Midlands,2
+2024-04-01,2452,Yorkshire and The Humber,3
+2024-04-01,2603,London,6
+2024-04-01,2603,North East,4
+2024-04-01,2603,Scotland,3
+2024-04-01,2603,South East,1
+2024-04-01,2603,South West,1
+2024-04-01,2603,Unknown,1
+2024-04-01,2603,Wales,1
+2024-04-01,2603,West Midlands,1
+2024-04-08,2410,East Midlands,1
+2024-04-08,2410,London,9
+2024-04-08,2410,North East,4
+2024-04-08,2410,North West,5
+2024-04-08,2410,South East,4
+2024-04-08,2410,South West,2
+2024-04-08,2410,Unknown,1
+2024-04-08,2410,West Midlands,3
+2024-04-08,2410,Yorkshire and The Humber,5
+2024-04-08,2443,East Midlands,23
+2024-04-08,2443,East of England,32
+2024-04-08,2443,London,75
+2024-04-08,2443,North East,13
+2024-04-08,2443,North West,47
+2024-04-08,2443,Scotland,15
+2024-04-08,2443,South East,62
+2024-04-08,2443,South West,22
+2024-04-08,2443,Unknown,36
+2024-04-08,2443,Wales,10
+2024-04-08,2443,West Midlands,37
+2024-04-08,2443,Yorkshire and The Humber,39
+2024-04-08,2450,East Midlands,6
+2024-04-08,2450,East of England,14
+2024-04-08,2450,London,35
+2024-04-08,2450,North East,3
+2024-04-08,2450,North West,18
+2024-04-08,2450,Scotland,5
+2024-04-08,2450,South East,17
+2024-04-08,2450,South West,3
+2024-04-08,2450,Unknown,25
+2024-04-08,2450,Wales,1
+2024-04-08,2450,West Midlands,7
+2024-04-08,2450,Yorkshire and The Humber,7
+2024-04-08,2452,East of England,2
+2024-04-08,2452,London,6
+2024-04-08,2452,North West,3
+2024-04-08,2603,London,2
+2024-04-08,2603,North East,2
+2024-04-08,2603,Scotland,4
+2024-04-08,2603,South East,2
+2024-04-08,2603,South West,1
+2024-04-15,2410,East Midlands,2
+2024-04-15,2410,East of England,3
+2024-04-15,2410,London,5
+2024-04-15,2410,North East,2
+2024-04-15,2410,North West,4
+2024-04-15,2410,South East,6
+2024-04-15,2410,South West,2
+2024-04-15,2410,Wales,1
+2024-04-15,2410,West Midlands,1
+2024-04-15,2410,Yorkshire and The Humber,4
+2024-04-15,2443,East Midlands,23
+2024-04-15,2443,East of England,41
+2024-04-15,2443,London,78
+2024-04-15,2443,North East,9
+2024-04-15,2443,North West,62
+2024-04-15,2443,Scotland,12
+2024-04-15,2443,South East,63
+2024-04-15,2443,South West,35
+2024-04-15,2443,Unknown,40
+2024-04-15,2443,Wales,18
+2024-04-15,2443,West Midlands,37
+2024-04-15,2443,Yorkshire and The Humber,35
+2024-04-15,2450,East Midlands,7
+2024-04-15,2450,East of England,11
+2024-04-15,2450,London,35
+2024-04-15,2450,North East,1
+2024-04-15,2450,North West,15
+2024-04-15,2450,Scotland,8
+2024-04-15,2450,South East,10
+2024-04-15,2450,South West,6
+2024-04-15,2450,Unknown,22
+2024-04-15,2450,Wales,1
+2024-04-15,2450,West Midlands,8
+2024-04-15,2450,Yorkshire and The Humber,5
+2024-04-15,2452,East Midlands,6
+2024-04-15,2452,East of England,6
+2024-04-15,2452,London,32
+2024-04-15,2452,North East,1
+2024-04-15,2452,North West,13
+2024-04-15,2452,South East,18
+2024-04-15,2452,South West,5
+2024-04-15,2452,Unknown,7
+2024-04-15,2452,Wales,3
+2024-04-15,2452,West Midlands,7
+2024-04-15,2452,Yorkshire and The Humber,4
+2024-04-15,2603,East Midlands,1
+2024-04-15,2603,East of England,1
+2024-04-15,2603,London,15
+2024-04-15,2603,South East,2
+2024-04-15,2603,South West,1
+2024-04-15,2603,West Midlands,2
+2024-04-15,2603,Yorkshire and The Humber,1
+2024-04-22,2410,East of England,1
+2024-04-22,2410,London,4
+2024-04-22,2410,North East,1
+2024-04-22,2410,North West,8
+2024-04-22,2410,Scotland,2
+2024-04-22,2410,South East,1
+2024-04-22,2410,Yorkshire and The Humber,2
+2024-04-22,2443,East Midlands,27
+2024-04-22,2443,East of England,46
+2024-04-22,2443,London,90
+2024-04-22,2443,North East,9
+2024-04-22,2443,North West,47
+2024-04-22,2443,Scotland,12
+2024-04-22,2443,South East,42
+2024-04-22,2443,South West,26
+2024-04-22,2443,Unknown,32
+2024-04-22,2443,Wales,8
+2024-04-22,2443,West Midlands,36
+2024-04-22,2443,Yorkshire and The Humber,34
+2024-04-22,2450,East Midlands,5
+2024-04-22,2450,East of England,11
+2024-04-22,2450,London,42
+2024-04-22,2450,North East,2
+2024-04-22,2450,North West,14
+2024-04-22,2450,Scotland,6
+2024-04-22,2450,South East,17
+2024-04-22,2450,South West,4
+2024-04-22,2450,Unknown,23
+2024-04-22,2450,Wales,2
+2024-04-22,2450,West Midlands,12
+2024-04-22,2450,Yorkshire and The Humber,7
+2024-04-22,2452,East Midlands,4
+2024-04-22,2452,East of England,9
+2024-04-22,2452,London,17
+2024-04-22,2452,North East,3
+2024-04-22,2452,North West,9
+2024-04-22,2452,South East,11
+2024-04-22,2452,South West,6
+2024-04-22,2452,Unknown,7
+2024-04-22,2452,Wales,3
+2024-04-22,2452,West Midlands,11
+2024-04-22,2452,Yorkshire and The Humber,7
+2024-04-22,2603,East of England,2
+2024-04-22,2603,London,18
+2024-04-22,2603,North West,1
+2024-04-22,2603,Scotland,1
+2024-04-22,2603,South East,6
+2024-04-22,2603,Wales,1
+2024-04-22,2603,West Midlands,1
+2024-04-22,2603,Yorkshire and The Humber,5
+2024-04-29,2410,East Midlands,2
+2024-04-29,2410,East of England,1
+2024-04-29,2410,London,2
+2024-04-29,2410,West Midlands,2
+2024-04-29,2443,East Midlands,15
+2024-04-29,2443,East of England,16
+2024-04-29,2443,London,32
+2024-04-29,2443,North East,4
+2024-04-29,2443,North West,14
+2024-04-29,2443,Scotland,2
+2024-04-29,2443,South East,15
+2024-04-29,2443,South West,14
+2024-04-29,2443,Unknown,13
+2024-04-29,2443,Wales,2
+2024-04-29,2443,West Midlands,6
+2024-04-29,2443,Yorkshire and The Humber,23
+2024-04-29,2450,East of England,2
+2024-04-29,2450,London,2
+2024-04-29,2450,North East,1
+2024-04-29,2450,North West,1
+2024-04-29,2450,Scotland,4
+2024-04-29,2450,South East,1
+2024-04-29,2450,Unknown,2
+2024-04-29,2450,Wales,1
+2024-04-29,2450,West Midlands,1
+2024-04-29,2452,East Midlands,2
+2024-04-29,2452,East of England,2
+2024-04-29,2452,London,16
+2024-04-29,2452,North West,5
+2024-04-29,2452,South East,5
+2024-04-29,2452,Wales,3
+2024-04-29,2452,West Midlands,4
+2024-04-29,2452,Yorkshire and The Humber,3
+2024-04-29,2603,East Midlands,3
+2024-04-29,2603,East of England,1
+2024-04-29,2603,London,5
+2024-04-29,2603,North East,1
+2024-04-29,2603,North West,1
+2024-04-29,2603,South East,1
+2024-04-29,2603,South West,2
+2024-04-29,2603,West Midlands,1

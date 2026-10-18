@@ -1,0 +1,103 @@
+{
+ "latest_week": "2026-10-05",
+ "regions": {
+  "North East": {
+   "this_week": 8,
+   "avg_52w": 13.19,
+   "vs_usual_pct": -39
+  },
+  "North West": {
+   "this_week": 55,
+   "avg_52w": 56.88,
+   "vs_usual_pct": -3
+  },
+  "Yorkshire and The Humber": {
+   "this_week": 39,
+   "avg_52w": 42.88,
+   "vs_usual_pct": -9
+  },
+  "East Midlands": {
+   "this_week": 21,
+   "avg_52w": 28.44,
+   "vs_usual_pct": -26
+  },
+  "West Midlands": {
+   "this_week": 30,
+   "avg_52w": 38.06,
+   "vs_usual_pct": -21
+  },
+  "East of England": {
+   "this_week": 50,
+   "avg_52w": 45.67,
+   "vs_usual_pct": 9
+  },
+  "London": {
+   "this_week": 73,
+   "avg_52w": 98.13,
+   "vs_usual_pct": -26
+  },
+  "South East": {
+   "this_week": 41,
+   "avg_52w": 57.79,
+   "vs_usual_pct": -29
+  },
+  "South West": {
+   "this_week": 22,
+   "avg_52w": 27.71,
+   "vs_usual_pct": -21
+  },
+  "Wales": {
+   "this_week": 12,
+   "avg_52w": 11.69,
+   "vs_usual_pct": 3
+  },
+  "Scotland": {
+   "this_week": 15,
+   "avg_52w": 12.17,
+   "vs_usual_pct": 23
+  },
+  "Northern Ireland": {
+   "this_week": 0,
+   "avg_52w": 0.0,
+   "vs_usual_pct": null
+  }
+ },
+ "uk": {
+  "Administration": {
+   "this_week": 31,
+   "avg_52w": 38.56,
+   "vs_usual_pct": -20
+  },
+  "Administrative receivership": {
+   "this_week": 0,
+   "avg_52w": 0.04,
+   "vs_usual_pct": -100
+  },
+  "Receivership": {
+   "this_week": 0,
+   "avg_52w": 0.0,
+   "vs_usual_pct": null
+  },
+  "Creditors' voluntary liquidation": {
+   "this_week": 344,
+   "avg_52w": 361.29,
+   "vs_usual_pct": -5
+  },
+  "Winding-up order": {
+   "this_week": 27,
+   "avg_52w": 69.13,
+   "vs_usual_pct": -61
+  },
+  "Winding-up petition": {
+   "this_week": 155,
+   "avg_52w": 130.62,
+   "vs_usual_pct": 19
+  },
+  "Disclaimer": {
+   "this_week": 32,
+   "avg_52w": 19.25,
+   "vs_usual_pct": 66
+  }
+ },
+ "baseline_weeks": 52
+}

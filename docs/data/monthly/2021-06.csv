@@ -1,0 +1,168 @@
+week_start,code,region,count
+2021-05-31,2410,East of England,2
+2021-05-31,2410,London,5
+2021-05-31,2410,West Midlands,1
+2021-05-31,2410,Yorkshire and The Humber,1
+2021-05-31,2443,East Midlands,13
+2021-05-31,2443,East of England,17
+2021-05-31,2443,London,39
+2021-05-31,2443,North East,8
+2021-05-31,2443,North West,29
+2021-05-31,2443,Scotland,3
+2021-05-31,2443,South East,23
+2021-05-31,2443,South West,11
+2021-05-31,2443,Unknown,11
+2021-05-31,2443,Wales,7
+2021-05-31,2443,West Midlands,13
+2021-05-31,2443,Yorkshire and The Humber,26
+2021-05-31,2450,East of England,1
+2021-05-31,2450,London,3
+2021-05-31,2450,North West,1
+2021-05-31,2450,South East,1
+2021-05-31,2450,Unknown,1
+2021-05-31,2452,East Midlands,1
+2021-05-31,2452,London,2
+2021-05-31,2452,North West,3
+2021-05-31,2452,South West,1
+2021-05-31,2603,London,2
+2021-05-31,2603,West Midlands,1
+2021-06-07,2410,East Midlands,2
+2021-06-07,2410,East of England,1
+2021-06-07,2410,London,3
+2021-06-07,2410,North West,3
+2021-06-07,2410,Scotland,2
+2021-06-07,2410,South East,2
+2021-06-07,2410,Yorkshire and The Humber,2
+2021-06-07,2443,East Midlands,17
+2021-06-07,2443,East of England,26
+2021-06-07,2443,London,75
+2021-06-07,2443,North East,6
+2021-06-07,2443,North West,25
+2021-06-07,2443,Scotland,15
+2021-06-07,2443,South East,26
+2021-06-07,2443,South West,13
+2021-06-07,2443,Unknown,20
+2021-06-07,2443,Wales,6
+2021-06-07,2443,West Midlands,27
+2021-06-07,2443,Yorkshire and The Humber,43
+2021-06-07,2450,East Midlands,1
+2021-06-07,2450,East of England,1
+2021-06-07,2450,London,3
+2021-06-07,2450,North East,1
+2021-06-07,2450,North West,1
+2021-06-07,2450,South East,2
+2021-06-07,2450,Unknown,2
+2021-06-07,2450,Wales,1
+2021-06-07,2450,West Midlands,2
+2021-06-07,2450,Yorkshire and The Humber,1
+2021-06-07,2452,North West,1
+2021-06-07,2452,South East,1
+2021-06-07,2603,East Midlands,1
+2021-06-07,2603,East of England,1
+2021-06-07,2603,London,12
+2021-06-07,2603,Scotland,5
+2021-06-07,2603,South East,2
+2021-06-07,2603,South West,1
+2021-06-07,2603,Yorkshire and The Humber,1
+2021-06-14,2410,London,4
+2021-06-14,2410,North West,3
+2021-06-14,2410,South East,2
+2021-06-14,2410,South West,1
+2021-06-14,2410,Unknown,1
+2021-06-14,2410,Yorkshire and The Humber,1
+2021-06-14,2443,East Midlands,14
+2021-06-14,2443,East of England,37
+2021-06-14,2443,London,48
+2021-06-14,2443,North East,14
+2021-06-14,2443,North West,46
+2021-06-14,2443,Scotland,22
+2021-06-14,2443,South East,38
+2021-06-14,2443,South West,10
+2021-06-14,2443,Unknown,21
+2021-06-14,2443,Wales,10
+2021-06-14,2443,West Midlands,29
+2021-06-14,2443,Yorkshire and The Humber,23
+2021-06-14,2450,London,1
+2021-06-14,2450,South East,1
+2021-06-14,2450,Unknown,6
+2021-06-14,2450,Wales,1
+2021-06-14,2450,Yorkshire and The Humber,1
+2021-06-14,2452,London,3
+2021-06-14,2452,North West,3
+2021-06-14,2452,South East,1
+2021-06-14,2452,South West,1
+2021-06-14,2452,Yorkshire and The Humber,1
+2021-06-14,2603,London,15
+2021-06-14,2603,North West,1
+2021-06-14,2603,South East,3
+2021-06-14,2603,Unknown,1
+2021-06-14,2603,West Midlands,1
+2021-06-21,2410,East Midlands,1
+2021-06-21,2410,East of England,3
+2021-06-21,2410,London,1
+2021-06-21,2410,North West,1
+2021-06-21,2410,Wales,1
+2021-06-21,2410,Yorkshire and The Humber,1
+2021-06-21,2443,East Midlands,18
+2021-06-21,2443,East of England,22
+2021-06-21,2443,London,62
+2021-06-21,2443,North East,8
+2021-06-21,2443,North West,40
+2021-06-21,2443,Scotland,19
+2021-06-21,2443,South East,39
+2021-06-21,2443,South West,18
+2021-06-21,2443,Unknown,39
+2021-06-21,2443,Wales,7
+2021-06-21,2443,West Midlands,24
+2021-06-21,2443,Yorkshire and The Humber,21
+2021-06-21,2450,London,2
+2021-06-21,2450,North West,3
+2021-06-21,2450,Scotland,1
+2021-06-21,2450,South East,3
+2021-06-21,2450,Unknown,6
+2021-06-21,2452,East Midlands,1
+2021-06-21,2452,East of England,1
+2021-06-21,2452,London,3
+2021-06-21,2452,North West,1
+2021-06-21,2452,South East,3
+2021-06-21,2452,Wales,1
+2021-06-21,2452,West Midlands,1
+2021-06-21,2452,Yorkshire and The Humber,1
+2021-06-21,2603,London,17
+2021-06-21,2603,North East,1
+2021-06-21,2603,North West,1
+2021-06-21,2603,South East,3
+2021-06-21,2603,South West,1
+2021-06-21,2603,Unknown,1
+2021-06-21,2603,Yorkshire and The Humber,2
+2021-06-28,2410,East of England,1
+2021-06-28,2410,London,1
+2021-06-28,2410,North West,1
+2021-06-28,2410,Unknown,1
+2021-06-28,2410,Yorkshire and The Humber,1
+2021-06-28,2443,East Midlands,12
+2021-06-28,2443,East of England,8
+2021-06-28,2443,London,42
+2021-06-28,2443,North East,7
+2021-06-28,2443,North West,24
+2021-06-28,2443,Scotland,3
+2021-06-28,2443,South East,20
+2021-06-28,2443,South West,12
+2021-06-28,2443,Unknown,5
+2021-06-28,2443,Wales,5
+2021-06-28,2443,West Midlands,25
+2021-06-28,2443,Yorkshire and The Humber,12
+2021-06-28,2450,London,4
+2021-06-28,2450,North West,1
+2021-06-28,2450,Scotland,1
+2021-06-28,2450,Unknown,1
+2021-06-28,2452,London,2
+2021-06-28,2452,North West,2
+2021-06-28,2452,South East,4
+2021-06-28,2452,Wales,1
+2021-06-28,2452,Yorkshire and The Humber,1
+2021-06-28,2603,East Midlands,1
+2021-06-28,2603,East of England,1
+2021-06-28,2603,London,11
+2021-06-28,2603,South East,2
+2021-06-28,2603,Wales,2

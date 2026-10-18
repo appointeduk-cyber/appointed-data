@@ -1,0 +1,203 @@
+week_start,code,region,count
+2022-01-31,2410,London,4
+2022-01-31,2410,North East,1
+2022-01-31,2410,North West,1
+2022-01-31,2410,South East,3
+2022-01-31,2410,Unknown,1
+2022-01-31,2410,West Midlands,1
+2022-01-31,2410,Yorkshire and The Humber,3
+2022-01-31,2443,East Midlands,14
+2022-01-31,2443,East of England,28
+2022-01-31,2443,London,54
+2022-01-31,2443,North East,14
+2022-01-31,2443,North West,48
+2022-01-31,2443,Scotland,24
+2022-01-31,2443,South East,28
+2022-01-31,2443,South West,15
+2022-01-31,2443,Unknown,37
+2022-01-31,2443,Wales,7
+2022-01-31,2443,West Midlands,35
+2022-01-31,2443,Yorkshire and The Humber,38
+2022-01-31,2450,East of England,4
+2022-01-31,2450,London,4
+2022-01-31,2450,North West,3
+2022-01-31,2450,Scotland,1
+2022-01-31,2450,South East,4
+2022-01-31,2450,South West,1
+2022-01-31,2450,Unknown,6
+2022-01-31,2450,West Midlands,1
+2022-01-31,2450,Yorkshire and The Humber,1
+2022-01-31,2452,East of England,1
+2022-01-31,2452,London,13
+2022-01-31,2452,North West,2
+2022-01-31,2452,South East,2
+2022-01-31,2452,West Midlands,1
+2022-01-31,2452,Yorkshire and The Humber,1
+2022-01-31,2603,London,2
+2022-01-31,2603,North West,1
+2022-01-31,2603,South East,3
+2022-01-31,2603,Unknown,3
+2022-01-31,2603,West Midlands,1
+2022-02-07,2410,East Midlands,1
+2022-02-07,2410,East of England,1
+2022-02-07,2410,London,1
+2022-02-07,2410,North West,7
+2022-02-07,2410,Scotland,2
+2022-02-07,2410,South East,7
+2022-02-07,2410,South West,4
+2022-02-07,2410,Unknown,4
+2022-02-07,2410,West Midlands,1
+2022-02-07,2410,Yorkshire and The Humber,2
+2022-02-07,2443,East Midlands,23
+2022-02-07,2443,East of England,46
+2022-02-07,2443,London,84
+2022-02-07,2443,North East,19
+2022-02-07,2443,North West,52
+2022-02-07,2443,Scotland,13
+2022-02-07,2443,South East,56
+2022-02-07,2443,South West,19
+2022-02-07,2443,Unknown,30
+2022-02-07,2443,Wales,6
+2022-02-07,2443,West Midlands,28
+2022-02-07,2443,Yorkshire and The Humber,43
+2022-02-07,2450,East Midlands,3
+2022-02-07,2450,East of England,5
+2022-02-07,2450,London,10
+2022-02-07,2450,North East,1
+2022-02-07,2450,North West,4
+2022-02-07,2450,South East,3
+2022-02-07,2450,South West,1
+2022-02-07,2450,Unknown,8
+2022-02-07,2450,Wales,1
+2022-02-07,2450,West Midlands,5
+2022-02-07,2450,Yorkshire and The Humber,3
+2022-02-07,2452,East of England,1
+2022-02-07,2452,London,8
+2022-02-07,2452,North West,5
+2022-02-07,2452,South East,1
+2022-02-07,2452,South West,3
+2022-02-07,2452,Unknown,1
+2022-02-07,2452,Yorkshire and The Humber,1
+2022-02-07,2603,East Midlands,1
+2022-02-07,2603,East of England,1
+2022-02-07,2603,London,11
+2022-02-07,2603,North East,4
+2022-02-07,2603,Scotland,6
+2022-02-07,2603,South East,2
+2022-02-07,2603,South West,1
+2022-02-07,2603,Unknown,3
+2022-02-07,2603,Wales,1
+2022-02-07,2603,West Midlands,1
+2022-02-07,2603,Yorkshire and The Humber,3
+2022-02-14,2410,East Midlands,3
+2022-02-14,2410,East of England,1
+2022-02-14,2410,London,3
+2022-02-14,2410,North West,4
+2022-02-14,2410,Scotland,1
+2022-02-14,2410,South East,6
+2022-02-14,2410,South West,4
+2022-02-14,2410,West Midlands,2
+2022-02-14,2410,Yorkshire and The Humber,1
+2022-02-14,2443,East Midlands,26
+2022-02-14,2443,East of England,32
+2022-02-14,2443,London,69
+2022-02-14,2443,North East,19
+2022-02-14,2443,North West,48
+2022-02-14,2443,Scotland,16
+2022-02-14,2443,South East,46
+2022-02-14,2443,South West,23
+2022-02-14,2443,Unknown,23
+2022-02-14,2443,Wales,9
+2022-02-14,2443,West Midlands,36
+2022-02-14,2443,Yorkshire and The Humber,36
+2022-02-14,2450,East Midlands,1
+2022-02-14,2450,East of England,2
+2022-02-14,2450,London,10
+2022-02-14,2450,North East,7
+2022-02-14,2450,North West,5
+2022-02-14,2450,South West,1
+2022-02-14,2450,Unknown,6
+2022-02-14,2450,West Midlands,3
+2022-02-14,2450,Yorkshire and The Humber,1
+2022-02-14,2452,East Midlands,1
+2022-02-14,2452,East of England,3
+2022-02-14,2452,London,6
+2022-02-14,2452,North East,1
+2022-02-14,2452,South East,2
+2022-02-14,2452,Unknown,2
+2022-02-14,2452,Wales,1
+2022-02-14,2452,West Midlands,3
+2022-02-14,2452,Yorkshire and The Humber,3
+2022-02-14,2603,London,20
+2022-02-14,2603,Unknown,2
+2022-02-14,2603,Wales,1
+2022-02-14,2603,Yorkshire and The Humber,1
+2022-02-21,2410,East Midlands,2
+2022-02-21,2410,East of England,3
+2022-02-21,2410,London,6
+2022-02-21,2410,North East,1
+2022-02-21,2410,Scotland,1
+2022-02-21,2410,South East,10
+2022-02-21,2410,South West,1
+2022-02-21,2410,Yorkshire and The Humber,3
+2022-02-21,2443,East Midlands,18
+2022-02-21,2443,East of England,42
+2022-02-21,2443,London,73
+2022-02-21,2443,North East,11
+2022-02-21,2443,North West,53
+2022-02-21,2443,Scotland,16
+2022-02-21,2443,South East,49
+2022-02-21,2443,South West,31
+2022-02-21,2443,Unknown,40
+2022-02-21,2443,Wales,13
+2022-02-21,2443,West Midlands,43
+2022-02-21,2443,Yorkshire and The Humber,56
+2022-02-21,2450,East Midlands,1
+2022-02-21,2450,East of England,2
+2022-02-21,2450,London,10
+2022-02-21,2450,North West,8
+2022-02-21,2450,Scotland,1
+2022-02-21,2450,South East,8
+2022-02-21,2450,Unknown,4
+2022-02-21,2450,West Midlands,7
+2022-02-21,2450,Yorkshire and The Humber,1
+2022-02-21,2452,East Midlands,1
+2022-02-21,2452,East of England,4
+2022-02-21,2452,London,8
+2022-02-21,2452,North West,2
+2022-02-21,2452,South East,1
+2022-02-21,2452,South West,1
+2022-02-21,2452,Unknown,5
+2022-02-21,2603,London,15
+2022-02-21,2603,North East,1
+2022-02-21,2603,North West,2
+2022-02-21,2603,Scotland,1
+2022-02-21,2603,South West,2
+2022-02-21,2603,Unknown,1
+2022-02-21,2603,West Midlands,1
+2022-02-21,2603,Yorkshire and The Humber,1
+2022-02-28,2410,London,1
+2022-02-28,2410,North West,3
+2022-02-28,2410,South West,1
+2022-02-28,2410,Unknown,1
+2022-02-28,2443,East Midlands,12
+2022-02-28,2443,East of England,6
+2022-02-28,2443,London,16
+2022-02-28,2443,North East,2
+2022-02-28,2443,North West,10
+2022-02-28,2443,South East,10
+2022-02-28,2443,South West,1
+2022-02-28,2443,Unknown,10
+2022-02-28,2443,Wales,3
+2022-02-28,2443,West Midlands,5
+2022-02-28,2443,Yorkshire and The Humber,8
+2022-02-28,2450,East Midlands,1
+2022-02-28,2450,London,2
+2022-02-28,2450,North East,1
+2022-02-28,2450,North West,1
+2022-02-28,2452,East of England,2
+2022-02-28,2452,London,1
+2022-02-28,2452,Yorkshire and The Humber,1
+2022-02-28,2603,London,5
+2022-02-28,2603,North East,1
+2022-02-28,2603,South East,1

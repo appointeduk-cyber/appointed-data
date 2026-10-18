@@ -1,0 +1,212 @@
+week_start,code,region,count
+2022-05-30,2410,East Midlands,1
+2022-05-30,2410,East of England,2
+2022-05-30,2410,North West,3
+2022-05-30,2410,South East,1
+2022-05-30,2410,Yorkshire and The Humber,1
+2022-05-30,2443,East Midlands,7
+2022-05-30,2443,East of England,8
+2022-05-30,2443,London,25
+2022-05-30,2443,North East,4
+2022-05-30,2443,North West,22
+2022-05-30,2443,South East,8
+2022-05-30,2443,South West,6
+2022-05-30,2443,Unknown,12
+2022-05-30,2443,Wales,2
+2022-05-30,2443,West Midlands,6
+2022-05-30,2443,Yorkshire and The Humber,12
+2022-05-30,2450,London,8
+2022-05-30,2450,North West,1
+2022-05-30,2450,Unknown,1
+2022-05-30,2450,West Midlands,1
+2022-05-30,2452,East Midlands,1
+2022-05-30,2452,London,5
+2022-05-30,2452,North East,2
+2022-05-30,2452,South East,3
+2022-05-30,2452,Unknown,2
+2022-05-30,2452,West Midlands,1
+2022-05-30,2603,London,1
+2022-05-30,2603,South East,1
+2022-05-30,2603,Unknown,1
+2022-06-06,2410,East of England,6
+2022-06-06,2410,London,6
+2022-06-06,2410,North West,5
+2022-06-06,2410,South East,3
+2022-06-06,2410,South West,2
+2022-06-06,2410,Unknown,1
+2022-06-06,2410,Wales,2
+2022-06-06,2410,West Midlands,3
+2022-06-06,2410,Yorkshire and The Humber,2
+2022-06-06,2443,East Midlands,23
+2022-06-06,2443,East of England,52
+2022-06-06,2443,London,75
+2022-06-06,2443,North East,12
+2022-06-06,2443,North West,63
+2022-06-06,2443,Scotland,18
+2022-06-06,2443,South East,43
+2022-06-06,2443,South West,22
+2022-06-06,2443,Unknown,38
+2022-06-06,2443,Wales,7
+2022-06-06,2443,West Midlands,33
+2022-06-06,2443,Yorkshire and The Humber,33
+2022-06-06,2450,East of England,1
+2022-06-06,2450,London,13
+2022-06-06,2450,North East,1
+2022-06-06,2450,North West,2
+2022-06-06,2450,Scotland,2
+2022-06-06,2450,South East,4
+2022-06-06,2450,South West,2
+2022-06-06,2450,Unknown,10
+2022-06-06,2450,Wales,1
+2022-06-06,2450,West Midlands,3
+2022-06-06,2450,Yorkshire and The Humber,4
+2022-06-06,2452,East of England,1
+2022-06-06,2452,London,2
+2022-06-06,2452,North West,2
+2022-06-06,2452,South East,1
+2022-06-06,2452,South West,1
+2022-06-06,2452,West Midlands,2
+2022-06-06,2603,East of England,2
+2022-06-06,2603,London,7
+2022-06-06,2603,Scotland,1
+2022-06-06,2603,South East,1
+2022-06-06,2603,Wales,1
+2022-06-13,2410,East of England,1
+2022-06-13,2410,London,9
+2022-06-13,2410,North West,4
+2022-06-13,2410,Scotland,2
+2022-06-13,2410,South East,2
+2022-06-13,2410,South West,1
+2022-06-13,2410,West Midlands,4
+2022-06-13,2410,Yorkshire and The Humber,3
+2022-06-13,2443,East Midlands,17
+2022-06-13,2443,East of England,36
+2022-06-13,2443,London,64
+2022-06-13,2443,North East,14
+2022-06-13,2443,North West,43
+2022-06-13,2443,Scotland,7
+2022-06-13,2443,South East,42
+2022-06-13,2443,South West,23
+2022-06-13,2443,Unknown,14
+2022-06-13,2443,Wales,10
+2022-06-13,2443,West Midlands,36
+2022-06-13,2443,Yorkshire and The Humber,35
+2022-06-13,2450,East Midlands,1
+2022-06-13,2450,East of England,2
+2022-06-13,2450,London,15
+2022-06-13,2450,North East,1
+2022-06-13,2450,North West,3
+2022-06-13,2450,Scotland,1
+2022-06-13,2450,South East,7
+2022-06-13,2450,South West,8
+2022-06-13,2450,Unknown,16
+2022-06-13,2450,Wales,1
+2022-06-13,2450,West Midlands,4
+2022-06-13,2450,Yorkshire and The Humber,9
+2022-06-13,2452,East of England,4
+2022-06-13,2452,London,14
+2022-06-13,2452,North East,2
+2022-06-13,2452,North West,10
+2022-06-13,2452,South East,4
+2022-06-13,2452,South West,6
+2022-06-13,2452,Unknown,6
+2022-06-13,2452,Wales,2
+2022-06-13,2452,West Midlands,3
+2022-06-13,2452,Yorkshire and The Humber,6
+2022-06-13,2603,East of England,1
+2022-06-13,2603,London,14
+2022-06-13,2603,Scotland,1
+2022-06-13,2603,South East,8
+2022-06-13,2603,South West,1
+2022-06-13,2603,West Midlands,1
+2022-06-13,2603,Yorkshire and The Humber,2
+2022-06-20,2410,East Midlands,3
+2022-06-20,2410,East of England,1
+2022-06-20,2410,London,4
+2022-06-20,2410,North East,2
+2022-06-20,2410,North West,3
+2022-06-20,2410,South East,8
+2022-06-20,2410,Unknown,2
+2022-06-20,2410,West Midlands,1
+2022-06-20,2410,Yorkshire and The Humber,5
+2022-06-20,2421,Unknown,1
+2022-06-20,2443,East Midlands,24
+2022-06-20,2443,East of England,41
+2022-06-20,2443,London,69
+2022-06-20,2443,North East,12
+2022-06-20,2443,North West,48
+2022-06-20,2443,Scotland,21
+2022-06-20,2443,South East,42
+2022-06-20,2443,South West,11
+2022-06-20,2443,Unknown,36
+2022-06-20,2443,Wales,10
+2022-06-20,2443,West Midlands,28
+2022-06-20,2443,Yorkshire and The Humber,39
+2022-06-20,2450,East of England,2
+2022-06-20,2450,London,9
+2022-06-20,2450,North East,1
+2022-06-20,2450,North West,4
+2022-06-20,2450,Scotland,2
+2022-06-20,2450,South East,5
+2022-06-20,2450,South West,2
+2022-06-20,2450,Unknown,11
+2022-06-20,2450,Wales,1
+2022-06-20,2450,West Midlands,1
+2022-06-20,2450,Yorkshire and The Humber,3
+2022-06-20,2452,East Midlands,5
+2022-06-20,2452,East of England,4
+2022-06-20,2452,London,9
+2022-06-20,2452,North East,2
+2022-06-20,2452,North West,6
+2022-06-20,2452,South East,4
+2022-06-20,2452,South West,2
+2022-06-20,2452,Unknown,1
+2022-06-20,2452,Wales,1
+2022-06-20,2452,West Midlands,11
+2022-06-20,2452,Yorkshire and The Humber,4
+2022-06-20,2603,East Midlands,2
+2022-06-20,2603,London,6
+2022-06-20,2603,South West,2
+2022-06-20,2603,Unknown,3
+2022-06-20,2603,West Midlands,2
+2022-06-27,2410,East of England,1
+2022-06-27,2410,London,3
+2022-06-27,2410,South East,2
+2022-06-27,2410,South West,3
+2022-06-27,2410,Yorkshire and The Humber,2
+2022-06-27,2443,East Midlands,21
+2022-06-27,2443,East of England,34
+2022-06-27,2443,London,75
+2022-06-27,2443,North East,8
+2022-06-27,2443,North West,38
+2022-06-27,2443,Scotland,4
+2022-06-27,2443,South East,27
+2022-06-27,2443,South West,11
+2022-06-27,2443,Unknown,33
+2022-06-27,2443,Wales,9
+2022-06-27,2443,West Midlands,24
+2022-06-27,2443,Yorkshire and The Humber,25
+2022-06-27,2450,East Midlands,2
+2022-06-27,2450,East of England,5
+2022-06-27,2450,London,14
+2022-06-27,2450,North East,1
+2022-06-27,2450,North West,10
+2022-06-27,2450,Scotland,1
+2022-06-27,2450,South East,2
+2022-06-27,2450,South West,1
+2022-06-27,2450,Unknown,8
+2022-06-27,2450,Wales,1
+2022-06-27,2450,West Midlands,4
+2022-06-27,2450,Yorkshire and The Humber,2
+2022-06-27,2452,East Midlands,1
+2022-06-27,2452,East of England,2
+2022-06-27,2452,London,9
+2022-06-27,2452,North East,1
+2022-06-27,2452,North West,1
+2022-06-27,2452,South East,3
+2022-06-27,2452,Wales,1
+2022-06-27,2452,West Midlands,2
+2022-06-27,2452,Yorkshire and The Humber,2
+2022-06-27,2603,London,9
+2022-06-27,2603,Unknown,1
+2022-06-27,2603,Wales,1

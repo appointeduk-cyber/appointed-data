@@ -1,0 +1,235 @@
+week_start,code,region,count
+2023-05-01,2410,East Midlands,1
+2023-05-01,2410,East of England,1
+2023-05-01,2410,London,17
+2023-05-01,2410,North East,1
+2023-05-01,2410,North West,3
+2023-05-01,2410,Scotland,1
+2023-05-01,2410,South East,4
+2023-05-01,2410,South West,4
+2023-05-01,2410,West Midlands,4
+2023-05-01,2443,East Midlands,22
+2023-05-01,2443,East of England,36
+2023-05-01,2443,London,66
+2023-05-01,2443,North East,19
+2023-05-01,2443,North West,46
+2023-05-01,2443,Scotland,11
+2023-05-01,2443,South East,49
+2023-05-01,2443,South West,18
+2023-05-01,2443,Unknown,23
+2023-05-01,2443,Wales,5
+2023-05-01,2443,West Midlands,32
+2023-05-01,2443,Yorkshire and The Humber,36
+2023-05-01,2450,East Midlands,1
+2023-05-01,2450,East of England,9
+2023-05-01,2450,London,15
+2023-05-01,2450,North East,4
+2023-05-01,2450,North West,6
+2023-05-01,2450,Scotland,8
+2023-05-01,2450,South East,9
+2023-05-01,2450,South West,5
+2023-05-01,2450,Unknown,11
+2023-05-01,2450,Wales,5
+2023-05-01,2450,West Midlands,3
+2023-05-01,2450,Yorkshire and The Humber,5
+2023-05-01,2452,East of England,6
+2023-05-01,2452,London,27
+2023-05-01,2452,North East,2
+2023-05-01,2452,North West,10
+2023-05-01,2452,South East,9
+2023-05-01,2452,South West,1
+2023-05-01,2452,Wales,3
+2023-05-01,2452,West Midlands,6
+2023-05-01,2452,Yorkshire and The Humber,3
+2023-05-01,2603,London,7
+2023-05-01,2603,North West,1
+2023-05-01,2603,South East,1
+2023-05-01,2603,Unknown,2
+2023-05-01,2603,Yorkshire and The Humber,9
+2023-05-08,2410,East Midlands,4
+2023-05-08,2410,East of England,3
+2023-05-08,2410,London,10
+2023-05-08,2410,North West,2
+2023-05-08,2410,Scotland,1
+2023-05-08,2410,South East,3
+2023-05-08,2410,South West,1
+2023-05-08,2410,Wales,1
+2023-05-08,2410,West Midlands,1
+2023-05-08,2410,Yorkshire and The Humber,2
+2023-05-08,2443,East Midlands,31
+2023-05-08,2443,East of England,47
+2023-05-08,2443,London,80
+2023-05-08,2443,North East,16
+2023-05-08,2443,North West,45
+2023-05-08,2443,Scotland,13
+2023-05-08,2443,South East,61
+2023-05-08,2443,South West,21
+2023-05-08,2443,Unknown,23
+2023-05-08,2443,Wales,7
+2023-05-08,2443,West Midlands,42
+2023-05-08,2443,Yorkshire and The Humber,49
+2023-05-08,2450,East Midlands,1
+2023-05-08,2450,East of England,2
+2023-05-08,2450,London,13
+2023-05-08,2450,North East,2
+2023-05-08,2450,North West,3
+2023-05-08,2450,Scotland,9
+2023-05-08,2450,South East,8
+2023-05-08,2450,South West,1
+2023-05-08,2450,Unknown,8
+2023-05-08,2450,Wales,5
+2023-05-08,2450,West Midlands,4
+2023-05-08,2450,Yorkshire and The Humber,7
+2023-05-08,2452,East Midlands,6
+2023-05-08,2452,East of England,4
+2023-05-08,2452,London,19
+2023-05-08,2452,North East,1
+2023-05-08,2452,North West,11
+2023-05-08,2452,South East,5
+2023-05-08,2452,South West,1
+2023-05-08,2452,Wales,6
+2023-05-08,2452,West Midlands,10
+2023-05-08,2452,Yorkshire and The Humber,2
+2023-05-08,2603,London,20
+2023-05-08,2603,North West,1
+2023-05-08,2603,Scotland,1
+2023-05-08,2603,South East,2
+2023-05-08,2603,Unknown,4
+2023-05-08,2603,Wales,1
+2023-05-08,2603,Yorkshire and The Humber,1
+2023-05-15,2410,East Midlands,2
+2023-05-15,2410,East of England,2
+2023-05-15,2410,London,2
+2023-05-15,2410,North East,3
+2023-05-15,2410,North West,2
+2023-05-15,2410,Scotland,1
+2023-05-15,2410,South East,5
+2023-05-15,2410,Wales,1
+2023-05-15,2410,West Midlands,3
+2023-05-15,2410,Yorkshire and The Humber,4
+2023-05-15,2443,East Midlands,28
+2023-05-15,2443,East of England,44
+2023-05-15,2443,London,67
+2023-05-15,2443,North East,19
+2023-05-15,2443,North West,49
+2023-05-15,2443,Scotland,13
+2023-05-15,2443,South East,47
+2023-05-15,2443,South West,19
+2023-05-15,2443,Unknown,29
+2023-05-15,2443,Wales,8
+2023-05-15,2443,West Midlands,27
+2023-05-15,2443,Yorkshire and The Humber,50
+2023-05-15,2450,East Midlands,2
+2023-05-15,2450,East of England,3
+2023-05-15,2450,London,6
+2023-05-15,2450,North East,1
+2023-05-15,2450,North West,2
+2023-05-15,2450,Scotland,6
+2023-05-15,2450,South East,3
+2023-05-15,2450,South West,1
+2023-05-15,2450,Unknown,5
+2023-05-15,2450,Wales,2
+2023-05-15,2450,West Midlands,2
+2023-05-15,2450,Yorkshire and The Humber,4
+2023-05-15,2452,East Midlands,1
+2023-05-15,2452,East of England,6
+2023-05-15,2452,London,10
+2023-05-15,2452,North West,19
+2023-05-15,2452,South East,3
+2023-05-15,2452,Unknown,1
+2023-05-15,2452,West Midlands,7
+2023-05-15,2452,Yorkshire and The Humber,4
+2023-05-15,2603,London,13
+2023-05-15,2603,North East,1
+2023-05-15,2603,Unknown,1
+2023-05-15,2603,Wales,1
+2023-05-15,2603,West Midlands,1
+2023-05-22,2410,East Midlands,5
+2023-05-22,2410,East of England,1
+2023-05-22,2410,London,6
+2023-05-22,2410,North West,3
+2023-05-22,2410,Scotland,1
+2023-05-22,2410,South East,4
+2023-05-22,2410,West Midlands,2
+2023-05-22,2410,Yorkshire and The Humber,1
+2023-05-22,2443,East Midlands,24
+2023-05-22,2443,East of England,52
+2023-05-22,2443,London,90
+2023-05-22,2443,North East,9
+2023-05-22,2443,North West,59
+2023-05-22,2443,Scotland,17
+2023-05-22,2443,South East,66
+2023-05-22,2443,South West,30
+2023-05-22,2443,Unknown,42
+2023-05-22,2443,Wales,9
+2023-05-22,2443,West Midlands,33
+2023-05-22,2443,Yorkshire and The Humber,37
+2023-05-22,2450,East Midlands,6
+2023-05-22,2450,East of England,7
+2023-05-22,2450,London,44
+2023-05-22,2450,North East,3
+2023-05-22,2450,North West,15
+2023-05-22,2450,Scotland,11
+2023-05-22,2450,South East,14
+2023-05-22,2450,South West,2
+2023-05-22,2450,Unknown,18
+2023-05-22,2450,Wales,4
+2023-05-22,2450,West Midlands,14
+2023-05-22,2450,Yorkshire and The Humber,10
+2023-05-22,2452,East of England,9
+2023-05-22,2452,London,19
+2023-05-22,2452,North East,3
+2023-05-22,2452,North West,12
+2023-05-22,2452,South East,6
+2023-05-22,2452,South West,2
+2023-05-22,2452,Unknown,2
+2023-05-22,2452,Wales,2
+2023-05-22,2452,West Midlands,3
+2023-05-22,2452,Yorkshire and The Humber,2
+2023-05-22,2603,East Midlands,1
+2023-05-22,2603,East of England,4
+2023-05-22,2603,London,10
+2023-05-22,2603,North East,1
+2023-05-22,2603,South East,1
+2023-05-22,2603,Wales,2
+2023-05-22,2603,West Midlands,1
+2023-05-29,2410,East Midlands,1
+2023-05-29,2410,London,3
+2023-05-29,2410,North West,1
+2023-05-29,2410,South East,1
+2023-05-29,2410,West Midlands,3
+2023-05-29,2410,Yorkshire and The Humber,2
+2023-05-29,2443,East Midlands,14
+2023-05-29,2443,East of England,21
+2023-05-29,2443,London,43
+2023-05-29,2443,North East,7
+2023-05-29,2443,North West,24
+2023-05-29,2443,Scotland,2
+2023-05-29,2443,South East,22
+2023-05-29,2443,South West,12
+2023-05-29,2443,Unknown,6
+2023-05-29,2443,Wales,4
+2023-05-29,2443,West Midlands,16
+2023-05-29,2443,Yorkshire and The Humber,19
+2023-05-29,2450,London,2
+2023-05-29,2450,North East,1
+2023-05-29,2450,North West,2
+2023-05-29,2450,Scotland,5
+2023-05-29,2450,Unknown,3
+2023-05-29,2450,Wales,2
+2023-05-29,2450,West Midlands,4
+2023-05-29,2452,East Midlands,1
+2023-05-29,2452,East of England,1
+2023-05-29,2452,London,4
+2023-05-29,2452,North East,1
+2023-05-29,2452,North West,5
+2023-05-29,2452,South East,7
+2023-05-29,2452,South West,2
+2023-05-29,2452,West Midlands,1
+2023-05-29,2452,Yorkshire and The Humber,1
+2023-05-29,2603,London,14
+2023-05-29,2603,North West,2
+2023-05-29,2603,South West,1
+2023-05-29,2603,Unknown,2
+2023-05-29,2603,West Midlands,1
+2023-05-29,2603,Yorkshire and The Humber,2

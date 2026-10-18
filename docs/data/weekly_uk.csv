@@ -1,0 +1,2486 @@
+week_start,notice_type,count,located,unlocated
+2019-12-30,Administration,5,5,0
+2019-12-30,Administrative receivership,0,0,0
+2019-12-30,Receivership,0,0,0
+2019-12-30,Creditors' voluntary liquidation,48,46,2
+2019-12-30,Winding-up order,7,2,5
+2019-12-30,Winding-up petition,76,60,16
+2019-12-30,Disclaimer,9,0,9
+2020-01-06,Administration,22,21,1
+2020-01-06,Administrative receivership,0,0,0
+2020-01-06,Receivership,0,0,0
+2020-01-06,Creditors' voluntary liquidation,150,128,22
+2020-01-06,Winding-up order,6,6,0
+2020-01-06,Winding-up petition,139,115,24
+2020-01-06,Disclaimer,45,14,31
+2020-01-13,Administration,21,19,2
+2020-01-13,Administrative receivership,0,0,0
+2020-01-13,Receivership,0,0,0
+2020-01-13,Creditors' voluntary liquidation,189,157,32
+2020-01-13,Winding-up order,73,49,24
+2020-01-13,Winding-up petition,113,84,29
+2020-01-13,Disclaimer,26,7,19
+2020-01-20,Administration,41,38,3
+2020-01-20,Administrative receivership,0,0,0
+2020-01-20,Receivership,0,0,0
+2020-01-20,Creditors' voluntary liquidation,209,183,26
+2020-01-20,Winding-up order,83,66,17
+2020-01-20,Winding-up petition,109,83,26
+2020-01-20,Disclaimer,30,11,19
+2020-01-27,Administration,26,26,0
+2020-01-27,Administrative receivership,0,0,0
+2020-01-27,Receivership,0,0,0
+2020-01-27,Creditors' voluntary liquidation,250,206,44
+2020-01-27,Winding-up order,72,61,11
+2020-01-27,Winding-up petition,72,52,20
+2020-01-27,Disclaimer,21,13,8
+2020-02-03,Administration,47,42,5
+2020-02-03,Administrative receivership,0,0,0
+2020-02-03,Receivership,0,0,0
+2020-02-03,Creditors' voluntary liquidation,271,247,24
+2020-02-03,Winding-up order,63,54,9
+2020-02-03,Winding-up petition,105,78,27
+2020-02-03,Disclaimer,33,13,20
+2020-02-10,Administration,46,40,6
+2020-02-10,Administrative receivership,0,0,0
+2020-02-10,Receivership,0,0,0
+2020-02-10,Creditors' voluntary liquidation,273,232,41
+2020-02-10,Winding-up order,68,55,13
+2020-02-10,Winding-up petition,121,109,12
+2020-02-10,Disclaimer,26,20,6
+2020-02-17,Administration,32,29,3
+2020-02-17,Administrative receivership,0,0,0
+2020-02-17,Receivership,0,0,0
+2020-02-17,Creditors' voluntary liquidation,284,247,37
+2020-02-17,Winding-up order,24,19,5
+2020-02-17,Winding-up petition,159,119,40
+2020-02-17,Disclaimer,32,17,15
+2020-02-24,Administration,30,25,5
+2020-02-24,Administrative receivership,0,0,0
+2020-02-24,Receivership,0,0,0
+2020-02-24,Creditors' voluntary liquidation,288,248,40
+2020-02-24,Winding-up order,103,86,17
+2020-02-24,Winding-up petition,141,115,26
+2020-02-24,Disclaimer,21,10,11
+2020-03-02,Administration,44,39,5
+2020-03-02,Administrative receivership,0,0,0
+2020-03-02,Receivership,0,0,0
+2020-03-02,Creditors' voluntary liquidation,291,251,40
+2020-03-02,Winding-up order,63,58,5
+2020-03-02,Winding-up petition,148,115,33
+2020-03-02,Disclaimer,33,18,15
+2020-03-09,Administration,36,33,3
+2020-03-09,Administrative receivership,0,0,0
+2020-03-09,Receivership,0,0,0
+2020-03-09,Creditors' voluntary liquidation,283,247,36
+2020-03-09,Winding-up order,73,60,13
+2020-03-09,Winding-up petition,143,113,30
+2020-03-09,Disclaimer,20,11,9
+2020-03-16,Administration,38,33,5
+2020-03-16,Administrative receivership,0,0,0
+2020-03-16,Receivership,0,0,0
+2020-03-16,Creditors' voluntary liquidation,285,256,29
+2020-03-16,Winding-up order,85,75,10
+2020-03-16,Winding-up petition,53,42,11
+2020-03-16,Disclaimer,33,19,14
+2020-03-23,Administration,49,45,4
+2020-03-23,Administrative receivership,0,0,0
+2020-03-23,Receivership,0,0,0
+2020-03-23,Creditors' voluntary liquidation,279,239,40
+2020-03-23,Winding-up order,11,10,1
+2020-03-23,Winding-up petition,40,24,16
+2020-03-23,Disclaimer,10,4,6
+2020-03-30,Administration,38,36,2
+2020-03-30,Administrative receivership,0,0,0
+2020-03-30,Receivership,0,0,0
+2020-03-30,Creditors' voluntary liquidation,233,200,33
+2020-03-30,Winding-up order,21,18,3
+2020-03-30,Winding-up petition,38,30,8
+2020-03-30,Disclaimer,27,13,14
+2020-04-06,Administration,24,24,0
+2020-04-06,Administrative receivership,0,0,0
+2020-04-06,Receivership,0,0,0
+2020-04-06,Creditors' voluntary liquidation,233,216,17
+2020-04-06,Winding-up order,14,14,0
+2020-04-06,Winding-up petition,36,17,19
+2020-04-06,Disclaimer,18,10,8
+2020-04-13,Administration,23,21,2
+2020-04-13,Administrative receivership,0,0,0
+2020-04-13,Receivership,0,0,0
+2020-04-13,Creditors' voluntary liquidation,184,166,18
+2020-04-13,Winding-up order,26,24,2
+2020-04-13,Winding-up petition,38,27,11
+2020-04-13,Disclaimer,2,1,1
+2020-04-20,Administration,22,21,1
+2020-04-20,Administrative receivership,0,0,0
+2020-04-20,Receivership,0,0,0
+2020-04-20,Creditors' voluntary liquidation,216,198,18
+2020-04-20,Winding-up order,16,15,1
+2020-04-20,Winding-up petition,31,24,7
+2020-04-20,Disclaimer,18,14,4
+2020-04-27,Administration,33,32,1
+2020-04-27,Administrative receivership,0,0,0
+2020-04-27,Receivership,0,0,0
+2020-04-27,Creditors' voluntary liquidation,223,192,31
+2020-04-27,Winding-up order,21,20,1
+2020-04-27,Winding-up petition,28,26,2
+2020-04-27,Disclaimer,14,10,4
+2020-05-04,Administration,27,25,2
+2020-05-04,Administrative receivership,0,0,0
+2020-05-04,Receivership,0,0,0
+2020-05-04,Creditors' voluntary liquidation,158,139,19
+2020-05-04,Winding-up order,13,12,1
+2020-05-04,Winding-up petition,15,12,3
+2020-05-04,Disclaimer,13,7,6
+2020-05-11,Administration,25,22,3
+2020-05-11,Administrative receivership,0,0,0
+2020-05-11,Receivership,0,0,0
+2020-05-11,Creditors' voluntary liquidation,200,177,23
+2020-05-11,Winding-up order,16,15,1
+2020-05-11,Winding-up petition,21,11,10
+2020-05-11,Disclaimer,14,4,10
+2020-05-18,Administration,26,23,3
+2020-05-18,Administrative receivership,0,0,0
+2020-05-18,Receivership,0,0,0
+2020-05-18,Creditors' voluntary liquidation,193,177,16
+2020-05-18,Winding-up order,11,11,0
+2020-05-18,Winding-up petition,26,19,7
+2020-05-18,Disclaimer,15,13,2
+2020-05-25,Administration,26,23,3
+2020-05-25,Administrative receivership,0,0,0
+2020-05-25,Receivership,0,0,0
+2020-05-25,Creditors' voluntary liquidation,137,120,17
+2020-05-25,Winding-up order,7,7,0
+2020-05-25,Winding-up petition,23,10,13
+2020-05-25,Disclaimer,7,6,1
+2020-06-01,Administration,21,19,2
+2020-06-01,Administrative receivership,0,0,0
+2020-06-01,Receivership,0,0,0
+2020-06-01,Creditors' voluntary liquidation,149,132,17
+2020-06-01,Winding-up order,11,11,0
+2020-06-01,Winding-up petition,17,14,3
+2020-06-01,Disclaimer,14,4,10
+2020-06-08,Administration,28,22,6
+2020-06-08,Administrative receivership,0,0,0
+2020-06-08,Receivership,0,0,0
+2020-06-08,Creditors' voluntary liquidation,159,133,26
+2020-06-08,Winding-up order,17,16,1
+2020-06-08,Winding-up petition,32,24,8
+2020-06-08,Disclaimer,23,18,5
+2020-06-15,Administration,24,24,0
+2020-06-15,Administrative receivership,0,0,0
+2020-06-15,Receivership,0,0,0
+2020-06-15,Creditors' voluntary liquidation,150,130,20
+2020-06-15,Winding-up order,15,15,0
+2020-06-15,Winding-up petition,24,14,10
+2020-06-15,Disclaimer,11,5,6
+2020-06-22,Administration,39,34,5
+2020-06-22,Administrative receivership,0,0,0
+2020-06-22,Receivership,0,0,0
+2020-06-22,Creditors' voluntary liquidation,148,124,24
+2020-06-22,Winding-up order,9,5,4
+2020-06-22,Winding-up petition,24,21,3
+2020-06-22,Disclaimer,14,7,7
+2020-06-29,Administration,23,22,1
+2020-06-29,Administrative receivership,0,0,0
+2020-06-29,Receivership,0,0,0
+2020-06-29,Creditors' voluntary liquidation,174,145,29
+2020-06-29,Winding-up order,21,18,3
+2020-06-29,Winding-up petition,16,11,5
+2020-06-29,Disclaimer,27,14,13
+2020-07-06,Administration,57,53,4
+2020-07-06,Administrative receivership,0,0,0
+2020-07-06,Receivership,0,0,0
+2020-07-06,Creditors' voluntary liquidation,152,130,22
+2020-07-06,Winding-up order,29,26,3
+2020-07-06,Winding-up petition,22,13,9
+2020-07-06,Disclaimer,13,5,8
+2020-07-13,Administration,45,42,3
+2020-07-13,Administrative receivership,0,0,0
+2020-07-13,Receivership,0,0,0
+2020-07-13,Creditors' voluntary liquidation,161,134,27
+2020-07-13,Winding-up order,28,20,8
+2020-07-13,Winding-up petition,25,24,1
+2020-07-13,Disclaimer,14,6,8
+2020-07-20,Administration,22,21,1
+2020-07-20,Administrative receivership,0,0,0
+2020-07-20,Receivership,0,0,0
+2020-07-20,Creditors' voluntary liquidation,173,148,25
+2020-07-20,Winding-up order,26,26,0
+2020-07-20,Winding-up petition,19,13,6
+2020-07-20,Disclaimer,14,6,8
+2020-07-27,Administration,36,34,2
+2020-07-27,Administrative receivership,0,0,0
+2020-07-27,Receivership,0,0,0
+2020-07-27,Creditors' voluntary liquidation,167,133,34
+2020-07-27,Winding-up order,34,30,4
+2020-07-27,Winding-up petition,12,8,4
+2020-07-27,Disclaimer,12,5,7
+2020-08-03,Administration,35,34,1
+2020-08-03,Administrative receivership,1,1,0
+2020-08-03,Receivership,0,0,0
+2020-08-03,Creditors' voluntary liquidation,184,163,21
+2020-08-03,Winding-up order,41,38,3
+2020-08-03,Winding-up petition,18,15,3
+2020-08-03,Disclaimer,16,2,14
+2020-08-10,Administration,27,25,2
+2020-08-10,Administrative receivership,0,0,0
+2020-08-10,Receivership,0,0,0
+2020-08-10,Creditors' voluntary liquidation,157,137,20
+2020-08-10,Winding-up order,17,16,1
+2020-08-10,Winding-up petition,10,10,0
+2020-08-10,Disclaimer,33,11,22
+2020-08-17,Administration,14,14,0
+2020-08-17,Administrative receivership,0,0,0
+2020-08-17,Receivership,0,0,0
+2020-08-17,Creditors' voluntary liquidation,185,163,22
+2020-08-17,Winding-up order,20,19,1
+2020-08-17,Winding-up petition,16,15,1
+2020-08-17,Disclaimer,21,17,4
+2020-08-24,Administration,26,25,1
+2020-08-24,Administrative receivership,0,0,0
+2020-08-24,Receivership,0,0,0
+2020-08-24,Creditors' voluntary liquidation,187,172,15
+2020-08-24,Winding-up order,25,24,1
+2020-08-24,Winding-up petition,18,11,7
+2020-08-24,Disclaimer,18,17,1
+2020-08-31,Administration,15,14,1
+2020-08-31,Administrative receivership,0,0,0
+2020-08-31,Receivership,0,0,0
+2020-08-31,Creditors' voluntary liquidation,144,133,11
+2020-08-31,Winding-up order,13,12,1
+2020-08-31,Winding-up petition,7,7,0
+2020-08-31,Disclaimer,14,12,2
+2020-09-07,Administration,25,24,1
+2020-09-07,Administrative receivership,0,0,0
+2020-09-07,Receivership,0,0,0
+2020-09-07,Creditors' voluntary liquidation,193,180,13
+2020-09-07,Winding-up order,8,8,0
+2020-09-07,Winding-up petition,14,10,4
+2020-09-07,Disclaimer,18,17,1
+2020-09-14,Administration,22,20,2
+2020-09-14,Administrative receivership,0,0,0
+2020-09-14,Receivership,0,0,0
+2020-09-14,Creditors' voluntary liquidation,145,134,11
+2020-09-14,Winding-up order,17,16,1
+2020-09-14,Winding-up petition,18,13,5
+2020-09-14,Disclaimer,14,13,1
+2020-09-21,Administration,15,14,1
+2020-09-21,Administrative receivership,0,0,0
+2020-09-21,Receivership,0,0,0
+2020-09-21,Creditors' voluntary liquidation,157,139,18
+2020-09-21,Winding-up order,14,13,1
+2020-09-21,Winding-up petition,18,13,5
+2020-09-21,Disclaimer,15,14,1
+2020-09-28,Administration,13,13,0
+2020-09-28,Administrative receivership,0,0,0
+2020-09-28,Receivership,0,0,0
+2020-09-28,Creditors' voluntary liquidation,195,175,20
+2020-09-28,Winding-up order,13,11,2
+2020-09-28,Winding-up petition,14,9,5
+2020-09-28,Disclaimer,19,18,1
+2020-10-05,Administration,35,34,1
+2020-10-05,Administrative receivership,0,0,0
+2020-10-05,Receivership,0,0,0
+2020-10-05,Creditors' voluntary liquidation,175,161,14
+2020-10-05,Winding-up order,15,15,0
+2020-10-05,Winding-up petition,13,10,3
+2020-10-05,Disclaimer,18,16,2
+2020-10-12,Administration,30,26,4
+2020-10-12,Administrative receivership,0,0,0
+2020-10-12,Receivership,0,0,0
+2020-10-12,Creditors' voluntary liquidation,165,151,14
+2020-10-12,Winding-up order,15,15,0
+2020-10-12,Winding-up petition,20,18,2
+2020-10-12,Disclaimer,22,22,0
+2020-10-19,Administration,13,10,3
+2020-10-19,Administrative receivership,0,0,0
+2020-10-19,Receivership,0,0,0
+2020-10-19,Creditors' voluntary liquidation,188,166,22
+2020-10-19,Winding-up order,14,12,2
+2020-10-19,Winding-up petition,14,9,5
+2020-10-19,Disclaimer,35,34,1
+2020-10-26,Administration,15,14,1
+2020-10-26,Administrative receivership,0,0,0
+2020-10-26,Receivership,0,0,0
+2020-10-26,Creditors' voluntary liquidation,200,184,16
+2020-10-26,Winding-up order,11,11,0
+2020-10-26,Winding-up petition,10,9,1
+2020-10-26,Disclaimer,43,42,1
+2020-11-02,Administration,23,23,0
+2020-11-02,Administrative receivership,0,0,0
+2020-11-02,Receivership,0,0,0
+2020-11-02,Creditors' voluntary liquidation,210,188,22
+2020-11-02,Winding-up order,16,16,0
+2020-11-02,Winding-up petition,9,8,1
+2020-11-02,Disclaimer,26,25,1
+2020-11-09,Administration,23,23,0
+2020-11-09,Administrative receivership,0,0,0
+2020-11-09,Receivership,0,0,0
+2020-11-09,Creditors' voluntary liquidation,230,218,12
+2020-11-09,Winding-up order,7,7,0
+2020-11-09,Winding-up petition,20,15,5
+2020-11-09,Disclaimer,31,30,1
+2020-11-16,Administration,14,13,1
+2020-11-16,Administrative receivership,0,0,0
+2020-11-16,Receivership,0,0,0
+2020-11-16,Creditors' voluntary liquidation,188,170,18
+2020-11-16,Winding-up order,10,10,0
+2020-11-16,Winding-up petition,23,11,12
+2020-11-16,Disclaimer,25,25,0
+2020-11-23,Administration,18,18,0
+2020-11-23,Administrative receivership,0,0,0
+2020-11-23,Receivership,0,0,0
+2020-11-23,Creditors' voluntary liquidation,228,205,23
+2020-11-23,Winding-up order,12,12,0
+2020-11-23,Winding-up petition,23,14,9
+2020-11-23,Disclaimer,25,23,2
+2020-11-30,Administration,37,37,0
+2020-11-30,Administrative receivership,0,0,0
+2020-11-30,Receivership,0,0,0
+2020-11-30,Creditors' voluntary liquidation,237,216,21
+2020-11-30,Winding-up order,10,10,0
+2020-11-30,Winding-up petition,16,11,5
+2020-11-30,Disclaimer,25,23,2
+2020-12-07,Administration,46,42,4
+2020-12-07,Administrative receivership,0,0,0
+2020-12-07,Receivership,0,0,0
+2020-12-07,Creditors' voluntary liquidation,250,231,19
+2020-12-07,Winding-up order,10,10,0
+2020-12-07,Winding-up petition,11,9,2
+2020-12-07,Disclaimer,27,27,0
+2020-12-14,Administration,15,15,0
+2020-12-14,Administrative receivership,0,0,0
+2020-12-14,Receivership,0,0,0
+2020-12-14,Creditors' voluntary liquidation,228,200,28
+2020-12-14,Winding-up order,13,13,0
+2020-12-14,Winding-up petition,18,11,7
+2020-12-14,Disclaimer,17,17,0
+2020-12-21,Administration,13,12,1
+2020-12-21,Administrative receivership,0,0,0
+2020-12-21,Receivership,0,0,0
+2020-12-21,Creditors' voluntary liquidation,223,208,15
+2020-12-21,Winding-up order,10,10,0
+2020-12-21,Winding-up petition,14,10,4
+2020-12-21,Disclaimer,20,19,1
+2020-12-28,Administration,27,26,1
+2020-12-28,Administrative receivership,0,0,0
+2020-12-28,Receivership,0,0,0
+2020-12-28,Creditors' voluntary liquidation,147,144,3
+2020-12-28,Winding-up order,9,9,0
+2020-12-28,Winding-up petition,7,6,1
+2020-12-28,Disclaimer,3,2,1
+2021-01-04,Administration,3,2,1
+2021-01-04,Administrative receivership,0,0,0
+2021-01-04,Receivership,0,0,0
+2021-01-04,Creditors' voluntary liquidation,113,104,9
+2021-01-04,Winding-up order,7,5,2
+2021-01-04,Winding-up petition,14,11,3
+2021-01-04,Disclaimer,4,2,2
+2021-01-11,Administration,11,10,1
+2021-01-11,Administrative receivership,0,0,0
+2021-01-11,Receivership,0,0,0
+2021-01-11,Creditors' voluntary liquidation,126,121,5
+2021-01-11,Winding-up order,5,5,0
+2021-01-11,Winding-up petition,12,11,1
+2021-01-11,Disclaimer,27,26,1
+2021-01-18,Administration,12,12,0
+2021-01-18,Administrative receivership,0,0,0
+2021-01-18,Receivership,0,0,0
+2021-01-18,Creditors' voluntary liquidation,139,120,19
+2021-01-18,Winding-up order,20,19,1
+2021-01-18,Winding-up petition,12,10,2
+2021-01-18,Disclaimer,29,29,0
+2021-01-25,Administration,21,21,0
+2021-01-25,Administrative receivership,0,0,0
+2021-01-25,Receivership,0,0,0
+2021-01-25,Creditors' voluntary liquidation,163,147,16
+2021-01-25,Winding-up order,11,10,1
+2021-01-25,Winding-up petition,14,12,2
+2021-01-25,Disclaimer,23,20,3
+2021-02-01,Administration,20,20,0
+2021-02-01,Administrative receivership,0,0,0
+2021-02-01,Receivership,0,0,0
+2021-02-01,Creditors' voluntary liquidation,192,179,13
+2021-02-01,Winding-up order,14,13,1
+2021-02-01,Winding-up petition,10,10,0
+2021-02-01,Disclaimer,25,25,0
+2021-02-08,Administration,16,16,0
+2021-02-08,Administrative receivership,0,0,0
+2021-02-08,Receivership,0,0,0
+2021-02-08,Creditors' voluntary liquidation,162,149,13
+2021-02-08,Winding-up order,10,9,1
+2021-02-08,Winding-up petition,12,12,0
+2021-02-08,Disclaimer,22,22,0
+2021-02-15,Administration,16,16,0
+2021-02-15,Administrative receivership,0,0,0
+2021-02-15,Receivership,0,0,0
+2021-02-15,Creditors' voluntary liquidation,173,161,12
+2021-02-15,Winding-up order,10,10,0
+2021-02-15,Winding-up petition,18,15,3
+2021-02-15,Disclaimer,24,23,1
+2021-02-22,Administration,12,12,0
+2021-02-22,Administrative receivership,0,0,0
+2021-02-22,Receivership,0,0,0
+2021-02-22,Creditors' voluntary liquidation,194,174,20
+2021-02-22,Winding-up order,5,5,0
+2021-02-22,Winding-up petition,7,3,4
+2021-02-22,Disclaimer,35,33,2
+2021-03-01,Administration,23,22,1
+2021-03-01,Administrative receivership,0,0,0
+2021-03-01,Receivership,0,0,0
+2021-03-01,Creditors' voluntary liquidation,216,195,21
+2021-03-01,Winding-up order,16,16,0
+2021-03-01,Winding-up petition,7,4,3
+2021-03-01,Disclaimer,26,26,0
+2021-03-08,Administration,19,18,1
+2021-03-08,Administrative receivership,0,0,0
+2021-03-08,Receivership,0,0,0
+2021-03-08,Creditors' voluntary liquidation,225,209,16
+2021-03-08,Winding-up order,5,5,0
+2021-03-08,Winding-up petition,10,5,5
+2021-03-08,Disclaimer,40,40,0
+2021-03-15,Administration,17,17,0
+2021-03-15,Administrative receivership,0,0,0
+2021-03-15,Receivership,0,0,0
+2021-03-15,Creditors' voluntary liquidation,191,177,14
+2021-03-15,Winding-up order,4,4,0
+2021-03-15,Winding-up petition,10,6,4
+2021-03-15,Disclaimer,24,23,1
+2021-03-22,Administration,19,18,1
+2021-03-22,Administrative receivership,0,0,0
+2021-03-22,Receivership,0,0,0
+2021-03-22,Creditors' voluntary liquidation,220,201,19
+2021-03-22,Winding-up order,4,3,1
+2021-03-22,Winding-up petition,12,8,4
+2021-03-22,Disclaimer,36,36,0
+2021-03-29,Administration,18,18,0
+2021-03-29,Administrative receivership,0,0,0
+2021-03-29,Receivership,0,0,0
+2021-03-29,Creditors' voluntary liquidation,205,186,19
+2021-03-29,Winding-up order,8,8,0
+2021-03-29,Winding-up petition,8,4,4
+2021-03-29,Disclaimer,32,32,0
+2021-04-05,Administration,17,16,1
+2021-04-05,Administrative receivership,0,0,0
+2021-04-05,Receivership,0,0,0
+2021-04-05,Creditors' voluntary liquidation,214,197,17
+2021-04-05,Winding-up order,7,7,0
+2021-04-05,Winding-up petition,15,14,1
+2021-04-05,Disclaimer,12,11,1
+2021-04-12,Administration,16,15,1
+2021-04-12,Administrative receivership,0,0,0
+2021-04-12,Receivership,0,0,0
+2021-04-12,Creditors' voluntary liquidation,196,178,18
+2021-04-12,Winding-up order,4,4,0
+2021-04-12,Winding-up petition,14,14,0
+2021-04-12,Disclaimer,10,10,0
+2021-04-19,Administration,10,10,0
+2021-04-19,Administrative receivership,0,0,0
+2021-04-19,Receivership,0,0,0
+2021-04-19,Creditors' voluntary liquidation,215,196,19
+2021-04-19,Winding-up order,11,8,3
+2021-04-19,Winding-up petition,12,12,0
+2021-04-19,Disclaimer,29,23,6
+2021-04-26,Administration,7,7,0
+2021-04-26,Administrative receivership,0,0,0
+2021-04-26,Receivership,0,0,0
+2021-04-26,Creditors' voluntary liquidation,231,213,18
+2021-04-26,Winding-up order,9,9,0
+2021-04-26,Winding-up petition,10,6,4
+2021-04-26,Disclaimer,41,41,0
+2021-05-03,Administration,12,12,0
+2021-05-03,Administrative receivership,0,0,0
+2021-05-03,Receivership,0,0,0
+2021-05-03,Creditors' voluntary liquidation,228,210,18
+2021-05-03,Winding-up order,6,6,0
+2021-05-03,Winding-up petition,10,7,3
+2021-05-03,Disclaimer,16,15,1
+2021-05-10,Administration,13,13,0
+2021-05-10,Administrative receivership,0,0,0
+2021-05-10,Receivership,0,0,0
+2021-05-10,Creditors' voluntary liquidation,251,230,21
+2021-05-10,Winding-up order,12,12,0
+2021-05-10,Winding-up petition,18,14,4
+2021-05-10,Disclaimer,14,13,1
+2021-05-17,Administration,14,14,0
+2021-05-17,Administrative receivership,0,0,0
+2021-05-17,Receivership,0,0,0
+2021-05-17,Creditors' voluntary liquidation,253,233,20
+2021-05-17,Winding-up order,12,11,1
+2021-05-17,Winding-up petition,12,11,1
+2021-05-17,Disclaimer,18,17,1
+2021-05-24,Administration,6,6,0
+2021-05-24,Administrative receivership,0,0,0
+2021-05-24,Receivership,0,0,0
+2021-05-24,Creditors' voluntary liquidation,278,254,24
+2021-05-24,Winding-up order,9,9,0
+2021-05-24,Winding-up petition,14,9,5
+2021-05-24,Disclaimer,26,23,3
+2021-05-31,Administration,9,9,0
+2021-05-31,Administrative receivership,0,0,0
+2021-05-31,Receivership,0,0,0
+2021-05-31,Creditors' voluntary liquidation,206,194,12
+2021-05-31,Winding-up order,7,7,0
+2021-05-31,Winding-up petition,7,6,1
+2021-05-31,Disclaimer,16,16,0
+2021-06-07,Administration,15,15,0
+2021-06-07,Administrative receivership,0,0,0
+2021-06-07,Receivership,0,0,0
+2021-06-07,Creditors' voluntary liquidation,299,279,20
+2021-06-07,Winding-up order,2,2,0
+2021-06-07,Winding-up petition,15,13,2
+2021-06-07,Disclaimer,23,23,0
+2021-06-14,Administration,12,11,1
+2021-06-14,Administrative receivership,0,0,0
+2021-06-14,Receivership,0,0,0
+2021-06-14,Creditors' voluntary liquidation,312,291,21
+2021-06-14,Winding-up order,9,9,0
+2021-06-14,Winding-up petition,10,4,6
+2021-06-14,Disclaimer,21,20,1
+2021-06-21,Administration,8,8,0
+2021-06-21,Administrative receivership,0,0,0
+2021-06-21,Receivership,0,0,0
+2021-06-21,Creditors' voluntary liquidation,317,278,39
+2021-06-21,Winding-up order,12,12,0
+2021-06-21,Winding-up petition,15,9,6
+2021-06-21,Disclaimer,26,25,1
+2021-06-28,Administration,9,8,1
+2021-06-28,Administrative receivership,0,0,0
+2021-06-28,Receivership,0,0,0
+2021-06-28,Creditors' voluntary liquidation,291,271,20
+2021-06-28,Winding-up order,12,12,0
+2021-06-28,Winding-up petition,9,7,2
+2021-06-28,Disclaimer,29,28,1
+2021-07-05,Administration,9,9,0
+2021-07-05,Administrative receivership,0,0,0
+2021-07-05,Receivership,0,0,0
+2021-07-05,Creditors' voluntary liquidation,284,271,13
+2021-07-05,Winding-up order,5,4,1
+2021-07-05,Winding-up petition,17,14,3
+2021-07-05,Disclaimer,23,23,0
+2021-07-12,Administration,18,18,0
+2021-07-12,Administrative receivership,0,0,0
+2021-07-12,Receivership,0,0,0
+2021-07-12,Creditors' voluntary liquidation,260,240,20
+2021-07-12,Winding-up order,9,9,0
+2021-07-12,Winding-up petition,12,6,6
+2021-07-12,Disclaimer,20,19,1
+2021-07-19,Administration,13,13,0
+2021-07-19,Administrative receivership,0,0,0
+2021-07-19,Receivership,0,0,0
+2021-07-19,Creditors' voluntary liquidation,279,254,25
+2021-07-19,Winding-up order,10,9,1
+2021-07-19,Winding-up petition,21,11,10
+2021-07-19,Disclaimer,25,24,1
+2021-07-26,Administration,7,7,0
+2021-07-26,Administrative receivership,0,0,0
+2021-07-26,Receivership,0,0,0
+2021-07-26,Creditors' voluntary liquidation,285,254,31
+2021-07-26,Winding-up order,8,8,0
+2021-07-26,Winding-up petition,13,12,1
+2021-07-26,Disclaimer,33,32,1
+2021-08-02,Administration,13,12,1
+2021-08-02,Administrative receivership,0,0,0
+2021-08-02,Receivership,0,0,0
+2021-08-02,Creditors' voluntary liquidation,365,340,25
+2021-08-02,Winding-up order,6,6,0
+2021-08-02,Winding-up petition,14,8,6
+2021-08-02,Disclaimer,33,33,0
+2021-08-09,Administration,16,16,0
+2021-08-09,Administrative receivership,0,0,0
+2021-08-09,Receivership,0,0,0
+2021-08-09,Creditors' voluntary liquidation,273,249,24
+2021-08-09,Winding-up order,16,15,1
+2021-08-09,Winding-up petition,8,8,0
+2021-08-09,Disclaimer,43,43,0
+2021-08-16,Administration,18,17,1
+2021-08-16,Administrative receivership,0,0,0
+2021-08-16,Receivership,0,0,0
+2021-08-16,Creditors' voluntary liquidation,288,257,31
+2021-08-16,Winding-up order,13,13,0
+2021-08-16,Winding-up petition,2,2,0
+2021-08-16,Disclaimer,21,20,1
+2021-08-23,Administration,18,18,0
+2021-08-23,Administrative receivership,0,0,0
+2021-08-23,Receivership,0,0,0
+2021-08-23,Creditors' voluntary liquidation,296,276,20
+2021-08-23,Winding-up order,8,8,0
+2021-08-23,Winding-up petition,13,9,4
+2021-08-23,Disclaimer,22,19,3
+2021-08-30,Administration,12,12,0
+2021-08-30,Administrative receivership,0,0,0
+2021-08-30,Receivership,0,0,0
+2021-08-30,Creditors' voluntary liquidation,262,239,23
+2021-08-30,Winding-up order,1,0,1
+2021-08-30,Winding-up petition,20,13,7
+2021-08-30,Disclaimer,36,35,1
+2021-09-06,Administration,17,17,0
+2021-09-06,Administrative receivership,0,0,0
+2021-09-06,Receivership,0,0,0
+2021-09-06,Creditors' voluntary liquidation,346,332,14
+2021-09-06,Winding-up order,7,7,0
+2021-09-06,Winding-up petition,8,2,6
+2021-09-06,Disclaimer,21,21,0
+2021-09-13,Administration,28,28,0
+2021-09-13,Administrative receivership,0,0,0
+2021-09-13,Receivership,0,0,0
+2021-09-13,Creditors' voluntary liquidation,257,233,24
+2021-09-13,Winding-up order,4,4,0
+2021-09-13,Winding-up petition,12,9,3
+2021-09-13,Disclaimer,24,23,1
+2021-09-20,Administration,22,21,1
+2021-09-20,Administrative receivership,0,0,0
+2021-09-20,Receivership,0,0,0
+2021-09-20,Creditors' voluntary liquidation,294,274,20
+2021-09-20,Winding-up order,9,8,1
+2021-09-20,Winding-up petition,14,11,3
+2021-09-20,Disclaimer,29,29,0
+2021-09-27,Administration,19,19,0
+2021-09-27,Administrative receivership,0,0,0
+2021-09-27,Receivership,0,0,0
+2021-09-27,Creditors' voluntary liquidation,298,263,35
+2021-09-27,Winding-up order,0,0,0
+2021-09-27,Winding-up petition,19,13,6
+2021-09-27,Disclaimer,20,20,0
+2021-10-04,Administration,29,29,0
+2021-10-04,Administrative receivership,0,0,0
+2021-10-04,Receivership,0,0,0
+2021-10-04,Creditors' voluntary liquidation,336,301,35
+2021-10-04,Winding-up order,5,4,1
+2021-10-04,Winding-up petition,18,13,5
+2021-10-04,Disclaimer,12,11,1
+2021-10-11,Administration,25,25,0
+2021-10-11,Administrative receivership,0,0,0
+2021-10-11,Receivership,0,0,0
+2021-10-11,Creditors' voluntary liquidation,307,279,28
+2021-10-11,Winding-up order,10,10,0
+2021-10-11,Winding-up petition,11,8,3
+2021-10-11,Disclaimer,20,19,1
+2021-10-18,Administration,18,12,6
+2021-10-18,Administrative receivership,0,0,0
+2021-10-18,Receivership,0,0,0
+2021-10-18,Creditors' voluntary liquidation,341,124,217
+2021-10-18,Winding-up order,8,7,1
+2021-10-18,Winding-up petition,17,6,11
+2021-10-18,Disclaimer,19,16,3
+2021-10-25,Administration,14,12,2
+2021-10-25,Administrative receivership,0,0,0
+2021-10-25,Receivership,0,0,0
+2021-10-25,Creditors' voluntary liquidation,378,340,38
+2021-10-25,Winding-up order,14,10,4
+2021-10-25,Winding-up petition,27,20,7
+2021-10-25,Disclaimer,16,10,6
+2021-11-01,Administration,38,37,1
+2021-11-01,Administrative receivership,0,0,0
+2021-11-01,Receivership,0,0,0
+2021-11-01,Creditors' voluntary liquidation,397,370,27
+2021-11-01,Winding-up order,12,12,0
+2021-11-01,Winding-up petition,20,8,12
+2021-11-01,Disclaimer,40,38,2
+2021-11-08,Administration,22,22,0
+2021-11-08,Administrative receivership,0,0,0
+2021-11-08,Receivership,0,0,0
+2021-11-08,Creditors' voluntary liquidation,321,285,36
+2021-11-08,Winding-up order,14,12,2
+2021-11-08,Winding-up petition,28,21,7
+2021-11-08,Disclaimer,24,22,2
+2021-11-15,Administration,20,20,0
+2021-11-15,Administrative receivership,0,0,0
+2021-11-15,Receivership,0,0,0
+2021-11-15,Creditors' voluntary liquidation,347,320,27
+2021-11-15,Winding-up order,22,19,3
+2021-11-15,Winding-up petition,23,18,5
+2021-11-15,Disclaimer,29,27,2
+2021-11-22,Administration,21,21,0
+2021-11-22,Administrative receivership,0,0,0
+2021-11-22,Receivership,0,0,0
+2021-11-22,Creditors' voluntary liquidation,364,342,22
+2021-11-22,Winding-up order,16,15,1
+2021-11-22,Winding-up petition,31,20,11
+2021-11-22,Disclaimer,26,26,0
+2021-11-29,Administration,21,20,1
+2021-11-29,Administrative receivership,0,0,0
+2021-11-29,Receivership,0,0,0
+2021-11-29,Creditors' voluntary liquidation,428,397,31
+2021-11-29,Winding-up order,7,7,0
+2021-11-29,Winding-up petition,32,26,6
+2021-11-29,Disclaimer,18,17,1
+2021-12-06,Administration,22,21,1
+2021-12-06,Administrative receivership,0,0,0
+2021-12-06,Receivership,0,0,0
+2021-12-06,Creditors' voluntary liquidation,412,377,35
+2021-12-06,Winding-up order,15,14,1
+2021-12-06,Winding-up petition,42,33,9
+2021-12-06,Disclaimer,42,37,5
+2021-12-13,Administration,17,17,0
+2021-12-13,Administrative receivership,0,0,0
+2021-12-13,Receivership,0,0,0
+2021-12-13,Creditors' voluntary liquidation,402,367,35
+2021-12-13,Winding-up order,9,6,3
+2021-12-13,Winding-up petition,33,27,6
+2021-12-13,Disclaimer,23,20,3
+2021-12-20,Administration,29,28,1
+2021-12-20,Administrative receivership,0,0,0
+2021-12-20,Receivership,0,0,0
+2021-12-20,Creditors' voluntary liquidation,590,554,36
+2021-12-20,Winding-up order,20,16,4
+2021-12-20,Winding-up petition,53,40,13
+2021-12-20,Disclaimer,39,38,1
+2021-12-27,Administration,16,15,1
+2021-12-27,Administrative receivership,0,0,0
+2021-12-27,Receivership,0,0,0
+2021-12-27,Creditors' voluntary liquidation,233,224,9
+2021-12-27,Winding-up order,4,4,0
+2021-12-27,Winding-up petition,10,6,4
+2021-12-27,Disclaimer,21,21,0
+2022-01-03,Administration,2,2,0
+2022-01-03,Administrative receivership,0,0,0
+2022-01-03,Receivership,0,0,0
+2022-01-03,Creditors' voluntary liquidation,107,100,7
+2022-01-03,Winding-up order,2,2,0
+2022-01-03,Winding-up petition,32,27,5
+2022-01-03,Disclaimer,14,12,2
+2022-01-10,Administration,12,8,4
+2022-01-10,Administrative receivership,0,0,0
+2022-01-10,Receivership,0,0,0
+2022-01-10,Creditors' voluntary liquidation,200,186,14
+2022-01-10,Winding-up order,11,11,0
+2022-01-10,Winding-up petition,40,35,5
+2022-01-10,Disclaimer,36,36,0
+2022-01-17,Administration,10,10,0
+2022-01-17,Administrative receivership,0,0,0
+2022-01-17,Receivership,0,0,0
+2022-01-17,Creditors' voluntary liquidation,244,228,16
+2022-01-17,Winding-up order,50,50,0
+2022-01-17,Winding-up petition,30,22,8
+2022-01-17,Disclaimer,23,23,0
+2022-01-24,Administration,23,23,0
+2022-01-24,Administrative receivership,0,0,0
+2022-01-24,Receivership,0,0,0
+2022-01-24,Creditors' voluntary liquidation,304,261,43
+2022-01-24,Winding-up order,30,28,2
+2022-01-24,Winding-up petition,34,23,11
+2022-01-24,Disclaimer,27,25,2
+2022-01-31,Administration,18,17,1
+2022-01-31,Administrative receivership,0,0,0
+2022-01-31,Receivership,0,0,0
+2022-01-31,Creditors' voluntary liquidation,407,364,43
+2022-01-31,Winding-up order,32,32,0
+2022-01-31,Winding-up petition,31,25,6
+2022-01-31,Disclaimer,11,7,4
+2022-02-07,Administration,30,26,4
+2022-02-07,Administrative receivership,0,0,0
+2022-02-07,Receivership,0,0,0
+2022-02-07,Creditors' voluntary liquidation,419,389,30
+2022-02-07,Winding-up order,20,19,1
+2022-02-07,Winding-up petition,44,36,8
+2022-02-07,Disclaimer,34,31,3
+2022-02-14,Administration,25,25,0
+2022-02-14,Administrative receivership,0,0,0
+2022-02-14,Receivership,0,0,0
+2022-02-14,Creditors' voluntary liquidation,383,360,23
+2022-02-14,Winding-up order,22,20,2
+2022-02-14,Winding-up petition,36,30,6
+2022-02-14,Disclaimer,24,22,2
+2022-02-21,Administration,27,27,0
+2022-02-21,Administrative receivership,0,0,0
+2022-02-21,Receivership,0,0,0
+2022-02-21,Creditors' voluntary liquidation,445,405,40
+2022-02-21,Winding-up order,22,17,5
+2022-02-21,Winding-up petition,42,38,4
+2022-02-21,Disclaimer,24,23,1
+2022-02-28,Administration,31,29,2
+2022-02-28,Administrative receivership,0,0,0
+2022-02-28,Receivership,0,0,0
+2022-02-28,Creditors' voluntary liquidation,461,422,39
+2022-02-28,Winding-up order,22,18,4
+2022-02-28,Winding-up petition,27,20,7
+2022-02-28,Disclaimer,47,47,0
+2022-03-07,Administration,29,27,2
+2022-03-07,Administrative receivership,0,0,0
+2022-03-07,Receivership,0,0,0
+2022-03-07,Creditors' voluntary liquidation,429,394,35
+2022-03-07,Winding-up order,22,21,1
+2022-03-07,Winding-up petition,58,42,16
+2022-03-07,Disclaimer,20,19,1
+2022-03-14,Administration,18,18,0
+2022-03-14,Administrative receivership,0,0,0
+2022-03-14,Receivership,0,0,0
+2022-03-14,Creditors' voluntary liquidation,407,365,42
+2022-03-14,Winding-up order,25,25,0
+2022-03-14,Winding-up petition,53,31,22
+2022-03-14,Disclaimer,26,24,2
+2022-03-21,Administration,28,27,1
+2022-03-21,Administrative receivership,0,0,0
+2022-03-21,Receivership,0,0,0
+2022-03-21,Creditors' voluntary liquidation,426,390,36
+2022-03-21,Winding-up order,24,24,0
+2022-03-21,Winding-up petition,35,23,12
+2022-03-21,Disclaimer,27,26,1
+2022-03-28,Administration,36,36,0
+2022-03-28,Administrative receivership,0,0,0
+2022-03-28,Receivership,0,0,0
+2022-03-28,Creditors' voluntary liquidation,419,382,37
+2022-03-28,Winding-up order,49,46,3
+2022-03-28,Winding-up petition,43,39,4
+2022-03-28,Disclaimer,15,14,1
+2022-04-04,Administration,40,38,2
+2022-04-04,Administrative receivership,0,0,0
+2022-04-04,Receivership,0,0,0
+2022-04-04,Creditors' voluntary liquidation,432,401,31
+2022-04-04,Winding-up order,35,29,6
+2022-04-04,Winding-up petition,29,19,10
+2022-04-04,Disclaimer,20,18,2
+2022-04-11,Administration,20,18,2
+2022-04-11,Administrative receivership,0,0,0
+2022-04-11,Receivership,0,0,0
+2022-04-11,Creditors' voluntary liquidation,345,319,26
+2022-04-11,Winding-up order,19,18,1
+2022-04-11,Winding-up petition,49,42,7
+2022-04-11,Disclaimer,24,24,0
+2022-04-18,Administration,17,17,0
+2022-04-18,Administrative receivership,0,0,0
+2022-04-18,Receivership,0,0,0
+2022-04-18,Creditors' voluntary liquidation,403,362,41
+2022-04-18,Winding-up order,32,32,0
+2022-04-18,Winding-up petition,31,24,7
+2022-04-18,Disclaimer,24,21,3
+2022-04-25,Administration,20,20,0
+2022-04-25,Administrative receivership,0,0,0
+2022-04-25,Receivership,0,0,0
+2022-04-25,Creditors' voluntary liquidation,380,347,33
+2022-04-25,Winding-up order,28,28,0
+2022-04-25,Winding-up petition,58,50,8
+2022-04-25,Disclaimer,29,26,3
+2022-05-02,Administration,16,14,2
+2022-05-02,Administrative receivership,0,0,0
+2022-05-02,Receivership,0,0,0
+2022-05-02,Creditors' voluntary liquidation,384,359,25
+2022-05-02,Winding-up order,40,34,6
+2022-05-02,Winding-up petition,42,32,10
+2022-05-02,Disclaimer,24,24,0
+2022-05-09,Administration,24,24,0
+2022-05-09,Administrative receivership,0,0,0
+2022-05-09,Receivership,0,0,0
+2022-05-09,Creditors' voluntary liquidation,352,326,26
+2022-05-09,Winding-up order,31,29,2
+2022-05-09,Winding-up petition,69,62,7
+2022-05-09,Disclaimer,19,19,0
+2022-05-16,Administration,21,21,0
+2022-05-16,Administrative receivership,0,0,0
+2022-05-16,Receivership,0,0,0
+2022-05-16,Creditors' voluntary liquidation,394,357,37
+2022-05-16,Winding-up order,23,23,0
+2022-05-16,Winding-up petition,40,36,4
+2022-05-16,Disclaimer,28,23,5
+2022-05-23,Administration,14,13,1
+2022-05-23,Administrative receivership,0,0,0
+2022-05-23,Receivership,0,0,0
+2022-05-23,Creditors' voluntary liquidation,406,364,42
+2022-05-23,Winding-up order,31,30,1
+2022-05-23,Winding-up petition,74,58,16
+2022-05-23,Disclaimer,20,19,1
+2022-05-30,Administration,12,12,0
+2022-05-30,Administrative receivership,0,0,0
+2022-05-30,Receivership,0,0,0
+2022-05-30,Creditors' voluntary liquidation,288,263,25
+2022-05-30,Winding-up order,54,52,2
+2022-05-30,Winding-up petition,32,27,5
+2022-05-30,Disclaimer,17,16,1
+2022-06-06,Administration,30,29,1
+2022-06-06,Administrative receivership,0,0,0
+2022-06-06,Receivership,0,0,0
+2022-06-06,Creditors' voluntary liquidation,419,381,38
+2022-06-06,Winding-up order,9,9,0
+2022-06-06,Winding-up petition,43,33,10
+2022-06-06,Disclaimer,12,12,0
+2022-06-13,Administration,26,26,0
+2022-06-13,Administrative receivership,0,0,0
+2022-06-13,Receivership,0,0,0
+2022-06-13,Creditors' voluntary liquidation,341,327,14
+2022-06-13,Winding-up order,57,51,6
+2022-06-13,Winding-up petition,68,52,16
+2022-06-13,Disclaimer,28,28,0
+2022-06-20,Administration,29,27,2
+2022-06-20,Administrative receivership,1,0,1
+2022-06-20,Receivership,0,0,0
+2022-06-20,Creditors' voluntary liquidation,381,345,36
+2022-06-20,Winding-up order,49,48,1
+2022-06-20,Winding-up petition,41,30,11
+2022-06-20,Disclaimer,15,12,3
+2022-06-27,Administration,12,12,0
+2022-06-27,Administrative receivership,0,0,0
+2022-06-27,Receivership,0,0,0
+2022-06-27,Creditors' voluntary liquidation,397,358,39
+2022-06-27,Winding-up order,30,26,4
+2022-06-27,Winding-up petition,83,69,14
+2022-06-27,Disclaimer,11,10,1
+2022-07-04,Administration,24,22,2
+2022-07-04,Administrative receivership,0,0,0
+2022-07-04,Receivership,0,0,0
+2022-07-04,Creditors' voluntary liquidation,402,374,28
+2022-07-04,Winding-up order,34,32,2
+2022-07-04,Winding-up petition,40,26,14
+2022-07-04,Disclaimer,18,14,4
+2022-07-11,Administration,26,26,0
+2022-07-11,Administrative receivership,0,0,0
+2022-07-11,Receivership,0,0,0
+2022-07-11,Creditors' voluntary liquidation,407,358,49
+2022-07-11,Winding-up order,25,24,1
+2022-07-11,Winding-up petition,68,57,11
+2022-07-11,Disclaimer,15,15,0
+2022-07-18,Administration,25,25,0
+2022-07-18,Administrative receivership,0,0,0
+2022-07-18,Receivership,0,0,0
+2022-07-18,Creditors' voluntary liquidation,407,380,27
+2022-07-18,Winding-up order,52,52,0
+2022-07-18,Winding-up petition,66,59,7
+2022-07-18,Disclaimer,33,33,0
+2022-07-25,Administration,18,18,0
+2022-07-25,Administrative receivership,0,0,0
+2022-07-25,Receivership,0,0,0
+2022-07-25,Creditors' voluntary liquidation,462,421,41
+2022-07-25,Winding-up order,50,49,1
+2022-07-25,Winding-up petition,51,42,9
+2022-07-25,Disclaimer,14,10,4
+2022-08-01,Administration,23,23,0
+2022-08-01,Administrative receivership,0,0,0
+2022-08-01,Receivership,0,0,0
+2022-08-01,Creditors' voluntary liquidation,399,379,20
+2022-08-01,Winding-up order,44,43,1
+2022-08-01,Winding-up petition,85,59,26
+2022-08-01,Disclaimer,26,24,2
+2022-08-08,Administration,23,23,0
+2022-08-08,Administrative receivership,0,0,0
+2022-08-08,Receivership,0,0,0
+2022-08-08,Creditors' voluntary liquidation,381,340,41
+2022-08-08,Winding-up order,39,38,1
+2022-08-08,Winding-up petition,55,47,8
+2022-08-08,Disclaimer,12,8,4
+2022-08-15,Administration,34,32,2
+2022-08-15,Administrative receivership,0,0,0
+2022-08-15,Receivership,0,0,0
+2022-08-15,Creditors' voluntary liquidation,399,371,28
+2022-08-15,Winding-up order,28,28,0
+2022-08-15,Winding-up petition,40,33,7
+2022-08-15,Disclaimer,16,13,3
+2022-08-22,Administration,35,34,1
+2022-08-22,Administrative receivership,0,0,0
+2022-08-22,Receivership,0,0,0
+2022-08-22,Creditors' voluntary liquidation,357,327,30
+2022-08-22,Winding-up order,55,55,0
+2022-08-22,Winding-up petition,123,91,32
+2022-08-22,Disclaimer,18,17,1
+2022-08-29,Administration,13,13,0
+2022-08-29,Administrative receivership,0,0,0
+2022-08-29,Receivership,0,0,0
+2022-08-29,Creditors' voluntary liquidation,351,330,21
+2022-08-29,Winding-up order,23,21,2
+2022-08-29,Winding-up petition,84,76,8
+2022-08-29,Disclaimer,16,15,1
+2022-09-05,Administration,18,18,0
+2022-09-05,Administrative receivership,0,0,0
+2022-09-05,Receivership,0,0,0
+2022-09-05,Creditors' voluntary liquidation,388,357,31
+2022-09-05,Winding-up order,13,13,0
+2022-09-05,Winding-up petition,91,76,15
+2022-09-05,Disclaimer,20,18,2
+2022-09-12,Administration,30,29,1
+2022-09-12,Administrative receivership,0,0,0
+2022-09-12,Receivership,0,0,0
+2022-09-12,Creditors' voluntary liquidation,343,314,29
+2022-09-12,Winding-up order,84,82,2
+2022-09-12,Winding-up petition,65,49,16
+2022-09-12,Disclaimer,11,9,2
+2022-09-19,Administration,27,27,0
+2022-09-19,Administrative receivership,0,0,0
+2022-09-19,Receivership,0,0,0
+2022-09-19,Creditors' voluntary liquidation,324,288,36
+2022-09-19,Winding-up order,59,55,4
+2022-09-19,Winding-up petition,115,104,11
+2022-09-19,Disclaimer,19,17,2
+2022-09-26,Administration,30,30,0
+2022-09-26,Administrative receivership,0,0,0
+2022-09-26,Receivership,0,0,0
+2022-09-26,Creditors' voluntary liquidation,403,362,41
+2022-09-26,Winding-up order,53,51,2
+2022-09-26,Winding-up petition,64,60,4
+2022-09-26,Disclaimer,16,15,1
+2022-10-03,Administration,20,20,0
+2022-10-03,Administrative receivership,0,0,0
+2022-10-03,Receivership,0,0,0
+2022-10-03,Creditors' voluntary liquidation,417,391,26
+2022-10-03,Winding-up order,17,17,0
+2022-10-03,Winding-up petition,66,58,8
+2022-10-03,Disclaimer,14,14,0
+2022-10-10,Administration,33,31,2
+2022-10-10,Administrative receivership,0,0,0
+2022-10-10,Receivership,0,0,0
+2022-10-10,Creditors' voluntary liquidation,407,373,34
+2022-10-10,Winding-up order,62,62,0
+2022-10-10,Winding-up petition,104,95,9
+2022-10-10,Disclaimer,11,10,1
+2022-10-17,Administration,22,22,0
+2022-10-17,Administrative receivership,0,0,0
+2022-10-17,Receivership,0,0,0
+2022-10-17,Creditors' voluntary liquidation,380,353,27
+2022-10-17,Winding-up order,51,50,1
+2022-10-17,Winding-up petition,114,94,20
+2022-10-17,Disclaimer,11,11,0
+2022-10-24,Administration,30,28,2
+2022-10-24,Administrative receivership,0,0,0
+2022-10-24,Receivership,0,0,0
+2022-10-24,Creditors' voluntary liquidation,408,375,33
+2022-10-24,Winding-up order,44,43,1
+2022-10-24,Winding-up petition,111,95,16
+2022-10-24,Disclaimer,13,11,2
+2022-10-31,Administration,30,29,1
+2022-10-31,Administrative receivership,0,0,0
+2022-10-31,Receivership,0,0,0
+2022-10-31,Creditors' voluntary liquidation,428,400,28
+2022-10-31,Winding-up order,87,86,1
+2022-10-31,Winding-up petition,111,103,8
+2022-10-31,Disclaimer,25,24,1
+2022-11-07,Administration,34,34,0
+2022-11-07,Administrative receivership,0,0,0
+2022-11-07,Receivership,0,0,0
+2022-11-07,Creditors' voluntary liquidation,394,365,29
+2022-11-07,Winding-up order,70,70,0
+2022-11-07,Winding-up petition,124,109,15
+2022-11-07,Disclaimer,17,15,2
+2022-11-14,Administration,37,37,0
+2022-11-14,Administrative receivership,0,0,0
+2022-11-14,Receivership,0,0,0
+2022-11-14,Creditors' voluntary liquidation,380,342,38
+2022-11-14,Winding-up order,57,57,0
+2022-11-14,Winding-up petition,96,87,9
+2022-11-14,Disclaimer,31,31,0
+2022-11-21,Administration,45,44,1
+2022-11-21,Administrative receivership,0,0,0
+2022-11-21,Receivership,0,0,0
+2022-11-21,Creditors' voluntary liquidation,418,386,32
+2022-11-21,Winding-up order,55,50,5
+2022-11-21,Winding-up petition,113,104,9
+2022-11-21,Disclaimer,17,16,1
+2022-11-28,Administration,21,21,0
+2022-11-28,Administrative receivership,0,0,0
+2022-11-28,Receivership,0,0,0
+2022-11-28,Creditors' voluntary liquidation,435,401,34
+2022-11-28,Winding-up order,55,54,1
+2022-11-28,Winding-up petition,105,79,26
+2022-11-28,Disclaimer,23,23,0
+2022-12-05,Administration,38,38,0
+2022-12-05,Administrative receivership,0,0,0
+2022-12-05,Receivership,0,0,0
+2022-12-05,Creditors' voluntary liquidation,426,392,34
+2022-12-05,Winding-up order,62,59,3
+2022-12-05,Winding-up petition,62,54,8
+2022-12-05,Disclaimer,19,19,0
+2022-12-12,Administration,40,37,3
+2022-12-12,Administrative receivership,0,0,0
+2022-12-12,Receivership,0,0,0
+2022-12-12,Creditors' voluntary liquidation,478,440,38
+2022-12-12,Winding-up order,51,49,2
+2022-12-12,Winding-up petition,47,41,6
+2022-12-12,Disclaimer,17,14,3
+2022-12-19,Administration,21,20,1
+2022-12-19,Administrative receivership,0,0,0
+2022-12-19,Receivership,0,0,0
+2022-12-19,Creditors' voluntary liquidation,570,510,60
+2022-12-19,Winding-up order,81,79,2
+2022-12-19,Winding-up petition,64,55,9
+2022-12-19,Disclaimer,29,29,0
+2022-12-26,Administration,21,18,3
+2022-12-26,Administrative receivership,0,0,0
+2022-12-26,Receivership,0,0,0
+2022-12-26,Creditors' voluntary liquidation,269,262,7
+2022-12-26,Winding-up order,37,37,0
+2022-12-26,Winding-up petition,107,106,1
+2022-12-26,Disclaimer,10,9,1
+2023-01-02,Administration,9,9,0
+2023-01-02,Administrative receivership,0,0,0
+2023-01-02,Receivership,0,0,0
+2023-01-02,Creditors' voluntary liquidation,175,165,10
+2023-01-02,Winding-up order,14,13,1
+2023-01-02,Winding-up petition,84,80,4
+2023-01-02,Disclaimer,7,7,0
+2023-01-09,Administration,17,17,0
+2023-01-09,Administrative receivership,0,0,0
+2023-01-09,Receivership,0,0,0
+2023-01-09,Creditors' voluntary liquidation,174,163,11
+2023-01-09,Winding-up order,14,14,0
+2023-01-09,Winding-up petition,91,80,11
+2023-01-09,Disclaimer,20,20,0
+2023-01-16,Administration,17,17,0
+2023-01-16,Administrative receivership,0,0,0
+2023-01-16,Receivership,0,0,0
+2023-01-16,Creditors' voluntary liquidation,287,256,31
+2023-01-16,Winding-up order,52,52,0
+2023-01-16,Winding-up petition,50,37,13
+2023-01-16,Disclaimer,13,12,1
+2023-01-23,Administration,20,20,0
+2023-01-23,Administrative receivership,0,0,0
+2023-01-23,Receivership,0,0,0
+2023-01-23,Creditors' voluntary liquidation,390,355,35
+2023-01-23,Winding-up order,64,64,0
+2023-01-23,Winding-up petition,92,77,15
+2023-01-23,Disclaimer,17,15,2
+2023-01-30,Administration,30,30,0
+2023-01-30,Administrative receivership,0,0,0
+2023-01-30,Receivership,0,0,0
+2023-01-30,Creditors' voluntary liquidation,456,429,27
+2023-01-30,Winding-up order,41,41,0
+2023-01-30,Winding-up petition,67,57,10
+2023-01-30,Disclaimer,19,18,1
+2023-02-06,Administration,30,29,1
+2023-02-06,Administrative receivership,0,0,0
+2023-02-06,Receivership,0,0,0
+2023-02-06,Creditors' voluntary liquidation,435,402,33
+2023-02-06,Winding-up order,34,33,1
+2023-02-06,Winding-up petition,77,73,4
+2023-02-06,Disclaimer,9,9,0
+2023-02-13,Administration,34,34,0
+2023-02-13,Administrative receivership,0,0,0
+2023-02-13,Receivership,0,0,0
+2023-02-13,Creditors' voluntary liquidation,406,379,27
+2023-02-13,Winding-up order,54,52,2
+2023-02-13,Winding-up petition,118,107,11
+2023-02-13,Disclaimer,12,12,0
+2023-02-20,Administration,22,22,0
+2023-02-20,Administrative receivership,0,0,0
+2023-02-20,Receivership,0,0,0
+2023-02-20,Creditors' voluntary liquidation,446,409,37
+2023-02-20,Winding-up order,32,32,0
+2023-02-20,Winding-up petition,112,95,17
+2023-02-20,Disclaimer,8,8,0
+2023-02-27,Administration,32,32,0
+2023-02-27,Administrative receivership,0,0,0
+2023-02-27,Receivership,0,0,0
+2023-02-27,Creditors' voluntary liquidation,509,475,34
+2023-02-27,Winding-up order,49,49,0
+2023-02-27,Winding-up petition,88,79,9
+2023-02-27,Disclaimer,24,23,1
+2023-03-06,Administration,45,42,3
+2023-03-06,Administrative receivership,0,0,0
+2023-03-06,Receivership,0,0,0
+2023-03-06,Creditors' voluntary liquidation,488,450,38
+2023-03-06,Winding-up order,49,48,1
+2023-03-06,Winding-up petition,96,85,11
+2023-03-06,Disclaimer,16,16,0
+2023-03-13,Administration,34,34,0
+2023-03-13,Administrative receivership,0,0,0
+2023-03-13,Receivership,0,0,0
+2023-03-13,Creditors' voluntary liquidation,418,367,51
+2023-03-13,Winding-up order,62,61,1
+2023-03-13,Winding-up petition,118,108,10
+2023-03-13,Disclaimer,25,22,3
+2023-03-20,Administration,31,31,0
+2023-03-20,Administrative receivership,0,0,0
+2023-03-20,Receivership,0,0,0
+2023-03-20,Creditors' voluntary liquidation,456,427,29
+2023-03-20,Winding-up order,68,68,0
+2023-03-20,Winding-up petition,70,59,11
+2023-03-20,Disclaimer,12,10,2
+2023-03-27,Administration,28,28,0
+2023-03-27,Administrative receivership,0,0,0
+2023-03-27,Receivership,0,0,0
+2023-03-27,Creditors' voluntary liquidation,462,424,38
+2023-03-27,Winding-up order,67,67,0
+2023-03-27,Winding-up petition,43,39,4
+2023-03-27,Disclaimer,32,32,0
+2023-04-03,Administration,34,32,2
+2023-04-03,Administrative receivership,0,0,0
+2023-04-03,Receivership,0,0,0
+2023-04-03,Creditors' voluntary liquidation,400,366,34
+2023-04-03,Winding-up order,60,58,2
+2023-04-03,Winding-up petition,131,113,18
+2023-04-03,Disclaimer,34,31,3
+2023-04-10,Administration,47,47,0
+2023-04-10,Administrative receivership,0,0,0
+2023-04-10,Receivership,0,0,0
+2023-04-10,Creditors' voluntary liquidation,448,416,32
+2023-04-10,Winding-up order,51,51,0
+2023-04-10,Winding-up petition,109,95,14
+2023-04-10,Disclaimer,20,18,2
+2023-04-17,Administration,21,20,1
+2023-04-17,Administrative receivership,0,0,0
+2023-04-17,Receivership,0,0,0
+2023-04-17,Creditors' voluntary liquidation,435,407,28
+2023-04-17,Winding-up order,24,24,0
+2023-04-17,Winding-up petition,84,67,17
+2023-04-17,Disclaimer,10,10,0
+2023-04-24,Administration,39,38,1
+2023-04-24,Administrative receivership,0,0,0
+2023-04-24,Receivership,0,0,0
+2023-04-24,Creditors' voluntary liquidation,412,374,38
+2023-04-24,Winding-up order,55,54,1
+2023-04-24,Winding-up petition,85,79,6
+2023-04-24,Disclaimer,18,18,0
+2023-05-01,Administration,36,36,0
+2023-05-01,Administrative receivership,0,0,0
+2023-05-01,Receivership,0,0,0
+2023-05-01,Creditors' voluntary liquidation,363,340,23
+2023-05-01,Winding-up order,67,67,0
+2023-05-01,Winding-up petition,81,70,11
+2023-05-01,Disclaimer,20,18,2
+2023-05-08,Administration,28,28,0
+2023-05-08,Administrative receivership,0,0,0
+2023-05-08,Receivership,0,0,0
+2023-05-08,Creditors' voluntary liquidation,435,412,23
+2023-05-08,Winding-up order,65,65,0
+2023-05-08,Winding-up petition,63,55,8
+2023-05-08,Disclaimer,30,26,4
+2023-05-15,Administration,25,25,0
+2023-05-15,Administrative receivership,0,0,0
+2023-05-15,Receivership,0,0,0
+2023-05-15,Creditors' voluntary liquidation,400,371,29
+2023-05-15,Winding-up order,51,50,1
+2023-05-15,Winding-up petition,37,32,5
+2023-05-15,Disclaimer,17,16,1
+2023-05-22,Administration,23,23,0
+2023-05-22,Administrative receivership,0,0,0
+2023-05-22,Receivership,0,0,0
+2023-05-22,Creditors' voluntary liquidation,468,426,42
+2023-05-22,Winding-up order,60,58,2
+2023-05-22,Winding-up petition,148,130,18
+2023-05-22,Disclaimer,20,20,0
+2023-05-29,Administration,22,22,0
+2023-05-29,Administrative receivership,0,0,0
+2023-05-29,Receivership,0,0,0
+2023-05-29,Creditors' voluntary liquidation,398,385,13
+2023-05-29,Winding-up order,39,38,1
+2023-05-29,Winding-up petition,80,67,13
+2023-05-29,Disclaimer,23,21,2
+2023-06-05,Administration,38,37,1
+2023-06-05,Administrative receivership,0,0,0
+2023-06-05,Receivership,0,0,0
+2023-06-05,Creditors' voluntary liquidation,456,429,27
+2023-06-05,Winding-up order,24,23,1
+2023-06-05,Winding-up petition,85,77,8
+2023-06-05,Disclaimer,19,14,5
+2023-06-12,Administration,31,31,0
+2023-06-12,Administrative receivership,0,0,0
+2023-06-12,Receivership,0,0,0
+2023-06-12,Creditors' voluntary liquidation,427,392,35
+2023-06-12,Winding-up order,81,79,2
+2023-06-12,Winding-up petition,163,156,7
+2023-06-12,Disclaimer,27,25,2
+2023-06-19,Administration,35,34,1
+2023-06-19,Administrative receivership,0,0,0
+2023-06-19,Receivership,0,0,0
+2023-06-19,Creditors' voluntary liquidation,414,374,40
+2023-06-19,Winding-up order,42,40,2
+2023-06-19,Winding-up petition,155,140,15
+2023-06-19,Disclaimer,18,18,0
+2023-06-26,Administration,30,30,0
+2023-06-26,Administrative receivership,0,0,0
+2023-06-26,Receivership,0,0,0
+2023-06-26,Creditors' voluntary liquidation,408,377,31
+2023-06-26,Winding-up order,37,37,0
+2023-06-26,Winding-up petition,69,62,7
+2023-06-26,Disclaimer,40,38,2
+2023-07-03,Administration,36,35,1
+2023-07-03,Administrative receivership,0,0,0
+2023-07-03,Receivership,0,0,0
+2023-07-03,Creditors' voluntary liquidation,425,395,30
+2023-07-03,Winding-up order,65,65,0
+2023-07-03,Winding-up petition,67,53,14
+2023-07-03,Disclaimer,20,18,2
+2023-07-10,Administration,52,52,0
+2023-07-10,Administrative receivership,0,0,0
+2023-07-10,Receivership,0,0,0
+2023-07-10,Creditors' voluntary liquidation,368,331,37
+2023-07-10,Winding-up order,82,80,2
+2023-07-10,Winding-up petition,108,96,12
+2023-07-10,Disclaimer,10,6,4
+2023-07-17,Administration,38,38,0
+2023-07-17,Administrative receivership,0,0,0
+2023-07-17,Receivership,0,0,0
+2023-07-17,Creditors' voluntary liquidation,407,377,30
+2023-07-17,Winding-up order,73,72,1
+2023-07-17,Winding-up petition,35,26,9
+2023-07-17,Disclaimer,24,22,2
+2023-07-24,Administration,33,32,1
+2023-07-24,Administrative receivership,0,0,0
+2023-07-24,Receivership,0,0,0
+2023-07-24,Creditors' voluntary liquidation,390,356,34
+2023-07-24,Winding-up order,26,26,0
+2023-07-24,Winding-up petition,131,122,9
+2023-07-24,Disclaimer,7,6,1
+2023-07-31,Administration,33,33,0
+2023-07-31,Administrative receivership,0,0,0
+2023-07-31,Receivership,0,0,0
+2023-07-31,Creditors' voluntary liquidation,440,401,39
+2023-07-31,Winding-up order,92,89,3
+2023-07-31,Winding-up petition,119,103,16
+2023-07-31,Disclaimer,24,23,1
+2023-08-07,Administration,43,42,1
+2023-08-07,Administrative receivership,0,0,0
+2023-08-07,Receivership,0,0,0
+2023-08-07,Creditors' voluntary liquidation,422,383,39
+2023-08-07,Winding-up order,15,14,1
+2023-08-07,Winding-up petition,99,85,14
+2023-08-07,Disclaimer,12,12,0
+2023-08-14,Administration,46,46,0
+2023-08-14,Administrative receivership,0,0,0
+2023-08-14,Receivership,0,0,0
+2023-08-14,Creditors' voluntary liquidation,425,394,31
+2023-08-14,Winding-up order,76,76,0
+2023-08-14,Winding-up petition,42,32,10
+2023-08-14,Disclaimer,17,17,0
+2023-08-21,Administration,35,34,1
+2023-08-21,Administrative receivership,0,0,0
+2023-08-21,Receivership,0,0,0
+2023-08-21,Creditors' voluntary liquidation,413,386,27
+2023-08-21,Winding-up order,73,71,2
+2023-08-21,Winding-up petition,171,141,30
+2023-08-21,Disclaimer,17,15,2
+2023-08-28,Administration,16,16,0
+2023-08-28,Administrative receivership,0,0,0
+2023-08-28,Receivership,0,0,0
+2023-08-28,Creditors' voluntary liquidation,334,308,26
+2023-08-28,Winding-up order,58,55,3
+2023-08-28,Winding-up petition,136,114,22
+2023-08-28,Disclaimer,11,11,0
+2023-09-04,Administration,37,37,0
+2023-09-04,Administrative receivership,0,0,0
+2023-09-04,Receivership,0,0,0
+2023-09-04,Creditors' voluntary liquidation,457,419,38
+2023-09-04,Winding-up order,17,17,0
+2023-09-04,Winding-up petition,89,74,15
+2023-09-04,Disclaimer,1,1,0
+2023-09-11,Administration,30,29,1
+2023-09-11,Administrative receivership,0,0,0
+2023-09-11,Receivership,0,0,0
+2023-09-11,Creditors' voluntary liquidation,378,353,25
+2023-09-11,Winding-up order,84,76,8
+2023-09-11,Winding-up petition,55,37,18
+2023-09-11,Disclaimer,12,11,1
+2023-09-18,Administration,36,36,0
+2023-09-18,Administrative receivership,0,0,0
+2023-09-18,Receivership,0,0,0
+2023-09-18,Creditors' voluntary liquidation,375,343,32
+2023-09-18,Winding-up order,96,89,7
+2023-09-18,Winding-up petition,137,122,15
+2023-09-18,Disclaimer,4,4,0
+2023-09-25,Administration,26,23,3
+2023-09-25,Administrative receivership,0,0,0
+2023-09-25,Receivership,0,0,0
+2023-09-25,Creditors' voluntary liquidation,389,364,25
+2023-09-25,Winding-up order,57,51,6
+2023-09-25,Winding-up petition,80,64,16
+2023-09-25,Disclaimer,10,10,0
+2023-10-02,Administration,64,64,0
+2023-10-02,Administrative receivership,0,0,0
+2023-10-02,Receivership,0,0,0
+2023-10-02,Creditors' voluntary liquidation,461,415,46
+2023-10-02,Winding-up order,22,16,6
+2023-10-02,Winding-up petition,80,67,13
+2023-10-02,Disclaimer,19,17,2
+2023-10-09,Administration,47,47,0
+2023-10-09,Administrative receivership,0,0,0
+2023-10-09,Receivership,0,0,0
+2023-10-09,Creditors' voluntary liquidation,410,383,27
+2023-10-09,Winding-up order,85,80,5
+2023-10-09,Winding-up petition,123,108,15
+2023-10-09,Disclaimer,19,19,0
+2023-10-16,Administration,22,22,0
+2023-10-16,Administrative receivership,0,0,0
+2023-10-16,Receivership,0,0,0
+2023-10-16,Creditors' voluntary liquidation,415,375,40
+2023-10-16,Winding-up order,77,72,5
+2023-10-16,Winding-up petition,115,100,15
+2023-10-16,Disclaimer,30,29,1
+2023-10-23,Administration,28,28,0
+2023-10-23,Administrative receivership,0,0,0
+2023-10-23,Receivership,0,0,0
+2023-10-23,Creditors' voluntary liquidation,437,405,32
+2023-10-23,Winding-up order,52,50,2
+2023-10-23,Winding-up petition,122,112,10
+2023-10-23,Disclaimer,31,31,0
+2023-10-30,Administration,29,29,0
+2023-10-30,Administrative receivership,0,0,0
+2023-10-30,Receivership,0,0,0
+2023-10-30,Creditors' voluntary liquidation,423,390,33
+2023-10-30,Winding-up order,66,62,4
+2023-10-30,Winding-up petition,128,114,14
+2023-10-30,Disclaimer,24,23,1
+2023-11-06,Administration,20,20,0
+2023-11-06,Administrative receivership,0,0,0
+2023-11-06,Receivership,0,0,0
+2023-11-06,Creditors' voluntary liquidation,424,377,47
+2023-11-06,Winding-up order,77,77,0
+2023-11-06,Winding-up petition,117,93,24
+2023-11-06,Disclaimer,33,33,0
+2023-11-13,Administration,25,23,2
+2023-11-13,Administrative receivership,0,0,0
+2023-11-13,Receivership,0,0,0
+2023-11-13,Creditors' voluntary liquidation,455,431,24
+2023-11-13,Winding-up order,69,66,3
+2023-11-13,Winding-up petition,101,86,15
+2023-11-13,Disclaimer,22,21,1
+2023-11-20,Administration,42,42,0
+2023-11-20,Administrative receivership,0,0,0
+2023-11-20,Receivership,0,0,0
+2023-11-20,Creditors' voluntary liquidation,389,358,31
+2023-11-20,Winding-up order,99,94,5
+2023-11-20,Winding-up petition,76,58,18
+2023-11-20,Disclaimer,47,46,1
+2023-11-27,Administration,27,27,0
+2023-11-27,Administrative receivership,0,0,0
+2023-11-27,Receivership,0,0,0
+2023-11-27,Creditors' voluntary liquidation,446,395,51
+2023-11-27,Winding-up order,81,74,7
+2023-11-27,Winding-up petition,80,65,15
+2023-11-27,Disclaimer,18,17,1
+2023-12-04,Administration,29,29,0
+2023-12-04,Administrative receivership,0,0,0
+2023-12-04,Receivership,0,0,0
+2023-12-04,Creditors' voluntary liquidation,467,423,44
+2023-12-04,Winding-up order,63,61,2
+2023-12-04,Winding-up petition,70,55,15
+2023-12-04,Disclaimer,26,26,0
+2023-12-11,Administration,24,24,0
+2023-12-11,Administrative receivership,0,0,0
+2023-12-11,Receivership,0,0,0
+2023-12-11,Creditors' voluntary liquidation,462,406,56
+2023-12-11,Winding-up order,68,62,6
+2023-12-11,Winding-up petition,47,35,12
+2023-12-11,Disclaimer,16,16,0
+2023-12-18,Administration,36,34,2
+2023-12-18,Administrative receivership,0,0,0
+2023-12-18,Receivership,0,0,0
+2023-12-18,Creditors' voluntary liquidation,576,482,94
+2023-12-18,Winding-up order,51,51,0
+2023-12-18,Winding-up petition,63,43,20
+2023-12-18,Disclaimer,18,15,3
+2023-12-25,Administration,28,27,1
+2023-12-25,Administrative receivership,0,0,0
+2023-12-25,Receivership,0,0,0
+2023-12-25,Creditors' voluntary liquidation,363,351,12
+2023-12-25,Winding-up order,48,48,0
+2023-12-25,Winding-up petition,47,42,5
+2023-12-25,Disclaimer,10,10,0
+2024-01-01,Administration,24,24,0
+2024-01-01,Administrative receivership,0,0,0
+2024-01-01,Receivership,0,0,0
+2024-01-01,Creditors' voluntary liquidation,167,151,16
+2024-01-01,Winding-up order,4,2,2
+2024-01-01,Winding-up petition,132,111,21
+2024-01-01,Disclaimer,10,10,0
+2024-01-08,Administration,25,25,0
+2024-01-08,Administrative receivership,0,0,0
+2024-01-08,Receivership,0,0,0
+2024-01-08,Creditors' voluntary liquidation,241,226,15
+2024-01-08,Winding-up order,12,12,0
+2024-01-08,Winding-up petition,169,160,9
+2024-01-08,Disclaimer,37,36,1
+2024-01-15,Administration,37,37,0
+2024-01-15,Administrative receivership,0,0,0
+2024-01-15,Receivership,0,0,0
+2024-01-15,Creditors' voluntary liquidation,295,257,38
+2024-01-15,Winding-up order,53,46,7
+2024-01-15,Winding-up petition,157,145,12
+2024-01-15,Disclaimer,18,17,1
+2024-01-22,Administration,31,31,0
+2024-01-22,Administrative receivership,0,0,0
+2024-01-22,Receivership,0,0,0
+2024-01-22,Creditors' voluntary liquidation,382,333,49
+2024-01-22,Winding-up order,94,90,4
+2024-01-22,Winding-up petition,110,88,22
+2024-01-22,Disclaimer,25,25,0
+2024-01-29,Administration,20,20,0
+2024-01-29,Administrative receivership,0,0,0
+2024-01-29,Receivership,0,0,0
+2024-01-29,Creditors' voluntary liquidation,418,379,39
+2024-01-29,Winding-up order,116,112,4
+2024-01-29,Winding-up petition,97,87,10
+2024-01-29,Disclaimer,43,42,1
+2024-02-05,Administration,60,59,1
+2024-02-05,Administrative receivership,0,0,0
+2024-02-05,Receivership,0,0,0
+2024-02-05,Creditors' voluntary liquidation,472,423,49
+2024-02-05,Winding-up order,91,90,1
+2024-02-05,Winding-up petition,100,86,14
+2024-02-05,Disclaimer,32,31,1
+2024-02-12,Administration,46,45,1
+2024-02-12,Administrative receivership,0,0,0
+2024-02-12,Receivership,0,0,0
+2024-02-12,Creditors' voluntary liquidation,405,361,44
+2024-02-12,Winding-up order,76,70,6
+2024-02-12,Winding-up petition,111,94,17
+2024-02-12,Disclaimer,19,19,0
+2024-02-19,Administration,43,42,1
+2024-02-19,Administrative receivership,0,0,0
+2024-02-19,Receivership,0,0,0
+2024-02-19,Creditors' voluntary liquidation,433,388,45
+2024-02-19,Winding-up order,62,61,1
+2024-02-19,Winding-up petition,101,93,8
+2024-02-19,Disclaimer,10,10,0
+2024-02-26,Administration,27,26,1
+2024-02-26,Administrative receivership,0,0,0
+2024-02-26,Receivership,0,0,0
+2024-02-26,Creditors' voluntary liquidation,474,424,50
+2024-02-26,Winding-up order,55,50,5
+2024-02-26,Winding-up petition,108,91,17
+2024-02-26,Disclaimer,19,19,0
+2024-03-04,Administration,34,34,0
+2024-03-04,Administrative receivership,0,0,0
+2024-03-04,Receivership,0,0,0
+2024-03-04,Creditors' voluntary liquidation,445,378,67
+2024-03-04,Winding-up order,71,65,6
+2024-03-04,Winding-up petition,132,114,18
+2024-03-04,Disclaimer,21,20,1
+2024-03-11,Administration,27,27,0
+2024-03-11,Administrative receivership,0,0,0
+2024-03-11,Receivership,0,0,0
+2024-03-11,Creditors' voluntary liquidation,445,400,45
+2024-03-11,Winding-up order,54,51,3
+2024-03-11,Winding-up petition,47,40,7
+2024-03-11,Disclaimer,37,36,1
+2024-03-18,Administration,62,61,1
+2024-03-18,Administrative receivership,0,0,0
+2024-03-18,Receivership,0,0,0
+2024-03-18,Creditors' voluntary liquidation,442,400,42
+2024-03-18,Winding-up order,83,79,4
+2024-03-18,Winding-up petition,58,49,9
+2024-03-18,Disclaimer,16,15,1
+2024-03-25,Administration,35,34,1
+2024-03-25,Administrative receivership,0,0,0
+2024-03-25,Receivership,0,0,0
+2024-03-25,Creditors' voluntary liquidation,384,333,51
+2024-03-25,Winding-up order,78,76,2
+2024-03-25,Winding-up petition,155,127,28
+2024-03-25,Disclaimer,36,36,0
+2024-04-01,Administration,47,47,0
+2024-04-01,Administrative receivership,0,0,0
+2024-04-01,Receivership,0,0,0
+2024-04-01,Creditors' voluntary liquidation,448,398,50
+2024-04-01,Winding-up order,21,19,2
+2024-04-01,Winding-up petition,152,132,20
+2024-04-01,Disclaimer,18,17,1
+2024-04-08,Administration,34,33,1
+2024-04-08,Administrative receivership,0,0,0
+2024-04-08,Receivership,0,0,0
+2024-04-08,Creditors' voluntary liquidation,411,375,36
+2024-04-08,Winding-up order,11,11,0
+2024-04-08,Winding-up petition,141,116,25
+2024-04-08,Disclaimer,11,11,0
+2024-04-15,Administration,30,30,0
+2024-04-15,Administrative receivership,0,0,0
+2024-04-15,Receivership,0,0,0
+2024-04-15,Creditors' voluntary liquidation,453,413,40
+2024-04-15,Winding-up order,102,95,7
+2024-04-15,Winding-up petition,129,107,22
+2024-04-15,Disclaimer,23,23,0
+2024-04-22,Administration,19,19,0
+2024-04-22,Administrative receivership,0,0,0
+2024-04-22,Receivership,0,0,0
+2024-04-22,Creditors' voluntary liquidation,409,377,32
+2024-04-22,Winding-up order,87,80,7
+2024-04-22,Winding-up petition,145,122,23
+2024-04-22,Disclaimer,35,35,0
+2024-04-29,Administration,23,23,0
+2024-04-29,Administrative receivership,0,0,0
+2024-04-29,Receivership,0,0,0
+2024-04-29,Creditors' voluntary liquidation,415,367,48
+2024-04-29,Winding-up order,99,93,6
+2024-04-29,Winding-up petition,87,66,21
+2024-04-29,Disclaimer,33,31,2
+2024-05-06,Administration,26,26,0
+2024-05-06,Administrative receivership,0,0,0
+2024-05-06,Receivership,0,0,0
+2024-05-06,Creditors' voluntary liquidation,340,315,25
+2024-05-06,Winding-up order,61,51,10
+2024-05-06,Winding-up petition,71,53,18
+2024-05-06,Disclaimer,12,12,0
+2024-05-13,Administration,41,41,0
+2024-05-13,Administrative receivership,0,0,0
+2024-05-13,Receivership,0,0,0
+2024-05-13,Creditors' voluntary liquidation,386,336,50
+2024-05-13,Winding-up order,99,93,6
+2024-05-13,Winding-up petition,56,46,10
+2024-05-13,Disclaimer,25,24,1
+2024-05-20,Administration,30,29,1
+2024-05-20,Administrative receivership,0,0,0
+2024-05-20,Receivership,0,0,0
+2024-05-20,Creditors' voluntary liquidation,457,411,46
+2024-05-20,Winding-up order,60,57,3
+2024-05-20,Winding-up petition,111,102,9
+2024-05-20,Disclaimer,26,25,1
+2024-05-27,Administration,24,24,0
+2024-05-27,Administrative receivership,0,0,0
+2024-05-27,Receivership,0,0,0
+2024-05-27,Creditors' voluntary liquidation,359,322,37
+2024-05-27,Winding-up order,50,47,3
+2024-05-27,Winding-up petition,108,95,13
+2024-05-27,Disclaimer,19,17,2
+2024-06-03,Administration,33,33,0
+2024-06-03,Administrative receivership,0,0,0
+2024-06-03,Receivership,0,0,0
+2024-06-03,Creditors' voluntary liquidation,422,381,41
+2024-06-03,Winding-up order,20,19,1
+2024-06-03,Winding-up petition,143,127,16
+2024-06-03,Disclaimer,29,28,1
+2024-06-10,Administration,31,31,0
+2024-06-10,Administrative receivership,0,0,0
+2024-06-10,Receivership,0,0,0
+2024-06-10,Creditors' voluntary liquidation,427,372,55
+2024-06-10,Winding-up order,70,70,0
+2024-06-10,Winding-up petition,140,128,12
+2024-06-10,Disclaimer,24,24,0
+2024-06-17,Administration,33,32,1
+2024-06-17,Administrative receivership,0,0,0
+2024-06-17,Receivership,0,0,0
+2024-06-17,Creditors' voluntary liquidation,381,345,36
+2024-06-17,Winding-up order,61,59,2
+2024-06-17,Winding-up petition,158,144,14
+2024-06-17,Disclaimer,15,15,0
+2024-06-24,Administration,37,36,1
+2024-06-24,Administrative receivership,0,0,0
+2024-06-24,Receivership,0,0,0
+2024-06-24,Creditors' voluntary liquidation,402,361,41
+2024-06-24,Winding-up order,92,86,6
+2024-06-24,Winding-up petition,112,102,10
+2024-06-24,Disclaimer,35,34,1
+2024-07-01,Administration,34,31,3
+2024-07-01,Administrative receivership,0,0,0
+2024-07-01,Receivership,0,0,0
+2024-07-01,Creditors' voluntary liquidation,443,390,53
+2024-07-01,Winding-up order,78,76,2
+2024-07-01,Winding-up petition,98,90,8
+2024-07-01,Disclaimer,25,24,1
+2024-07-08,Administration,30,29,1
+2024-07-08,Administrative receivership,0,0,0
+2024-07-08,Receivership,0,0,0
+2024-07-08,Creditors' voluntary liquidation,356,329,27
+2024-07-08,Winding-up order,76,71,5
+2024-07-08,Winding-up petition,107,89,18
+2024-07-08,Disclaimer,28,27,1
+2024-07-15,Administration,42,42,0
+2024-07-15,Administrative receivership,0,0,0
+2024-07-15,Receivership,0,0,0
+2024-07-15,Creditors' voluntary liquidation,339,295,44
+2024-07-15,Winding-up order,78,77,1
+2024-07-15,Winding-up petition,92,72,20
+2024-07-15,Disclaimer,31,31,0
+2024-07-22,Administration,46,46,0
+2024-07-22,Administrative receivership,0,0,0
+2024-07-22,Receivership,0,0,0
+2024-07-22,Creditors' voluntary liquidation,399,352,47
+2024-07-22,Winding-up order,63,61,2
+2024-07-22,Winding-up petition,44,30,14
+2024-07-22,Disclaimer,23,23,0
+2024-07-29,Administration,19,19,0
+2024-07-29,Administrative receivership,0,0,0
+2024-07-29,Receivership,0,0,0
+2024-07-29,Creditors' voluntary liquidation,453,405,48
+2024-07-29,Winding-up order,59,58,1
+2024-07-29,Winding-up petition,145,130,15
+2024-07-29,Disclaimer,15,15,0
+2024-08-05,Administration,34,33,1
+2024-08-05,Administrative receivership,0,0,0
+2024-08-05,Receivership,0,0,0
+2024-08-05,Creditors' voluntary liquidation,354,319,35
+2024-08-05,Winding-up order,69,68,1
+2024-08-05,Winding-up petition,84,72,12
+2024-08-05,Disclaimer,19,19,0
+2024-08-12,Administration,35,35,0
+2024-08-12,Administrative receivership,0,0,0
+2024-08-12,Receivership,0,0,0
+2024-08-12,Creditors' voluntary liquidation,388,347,41
+2024-08-12,Winding-up order,13,13,0
+2024-08-12,Winding-up petition,105,96,9
+2024-08-12,Disclaimer,22,22,0
+2024-08-19,Administration,24,23,1
+2024-08-19,Administrative receivership,0,0,0
+2024-08-19,Receivership,0,0,0
+2024-08-19,Creditors' voluntary liquidation,412,387,25
+2024-08-19,Winding-up order,95,94,1
+2024-08-19,Winding-up petition,50,41,9
+2024-08-19,Disclaimer,12,12,0
+2024-08-26,Administration,17,17,0
+2024-08-26,Administrative receivership,0,0,0
+2024-08-26,Receivership,0,0,0
+2024-08-26,Creditors' voluntary liquidation,351,301,50
+2024-08-26,Winding-up order,50,47,3
+2024-08-26,Winding-up petition,144,122,22
+2024-08-26,Disclaimer,10,10,0
+2024-09-02,Administration,43,43,0
+2024-09-02,Administrative receivership,0,0,0
+2024-09-02,Receivership,0,0,0
+2024-09-02,Creditors' voluntary liquidation,389,347,42
+2024-09-02,Winding-up order,59,57,2
+2024-09-02,Winding-up petition,127,109,18
+2024-09-02,Disclaimer,23,23,0
+2024-09-09,Administration,34,34,0
+2024-09-09,Administrative receivership,0,0,0
+2024-09-09,Receivership,0,0,0
+2024-09-09,Creditors' voluntary liquidation,336,294,42
+2024-09-09,Winding-up order,24,22,2
+2024-09-09,Winding-up petition,84,63,21
+2024-09-09,Disclaimer,26,26,0
+2024-09-16,Administration,40,40,0
+2024-09-16,Administrative receivership,0,0,0
+2024-09-16,Receivership,0,0,0
+2024-09-16,Creditors' voluntary liquidation,354,308,46
+2024-09-16,Winding-up order,100,94,6
+2024-09-16,Winding-up petition,103,76,27
+2024-09-16,Disclaimer,13,13,0
+2024-09-23,Administration,38,36,2
+2024-09-23,Administrative receivership,0,0,0
+2024-09-23,Receivership,0,0,0
+2024-09-23,Creditors' voluntary liquidation,349,297,52
+2024-09-23,Winding-up order,75,69,6
+2024-09-23,Winding-up petition,84,73,11
+2024-09-23,Disclaimer,28,28,0
+2024-09-30,Administration,26,25,1
+2024-09-30,Administrative receivership,0,0,0
+2024-09-30,Receivership,0,0,0
+2024-09-30,Creditors' voluntary liquidation,410,358,52
+2024-09-30,Winding-up order,55,46,9
+2024-09-30,Winding-up petition,63,48,15
+2024-09-30,Disclaimer,11,11,0
+2024-10-07,Administration,23,23,0
+2024-10-07,Administrative receivership,0,0,0
+2024-10-07,Receivership,0,0,0
+2024-10-07,Creditors' voluntary liquidation,348,311,37
+2024-10-07,Winding-up order,44,39,5
+2024-10-07,Winding-up petition,98,83,15
+2024-10-07,Disclaimer,26,23,3
+2024-10-14,Administration,32,32,0
+2024-10-14,Administrative receivership,0,0,0
+2024-10-14,Receivership,0,0,0
+2024-10-14,Creditors' voluntary liquidation,360,308,52
+2024-10-14,Winding-up order,51,41,10
+2024-10-14,Winding-up petition,96,85,11
+2024-10-14,Disclaimer,23,21,2
+2024-10-21,Administration,25,24,1
+2024-10-21,Administrative receivership,0,0,0
+2024-10-21,Receivership,0,0,0
+2024-10-21,Creditors' voluntary liquidation,392,336,56
+2024-10-21,Winding-up order,38,36,2
+2024-10-21,Winding-up petition,120,109,11
+2024-10-21,Disclaimer,23,20,3
+2024-10-28,Administration,32,31,1
+2024-10-28,Administrative receivership,0,0,0
+2024-10-28,Receivership,0,0,0
+2024-10-28,Creditors' voluntary liquidation,351,298,53
+2024-10-28,Winding-up order,54,53,1
+2024-10-28,Winding-up petition,114,96,18
+2024-10-28,Disclaimer,11,11,0
+2024-11-04,Administration,26,26,0
+2024-11-04,Administrative receivership,0,0,0
+2024-11-04,Receivership,0,0,0
+2024-11-04,Creditors' voluntary liquidation,378,349,29
+2024-11-04,Winding-up order,61,61,0
+2024-11-04,Winding-up petition,166,151,15
+2024-11-04,Disclaimer,17,17,0
+2024-11-11,Administration,32,31,1
+2024-11-11,Administrative receivership,0,0,0
+2024-11-11,Receivership,0,0,0
+2024-11-11,Creditors' voluntary liquidation,311,273,38
+2024-11-11,Winding-up order,69,67,2
+2024-11-11,Winding-up petition,135,119,16
+2024-11-11,Disclaimer,14,14,0
+2024-11-18,Administration,39,39,0
+2024-11-18,Administrative receivership,0,0,0
+2024-11-18,Receivership,0,0,0
+2024-11-18,Creditors' voluntary liquidation,334,307,27
+2024-11-18,Winding-up order,60,57,3
+2024-11-18,Winding-up petition,144,127,17
+2024-11-18,Disclaimer,31,31,0
+2024-11-25,Administration,23,23,0
+2024-11-25,Administrative receivership,0,0,0
+2024-11-25,Receivership,0,0,0
+2024-11-25,Creditors' voluntary liquidation,405,362,43
+2024-11-25,Winding-up order,102,98,4
+2024-11-25,Winding-up petition,131,123,8
+2024-11-25,Disclaimer,20,17,3
+2024-12-02,Administration,31,30,1
+2024-12-02,Administrative receivership,0,0,0
+2024-12-02,Receivership,0,0,0
+2024-12-02,Creditors' voluntary liquidation,405,358,47
+2024-12-02,Winding-up order,92,89,3
+2024-12-02,Winding-up petition,163,142,21
+2024-12-02,Disclaimer,23,21,2
+2024-12-09,Administration,26,25,1
+2024-12-09,Administrative receivership,0,0,0
+2024-12-09,Receivership,0,0,0
+2024-12-09,Creditors' voluntary liquidation,380,344,36
+2024-12-09,Winding-up order,83,79,4
+2024-12-09,Winding-up petition,43,34,9
+2024-12-09,Disclaimer,28,27,1
+2024-12-16,Administration,35,33,2
+2024-12-16,Administrative receivership,0,0,0
+2024-12-16,Receivership,0,0,0
+2024-12-16,Creditors' voluntary liquidation,510,451,59
+2024-12-16,Winding-up order,78,75,3
+2024-12-16,Winding-up petition,65,46,19
+2024-12-16,Disclaimer,16,16,0
+2024-12-23,Administration,47,46,1
+2024-12-23,Administrative receivership,0,0,0
+2024-12-23,Receivership,0,0,0
+2024-12-23,Creditors' voluntary liquidation,436,388,48
+2024-12-23,Winding-up order,82,79,3
+2024-12-23,Winding-up petition,42,37,5
+2024-12-23,Disclaimer,9,9,0
+2024-12-30,Administration,10,10,0
+2024-12-30,Administrative receivership,0,0,0
+2024-12-30,Receivership,0,0,0
+2024-12-30,Creditors' voluntary liquidation,118,88,30
+2024-12-30,Winding-up order,16,15,1
+2024-12-30,Winding-up petition,131,111,20
+2024-12-30,Disclaimer,5,5,0
+2025-01-06,Administration,18,18,0
+2025-01-06,Administrative receivership,0,0,0
+2025-01-06,Receivership,0,0,0
+2025-01-06,Creditors' voluntary liquidation,202,186,16
+2025-01-06,Winding-up order,17,17,0
+2025-01-06,Winding-up petition,156,135,21
+2025-01-06,Disclaimer,7,7,0
+2025-01-13,Administration,22,18,4
+2025-01-13,Administrative receivership,0,0,0
+2025-01-13,Receivership,0,0,0
+2025-01-13,Creditors' voluntary liquidation,247,224,23
+2025-01-13,Winding-up order,41,30,11
+2025-01-13,Winding-up petition,156,141,15
+2025-01-13,Disclaimer,13,13,0
+2025-01-20,Administration,39,38,1
+2025-01-20,Administrative receivership,0,0,0
+2025-01-20,Receivership,0,0,0
+2025-01-20,Creditors' voluntary liquidation,273,244,29
+2025-01-20,Winding-up order,86,79,7
+2025-01-20,Winding-up petition,187,170,17
+2025-01-20,Disclaimer,19,19,0
+2025-01-27,Administration,29,28,1
+2025-01-27,Administrative receivership,0,0,0
+2025-01-27,Receivership,0,0,0
+2025-01-27,Creditors' voluntary liquidation,383,327,56
+2025-01-27,Winding-up order,90,89,1
+2025-01-27,Winding-up petition,143,133,10
+2025-01-27,Disclaimer,25,25,0
+2025-02-03,Administration,44,44,0
+2025-02-03,Administrative receivership,0,0,0
+2025-02-03,Receivership,0,0,0
+2025-02-03,Creditors' voluntary liquidation,422,381,41
+2025-02-03,Winding-up order,119,115,4
+2025-02-03,Winding-up petition,146,136,10
+2025-02-03,Disclaimer,18,18,0
+2025-02-10,Administration,23,21,2
+2025-02-10,Administrative receivership,0,0,0
+2025-02-10,Receivership,0,0,0
+2025-02-10,Creditors' voluntary liquidation,411,368,43
+2025-02-10,Winding-up order,91,83,8
+2025-02-10,Winding-up petition,104,89,15
+2025-02-10,Disclaimer,16,16,0
+2025-02-17,Administration,36,36,0
+2025-02-17,Administrative receivership,0,0,0
+2025-02-17,Receivership,0,0,0
+2025-02-17,Creditors' voluntary liquidation,402,363,39
+2025-02-17,Winding-up order,83,83,0
+2025-02-17,Winding-up petition,94,85,9
+2025-02-17,Disclaimer,23,22,1
+2025-02-24,Administration,28,28,0
+2025-02-24,Administrative receivership,0,0,0
+2025-02-24,Receivership,0,0,0
+2025-02-24,Creditors' voluntary liquidation,472,414,58
+2025-02-24,Winding-up order,89,88,1
+2025-02-24,Winding-up petition,130,112,18
+2025-02-24,Disclaimer,37,36,1
+2025-03-03,Administration,41,41,0
+2025-03-03,Administrative receivership,0,0,0
+2025-03-03,Receivership,0,0,0
+2025-03-03,Creditors' voluntary liquidation,462,415,47
+2025-03-03,Winding-up order,59,53,6
+2025-03-03,Winding-up petition,137,132,5
+2025-03-03,Disclaimer,7,7,0
+2025-03-10,Administration,38,38,0
+2025-03-10,Administrative receivership,0,0,0
+2025-03-10,Receivership,0,0,0
+2025-03-10,Creditors' voluntary liquidation,434,394,40
+2025-03-10,Winding-up order,50,47,3
+2025-03-10,Winding-up petition,168,146,22
+2025-03-10,Disclaimer,10,10,0
+2025-03-17,Administration,43,40,3
+2025-03-17,Administrative receivership,0,0,0
+2025-03-17,Receivership,0,0,0
+2025-03-17,Creditors' voluntary liquidation,418,377,41
+2025-03-17,Winding-up order,74,69,5
+2025-03-17,Winding-up petition,166,144,22
+2025-03-17,Disclaimer,17,16,1
+2025-03-24,Administration,36,34,2
+2025-03-24,Administrative receivership,0,0,0
+2025-03-24,Receivership,0,0,0
+2025-03-24,Creditors' voluntary liquidation,412,367,45
+2025-03-24,Winding-up order,89,85,4
+2025-03-24,Winding-up petition,145,121,24
+2025-03-24,Disclaimer,28,27,1
+2025-03-31,Administration,36,35,1
+2025-03-31,Administrative receivership,0,0,0
+2025-03-31,Receivership,0,0,0
+2025-03-31,Creditors' voluntary liquidation,462,400,62
+2025-03-31,Winding-up order,77,74,3
+2025-03-31,Winding-up petition,153,138,15
+2025-03-31,Disclaimer,17,17,0
+2025-04-07,Administration,25,25,0
+2025-04-07,Administrative receivership,0,0,0
+2025-04-07,Receivership,0,0,0
+2025-04-07,Creditors' voluntary liquidation,400,365,35
+2025-04-07,Winding-up order,103,97,6
+2025-04-07,Winding-up petition,50,42,8
+2025-04-07,Disclaimer,18,17,1
+2025-04-14,Administration,28,27,1
+2025-04-14,Administrative receivership,0,0,0
+2025-04-14,Receivership,0,0,0
+2025-04-14,Creditors' voluntary liquidation,322,285,37
+2025-04-14,Winding-up order,101,91,10
+2025-04-14,Winding-up petition,145,125,20
+2025-04-14,Disclaimer,24,23,1
+2025-04-21,Administration,27,25,2
+2025-04-21,Administrative receivership,0,0,0
+2025-04-21,Receivership,0,0,0
+2025-04-21,Creditors' voluntary liquidation,421,374,47
+2025-04-21,Winding-up order,75,75,0
+2025-04-21,Winding-up petition,180,158,22
+2025-04-21,Disclaimer,12,12,0
+2025-04-28,Administration,28,28,0
+2025-04-28,Administrative receivership,0,0,0
+2025-04-28,Receivership,0,0,0
+2025-04-28,Creditors' voluntary liquidation,466,411,55
+2025-04-28,Winding-up order,28,28,0
+2025-04-28,Winding-up petition,199,177,22
+2025-04-28,Disclaimer,15,15,0
+2025-05-05,Administration,32,32,0
+2025-05-05,Administrative receivership,0,0,0
+2025-05-05,Receivership,0,0,0
+2025-05-05,Creditors' voluntary liquidation,373,339,34
+2025-05-05,Winding-up order,85,71,14
+2025-05-05,Winding-up petition,156,139,17
+2025-05-05,Disclaimer,19,19,0
+2025-05-12,Administration,40,40,0
+2025-05-12,Administrative receivership,0,0,0
+2025-05-12,Receivership,0,0,0
+2025-05-12,Creditors' voluntary liquidation,383,342,41
+2025-05-12,Winding-up order,99,91,8
+2025-05-12,Winding-up petition,72,46,26
+2025-05-12,Disclaimer,17,16,1
+2025-05-19,Administration,33,29,4
+2025-05-19,Administrative receivership,0,0,0
+2025-05-19,Receivership,0,0,0
+2025-05-19,Creditors' voluntary liquidation,347,301,46
+2025-05-19,Winding-up order,113,108,5
+2025-05-19,Winding-up petition,165,142,23
+2025-05-19,Disclaimer,13,12,1
+2025-05-26,Administration,17,15,2
+2025-05-26,Administrative receivership,0,0,0
+2025-05-26,Receivership,0,0,0
+2025-05-26,Creditors' voluntary liquidation,360,310,50
+2025-05-26,Winding-up order,70,68,2
+2025-05-26,Winding-up petition,167,145,22
+2025-05-26,Disclaimer,13,13,0
+2025-06-02,Administration,23,22,1
+2025-06-02,Administrative receivership,0,0,0
+2025-06-02,Receivership,0,0,0
+2025-06-02,Creditors' voluntary liquidation,442,381,61
+2025-06-02,Winding-up order,51,39,12
+2025-06-02,Winding-up petition,149,129,20
+2025-06-02,Disclaimer,16,16,0
+2025-06-09,Administration,32,31,1
+2025-06-09,Administrative receivership,0,0,0
+2025-06-09,Receivership,0,0,0
+2025-06-09,Creditors' voluntary liquidation,369,333,36
+2025-06-09,Winding-up order,88,81,7
+2025-06-09,Winding-up petition,140,124,16
+2025-06-09,Disclaimer,16,16,0
+2025-06-16,Administration,28,27,1
+2025-06-16,Administrative receivership,0,0,0
+2025-06-16,Receivership,0,0,0
+2025-06-16,Creditors' voluntary liquidation,433,379,54
+2025-06-16,Winding-up order,91,86,5
+2025-06-16,Winding-up petition,123,110,13
+2025-06-16,Disclaimer,26,24,2
+2025-06-23,Administration,30,30,0
+2025-06-23,Administrative receivership,0,0,0
+2025-06-23,Receivership,0,0,0
+2025-06-23,Creditors' voluntary liquidation,374,341,33
+2025-06-23,Winding-up order,85,85,0
+2025-06-23,Winding-up petition,130,120,10
+2025-06-23,Disclaimer,46,45,1
+2025-06-30,Administration,39,39,0
+2025-06-30,Administrative receivership,0,0,0
+2025-06-30,Receivership,0,0,0
+2025-06-30,Creditors' voluntary liquidation,443,398,45
+2025-06-30,Winding-up order,95,90,5
+2025-06-30,Winding-up petition,122,118,4
+2025-06-30,Disclaimer,28,28,0
+2025-07-07,Administration,34,34,0
+2025-07-07,Administrative receivership,0,0,0
+2025-07-07,Receivership,0,0,0
+2025-07-07,Creditors' voluntary liquidation,388,338,50
+2025-07-07,Winding-up order,81,80,1
+2025-07-07,Winding-up petition,123,107,16
+2025-07-07,Disclaimer,13,13,0
+2025-07-14,Administration,41,41,0
+2025-07-14,Administrative receivership,0,0,0
+2025-07-14,Receivership,0,0,0
+2025-07-14,Creditors' voluntary liquidation,402,368,34
+2025-07-14,Winding-up order,81,78,3
+2025-07-14,Winding-up petition,114,110,4
+2025-07-14,Disclaimer,13,11,2
+2025-07-21,Administration,23,23,0
+2025-07-21,Administrative receivership,0,0,0
+2025-07-21,Receivership,0,0,0
+2025-07-21,Creditors' voluntary liquidation,368,323,45
+2025-07-21,Winding-up order,73,73,0
+2025-07-21,Winding-up petition,143,128,15
+2025-07-21,Disclaimer,20,20,0
+2025-07-28,Administration,39,39,0
+2025-07-28,Administrative receivership,0,0,0
+2025-07-28,Receivership,0,0,0
+2025-07-28,Creditors' voluntary liquidation,375,304,71
+2025-07-28,Winding-up order,86,84,2
+2025-07-28,Winding-up petition,139,128,11
+2025-07-28,Disclaimer,8,7,1
+2025-08-04,Administration,34,33,1
+2025-08-04,Administrative receivership,0,0,0
+2025-08-04,Receivership,0,0,0
+2025-08-04,Creditors' voluntary liquidation,404,342,62
+2025-08-04,Winding-up order,72,71,1
+2025-08-04,Winding-up petition,120,101,19
+2025-08-04,Disclaimer,21,19,2
+2025-08-11,Administration,30,29,1
+2025-08-11,Administrative receivership,0,0,0
+2025-08-11,Receivership,0,0,0
+2025-08-11,Creditors' voluntary liquidation,369,332,37
+2025-08-11,Winding-up order,103,102,1
+2025-08-11,Winding-up petition,62,47,15
+2025-08-11,Disclaimer,22,21,1
+2025-08-18,Administration,32,30,2
+2025-08-18,Administrative receivership,0,0,0
+2025-08-18,Receivership,0,0,0
+2025-08-18,Creditors' voluntary liquidation,382,336,46
+2025-08-18,Winding-up order,59,57,2
+2025-08-18,Winding-up petition,141,124,17
+2025-08-18,Disclaimer,16,15,1
+2025-08-25,Administration,23,23,0
+2025-08-25,Administrative receivership,0,0,0
+2025-08-25,Receivership,0,0,0
+2025-08-25,Creditors' voluntary liquidation,402,366,36
+2025-08-25,Winding-up order,81,77,4
+2025-08-25,Winding-up petition,166,136,30
+2025-08-25,Disclaimer,16,15,1
+2025-09-01,Administration,29,29,0
+2025-09-01,Administrative receivership,0,0,0
+2025-09-01,Receivership,0,0,0
+2025-09-01,Creditors' voluntary liquidation,392,355,37
+2025-09-01,Winding-up order,15,14,1
+2025-09-01,Winding-up petition,131,112,19
+2025-09-01,Disclaimer,14,13,1
+2025-09-08,Administration,31,31,0
+2025-09-08,Administrative receivership,0,0,0
+2025-09-08,Receivership,0,0,0
+2025-09-08,Creditors' voluntary liquidation,340,312,28
+2025-09-08,Winding-up order,80,78,2
+2025-09-08,Winding-up petition,77,56,21
+2025-09-08,Disclaimer,25,24,1
+2025-09-15,Administration,28,27,1
+2025-09-15,Administrative receivership,0,0,0
+2025-09-15,Receivership,0,0,0
+2025-09-15,Creditors' voluntary liquidation,296,282,14
+2025-09-15,Winding-up order,87,79,8
+2025-09-15,Winding-up petition,175,152,23
+2025-09-15,Disclaimer,14,14,0
+2025-09-22,Administration,26,26,0
+2025-09-22,Administrative receivership,0,0,0
+2025-09-22,Receivership,0,0,0
+2025-09-22,Creditors' voluntary liquidation,369,344,25
+2025-09-22,Winding-up order,75,70,5
+2025-09-22,Winding-up petition,143,116,27
+2025-09-22,Disclaimer,17,17,0
+2025-09-29,Administration,31,30,1
+2025-09-29,Administrative receivership,0,0,0
+2025-09-29,Receivership,0,0,0
+2025-09-29,Creditors' voluntary liquidation,424,391,33
+2025-09-29,Winding-up order,27,23,4
+2025-09-29,Winding-up petition,162,134,28
+2025-09-29,Disclaimer,51,51,0
+2025-10-06,Administration,38,38,0
+2025-10-06,Administrative receivership,0,0,0
+2025-10-06,Receivership,0,0,0
+2025-10-06,Creditors' voluntary liquidation,354,324,30
+2025-10-06,Winding-up order,97,83,14
+2025-10-06,Winding-up petition,143,114,29
+2025-10-06,Disclaimer,19,19,0
+2025-10-13,Administration,28,28,0
+2025-10-13,Administrative receivership,0,0,0
+2025-10-13,Receivership,0,0,0
+2025-10-13,Creditors' voluntary liquidation,381,357,24
+2025-10-13,Winding-up order,60,56,4
+2025-10-13,Winding-up petition,152,137,15
+2025-10-13,Disclaimer,21,21,0
+2025-10-20,Administration,25,25,0
+2025-10-20,Administrative receivership,0,0,0
+2025-10-20,Receivership,0,0,0
+2025-10-20,Creditors' voluntary liquidation,395,368,27
+2025-10-20,Winding-up order,83,70,13
+2025-10-20,Winding-up petition,144,119,25
+2025-10-20,Disclaimer,8,8,0
+2025-10-27,Administration,25,25,0
+2025-10-27,Administrative receivership,0,0,0
+2025-10-27,Receivership,0,0,0
+2025-10-27,Creditors' voluntary liquidation,406,371,35
+2025-10-27,Winding-up order,53,45,8
+2025-10-27,Winding-up petition,139,120,19
+2025-10-27,Disclaimer,29,26,3
+2025-11-03,Administration,31,31,0
+2025-11-03,Administrative receivership,0,0,0
+2025-11-03,Receivership,0,0,0
+2025-11-03,Creditors' voluntary liquidation,431,389,42
+2025-11-03,Winding-up order,3,3,0
+2025-11-03,Winding-up petition,126,104,22
+2025-11-03,Disclaimer,19,19,0
+2025-11-10,Administration,51,51,0
+2025-11-10,Administrative receivership,0,0,0
+2025-11-10,Receivership,0,0,0
+2025-11-10,Creditors' voluntary liquidation,330,308,22
+2025-11-10,Winding-up order,19,2,17
+2025-11-10,Winding-up petition,153,136,17
+2025-11-10,Disclaimer,6,6,0
+2025-11-17,Administration,33,31,2
+2025-11-17,Administrative receivership,0,0,0
+2025-11-17,Receivership,0,0,0
+2025-11-17,Creditors' voluntary liquidation,356,327,29
+2025-11-17,Winding-up order,17,6,11
+2025-11-17,Winding-up petition,123,109,14
+2025-11-17,Disclaimer,6,6,0
+2025-11-24,Administration,31,31,0
+2025-11-24,Administrative receivership,0,0,0
+2025-11-24,Receivership,0,0,0
+2025-11-24,Creditors' voluntary liquidation,358,329,29
+2025-11-24,Winding-up order,54,45,9
+2025-11-24,Winding-up petition,123,107,16
+2025-11-24,Disclaimer,2,2,0
+2025-12-01,Administration,35,35,0
+2025-12-01,Administrative receivership,0,0,0
+2025-12-01,Receivership,0,0,0
+2025-12-01,Creditors' voluntary liquidation,415,379,36
+2025-12-01,Winding-up order,81,77,4
+2025-12-01,Winding-up petition,107,92,15
+2025-12-01,Disclaimer,17,17,0
+2025-12-08,Administration,25,25,0
+2025-12-08,Administrative receivership,0,0,0
+2025-12-08,Receivership,0,0,0
+2025-12-08,Creditors' voluntary liquidation,328,296,32
+2025-12-08,Winding-up order,69,65,4
+2025-12-08,Winding-up petition,62,43,19
+2025-12-08,Disclaimer,9,9,0
+2025-12-15,Administration,36,36,0
+2025-12-15,Administrative receivership,0,0,0
+2025-12-15,Receivership,0,0,0
+2025-12-15,Creditors' voluntary liquidation,487,454,33
+2025-12-15,Winding-up order,94,83,11
+2025-12-15,Winding-up petition,54,38,16
+2025-12-15,Disclaimer,10,10,0
+2025-12-22,Administration,26,26,0
+2025-12-22,Administrative receivership,0,0,0
+2025-12-22,Receivership,0,0,0
+2025-12-22,Creditors' voluntary liquidation,330,301,29
+2025-12-22,Winding-up order,34,32,2
+2025-12-22,Winding-up petition,35,31,4
+2025-12-22,Disclaimer,1,1,0
+2025-12-29,Administration,28,28,0
+2025-12-29,Administrative receivership,0,0,0
+2025-12-29,Receivership,0,0,0
+2025-12-29,Creditors' voluntary liquidation,226,198,28
+2025-12-29,Winding-up order,13,10,3
+2025-12-29,Winding-up petition,123,116,7
+2025-12-29,Disclaimer,17,17,0
+2026-01-05,Administration,33,31,2
+2026-01-05,Administrative receivership,0,0,0
+2026-01-05,Receivership,0,0,0
+2026-01-05,Creditors' voluntary liquidation,173,157,16
+2026-01-05,Winding-up order,74,73,1
+2026-01-05,Winding-up petition,174,163,11
+2026-01-05,Disclaimer,4,3,1
+2026-01-12,Administration,26,26,0
+2026-01-12,Administrative receivership,1,1,0
+2026-01-12,Receivership,0,0,0
+2026-01-12,Creditors' voluntary liquidation,177,162,15
+2026-01-12,Winding-up order,87,79,8
+2026-01-12,Winding-up petition,151,132,19
+2026-01-12,Disclaimer,19,19,0
+2026-01-19,Administration,35,33,2
+2026-01-19,Administrative receivership,0,0,0
+2026-01-19,Receivership,0,0,0
+2026-01-19,Creditors' voluntary liquidation,275,263,12
+2026-01-19,Winding-up order,63,61,2
+2026-01-19,Winding-up petition,147,134,13
+2026-01-19,Disclaimer,14,14,0
+2026-01-26,Administration,43,43,0
+2026-01-26,Administrative receivership,0,0,0
+2026-01-26,Receivership,0,0,0
+2026-01-26,Creditors' voluntary liquidation,357,330,27
+2026-01-26,Winding-up order,81,72,9
+2026-01-26,Winding-up petition,125,113,12
+2026-01-26,Disclaimer,18,15,3
+2026-02-02,Administration,42,41,1
+2026-02-02,Administrative receivership,0,0,0
+2026-02-02,Receivership,0,0,0
+2026-02-02,Creditors' voluntary liquidation,410,378,32
+2026-02-02,Winding-up order,93,88,5
+2026-02-02,Winding-up petition,82,68,14
+2026-02-02,Disclaimer,12,12,0
+2026-02-09,Administration,26,26,0
+2026-02-09,Administrative receivership,0,0,0
+2026-02-09,Receivership,0,0,0
+2026-02-09,Creditors' voluntary liquidation,363,333,30
+2026-02-09,Winding-up order,86,81,5
+2026-02-09,Winding-up petition,114,94,20
+2026-02-09,Disclaimer,11,11,0
+2026-02-16,Administration,49,49,0
+2026-02-16,Administrative receivership,0,0,0
+2026-02-16,Receivership,0,0,0
+2026-02-16,Creditors' voluntary liquidation,391,358,33
+2026-02-16,Winding-up order,81,73,8
+2026-02-16,Winding-up petition,138,117,21
+2026-02-16,Disclaimer,7,7,0
+2026-02-23,Administration,33,33,0
+2026-02-23,Administrative receivership,0,0,0
+2026-02-23,Receivership,0,0,0
+2026-02-23,Creditors' voluntary liquidation,392,370,22
+2026-02-23,Winding-up order,65,63,2
+2026-02-23,Winding-up petition,141,118,23
+2026-02-23,Disclaimer,6,6,0
+2026-03-02,Administration,38,38,0
+2026-03-02,Administrative receivership,0,0,0
+2026-03-02,Receivership,0,0,0
+2026-03-02,Creditors' voluntary liquidation,412,382,30
+2026-03-02,Winding-up order,54,48,6
+2026-03-02,Winding-up petition,168,144,24
+2026-03-02,Disclaimer,14,14,0
+2026-03-09,Administration,48,46,2
+2026-03-09,Administrative receivership,0,0,0
+2026-03-09,Receivership,0,0,0
+2026-03-09,Creditors' voluntary liquidation,411,380,31
+2026-03-09,Winding-up order,80,77,3
+2026-03-09,Winding-up petition,150,132,18
+2026-03-09,Disclaimer,20,20,0
+2026-03-16,Administration,122,122,0
+2026-03-16,Administrative receivership,0,0,0
+2026-03-16,Receivership,0,0,0
+2026-03-16,Creditors' voluntary liquidation,396,361,35
+2026-03-16,Winding-up order,77,67,10
+2026-03-16,Winding-up petition,137,123,14
+2026-03-16,Disclaimer,10,10,0
+2026-03-23,Administration,131,129,2
+2026-03-23,Administrative receivership,1,1,0
+2026-03-23,Receivership,0,0,0
+2026-03-23,Creditors' voluntary liquidation,490,456,34
+2026-03-23,Winding-up order,74,58,16
+2026-03-23,Winding-up petition,57,44,13
+2026-03-23,Disclaimer,12,12,0
+2026-03-30,Administration,46,46,0
+2026-03-30,Administrative receivership,0,0,0
+2026-03-30,Receivership,0,0,0
+2026-03-30,Creditors' voluntary liquidation,370,342,28
+2026-03-30,Winding-up order,56,50,6
+2026-03-30,Winding-up petition,154,125,29
+2026-03-30,Disclaimer,11,8,3
+2026-04-06,Administration,35,35,0
+2026-04-06,Administrative receivership,0,0,0
+2026-04-06,Receivership,0,0,0
+2026-04-06,Creditors' voluntary liquidation,363,340,23
+2026-04-06,Winding-up order,42,41,1
+2026-04-06,Winding-up petition,169,141,28
+2026-04-06,Disclaimer,15,15,0
+2026-04-13,Administration,50,50,0
+2026-04-13,Administrative receivership,0,0,0
+2026-04-13,Receivership,0,0,0
+2026-04-13,Creditors' voluntary liquidation,398,364,34
+2026-04-13,Winding-up order,30,29,1
+2026-04-13,Winding-up petition,165,150,15
+2026-04-13,Disclaimer,30,30,0
+2026-04-20,Administration,29,28,1
+2026-04-20,Administrative receivership,0,0,0
+2026-04-20,Receivership,0,0,0
+2026-04-20,Creditors' voluntary liquidation,369,329,40
+2026-04-20,Winding-up order,120,100,20
+2026-04-20,Winding-up petition,158,135,23
+2026-04-20,Disclaimer,26,25,1
+2026-04-27,Administration,23,22,1
+2026-04-27,Administrative receivership,0,0,0
+2026-04-27,Receivership,0,0,0
+2026-04-27,Creditors' voluntary liquidation,362,343,19
+2026-04-27,Winding-up order,116,105,11
+2026-04-27,Winding-up petition,174,155,19
+2026-04-27,Disclaimer,38,37,1
+2026-05-04,Administration,34,34,0
+2026-05-04,Administrative receivership,0,0,0
+2026-05-04,Receivership,0,0,0
+2026-05-04,Creditors' voluntary liquidation,384,341,43
+2026-05-04,Winding-up order,92,85,7
+2026-05-04,Winding-up petition,92,77,15
+2026-05-04,Disclaimer,11,8,3
+2026-05-11,Administration,37,37,0
+2026-05-11,Administrative receivership,0,0,0
+2026-05-11,Receivership,0,0,0
+2026-05-11,Creditors' voluntary liquidation,381,361,20
+2026-05-11,Winding-up order,96,89,7
+2026-05-11,Winding-up petition,62,50,12
+2026-05-11,Disclaimer,21,21,0
+2026-05-18,Administration,36,36,0
+2026-05-18,Administrative receivership,0,0,0
+2026-05-18,Receivership,0,0,0
+2026-05-18,Creditors' voluntary liquidation,441,398,43
+2026-05-18,Winding-up order,74,67,7
+2026-05-18,Winding-up petition,133,124,9
+2026-05-18,Disclaimer,37,34,3
+2026-05-25,Administration,26,26,0
+2026-05-25,Administrative receivership,0,0,0
+2026-05-25,Receivership,0,0,0
+2026-05-25,Creditors' voluntary liquidation,324,299,25
+2026-05-25,Winding-up order,45,34,11
+2026-05-25,Winding-up petition,175,157,18
+2026-05-25,Disclaimer,23,23,0
+2026-06-01,Administration,88,87,1
+2026-06-01,Administrative receivership,0,0,0
+2026-06-01,Receivership,0,0,0
+2026-06-01,Creditors' voluntary liquidation,344,308,36
+2026-06-01,Winding-up order,38,36,2
+2026-06-01,Winding-up petition,131,117,14
+2026-06-01,Disclaimer,37,37,0
+2026-06-08,Administration,49,49,0
+2026-06-08,Administrative receivership,0,0,0
+2026-06-08,Receivership,0,0,0
+2026-06-08,Creditors' voluntary liquidation,414,387,27
+2026-06-08,Winding-up order,88,85,3
+2026-06-08,Winding-up petition,154,137,17
+2026-06-08,Disclaimer,24,23,1
+2026-06-15,Administration,34,34,0
+2026-06-15,Administrative receivership,0,0,0
+2026-06-15,Receivership,0,0,0
+2026-06-15,Creditors' voluntary liquidation,343,321,22
+2026-06-15,Winding-up order,74,62,12
+2026-06-15,Winding-up petition,161,142,19
+2026-06-15,Disclaimer,54,54,0
+2026-06-22,Administration,30,30,0
+2026-06-22,Administrative receivership,0,0,0
+2026-06-22,Receivership,0,0,0
+2026-06-22,Creditors' voluntary liquidation,366,345,21
+2026-06-22,Winding-up order,77,68,9
+2026-06-22,Winding-up petition,140,122,18
+2026-06-22,Disclaimer,22,22,0
+2026-06-29,Administration,45,44,1
+2026-06-29,Administrative receivership,0,0,0
+2026-06-29,Receivership,0,0,0
+2026-06-29,Creditors' voluntary liquidation,404,370,34
+2026-06-29,Winding-up order,103,90,13
+2026-06-29,Winding-up petition,150,135,15
+2026-06-29,Disclaimer,25,24,1
+2026-07-06,Administration,40,39,1
+2026-07-06,Administrative receivership,0,0,0
+2026-07-06,Receivership,0,0,0
+2026-07-06,Creditors' voluntary liquidation,352,324,28
+2026-07-06,Winding-up order,50,49,1
+2026-07-06,Winding-up petition,115,109,6
+2026-07-06,Disclaimer,17,17,0
+2026-07-13,Administration,14,14,0
+2026-07-13,Administrative receivership,0,0,0
+2026-07-13,Receivership,0,0,0
+2026-07-13,Creditors' voluntary liquidation,387,361,26
+2026-07-13,Winding-up order,75,72,3
+2026-07-13,Winding-up petition,130,113,17
+2026-07-13,Disclaimer,27,27,0
+2026-07-20,Administration,40,40,0
+2026-07-20,Administrative receivership,0,0,0
+2026-07-20,Receivership,0,0,0
+2026-07-20,Creditors' voluntary liquidation,339,323,16
+2026-07-20,Winding-up order,62,58,4
+2026-07-20,Winding-up petition,148,138,10
+2026-07-20,Disclaimer,30,27,3
+2026-07-27,Administration,31,31,0
+2026-07-27,Administrative receivership,0,0,0
+2026-07-27,Receivership,0,0,0
+2026-07-27,Creditors' voluntary liquidation,342,320,22
+2026-07-27,Winding-up order,84,80,4
+2026-07-27,Winding-up petition,123,114,9
+2026-07-27,Disclaimer,21,21,0
+2026-08-03,Administration,44,44,0
+2026-08-03,Administrative receivership,0,0,0
+2026-08-03,Receivership,0,0,0
+2026-08-03,Creditors' voluntary liquidation,331,309,22
+2026-08-03,Winding-up order,65,61,4
+2026-08-03,Winding-up petition,157,144,13
+2026-08-03,Disclaimer,35,34,1
+2026-08-10,Administration,26,25,1
+2026-08-10,Administrative receivership,0,0,0
+2026-08-10,Receivership,0,0,0
+2026-08-10,Creditors' voluntary liquidation,333,309,24
+2026-08-10,Winding-up order,86,83,3
+2026-08-10,Winding-up petition,50,43,7
+2026-08-10,Disclaimer,4,3,1
+2026-08-17,Administration,43,43,0
+2026-08-17,Administrative receivership,0,0,0
+2026-08-17,Receivership,0,0,0
+2026-08-17,Creditors' voluntary liquidation,357,330,27
+2026-08-17,Winding-up order,73,71,2
+2026-08-17,Winding-up petition,142,130,12
+2026-08-17,Disclaimer,35,35,0
+2026-08-24,Administration,31,30,1
+2026-08-24,Administrative receivership,0,0,0
+2026-08-24,Receivership,0,0,0
+2026-08-24,Creditors' voluntary liquidation,355,332,23
+2026-08-24,Winding-up order,52,47,5
+2026-08-24,Winding-up petition,161,127,34
+2026-08-24,Disclaimer,32,31,1
+2026-08-31,Administration,20,20,0
+2026-08-31,Administrative receivership,0,0,0
+2026-08-31,Receivership,0,0,0
+2026-08-31,Creditors' voluntary liquidation,298,274,24
+2026-08-31,Winding-up order,55,50,5
+2026-08-31,Winding-up petition,150,122,28
+2026-08-31,Disclaimer,26,25,1
+2026-09-07,Administration,26,26,0
+2026-09-07,Administrative receivership,0,0,0
+2026-09-07,Receivership,0,0,0
+2026-09-07,Creditors' voluntary liquidation,347,319,28
+2026-09-07,Winding-up order,90,80,10
+2026-09-07,Winding-up petition,169,145,24
+2026-09-07,Disclaimer,16,16,0
+2026-09-14,Administration,27,26,1
+2026-09-14,Administrative receivership,0,0,0
+2026-09-14,Receivership,0,0,0
+2026-09-14,Creditors' voluntary liquidation,333,301,32
+2026-09-14,Winding-up order,76,60,16
+2026-09-14,Winding-up petition,67,42,25
+2026-09-14,Disclaimer,10,10,0
+2026-09-21,Administration,37,37,0
+2026-09-21,Administrative receivership,0,0,0
+2026-09-21,Receivership,0,0,0
+2026-09-21,Creditors' voluntary liquidation,351,287,64
+2026-09-21,Winding-up order,96,73,23
+2026-09-21,Winding-up petition,121,113,8
+2026-09-21,Disclaimer,15,15,0
+2026-09-28,Administration,26,24,2
+2026-09-28,Administrative receivership,0,0,0
+2026-09-28,Receivership,0,0,0
+2026-09-28,Creditors' voluntary liquidation,355,321,34
+2026-09-28,Winding-up order,88,80,8
+2026-09-28,Winding-up petition,173,161,12
+2026-09-28,Disclaimer,48,48,0
+2026-10-05,Administration,31,31,0
+2026-10-05,Administrative receivership,0,0,0
+2026-10-05,Receivership,0,0,0
+2026-10-05,Creditors' voluntary liquidation,344,314,30
+2026-10-05,Winding-up order,27,21,6
+2026-10-05,Winding-up petition,155,140,15
+2026-10-05,Disclaimer,32,30,2
+2026-10-12,Administration,43,42,1
+2026-10-12,Administrative receivership,0,0,0
+2026-10-12,Receivership,0,0,0
+2026-10-12,Creditors' voluntary liquidation,318,280,38
+2026-10-12,Winding-up order,38,36,2
+2026-10-12,Winding-up petition,138,119,19
+2026-10-12,Disclaimer,16,15,1

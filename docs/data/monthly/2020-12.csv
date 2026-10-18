@@ -1,0 +1,180 @@
+week_start,code,region,count
+2020-11-30,2410,East Midlands,1
+2020-11-30,2410,East of England,2
+2020-11-30,2410,London,9
+2020-11-30,2410,North East,1
+2020-11-30,2410,North West,8
+2020-11-30,2410,Scotland,5
+2020-11-30,2410,South East,4
+2020-11-30,2410,South West,2
+2020-11-30,2443,East Midlands,13
+2020-11-30,2443,East of England,11
+2020-11-30,2443,London,43
+2020-11-30,2443,North East,7
+2020-11-30,2443,North West,19
+2020-11-30,2443,Scotland,6
+2020-11-30,2443,South East,22
+2020-11-30,2443,South West,15
+2020-11-30,2443,Unknown,18
+2020-11-30,2443,Wales,5
+2020-11-30,2443,West Midlands,17
+2020-11-30,2443,Yorkshire and The Humber,14
+2020-11-30,2450,London,2
+2020-11-30,2450,North West,1
+2020-11-30,2450,Scotland,7
+2020-11-30,2450,South East,1
+2020-11-30,2450,Unknown,5
+2020-11-30,2452,London,7
+2020-11-30,2452,North East,1
+2020-11-30,2452,South East,1
+2020-11-30,2452,West Midlands,1
+2020-11-30,2603,East Midlands,1
+2020-11-30,2603,London,9
+2020-11-30,2603,North East,1
+2020-11-30,2603,North West,1
+2020-11-30,2603,Scotland,1
+2020-11-30,2603,South East,2
+2020-11-30,2603,South West,3
+2020-11-30,2603,Unknown,2
+2020-11-30,2603,Yorkshire and The Humber,2
+2020-12-07,2410,East Midlands,4
+2020-12-07,2410,London,18
+2020-12-07,2410,North East,2
+2020-12-07,2410,North West,1
+2020-12-07,2410,Scotland,2
+2020-12-07,2410,South East,5
+2020-12-07,2410,South West,2
+2020-12-07,2410,Unknown,4
+2020-12-07,2410,West Midlands,3
+2020-12-07,2410,Yorkshire and The Humber,5
+2020-12-07,2443,East Midlands,18
+2020-12-07,2443,East of England,25
+2020-12-07,2443,London,48
+2020-12-07,2443,North East,6
+2020-12-07,2443,North West,36
+2020-12-07,2443,Scotland,4
+2020-12-07,2443,South East,34
+2020-12-07,2443,South West,13
+2020-12-07,2443,Unknown,19
+2020-12-07,2443,Wales,7
+2020-12-07,2443,West Midlands,23
+2020-12-07,2443,Yorkshire and The Humber,17
+2020-12-07,2450,London,2
+2020-12-07,2450,North West,1
+2020-12-07,2450,Scotland,3
+2020-12-07,2450,South East,2
+2020-12-07,2450,Unknown,2
+2020-12-07,2450,West Midlands,1
+2020-12-07,2452,London,3
+2020-12-07,2452,North West,2
+2020-12-07,2452,South West,2
+2020-12-07,2452,West Midlands,1
+2020-12-07,2452,Yorkshire and The Humber,2
+2020-12-07,2603,East of England,1
+2020-12-07,2603,London,16
+2020-12-07,2603,Scotland,4
+2020-12-07,2603,South East,4
+2020-12-07,2603,South West,2
+2020-12-14,2410,East Midlands,3
+2020-12-14,2410,East of England,1
+2020-12-14,2410,London,3
+2020-12-14,2410,North West,2
+2020-12-14,2410,Scotland,4
+2020-12-14,2410,South East,1
+2020-12-14,2410,Wales,1
+2020-12-14,2443,East Midlands,8
+2020-12-14,2443,East of England,18
+2020-12-14,2443,London,51
+2020-12-14,2443,North East,6
+2020-12-14,2443,North West,36
+2020-12-14,2443,Scotland,7
+2020-12-14,2443,South East,21
+2020-12-14,2443,South West,10
+2020-12-14,2443,Unknown,28
+2020-12-14,2443,Wales,8
+2020-12-14,2443,West Midlands,20
+2020-12-14,2443,Yorkshire and The Humber,15
+2020-12-14,2450,East of England,4
+2020-12-14,2450,London,2
+2020-12-14,2450,Scotland,1
+2020-12-14,2450,South East,1
+2020-12-14,2450,Unknown,7
+2020-12-14,2450,Yorkshire and The Humber,3
+2020-12-14,2452,East of England,1
+2020-12-14,2452,London,4
+2020-12-14,2452,North West,2
+2020-12-14,2452,South East,2
+2020-12-14,2452,Wales,2
+2020-12-14,2452,West Midlands,1
+2020-12-14,2452,Yorkshire and The Humber,1
+2020-12-14,2603,East of England,2
+2020-12-14,2603,London,9
+2020-12-14,2603,North West,1
+2020-12-14,2603,South East,4
+2020-12-14,2603,South West,1
+2020-12-21,2410,East of England,2
+2020-12-21,2410,London,4
+2020-12-21,2410,North West,2
+2020-12-21,2410,Scotland,1
+2020-12-21,2410,South East,1
+2020-12-21,2410,Unknown,1
+2020-12-21,2410,West Midlands,1
+2020-12-21,2410,Yorkshire and The Humber,1
+2020-12-21,2443,East Midlands,10
+2020-12-21,2443,East of England,23
+2020-12-21,2443,London,43
+2020-12-21,2443,North East,8
+2020-12-21,2443,North West,29
+2020-12-21,2443,Scotland,9
+2020-12-21,2443,South East,24
+2020-12-21,2443,South West,9
+2020-12-21,2443,Unknown,15
+2020-12-21,2443,Wales,3
+2020-12-21,2443,West Midlands,29
+2020-12-21,2443,Yorkshire and The Humber,21
+2020-12-21,2450,London,1
+2020-12-21,2450,North West,1
+2020-12-21,2450,Scotland,4
+2020-12-21,2450,South East,2
+2020-12-21,2450,Unknown,4
+2020-12-21,2450,West Midlands,2
+2020-12-21,2452,East of England,1
+2020-12-21,2452,London,6
+2020-12-21,2452,South East,1
+2020-12-21,2452,South West,2
+2020-12-21,2603,East Midlands,1
+2020-12-21,2603,London,14
+2020-12-21,2603,South East,1
+2020-12-21,2603,Unknown,1
+2020-12-21,2603,West Midlands,2
+2020-12-21,2603,Yorkshire and The Humber,1
+2020-12-28,2410,East of England,1
+2020-12-28,2410,London,5
+2020-12-28,2410,North West,7
+2020-12-28,2410,South East,8
+2020-12-28,2410,South West,1
+2020-12-28,2410,Unknown,1
+2020-12-28,2410,West Midlands,1
+2020-12-28,2410,Yorkshire and The Humber,3
+2020-12-28,2443,East Midlands,7
+2020-12-28,2443,East of England,11
+2020-12-28,2443,London,37
+2020-12-28,2443,North East,6
+2020-12-28,2443,North West,16
+2020-12-28,2443,Scotland,5
+2020-12-28,2443,South East,19
+2020-12-28,2443,South West,11
+2020-12-28,2443,Unknown,3
+2020-12-28,2443,Wales,7
+2020-12-28,2443,West Midlands,12
+2020-12-28,2443,Yorkshire and The Humber,13
+2020-12-28,2450,East of England,1
+2020-12-28,2450,London,2
+2020-12-28,2450,South East,2
+2020-12-28,2450,Unknown,1
+2020-12-28,2450,West Midlands,1
+2020-12-28,2452,East Midlands,1
+2020-12-28,2452,London,7
+2020-12-28,2452,North West,1
+2020-12-28,2603,London,2
+2020-12-28,2603,Unknown,1

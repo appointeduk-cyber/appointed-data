@@ -1,0 +1,243 @@
+week_start,code,region,count
+2020-03-02,2410,East Midlands,1
+2020-03-02,2410,East of England,3
+2020-03-02,2410,London,5
+2020-03-02,2410,North West,8
+2020-03-02,2410,Scotland,3
+2020-03-02,2410,South East,3
+2020-03-02,2410,South West,4
+2020-03-02,2410,Unknown,5
+2020-03-02,2410,Wales,1
+2020-03-02,2410,West Midlands,3
+2020-03-02,2410,Yorkshire and The Humber,8
+2020-03-02,2443,East Midlands,20
+2020-03-02,2443,East of England,26
+2020-03-02,2443,London,42
+2020-03-02,2443,North East,15
+2020-03-02,2443,North West,40
+2020-03-02,2443,Scotland,5
+2020-03-02,2443,South East,32
+2020-03-02,2443,South West,16
+2020-03-02,2443,Unknown,40
+2020-03-02,2443,Wales,10
+2020-03-02,2443,West Midlands,26
+2020-03-02,2443,Yorkshire and The Humber,19
+2020-03-02,2450,East Midlands,7
+2020-03-02,2450,East of England,12
+2020-03-02,2450,London,34
+2020-03-02,2450,North East,1
+2020-03-02,2450,North West,12
+2020-03-02,2450,Scotland,19
+2020-03-02,2450,South East,12
+2020-03-02,2450,South West,5
+2020-03-02,2450,Unknown,33
+2020-03-02,2450,Wales,3
+2020-03-02,2450,West Midlands,4
+2020-03-02,2450,Yorkshire and The Humber,6
+2020-03-02,2452,East Midlands,4
+2020-03-02,2452,East of England,3
+2020-03-02,2452,London,15
+2020-03-02,2452,North East,3
+2020-03-02,2452,North West,7
+2020-03-02,2452,South East,12
+2020-03-02,2452,South West,3
+2020-03-02,2452,Unknown,5
+2020-03-02,2452,Wales,4
+2020-03-02,2452,West Midlands,4
+2020-03-02,2452,Yorkshire and The Humber,3
+2020-03-02,2603,East Midlands,1
+2020-03-02,2603,London,1
+2020-03-02,2603,North East,5
+2020-03-02,2603,North West,5
+2020-03-02,2603,South East,3
+2020-03-02,2603,Unknown,15
+2020-03-02,2603,West Midlands,3
+2020-03-09,2410,East Midlands,2
+2020-03-09,2410,London,5
+2020-03-09,2410,North East,4
+2020-03-09,2410,North West,7
+2020-03-09,2410,Scotland,4
+2020-03-09,2410,South East,2
+2020-03-09,2410,South West,5
+2020-03-09,2410,Unknown,3
+2020-03-09,2410,West Midlands,3
+2020-03-09,2410,Yorkshire and The Humber,1
+2020-03-09,2443,East Midlands,19
+2020-03-09,2443,East of England,20
+2020-03-09,2443,London,29
+2020-03-09,2443,North East,13
+2020-03-09,2443,North West,48
+2020-03-09,2443,Scotland,4
+2020-03-09,2443,South East,36
+2020-03-09,2443,South West,10
+2020-03-09,2443,Unknown,36
+2020-03-09,2443,Wales,7
+2020-03-09,2443,West Midlands,25
+2020-03-09,2443,Yorkshire and The Humber,36
+2020-03-09,2450,East Midlands,5
+2020-03-09,2450,East of England,11
+2020-03-09,2450,London,27
+2020-03-09,2450,North East,3
+2020-03-09,2450,North West,10
+2020-03-09,2450,Scotland,15
+2020-03-09,2450,South East,19
+2020-03-09,2450,South West,2
+2020-03-09,2450,Unknown,30
+2020-03-09,2450,Wales,5
+2020-03-09,2450,West Midlands,9
+2020-03-09,2450,Yorkshire and The Humber,7
+2020-03-09,2452,East Midlands,3
+2020-03-09,2452,East of England,9
+2020-03-09,2452,London,19
+2020-03-09,2452,North East,5
+2020-03-09,2452,North West,5
+2020-03-09,2452,South East,6
+2020-03-09,2452,South West,3
+2020-03-09,2452,Unknown,13
+2020-03-09,2452,Wales,2
+2020-03-09,2452,West Midlands,3
+2020-03-09,2452,Yorkshire and The Humber,5
+2020-03-09,2603,London,5
+2020-03-09,2603,North East,1
+2020-03-09,2603,North West,1
+2020-03-09,2603,South East,1
+2020-03-09,2603,South West,1
+2020-03-09,2603,Unknown,9
+2020-03-09,2603,West Midlands,2
+2020-03-16,2410,East Midlands,3
+2020-03-16,2410,East of England,1
+2020-03-16,2410,London,5
+2020-03-16,2410,North East,2
+2020-03-16,2410,North West,8
+2020-03-16,2410,Scotland,1
+2020-03-16,2410,South East,5
+2020-03-16,2410,South West,4
+2020-03-16,2410,Unknown,5
+2020-03-16,2410,West Midlands,2
+2020-03-16,2410,Yorkshire and The Humber,2
+2020-03-16,2443,East Midlands,15
+2020-03-16,2443,East of England,28
+2020-03-16,2443,London,48
+2020-03-16,2443,North East,5
+2020-03-16,2443,North West,41
+2020-03-16,2443,Scotland,7
+2020-03-16,2443,South East,32
+2020-03-16,2443,South West,27
+2020-03-16,2443,Unknown,29
+2020-03-16,2443,Wales,5
+2020-03-16,2443,West Midlands,22
+2020-03-16,2443,Yorkshire and The Humber,26
+2020-03-16,2450,East of England,1
+2020-03-16,2450,London,13
+2020-03-16,2450,North West,6
+2020-03-16,2450,Scotland,11
+2020-03-16,2450,South East,4
+2020-03-16,2450,South West,1
+2020-03-16,2450,Unknown,11
+2020-03-16,2450,West Midlands,4
+2020-03-16,2450,Yorkshire and The Humber,2
+2020-03-16,2452,East Midlands,8
+2020-03-16,2452,East of England,7
+2020-03-16,2452,London,15
+2020-03-16,2452,North East,1
+2020-03-16,2452,North West,15
+2020-03-16,2452,South East,12
+2020-03-16,2452,South West,5
+2020-03-16,2452,Unknown,10
+2020-03-16,2452,Wales,3
+2020-03-16,2452,West Midlands,5
+2020-03-16,2452,Yorkshire and The Humber,4
+2020-03-16,2603,East Midlands,1
+2020-03-16,2603,East of England,2
+2020-03-16,2603,London,4
+2020-03-16,2603,North East,1
+2020-03-16,2603,North West,4
+2020-03-16,2603,South East,4
+2020-03-16,2603,South West,1
+2020-03-16,2603,Unknown,14
+2020-03-16,2603,Wales,1
+2020-03-16,2603,West Midlands,1
+2020-03-23,2410,East Midlands,2
+2020-03-23,2410,East of England,2
+2020-03-23,2410,London,7
+2020-03-23,2410,North East,1
+2020-03-23,2410,North West,6
+2020-03-23,2410,Scotland,4
+2020-03-23,2410,South East,5
+2020-03-23,2410,South West,2
+2020-03-23,2410,Unknown,4
+2020-03-23,2410,Wales,1
+2020-03-23,2410,West Midlands,3
+2020-03-23,2410,Yorkshire and The Humber,12
+2020-03-23,2443,East Midlands,18
+2020-03-23,2443,East of England,18
+2020-03-23,2443,London,35
+2020-03-23,2443,North East,6
+2020-03-23,2443,North West,48
+2020-03-23,2443,Scotland,2
+2020-03-23,2443,South East,42
+2020-03-23,2443,South West,11
+2020-03-23,2443,Unknown,40
+2020-03-23,2443,Wales,5
+2020-03-23,2443,West Midlands,22
+2020-03-23,2443,Yorkshire and The Humber,32
+2020-03-23,2450,East Midlands,1
+2020-03-23,2450,East of England,2
+2020-03-23,2450,London,8
+2020-03-23,2450,North West,2
+2020-03-23,2450,South East,5
+2020-03-23,2450,South West,2
+2020-03-23,2450,Unknown,16
+2020-03-23,2450,Wales,1
+2020-03-23,2450,West Midlands,1
+2020-03-23,2450,Yorkshire and The Humber,2
+2020-03-23,2452,East Midlands,2
+2020-03-23,2452,North East,1
+2020-03-23,2452,North West,4
+2020-03-23,2452,South East,1
+2020-03-23,2452,South West,1
+2020-03-23,2452,Unknown,1
+2020-03-23,2452,West Midlands,1
+2020-03-23,2603,East of England,1
+2020-03-23,2603,North East,1
+2020-03-23,2603,South East,2
+2020-03-23,2603,Unknown,6
+2020-03-30,2410,East Midlands,1
+2020-03-30,2410,East of England,1
+2020-03-30,2410,London,4
+2020-03-30,2410,North West,4
+2020-03-30,2410,Scotland,1
+2020-03-30,2410,South East,1
+2020-03-30,2410,South West,1
+2020-03-30,2410,Unknown,1
+2020-03-30,2410,West Midlands,1
+2020-03-30,2410,Yorkshire and The Humber,3
+2020-03-30,2443,East Midlands,5
+2020-03-30,2443,East of England,4
+2020-03-30,2443,London,10
+2020-03-30,2443,North East,3
+2020-03-30,2443,North West,12
+2020-03-30,2443,Scotland,2
+2020-03-30,2443,South East,13
+2020-03-30,2443,South West,8
+2020-03-30,2443,Unknown,7
+2020-03-30,2443,Wales,1
+2020-03-30,2443,West Midlands,5
+2020-03-30,2443,Yorkshire and The Humber,8
+2020-03-30,2450,East Midlands,1
+2020-03-30,2450,East of England,1
+2020-03-30,2450,North East,1
+2020-03-30,2450,North West,1
+2020-03-30,2450,Scotland,1
+2020-03-30,2450,South East,1
+2020-03-30,2450,Unknown,4
+2020-03-30,2450,West Midlands,1
+2020-03-30,2450,Yorkshire and The Humber,4
+2020-03-30,2452,North East,1
+2020-03-30,2452,South East,1
+2020-03-30,2452,Unknown,1
+2020-03-30,2603,London,2
+2020-03-30,2603,North East,1
+2020-03-30,2603,South East,1
+2020-03-30,2603,Unknown,5
+2020-03-30,2603,West Midlands,1
