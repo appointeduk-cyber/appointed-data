@@ -40,6 +40,9 @@ jobs:
           restore-keys: geo-
       - name: Build
         run: python pipeline/build.py --start "${{ github.event.inputs.start || '2020-01-01' }}" --max-minutes "${{ github.event.inputs.max_minutes || '320' }}" 2>&1 | tee build.log
+      - name: Compare with official statistics
+        if: success()
+        run: python pipeline/official.py 2>&1 | tee -a build.log
       - name: Save run log
         if: always()
         run: |

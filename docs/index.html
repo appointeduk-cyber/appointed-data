@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Appointed Distress Index</title>
+<meta name="description" content="A weekly measure of UK company insolvencies from Gazette notices, with regional figures, creditor pressure and a monthly check against official statistics.">
+<link rel="icon" href="assets/appointed-icon-512.svg" type="image/svg+xml">
+<meta property="og:title" content="Appointed Distress Index">
+<meta property="og:description" content="Weekly UK company insolvencies, by region, from Gazette notices.">
+<meta property="og:image" content="assets/appointed-social-1200x630.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0a1014; --ink-2:#3a4552; --muted:#6b7480; --rule:#dde1e6; --grid:#eceef1;
+  --paper:#f7f7f5; --card:#fff; --blue:#1b82fd; --blue-ink:#1667c9; --hl:#d0e6fd;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100;
+  --shade:#f1f3f5;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 "Inter",system-ui,sans-serif}
+.num{font-variant-numeric:tabular-nums}
+a{color:var(--blue-ink)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+@media(max-width:700px){.wrap{padding:0 16px}}
+header{background:#fff;border-bottom:1px solid var(--rule)}
+header .wrap{display:flex;align-items:center;gap:16px;height:64px}
+header img{height:30px;width:auto;display:block}
+header nav{margin-left:auto;display:flex;gap:16px;font-size:14px;font-weight:500}
+header nav a{color:var(--ink-2);text-decoration:none}
+@media(max-width:560px){header nav{display:none}}
+.kicker{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue-ink);font-weight:700;margin:0 0 8px}
+h1,h2,h3{letter-spacing:-.02em;line-height:1.15;margin:0}
+h2{font-size:26px;font-weight:800;margin-bottom:6px}
+.sub{color:var(--ink-2);margin:0 0 18px;max-width:46em}
+.small{font-size:13px;color:var(--muted)}
+section{padding:40px 0;border-bottom:1px solid var(--rule)}
+.card{background:#fff;border:1px solid var(--rule);border-radius:12px;padding:20px}
+@media(max-width:560px){.card{padding:14px}}
+
+/* hero */
+.hero{background:#fff;padding:40px 0 32px}
+.hero-grid{display:grid;grid-template-columns:auto 1fr;gap:36px;align-items:center}
+@media(max-width:820px){.hero-grid{grid-template-columns:1fr;gap:20px}}
+.big{font-size:96px;font-weight:900;letter-spacing:-.05em;line-height:.95}
+@media(max-width:560px){.big{font-size:72px}}
+.chg{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px;font-size:14px;color:var(--ink-2)}
+.chg b{color:var(--ink);font-weight:700}
+.pill{display:inline-block;font-size:12px;font-weight:700;padding:2px 10px;border-radius:999px;background:var(--hl);color:var(--blue-ink)}
+.pill.warn{background:#fff3cd;color:#7a5a00}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+@media(max-width:560px){.tiles{grid-template-columns:1fr}}
+.tile{background:var(--paper);border-radius:10px;padding:12px 14px}
+.tile .n{font-size:28px;font-weight:800}
+.tile .l{font-size:13px;color:var(--ink-2);font-weight:600}
+.tile .x{font-size:12px;color:var(--muted)}
+
+/* controls */
+.ctrls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:12px}
+.seg{display:inline-flex;border:1px solid var(--rule);border-radius:8px;overflow:hidden;background:#fff}
+.seg button{font:inherit;font-size:13px;font-weight:600;border:0;background:#fff;color:var(--ink-2);padding:7px 12px;cursor:pointer;border-left:1px solid var(--rule)}
+.seg button:first-child{border-left:0}
+.seg button.on{background:var(--ink);color:#fff}
+.chk{font-size:13px;color:var(--ink-2);display:inline-flex;align-items:center;gap:6px;cursor:pointer}
+
+/* charts */
+.chart{position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.tip{position:absolute;pointer-events:none;background:#fff;border:1px solid var(--rule);box-shadow:0 4px 14px rgba(10,16,20,.12);border-radius:8px;padding:8px 10px;font-size:12.5px;min-width:160px;display:none;z-index:3}
+.tip b{display:block;margin-bottom:4px}
+.tip .r{display:flex;justify-content:space-between;gap:14px}
+.tip .r span:first-child{display:inline-flex;align-items:center;gap:6px}
+.tip i{width:8px;height:8px;border-radius:50%;display:inline-block}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--ink-2);margin-top:6px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:16px;height:3px;border-radius:2px;display:inline-block}
+.legend i.box{width:14px;height:10px;border-radius:2px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:860px){.grid3,.grid2{grid-template-columns:1fr}}
+.mini h3{font-size:15px;font-weight:700}
+.mini .v{font-size:22px;font-weight:800;margin:2px 0 4px}
+
+/* regions */
+.reg-grid{display:grid;grid-template-columns:auto minmax(0,1fr);gap:28px;align-items:start}
+@media(max-width:860px){.reg-grid{grid-template-columns:1fr}}
+.tilemap text{font:600 11px Inter,sans-serif;pointer-events:none}
+.tilemap rect{stroke:#fff;stroke-width:3;cursor:pointer}
+table.t{width:100%;border-collapse:collapse;font-size:14px}
+table.t th{text-align:left;font-size:12px;color:var(--muted);font-weight:600;border-bottom:1px solid var(--rule);padding:7px 6px;vertical-align:bottom}
+@media(max-width:560px){table.t{font-size:13px}table.t td,table.t th{padding:7px 4px}}
+table.t td{border-bottom:1px solid var(--rule);padding:8px 6px}
+table.t td.r,table.t th.r{text-align:right}
+table.t tr.on td{background:var(--hl)}
+.chip{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.scale{display:flex;align-items:center;gap:3px;font-size:12px;color:var(--muted);margin-top:10px;flex-wrap:wrap}
+.scale i{width:22px;height:9px;border-radius:2px;display:inline-block}
+
+details.tbl summary{font-size:13px;font-weight:600;cursor:pointer;margin-top:10px;color:var(--blue-ink)}
+.tblwrap{overflow-x:auto;margin-top:8px}
+.tblwrap table{font-size:12.5px;white-space:nowrap}
+
+.notice{background:#fff8e6;border:1px solid #f3e2b3;border-radius:10px;padding:14px 16px;color:#5c4400}
+.method p,.method li{color:var(--ink-2)}
+.method h3{font-size:18px;font-weight:800;margin:26px 0 6px}
+.caveats li{margin:8px 0}
+footer{padding:32px 0 48px;font-size:13px;color:var(--muted)}
+.loading{padding:60px 0;text-align:center;color:var(--muted)}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a href="./"><img src="assets/appointed-logo.svg" alt="Appointed"></a>
+  <nav><a href="#trend">Trend</a><a href="#pressure">Creditor pressure</a><a href="#regions">Regions</a><a href="#check">Official check</a><a href="#method">Method</a></nav>
+</div></header>
+
+<main id="app">
+  <div class="wrap loading" id="loading">Loading the latest data…</div>
+</main>
+
+<footer><div class="wrap">
+  <p>Contains public sector information licensed under the Open Government Licence v3.0. Source: The Gazette (London, Edinburgh and Belfast editions). Region lookups: postcodes.io (ONS Postcode Directory). Official comparison: Insolvency Service, Company Insolvency Statistics.</p>
+  <p>This is not an official statistic. It is information, not investment advice. <a href="https://github.com/appointeduk-cyber/appointed-data">Data and code</a>.</p>
+</div></footer>
+
+<script>
+(function(){
+"use strict";
+var C = {s1:"#2a78d6", s2:"#eb6834", s3:"#1baf7a", s4:"#eda100", ink:"#0a1014", muted:"#6b7480", grid:"#eceef1", rule:"#dde1e6", blue:"#1b82fd", shade:"#f1f3f5"};
+var REGIONS = [
+  ["SCO","Scotland",1,0],["NI","Northern Ireland",0,1],["NE","North East",2,1],["NW","North West",1,2],
+  ["YH","Yorkshire and The Humber",2,2],["WAL","Wales",0,3],["WM","West Midlands",1,3],["EM","East Midlands",2,3],
+  ["EE","East of England",3,3],["SW","South West",0,4],["SE","South East",1,4],["LON","London",2,4]];
+// diverging: below 100 cool, above 100 warm, neutral grey around 100
+var DIV = [["#2a78d6","≤80"],["#86b6ef","80–95"],["#e6e8eb","95–105"],["#f5b48f","105–120"],["#eb6834","120–140"],["#b8461a","≥140"]];
+function divColor(v){ if(v===null||v===""||isNaN(v)) return "#f4f5f6";
+  v=+v; return v<=80?DIV[0][0]:v<95?DIV[1][0]:v<=105?DIV[2][0]:v<=120?DIV[3][0]:v<=140?DIV[4][0]:DIV[5][0]; }
+function darkText(v){ v=+v; return v<=80||v>140; }
+
+function parseCSV(t){ var lines=t.trim().split(/\r?\n/), h=lines.shift().split(",");
+  return lines.map(function(l){ var c=[],cur="",q=false; for(var i=0;i<l.length;i++){var ch=l[i];
+      if(ch=='"'){q=!q;continue} if(ch==','&&!q){c.push(cur);cur="";continue} cur+=ch;} c.push(cur);
+    var o={}; h.forEach(function(k,i){o[k]=c[i]}); return o; }); }
+function get(u,j){ return fetch(u,{cache:"no-cache"}).then(function(r){ if(!r.ok) throw new Error(u); return j?r.json():r.text(); }); }
+function fmtDate(s,opt){ var d=new Date(s+"T00:00:00Z"); return d.toLocaleDateString("en-GB",Object.assign({timeZone:"UTC"},opt||{day:"numeric",month:"short",year:"numeric"})); }
+function weekEnd(s){ var d=new Date(s+"T00:00:00Z"); d.setUTCDate(d.getUTCDate()+6); return d.toISOString().slice(0,10); }
+function el(tag,attrs,html){ var e=document.createElement(tag); if(attrs) for(var k in attrs) e.setAttribute(k,attrs[k]); if(html!=null) e.innerHTML=html; return e; }
+function sign(x){ return (x>0?"+":"")+x; }
+
+Promise.all([
+  get("data/index_weekly.csv"), get("data/meta.json",true), get("data/summary.json",true),
+  get("data/index_regional.csv"), get("data/diffusion_regions.csv"),
+  get("data/reconciliation.csv").catch(function(){return null}),
+  get("data/reconciliation_summary.json",true).catch(function(){return null})
+]).then(function(r){ render(parseCSV(r[0]), r[1], r[2], parseCSV(r[3]), parseCSV(r[4]), r[5]?parseCSV(r[5]):[], r[6]); })
+.catch(function(){
+  document.getElementById("loading").innerHTML='<div class="notice" style="max-width:640px;margin:0 auto;text-align:left"><b>The index is being built.</b><br>The first full history of Gazette notices since January 2020 is still being processed. This page will fill in automatically when it is ready.</div>';
+});
+
+/* ---------- generic line chart with crosshair ---------- */
+function lineChart(host, opt){
+  // opt: {x:[dates], series:[{name,color,values,width,dash}], yMin, yMax, ref (number), refLabel, shade:[from,to], fmt, height, pct}
+  host.innerHTML=""; host.classList.add("chart");
+  var W=Math.max(320, host.clientWidth||900), narrow=W<560, H=opt.height||(narrow?240:300);
+  var p={l:42,r:narrow?14:110,t:14,b:28}, n=opt.x.length;
+  var all=[]; opt.series.forEach(function(s){ s.values.forEach(function(v){ if(v!==null&&v!==""&&!isNaN(v)) all.push(+v); }); });
+  var mn=opt.yMin!=null?opt.yMin:Math.min.apply(null,all), mx=opt.yMax!=null?opt.yMax:Math.max.apply(null,all);
+  if(opt.ref!=null){ mn=Math.min(mn,opt.ref); mx=Math.max(mx,opt.ref); }
+  var span=mx-mn||1, raw=span/4, mag=Math.pow(10,Math.floor(Math.log10(raw))), step=[1,2,2.5,5,10].map(function(m){return m*mag}).filter(function(s){return s>=raw})[0];
+  mn=Math.floor(mn/step)*step; mx=Math.ceil(mx/step)*step;
+  var X=function(i){return p.l+i*(W-p.l-p.r)/Math.max(1,n-1)}, Y=function(v){return p.t+(mx-v)*(H-p.t-p.b)/(mx-mn)};
+  var fmt=opt.fmt||function(v){return Math.round(v*10)/10};
+  var s='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+(opt.label||"chart")+'">';
+  if(opt.shade){ var a=opt.x.findIndex(function(d){return d>=opt.shade[0]}), b=opt.x.findIndex(function(d){return d>opt.shade[1]}); if(b<0) b=n; if(a>=0&&b>a){
+    s+='<rect x="'+X(a)+'" y="'+p.t+'" width="'+(X(b-1)-X(a))+'" height="'+(H-p.t-p.b)+'" fill="'+C.shade+'"/>';
+    s+='<text x="'+(X(a)+6)+'" y="'+(p.t+14)+'" font-size="11" fill="'+C.muted+'">'+(opt.shadeLabel||"")+'</text>'; } }
+  for(var g=mn; g<=mx+1e-9; g+=step){ var y=Y(g), isRef=opt.ref!=null&&Math.abs(g-opt.ref)<1e-9;
+    s+='<line x1="'+p.l+'" x2="'+(W-p.r)+'" y1="'+y+'" y2="'+y+'" stroke="'+(isRef?"#9aa3ad":C.grid)+'"'+(isRef?' stroke-dasharray="4 3"':'')+'/>';
+    s+='<text x="'+(p.l-6)+'" y="'+(y+4)+'" text-anchor="end" font-size="11" fill="'+C.muted+'">'+(opt.pct?Math.round(g*100)+"%":Math.round(g*10)/10)+'</text>'; }
+  if(opt.ref!=null&&opt.refLabel) s+='<text x="'+(W-p.r-4)+'" y="'+(Y(opt.ref)-6)+'" text-anchor="end" font-size="11" fill="'+C.muted+'">'+opt.refLabel+'</text>';
+  // year ticks
+  var lastY="", lastX=-999; opt.x.forEach(function(d,i){ var yv=d.slice(0,4); if(yv!==lastY){ lastY=yv; var xx=X(i); if(i===0){ var nxt=opt.x.findIndex(function(z){return z.slice(0,4)!==yv}); if(nxt>0 && X(nxt)-xx<44) return; } if(xx-lastX<40) return; s+='<text x="'+xx+'" y="'+(H-8)+'" font-size="11" fill="'+C.muted+'">'+yv+'</text>'; lastX=xx; } });
+  opt.series.forEach(function(se){ var pts=[], segs=[];
+    se.values.forEach(function(v,i){ if(v===null||v===""||isNaN(v)){ if(pts.length) segs.push(pts); pts=[]; } else pts.push(X(i)+","+Y(+v)); }); if(pts.length) segs.push(pts);
+    segs.forEach(function(sg){ s+='<polyline fill="none" stroke="#fff" stroke-width="'+((se.width||2)+3)+'" stroke-linejoin="round" points="'+sg.join(" ")+'"/>';
+      s+='<polyline fill="none" stroke="'+se.color+'" stroke-width="'+(se.width||2)+'" stroke-linejoin="round" stroke-linecap="round"'+(se.dash?' stroke-dasharray="'+se.dash+'"':'')+' points="'+sg.join(" ")+'"/>'; }); });
+  // end labels
+  if(!narrow){ var labs=[]; opt.series.forEach(function(se){ for(var i=n-1;i>=0;i--){ var v=se.values[i]; if(v!==null&&v!==""&&!isNaN(v)){ labs.push({se:se,y:Y(+v),v:+v,i:i}); break; } } });
+    labs.sort(function(a,b){return a.y-b.y}); for(var k=1;k<labs.length;k++) if(labs[k].y-labs[k-1].y<15) labs[k].y=labs[k-1].y+15;
+    labs.forEach(function(l){ s+='<circle cx="'+X(l.i)+'" cy="'+Y(l.v)+'" r="4" fill="'+l.se.color+'" stroke="#fff" stroke-width="2"/><text x="'+(X(l.i)+9)+'" y="'+(l.y+4)+'" font-size="12" font-weight="600" fill="'+C.ink+'">'+(l.se.short||l.se.name)+'</text>'; }); }
+  s+='<line class="cx" x1="0" x2="0" y1="'+p.t+'" y2="'+(H-p.b)+'" stroke="'+C.ink+'" stroke-width="1" style="display:none"/><g class="dots"></g>';
+  s+='<rect class="hit" x="'+p.l+'" y="0" width="'+(W-p.l-p.r)+'" height="'+H+'" fill="transparent"/></svg><div class="tip"></div>';
+  host.innerHTML=s;
+  var svg=host.querySelector("svg"), hit=host.querySelector(".hit"), tip=host.querySelector(".tip"), cx=host.querySelector(".cx"), dots=host.querySelector(".dots");
+  function move(ev){ var rc=svg.getBoundingClientRect(), sx=W/rc.width, xp=((ev.touches?ev.touches[0].clientX:ev.clientX)-rc.left)*sx;
+    var i=Math.max(0,Math.min(n-1,Math.round((xp-p.l)/(W-p.l-p.r)*(n-1)))), x=X(i);
+    cx.setAttribute("x1",x); cx.setAttribute("x2",x); cx.style.display="";
+    var rows=opt.series.filter(function(se){var v=se.values[i];return v!==null&&v!==""&&!isNaN(v)});
+    dots.innerHTML=rows.map(function(se){return '<circle cx="'+x+'" cy="'+Y(+se.values[i])+'" r="4.5" fill="'+se.color+'" stroke="#fff" stroke-width="2"/>'}).join("");
+    tip.innerHTML='<b>'+(opt.xLabel?opt.xLabel(opt.x[i]):opt.x[i])+'</b>'+rows.map(function(se){return '<div class="r"><span><i style="background:'+se.color+'"></i>'+se.name+'</span><span class="num">'+fmt(+se.values[i])+'</span></div>'}).join("")+(opt.extra?opt.extra(i):"");
+    tip.style.display="block"; var px=x/sx, left=px+14; if(left+tip.offsetWidth>rc.width) left=px-14-tip.offsetWidth; tip.style.left=Math.max(0,left)+"px"; tip.style.top="8px"; }
+  function out(){ tip.style.display="none"; cx.style.display="none"; dots.innerHTML=""; }
+  hit.addEventListener("mousemove",move); hit.addEventListener("touchmove",move,{passive:true}); hit.addEventListener("mouseleave",out);
+}
+
+/* ---------- page ---------- */
+var STATE={range:"all",rob:false,ck:"ADM"}, LASTW=0;
+function render(idx, meta, sum, reg, diff, recon, rsum){
+  LASTW=window.innerWidth;
+  var app=document.getElementById("app"); app.innerHTML="";
+  var last=idx[idx.length-1], prov=last.provisional==="1";
+  var we=weekEnd(last.week_start);
+  var wlab=function(d){ return "Week to "+fmtDate(weekEnd(d)); };
+
+  // HERO
+  var hero=el("section",{"class":"hero"}); hero.innerHTML='<div class="wrap"><p class="kicker">Appointed Distress Index · week to '+fmtDate(we)+(prov?' <span class="pill warn">provisional</span>':'')+'</p>'+
+    '<div class="hero-grid"><div><div class="big num">'+Math.round(+last.index)+'</div>'+
+    '<div class="chg"><span>vs 4 weeks ago <b class="num">'+sign(sum.change_vs_4wk_ago)+'</b></span>'+(sum.change_vs_year_ago!=null?'<span>vs a year ago <b class="num">'+sign(sum.change_vs_year_ago)+'</b></span>':'')+'</div></div>'+
+    '<div><p style="margin:0 0 12px;color:var(--ink-2)">UK company insolvencies over the last four weeks, against the 2024–25 average. <b>100 = the 2024–25 average</b> ("recent normal", not a long-run average). Above 100 means more insolvencies than that.</p>'+
+    '<div class="tiles">'+
+      tile("Administrations",last.administrations)+tile("Creditors' voluntary liquidations",last.cvl)+tile("Winding-up orders",last.winding_up_orders)+
+    '</div><p class="small" style="margin:10px 0 0">'+(+last.events_4wk).toLocaleString("en-GB")+' insolvencies in the last four weeks. Latest four weeks are provisional.</p></div></div></div>';
+  app.appendChild(hero);
+  function tile(l,v){ return '<div class="tile"><div class="l">'+l+'</div><div class="n num">'+Math.round(+v)+'</div><div class="x">index, 2024–25 = 100</div></div>'; }
+
+  // TREND
+  var tr=el("section",{id:"trend"}); tr.innerHTML='<div class="wrap"><h2>The trend since 2020</h2><p class="sub">Weekly, based on rolling four-week totals. The grey band marks the period when the law restricted winding-up petitions, which held insolvencies artificially low.</p>'+
+    '<div class="card"><div class="ctrls"><div class="seg" id="rng"><button data-v="all" class="on">Since 2020</button><button data-v="104">2 years</button><button data-v="52">1 year</button></div>'+
+    '<label class="chk"><input type="checkbox" id="rob"> Show alternative weightings</label></div><div id="c-main"></div><div class="legend" id="lg-main"></div>'+
+    '<details class="tbl"><summary>Show as a table</summary><div class="tblwrap" id="t-main"></div></details></div>'+
+    '<h3 style="font-size:18px;font-weight:800;margin:28px 0 10px">The three parts</h3><div class="grid3" id="minis"></div></div>';
+  app.appendChild(tr);
+  var range=STATE.range, rob=STATE.rob;
+  function slice(arr){ return range==="all"?arr:arr.slice(-(+range)); }
+  function drawMain(){
+    var x=slice(idx.map(function(r){return r.week_start}));
+    var series=[{name:"Distress index",short:"Index",color:C.blue,width:2.5,values:slice(idx.map(function(r){return r.index}))}];
+    if(rob){ series.push({name:"Equal weights",short:"Equal weights",color:C.s2,width:1.5,dash:"5 3",values:slice(idx.map(function(r){return r.equal_weight}))});
+             series.push({name:"Plain count",short:"Plain count",color:C.s3,width:1.5,dash:"2 3",values:slice(idx.map(function(r){return r.plain_count}))}); }
+    lineChart(document.getElementById("c-main"),{x:x,series:series,ref:100,refLabel:"2024–25 = 100",shade:["2020-03-01","2022-03-31"],shadeLabel:"Petitions restricted by law",xLabel:wlab,label:"Distress index since 2020"});
+    document.getElementById("lg-main").innerHTML=series.map(function(s){return '<span><i style="background:'+s.color+'"></i>'+s.name+'</span>'}).join("")+'<span><i class="box" style="background:'+C.shade+';border:1px solid #dfe3e7"></i>Petition restrictions (Mar 2020 – Mar 2022)</span>';
+  }
+  drawMain();
+  document.querySelectorAll("#rng button").forEach(function(b){ b.onclick=function(){ document.querySelectorAll("#rng button").forEach(function(x){x.classList.remove("on")}); b.classList.add("on"); range=STATE.range=b.dataset.v; drawMain(); }; });
+  document.querySelectorAll("#rng button").forEach(function(b){ b.classList.toggle("on", b.dataset.v===range); });
+  document.getElementById("rob").checked=rob;
+  document.getElementById("rob").onchange=function(){ rob=STATE.rob=this.checked; drawMain(); };
+  var tb='<table class="t num"><tr><th>Week to</th><th class="r">Index</th><th class="r">Admin.</th><th class="r">CVL</th><th class="r">Winding-up orders</th><th class="r">Equal weights</th><th class="r">Plain count</th></tr>';
+  idx.slice(-26).reverse().forEach(function(r){ tb+='<tr><td>'+fmtDate(weekEnd(r.week_start))+(r.provisional==="1"?" (p)":"")+'</td><td class="r">'+r.index+'</td><td class="r">'+r.administrations+'</td><td class="r">'+r.cvl+'</td><td class="r">'+r.winding_up_orders+'</td><td class="r">'+r.equal_weight+'</td><td class="r">'+r.plain_count+'</td></tr>'; });
+  document.getElementById("t-main").innerHTML=tb+'</table><p class="small">Latest 26 weeks. (p) = provisional.</p>';
+  var w=meta.index&&meta.index.weights||{};
+  [["administrations","Administrations","ADM","Mostly larger businesses; gazetted by law."],["cvl","Creditors' voluntary liquidations","CVL","Directors close an insolvent company; the most common route."],["winding_up_orders","Winding-up orders","WUO","A court closes the company, usually on a creditor's petition."]].forEach(function(c,k){
+    var box=el("div",{"class":"card mini"}); box.innerHTML='<h3>'+c[1]+'</h3><div class="v num">'+Math.round(+last[c[0]])+'</div><div class="small" style="margin-bottom:6px">'+c[3]+' Weight in index: '+(w[c[2]]!=null?Math.round(w[c[2]]*100)+'%':'–')+'</div><div class="m"></div>';
+    document.getElementById("minis").appendChild(box);
+    lineChart(box.querySelector(".m"),{x:idx.map(function(r){return r.week_start}).slice(-104),series:[{name:c[1],short:" ",color:[C.s1,C.s2,C.s3][k],values:idx.map(function(r){return r[c[0]]}).slice(-104)}],ref:100,height:150,xLabel:wlab,label:c[1]});
+  });
+
+  // CREDITOR PRESSURE
+  var pr=el("section",{id:"pressure"});
+  var pet=idx.filter(function(r){return r.petitions_index!==""});
+  pr.innerHTML='<div class="wrap"><h2>Creditor pressure</h2><p class="sub">Winding-up petitions: creditors asking a court to close a company. A petition is a request, not a failure, and many are paid or dismissed, so petitions are tracked separately from the index. Shown from April 2022, after Covid restrictions ended.</p>'+
+    '<div class="grid2"><div class="card"><h3 style="font-size:16px;font-weight:700;margin-bottom:8px">Petitions, 2024–25 = 100</h3><div id="c-pet"></div></div>'+
+    '<div class="card"><h3 style="font-size:16px;font-weight:700;margin-bottom:8px">Share of petitions brought by HMRC</h3><div id="c-hmrc"></div><p class="small" style="margin:8px 0 0">Counts petitions where HMRC is named in the notice summary. Summaries are sometimes cut short, so this is a lower bound.</p></div></div></div>';
+  app.appendChild(pr);
+  if(pet.length){
+    lineChart(document.getElementById("c-pet"),{x:pet.map(function(r){return r.week_start}),series:[{name:"Petitions index",short:"Petitions",color:C.s2,values:pet.map(function(r){return r.petitions_index})}],ref:100,xLabel:wlab,height:240,label:"Petitions index"});
+    lineChart(document.getElementById("c-hmrc"),{x:pet.map(function(r){return r.week_start}),series:[{name:"HMRC share",short:"HMRC",color:C.s1,values:pet.map(function(r){return r.petitions_hmrc_share_detected})}],yMin:0,pct:true,fmt:function(v){return Math.round(v*100)+"%"},xLabel:wlab,height:240,label:"HMRC share of petitions"});
+  }
+
+  // REGIONS
+  var rg=el("section",{id:"regions"});
+  var lw=reg.filter(function(r){return r.week_start===reg[reg.length-1].week_start});
+  var byName={}; lw.forEach(function(r){byName[r.region]=r});
+  var dl=diff.length?diff[diff.length-1]:null;
+  rg.innerHTML='<div class="wrap"><h2>By region</h2><p class="sub">Last 13 weeks against each region\'s own 2024–25 average. Regions use 13-week totals because weekly numbers are too small to be reliable; anything under 20 insolvencies is not shown.</p>'+
+    '<div class="card"><div class="reg-grid"><div><div id="tm"></div><div class="scale">'+DIV.map(function(d){return '<i style="background:'+d[0]+'"></i>'+d[1]}).join(" ")+'</div>'+
+    (dl?'<p style="margin:14px 0 0;max-width:290px"><b class="num" style="font-size:22px">'+Math.round(+dl.diffusion)+'</b> <span class="small">breadth score: share of regions where insolvencies are up on a year earlier (50 = as many up as down)</span></p>':'')+
+    '</div><div class="tblwrap" style="margin:0"><table class="t num" id="rt"><tr><th>Region</th><th class="r">Last 13<br>weeks</th><th class="r">Index</th><th class="r">vs year<br>ago</th></tr></table></div></div>'+
+    '<p class="small" style="margin:12px 0 0">Region is taken from the map point The Gazette attaches to each notice, which appears to reflect the registered office. Registered offices can be an accountant\'s or insolvency practitioner\'s address, so regional figures show where companies are registered, not necessarily where they trade.</p></div></div>';
+  app.appendChild(rg);
+  var size=64,gap=5,svg='<svg class="tilemap" width="'+(4*size+3*gap)+'" height="'+(5*size+4*gap)+'" viewBox="0 0 '+(4*size+3*gap)+' '+(5*size+4*gap)+'" role="img" aria-label="Regional index map">';
+  REGIONS.forEach(function(R){ var r=byName[R[1]]||{}, v=r.index_13wk, X=R[2]*(size+gap), Y=R[3]*(size+gap);
+    svg+='<rect data-r="'+R[1]+'" x="'+X+'" y="'+Y+'" width="'+size+'" height="'+size+'" rx="6" fill="'+divColor(v)+'"><title>'+R[1]+': '+(v!==""&&v!=null?v:"too few to show")+'</title></rect>';
+    svg+='<text x="'+(X+size/2)+'" y="'+(Y+size/2)+'" text-anchor="middle" fill="'+(v!==""&&v!=null&&darkText(v)?"#fff":"#0a1014")+'">'+R[0]+'</text><text x="'+(X+size/2)+'" y="'+(Y+size/2+14)+'" text-anchor="middle" font-weight="800" fill="'+(v!==""&&v!=null&&darkText(v)?"#fff":"#0a1014")+'">'+(v!==""&&v!=null?Math.round(+v):"–")+'</text>'; });
+  document.getElementById("tm").innerHTML=svg+'</svg>';
+  var rows=lw.filter(function(r){return r.region!=="Unknown"}).sort(function(a,b){return (+b.index_13wk||0)-(+a.index_13wk||0)});
+  var rt=document.getElementById("rt");
+  rows.forEach(function(r){ var tr=el("tr",{"data-r":r.region}); tr.innerHTML='<td><span class="chip" style="background:'+divColor(r.index_13wk)+'"></span>'+r.region.replace(" and The Humber"," & Humber")+'</td><td class="r">'+r.events_13wk+'</td><td class="r"><b>'+(r.index_13wk!==""?Math.round(+r.index_13wk):"–")+'</b></td><td class="r">'+(r.vs_year_earlier_pct!==""?sign(Math.round(+r.vs_year_earlier_pct))+"%":"–")+'</td>'; rt.appendChild(tr); });
+  var unk=byName["Unknown"]; if(unk){ var tr=el("tr"); tr.innerHTML='<td class="small">Region unknown</td><td class="r small">'+unk.events_13wk+'</td><td></td><td></td>'; rt.appendChild(tr); }
+  function hl(name){ document.querySelectorAll("#rt tr").forEach(function(t){t.classList.toggle("on",t.dataset.r===name)}); document.querySelectorAll("#tm rect").forEach(function(t){t.setAttribute("stroke",t.dataset.r===name?"#0a1014":"#fff")}); }
+  document.querySelectorAll("#tm rect").forEach(function(t){t.addEventListener("click",function(){hl(t.dataset.r)})});
+  document.querySelectorAll("#rt tr[data-r]").forEach(function(t){t.addEventListener("click",function(){hl(t.dataset.r)})});
+
+  // OFFICIAL CHECK
+  var ck=el("section",{id:"check"});
+  ck.innerHTML='<div class="wrap"><h2>Checked against the official figures</h2><p class="sub">Every month we compare our counts for England and Wales with the Insolvency Service\'s official statistics. The two will never match exactly: official figures are counted by the month a case is registered at Companies House, ours by the week the Gazette notice is published. What matters is that the two move together at a steady ratio.</p><div class="card" id="ck-body"></div></div>';
+  app.appendChild(ck);
+  var body=document.getElementById("ck-body");
+  if(rsum&&rsum.components&&recon.length){
+    var names={ADM:"Administrations",CVL:"Creditors' voluntary liquidations",WUO:"Winding-up orders (official: compulsory liquidations)"};
+    body.innerHTML='<div class="ctrls"><div class="seg" id="ckc"><button data-v="ADM" class="on">Administrations</button><button data-v="CVL">CVLs</button><button data-v="WUO">Winding-up orders</button></div></div><div id="c-ck"></div><div class="legend"><span><i style="background:'+C.blue+'"></i>Appointed (Gazette)</span><span><i style="background:'+C.ink+'"></i>Insolvency Service (official)</span></div>'+
+      '<div class="tblwrap"><table class="t num" style="margin-top:14px"><tr><th>Component</th><th class="r">Ours ÷ official</th><th class="r">Range</th><th class="r">Months within 10%</th><th class="r">Monthly match</th><th class="r">3-month match</th></tr>'+
+      Object.keys(names).filter(function(k){return rsum.components[k]}).map(function(k){var s=rsum.components[k]; return '<tr><td>'+names[k]+'</td><td class="r">'+s.ratio_mean.toFixed(2)+'</td><td class="r">'+s.ratio_min.toFixed(2)+'–'+s.ratio_max.toFixed(2)+'</td><td class="r">'+Math.round(s.share_of_months_within_10pct_of_mean*100)+'%</td><td class="r">'+(s.corr_monthly_changes!=null?s.corr_monthly_changes.toFixed(2):"–")+'</td><td class="r">'+(s.corr_3month_changes!=null?s.corr_3month_changes.toFixed(2):"–")+'</td></tr>';}).join("")+
+      '</table></div><p class="small" style="margin:10px 0 0">Since April 2022. "Ours ÷ official" is the average ratio; "within 10%" is the share of months close to it; "match" is the correlation of changes from month to month and over 3-month totals (1 = perfectly in step). Official source: '+(rsum.official_release||"Insolvency Service")+'.</p>';
+    function drawCk(k){ var rr=recon.filter(function(r){return r.component===k});
+      lineChart(document.getElementById("c-ck"),{x:rr.map(function(r){return r.month}),series:[{name:"Appointed",short:"Appointed",color:C.blue,values:rr.map(function(r){return r.appointed})},{name:"Official",short:"Official",color:C.ink,values:rr.map(function(r){return r.official})}],yMin:0,fmt:function(v){return Math.round(v).toLocaleString("en-GB")},xLabel:function(m){return fmtDate(m+"-01",{month:"long",year:"numeric"})},height:260,label:"Appointed vs official monthly counts",shade:["2020-03","2022-03"],shadeLabel:"Petitions restricted"}); }
+    drawCk(STATE.ck); document.querySelectorAll("#ckc button").forEach(function(b){ b.classList.toggle("on", b.dataset.v===STATE.ck); });
+    document.querySelectorAll("#ckc button").forEach(function(b){ b.onclick=function(){ document.querySelectorAll("#ckc button").forEach(function(x){x.classList.remove("on")}); b.classList.add("on"); STATE.ck=b.dataset.v; drawCk(b.dataset.v); }; });
+  } else body.innerHTML='<p class="small" style="margin:0">The comparison appears here once the latest official release has been processed.</p>';
+
+  // METHOD
+  var q=meta.quality||{}, dd=q.dedup||{};
+  var md=el("section",{id:"method","class":"method"});
+  md.innerHTML='<div class="wrap"><div style="max-width:780px"><h2>How the index works</h2>'+
+    '<h3>What it counts</h3><p>The three procedures the law requires to be published in The Gazette, which together make up about 99% of UK company insolvencies: administrations (notice code 2410), creditors\' voluntary liquidations (2441 and 2443, merged into one event per company) and winding-up orders (2452). Petitions are tracked separately. Receiver appointments and disclaimers are collected but excluded, because there is no legal duty to gazette most of them.</p>'+
+    '<h3>Counting companies, not notices</h3><p>One insolvency can generate several notices. We count one event per company per procedure, using the company number in each notice. Companies that move from administration into liquidation are not counted twice. Currently '+(dd.CVL_notices_per_event?dd.CVL_notices_per_event.toFixed(2):"–")+' CVL notices are published per CVL.</p>'+
+    '<h3>Dates</h3><p>Each insolvency is dated by the week its first Gazette notice was published, usually a few days after the event. The latest four weeks are provisional.</p>'+
+    '<h3>Weights</h3><p>Each part is scaled so that its typical week-to-week swing counts the same (the method used by the Conference Board for its leading indicators). Current weights: administrations '+pc(w.ADM)+', CVLs '+pc(w.CVL)+', winding-up orders '+pc(w.WUO)+'. Tick "alternative weightings" on the chart to see that the trend holds under equal weights and a plain count.</p>'+
+    '<h3>Data quality this week</h3><ul><li>Notices processed: '+(q.notices||0).toLocaleString("en-GB")+'</li><li>Placed in a region by map point: '+pc(q.share_located_by_map_point)+'</li><li>Region unknown: '+pc(q.share_region_unknown)+'</li></ul>'+
+    '<h3>Caveats</h3><ul class="caveats">'+
+      '<li>The index counts administrator appointments, winding-up orders and creditors\' voluntary liquidations published in The Gazette. It does not include company voluntary arrangements, restructuring plans or moratoriums, which are not gazetted, and it excludes solvent members\' voluntary liquidations.</li>'+
+      '<li>100 is the average for 2024–25, a "recent normal". It is not a long-run average: the official insolvency rate in 2024–25 was under half its 2008–09 peak.</li>'+
+      '<li>Between spring 2020 and 31 March 2022 the law restricted creditors\' winding-up petitions, so winding-up orders and petitions in that period are artificially low. The petition indicator therefore starts in April 2022.</li>'+
+      '<li>Figures are dated by the week each notice was published. The latest four weeks are provisional and will be revised as late notices appear.</li>'+
+      '<li>Regional figures use 13-week totals. Cells with fewer than 20 insolvencies are not shown because they are too volatile to be reliable. This is a reliability rule, not a confidentiality rule: the underlying notices are public.</li>'+
+      '<li>A petition is a creditor\'s request, not a failure. Many petitions do not end in a winding-up order, and petition volumes reflect HMRC enforcement policy as well as business conditions.</li>'+
+      '<li>This index is not an official statistic. The Insolvency Service\'s monthly figures are the authoritative measure; our monthly comparison against them is shown above.</li>'+
+      '<li>The index is in development and may be revised as methods improve. Method version '+(meta.method_version||"")+'.</li>'+
+    '</ul><p class="small">Last updated '+(meta.updated_utc?fmtDate(meta.updated_utc.slice(0,10)):"")+'. Download the data: <a href="data/index_weekly.csv">weekly index</a> · <a href="data/index_regional.csv">regions</a> · <a href="data/reconciliation.csv">official comparison</a> · <a href="data/meta.json">method and quality</a>.</p></div></div>';
+  app.appendChild(md);
+  function pc(v){ return v==null?"–":Math.round(v*100)+"%"; }
+
+  if(!window._rz){ window._rz=1; var t; window.addEventListener("resize",function(){ if(Math.abs(window.innerWidth-LASTW)<40) return; clearTimeout(t); t=setTimeout(function(){ render(idx,meta,sum,reg,diff,recon,rsum); },200); }); }
+}
+})();
+</script>
+</body>
+</html>
