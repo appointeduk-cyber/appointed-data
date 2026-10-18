@@ -125,6 +125,14 @@ If the form is ever deleted: in beehiiv go to Grow → Subscribe forms → New f
 
 **If you leave beehiiv:** export your subscribers (Audience → Subscribers → Export CSV), import them into the new tool, and replace the code above with the new tool's embed code. Nothing else on the website changes.
 
+## 5b. Founding place reservations (no payment taken)
+
+- Page: https://appointeduk-cyber.github.io/appointed-data/founding.html (homepage button "Reserve a founding place" goes here).
+- beehiiv form: **Founding place reservation (inline)**, ID 354628ff-8150-4372-ab35-2d67569fabfd. Email plus a required Yes/No question "Reserve a founding place at £9 a month? Nothing to pay now." Button "Reserve my place".
+- The answer is saved in a beehiiv custom field called **Founding place** (Yes/No).
+- beehiiv segment **Founding places reserved** counts everyone who said Yes (Audience → Segments). Email this list the day paid membership opens.
+- Embed code: `<script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="354628ff-8150-4372-ab35-2d67569fabfd"></script>`
+
 ## 6. Website
 
 - Address: https://appointeduk-cyber.github.io/appointed-data/
