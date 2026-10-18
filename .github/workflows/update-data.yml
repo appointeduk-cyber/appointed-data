@@ -1,0 +1,55 @@
+name: Update data
+
+on:
+  schedule:
+    - cron: "20 5 * * *"      # every day 05:20 UTC (Gazette notices for the week land by Monday morning)
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "Backfill from (YYYY-MM-DD)"
+        default: "2020-01-01"
+      max_minutes:
+        description: "Time budget in minutes"
+        default: "320"
+  push:
+    branches: [main]
+    paths: ["pipeline/**", ".github/workflows/update-data.yml"]
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Restore private lookup cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: geo-${{ github.run_id }}
+          restore-keys: geo-
+      - name: Build
+        run: python pipeline/build.py --start "${{ github.event.inputs.start || '2020-01-01' }}" --max-minutes "${{ github.event.inputs.max_minutes || '320' }}" 2>&1 | tee build.log
+      - name: Save run log
+        if: always()
+        run: |
+          mkdir -p docs/data
+          { echo "# Last run"; echo; echo "- UTC: $(date -u +%Y-%m-%dT%H:%M:%SZ)"; echo "- Trigger: ${{ github.event_name }}"; echo; echo '```'; tail -n 120 build.log || true; echo '```'; } > docs/data/last_run.md
+      - name: Publish
+        if: always()
+        run: |
+          git config user.name "appointed-bot"
+          git config user.email "appointeduk@gmail.com"
+          git add docs/data
+          git commit -m "Data update $(date -u +%Y-%m-%d)" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push origin HEAD:main
