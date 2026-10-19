@@ -1,7 +1,8 @@
 name: State of the Seat (members only)
 
-# Builds one constituency's monthly pack from official sources. Output is NOT published to the
-# site: it is kept as a short-lived run file (deleted after one day) for review before anything is sent.
+# Builds one constituency's monthly pack from official sources. Output is NOT published to the site.
+# It is locked with the public key in pipeline/keys/ and stored on the 'packs' branch; only the holder of
+# the matching private key (kept off GitHub) can open it.
 on:
   workflow_dispatch:
     inputs:
@@ -13,7 +14,7 @@ on:
         default: "kingston-upon-thames"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   seat:
@@ -32,12 +33,17 @@ jobs:
           restore-keys: geo-
       - name: Build pack
         run: python pipeline/seat.py --seat "${{ github.event.inputs.seat }}" --la "${{ github.event.inputs.la }}" 2>&1 | tee seat.log
-      - name: Keep pack for one day
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: seat-pack
-          path: |
-            .cache/private/seats/*.json
-            seat.log
-          retention-days: 1
+      - name: Lock and store pack
+        run: |
+          set -e
+          tar czf pack.tgz .cache/private/seats seat.log
+          openssl rand -hex 32 > k.txt
+          openssl enc -aes-256-cbc -pbkdf2 -pass file:k.txt -in pack.tgz -out pack.enc
+          openssl pkeyutl -encrypt -pubin -inkey pipeline/keys/pack_public.pem -in k.txt -out key.enc
+          rm -f k.txt pack.tgz
+          name="pack-$(date -u +%Y%m%dT%H%M)-${{ github.run_id }}"
+          mkdir -p /tmp/out/$name && mv pack.enc key.enc /tmp/out/$name/
+          git config user.name "appointed-bot"; git config user.email "appointeduk@gmail.com"
+          if git fetch -q origin packs; then git checkout -q -B packs origin/packs; else git checkout -q --orphan packs && git rm -rfq . ; fi
+          cp -r /tmp/out/$name .
+          git add $name && git commit -qm "Locked seat pack $name" && git push -q origin HEAD:packs
