@@ -125,8 +125,10 @@ def economy(seat, today):
         row["companies_house_url"] = url
         try:
             page = get(url, accept="text/html")
-            m = re.search(r"<title>\s*(.+?) overview", page, re.S)
+            m = (re.search(r'id="company-name"[^>]*>\s*([^<]+?)\s*<', page)
+                 or re.search(r"<title>\s*(.+?)\s+overview", page, re.S | re.I))
             row["company"] = html.unescape(m.group(1)).strip() if m else ""
+            if not row["company"]: log(f"  no name found on Companies House page for {num}: {page[:300]!r}")
             row["sic"] = [html.unescape(x).strip() for x in re.findall(r'<span id="sic\d+">\s*([^<]+?)\s*</span>', page)]
             m = re.search(r'id="company-creation-date">\s*([^<]+?)\s*<', page)
             row["incorporated"] = m.group(1) if m else ""
@@ -135,6 +137,13 @@ def economy(seat, today):
             time.sleep(0.6)
         except Exception as e:  # noqa: BLE001
             row["company"] = ""; log(f"  Companies House lookup failed {num}: {e!r}")
+    def norm(x): return re.sub(r"\b(LIMITED|LTD|PLC|LLP)\b|[^A-Z0-9]", "", (x or "").upper())
+    keep, seen_names = [], set()
+    for row in sorted(names, key=lambda r: ("company_number" not in r, r["date"])):   # numbered rows first
+        k = (norm(row.get("company")), row["type"])
+        if k[0] and k in seen_names: continue
+        seen_names.add(k); keep.append(row)
+    names = sorted(keep, key=lambda r: r["date"], reverse=True)
     months = sorted({m for m, _ in cnt})
     sec["monthly"] = [{"month": m,
                        "insolvencies": cnt[(m, "ADM")] + cnt[(m, "CVL")] + cnt[(m, "WUO")],
@@ -268,6 +277,30 @@ SELECT ?month ?avg ?annual ?vol WHERE {{
                          "sales_volume": int(num(t.get("salesVolume"))) if t.get("salesVolume") not in (None, "") else None})
             if len(rows) >= 25: break
         sec["method"] = "linked-data"
+    if not rows:
+        log("  housing: trying the monthly UK HPI full file")
+        m0 = dt.date.today().replace(day=1)
+        name = la.replace("-", " ").lower()
+        for i in range(1, 6):
+            y, mo = divmod(m0.year * 12 + m0.month - 1 - i, 12); tag = f"{y}-{mo + 1:02d}"
+            url = ("https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/"
+                   f"UK-HPI-full-file-{tag}.csv")
+            try:
+                txt = get(url, accept="text/csv", tries=2)
+            except Exception as e2:  # noqa: BLE001
+                log(f"  HPI file {tag}: {e2!r}"); continue
+            for r in csv.DictReader(io.StringIO(txt)):
+                if r.get("RegionName", "").lower() != name: continue
+                dd, mm, yy = r["Date"].split("/")
+                def f(k):
+                    try: return float(r.get(k) or "")
+                    except ValueError: return None
+                rows.append({"month": f"{yy}-{mm}", "average_price": f("AveragePrice"),
+                             "annual_change_pct": f("12m%Change"),
+                             "sales_volume": int(f("SalesVolume")) if f("SalesVolume") is not None else None})
+            rows = [r for r in rows if r["month"] >= f"{m0.year - 3}"]
+            sec["method"] = "full-file"; sec["source_file"] = url
+            break
     rows.sort(key=lambda r: r["month"])
     if not rows: return fail(sec, f"no rows for region '{la}'")
     sec["monthly"] = rows; sec["area"] = la
