@@ -128,7 +128,7 @@ footer{padding:32px 0 48px;font-size:13px;color:var(--muted)}
 <script>
 (function(){
 "use strict";
-var C = {s1:"#2a78d6", s2:"#eb6834", s3:"#1baf7a", s4:"#eda100", ink:"#0a1014", muted:"#6b7480", grid:"#eceef1", rule:"#dde1e6", blue:"#1b82fd", shade:"#f1f3f5"};
+var C = {s1:"#2a78d6", s2:"#eb6834", s3:"#1baf7a", s4:"#eda100", ink:"#0a1014", muted:"#6b7480", grid:"#eceef1", rule:"#dde1e6", blue:"#1b82fd", shade:"#f1f3f5", hol:"#fbf0dc"};
 var REGIONS = [
   ["SCO","Scotland",1,0],["NI","Northern Ireland",0,1],["NE","North East",2,1],["NW","North West",1,2],
   ["YH","Yorkshire and The Humber",2,2],["WAL","Wales",0,3],["WM","West Midlands",1,3],["EM","East Midlands",2,3],
@@ -173,6 +173,8 @@ function lineChart(host, opt){
   var X=function(i){return p.l+i*(W-p.l-p.r)/Math.max(1,n-1)}, Y=function(v){return p.t+(mx-v)*(H-p.t-p.b)/(mx-mn)};
   var fmt=opt.fmt||function(v){return Math.round(v*10)/10};
   var s='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+(opt.label||"chart")+'">';
+  (opt.bands||[]).forEach(function(bd){ var a=opt.x.indexOf(bd[0]), b=opt.x.indexOf(bd[1]); if(a<0||b<0) return;
+    var x0=X(Math.max(0,a-0.5)), x1=X(Math.min(n-1,b+0.5)); s+='<rect x="'+x0+'" y="'+p.t+'" width="'+Math.max(2,x1-x0)+'" height="'+(H-p.t-p.b)+'" fill="'+C.hol+'"/>'; });
   if(opt.shade){ var a=opt.x.findIndex(function(d){return d>=opt.shade[0]}), b=opt.x.findIndex(function(d){return d>opt.shade[1]}); if(b<0) b=n; if(a>=0&&b>a){
     s+='<rect x="'+X(a)+'" y="'+p.t+'" width="'+(X(b-1)-X(a))+'" height="'+(H-p.t-p.b)+'" fill="'+C.shade+'"/>';
     s+='<text x="'+(X(a)+6)+'" y="'+(p.t+14)+'" font-size="11" fill="'+C.muted+'">'+(opt.shadeLabel||"")+'</text>'; } }
@@ -205,6 +207,11 @@ function lineChart(host, opt){
   hit.addEventListener("mousemove",move); hit.addEventListener("touchmove",move,{passive:true}); hit.addEventListener("mouseleave",out);
 }
 
+function holBands(rows){ var out=[], st=null, prev=null;
+  rows.forEach(function(r){ if(r.holiday_affected==="1"){ if(st===null) st=r.week_start; prev=r.week_start; } else if(st!==null){ out.push([st,prev]); st=null; } });
+  if(st!==null) out.push([st,prev]); return out; }
+function holNote(rows){ return function(i){ return rows[i]&&rows[i].holiday_affected==="1"?'<div class="small" style="margin-top:6px;color:#8a5a00">Christmas or Easter in this window: fewer notices are published, so the index dips for calendar reasons.</div>':""; }; }
+
 /* ---------- page ---------- */
 var STATE={range:"all",rob:false,ck:"ADM"}, LASTW=0;
 function render(idx, meta, sum, reg, diff, recon, rsum){
@@ -221,12 +228,13 @@ function render(idx, meta, sum, reg, diff, recon, rsum){
     '<div><p style="margin:0 0 12px;color:var(--ink-2)">UK company insolvencies over the last four weeks, against the 2024–25 average. <b>100 = the 2024–25 average</b> ("recent normal", not a long-run average). Above 100 means more insolvencies than that.</p>'+
     '<div class="tiles">'+
       tile("Administrations",last.administrations)+tile("Creditors' voluntary liquidations",last.cvl)+tile("Winding-up orders",last.winding_up_orders)+
-    '</div><p class="small" style="margin:10px 0 0">'+(+last.events_4wk).toLocaleString("en-GB")+' insolvencies in the last four weeks. Latest four weeks are provisional.</p></div></div></div>';
+    '</div><p class="small" style="margin:10px 0 0">'+(+last.events_4wk).toLocaleString("en-GB")+' insolvencies in the last four weeks. Latest four weeks are provisional.</p>'+
+    (last.holiday_affected==="1"?'<p class="small" style="margin:8px 0 0;color:#8a5a00"><b>Holiday period:</b> this window includes Christmas or Easter, when far fewer notices are published. The comparison with a year ago is the better guide this week.</p>':'')+'</div></div></div>';
   app.appendChild(hero);
   function tile(l,v){ return '<div class="tile"><div class="l">'+l+'</div><div class="n num">'+Math.round(+v)+'</div><div class="x">index, 2024–25 = 100</div></div>'; }
 
   // TREND
-  var tr=el("section",{id:"trend"}); tr.innerHTML='<div class="wrap"><h2>The trend since 2020</h2><p class="sub">Weekly, based on rolling four-week totals. The grey band marks the period when the law restricted winding-up petitions, which held insolvencies artificially low.</p>'+
+  var tr=el("section",{id:"trend"}); tr.innerHTML='<div class="wrap"><h2>The trend since 2020</h2><p class="sub">Weekly, based on rolling four-week totals. The grey band marks the period when the law restricted winding-up petitions, which held insolvencies artificially low. The pale amber bands mark Christmas and Easter, when courts and insolvency firms largely stop and far fewer notices are published: the dips there are the calendar, not the economy. The index is not yet seasonally adjusted, so in those weeks compare with a year earlier.</p>'+
     '<div class="card"><div class="ctrls"><div class="seg" id="rng"><button data-v="all" class="on">Since 2020</button><button data-v="104">2 years</button><button data-v="52">1 year</button></div>'+
     '<label class="chk"><input type="checkbox" id="rob"> Show alternative weightings</label></div><div id="c-main"></div><div class="legend" id="lg-main"></div>'+
     '<details class="tbl"><summary>Show as a table</summary><div class="tblwrap" id="t-main"></div></details></div>'+
@@ -239,8 +247,9 @@ function render(idx, meta, sum, reg, diff, recon, rsum){
     var series=[{name:"Distress index",short:"Index",color:C.blue,width:2.5,values:slice(idx.map(function(r){return r.index}))}];
     if(rob){ series.push({name:"Equal weights",short:"Equal weights",color:C.s2,width:1.5,dash:"5 3",values:slice(idx.map(function(r){return r.equal_weight}))});
              series.push({name:"Plain count",short:"Plain count",color:C.s3,width:1.5,dash:"2 3",values:slice(idx.map(function(r){return r.plain_count}))}); }
-    lineChart(document.getElementById("c-main"),{x:x,series:series,ref:100,refLabel:"2024–25 = 100",shade:["2020-03-01","2022-03-31"],shadeLabel:"Petitions restricted by law",xLabel:wlab,label:"Distress index since 2020"});
-    document.getElementById("lg-main").innerHTML=series.map(function(s){return '<span><i style="background:'+s.color+'"></i>'+s.name+'</span>'}).join("")+'<span><i class="box" style="background:'+C.shade+';border:1px solid #dfe3e7"></i>Petition restrictions (Mar 2020 – Mar 2022)</span>';
+    var sr=slice(idx);
+    lineChart(document.getElementById("c-main"),{x:x,series:series,ref:100,refLabel:"2024–25 = 100",shade:["2020-03-01","2022-03-31"],shadeLabel:"Petitions restricted by law",bands:holBands(sr),extra:holNote(sr),xLabel:wlab,label:"Distress index since 2020"});
+    document.getElementById("lg-main").innerHTML=series.map(function(s){return '<span><i style="background:'+s.color+'"></i>'+s.name+'</span>'}).join("")+'<span><i class="box" style="background:'+C.shade+';border:1px solid #dfe3e7"></i>Petition restrictions (Mar 2020 – Mar 2022)</span><span><i class="box" style="background:'+C.hol+';border:1px solid #f0dcb4"></i>Christmas and Easter: fewer notices published</span>';
   }
   drawMain();
   document.querySelectorAll("#rng button").forEach(function(b){ b.onclick=function(){ document.querySelectorAll("#rng button").forEach(function(x){x.classList.remove("on")}); b.classList.add("on"); range=STATE.range=b.dataset.v; drawMain(); }; });
@@ -254,7 +263,7 @@ function render(idx, meta, sum, reg, diff, recon, rsum){
   [["administrations","Administrations","ADM","Mostly larger businesses; gazetted by law."],["cvl","Creditors' voluntary liquidations","CVL","Directors close an insolvent company; the most common route."],["winding_up_orders","Winding-up orders","WUO","A court closes the company, usually on a creditor's petition."]].forEach(function(c,k){
     var box=el("div",{"class":"card mini"}); box.innerHTML='<h3>'+c[1]+'</h3><div class="v num">'+Math.round(+last[c[0]])+'</div><div class="small" style="margin-bottom:6px">'+c[3]+' Weight in index: '+(w[c[2]]!=null?Math.round(w[c[2]]*100)+'%':'–')+'</div><div class="m"></div>';
     document.getElementById("minis").appendChild(box);
-    lineChart(box.querySelector(".m"),{x:idx.map(function(r){return r.week_start}).slice(-104),series:[{name:c[1],short:" ",color:[C.s1,C.s2,C.s3][k],values:idx.map(function(r){return r[c[0]]}).slice(-104)}],ref:100,height:150,xLabel:wlab,label:c[1]});
+    lineChart(box.querySelector(".m"),{x:idx.map(function(r){return r.week_start}).slice(-104),series:[{name:c[1],short:" ",color:[C.s1,C.s2,C.s3][k],values:idx.map(function(r){return r[c[0]]}).slice(-104)}],ref:100,height:150,bands:holBands(idx.slice(-104)),extra:holNote(idx.slice(-104)),xLabel:wlab,label:c[1]});
   });
 
   // CREDITOR PRESSURE

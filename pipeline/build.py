@@ -268,6 +268,31 @@ def d(s): return dt.date.fromisoformat(s)
 def monday(x): return x - dt.timedelta(days=x.weekday())
 
 
+def easter(y):
+    """Gregorian Easter Sunday (anonymous algorithm)."""
+    a, b, c = y % 19, y // 100, y % 100
+    d, e = b // 4, b % 4
+    f = (b + 8) // 25; g = (b - f + 1) // 3
+    h = (19 * a + b - d - g + 15) % 30
+    i, k = c // 4, c % 4
+    l = (32 + 2 * e + 2 * i - h - k) % 7
+    m = (a + 11 * h + 22 * l) // 451
+    mo = (h + l - 7 * m + 114) // 31; da = (h + l - 7 * m + 114) % 31 + 1
+    return dt.date(y, mo, da)
+
+
+def holiday_week(wk):
+    """True if the Monday-start week includes Christmas/New Year (24 Dec - 14 Jan, allowing for the
+    slow restart after New Year) or the Easter bank holidays, when courts and insolvency firms largely
+    stop and far fewer notices appear."""
+    days = [wk + dt.timedelta(days=j) for j in range(7)]
+    for x in days:
+        if (x.month == 12 and x.day >= 24) or (x.month == 1 and x.day <= 14): return True
+        e = easter(x.year)
+        if x in (e - dt.timedelta(days=2), e + dt.timedelta(days=1)): return True
+    return False
+
+
 def build_events(notices):
     """Collapse notices into events. Returns list of (component, date, edition, region, extra)."""
     by_code = defaultdict(list)
@@ -402,6 +427,7 @@ def publish(notices, events, q, today, fetch_totals):
                 "petitions_hmrc_share_detected": round(hm, 3) if hm is not None else "",
                 "provisional": "1" if i >= len(weeks) - 4 else "0",
                 "restricted_period": "1" if COVID_RESTRICTED[0] <= wk <= COVID_RESTRICTED[1] else "0",
+                "holiday_affected": "1" if any(holiday_week(d(weeks[j])) for j in range(max(0, i - 3), i + 1)) else "0",
             })
         with open(os.path.join(OUT, "index_weekly.csv"), "w", newline="") as f:
             wr = csv.DictWriter(f, fieldnames=list(idx_rows[0].keys())); wr.writeheader(); wr.writerows(idx_rows)
@@ -442,7 +468,8 @@ def publish(notices, events, q, today, fetch_totals):
                    "components": {"administrations": latest["administrations"], "cvl": latest["cvl"],
                                   "winding_up_orders": latest["winding_up_orders"]},
                    "petitions_index": latest["petitions_index"], "equal_weight": latest["equal_weight"],
-                   "plain_count": latest["plain_count"]}
+                   "plain_count": latest["plain_count"],
+                   "holiday_affected": latest["holiday_affected"] == "1"}
         with open(os.path.join(OUT, "summary.json"), "w") as f: json.dump(summary, f, indent=1)
 
     # quality measures
@@ -476,6 +503,7 @@ def publish(notices, events, q, today, fetch_totals):
             "small_numbers": f"Regional figures use 13-week totals; cells with fewer than {MIN_CELL} events are not shown.",
             "weights": "Each headline component weighted by 1 / (standard deviation of its 13-week log change during 2024-25), normalised to sum to 1 (Conference Board method).",
             "provisional": "The latest 4 weeks are provisional.",
+            "holidays": "Weeks whose four-week window includes Christmas/New Year (24 Dec - 14 Jan, allowing for the slow restart) or the Easter bank holidays are flagged holiday_affected: far fewer notices are published then, so the index dips for calendar reasons. Compare those weeks with the same weeks a year earlier. The index is not yet seasonally adjusted.",
             "restricted_period": "Winding-up petitions were restricted by law from spring 2020 to 31 March 2022 (Corporate Insolvency and Governance Act 2020 and follow-on regulations).",
         },
         "sources": ["Contains public sector information licensed under the Open Government Licence v3.0. Source: The Gazette (London, Edinburgh and Belfast editions).",
