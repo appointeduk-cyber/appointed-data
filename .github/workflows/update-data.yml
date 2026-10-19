@@ -63,8 +63,13 @@ jobs:
           git add docs/data
           [ -d docs/charts ] && git add docs/charts
           git commit -m "Data update $(date -u +%Y-%m-%d)" || echo "nothing to commit"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          # Retry if someone pushed while this run was going; this run's data files win any clash.
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 15))
+          done
+          exit 1
       - name: Continue backfill if unfinished
         if: always()
         env:
