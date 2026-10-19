@@ -1,0 +1,43 @@
+name: State of the Seat (members only)
+
+# Builds one constituency's monthly pack from official sources. Output is NOT published to the
+# site: it is kept as a short-lived run file (deleted after one day) for review before anything is sent.
+on:
+  workflow_dispatch:
+    inputs:
+      seat:
+        description: "Constituency name (July 2024 boundaries)"
+        default: "Kingston and Surbiton"
+      la:
+        description: "Land Registry area slug for house prices"
+        default: "kingston-upon-thames"
+
+permissions:
+  contents: read
+
+jobs:
+  seat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Restore private notice cache (read only)
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: geo-none
+          restore-keys: geo-
+      - name: Build pack
+        run: python pipeline/seat.py --seat "${{ github.event.inputs.seat }}" --la "${{ github.event.inputs.la }}" 2>&1 | tee seat.log
+      - name: Keep pack for one day
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seat-pack
+          path: |
+            .cache/private/seats/*.json
+            seat.log
+          retention-days: 1

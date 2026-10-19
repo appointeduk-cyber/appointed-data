@@ -29,6 +29,7 @@ OUT = os.path.join(ROOT, "docs", "data")
 CACHE = os.path.join(ROOT, ".cache")
 NOTICE_CACHE = os.path.join(CACHE, "notices")
 GEO_CACHE = os.path.join(CACHE, "geo.csv")
+PRIVATE = os.path.join(CACHE, "private")   # members-only outputs: never under docs/, never committed
 METHOD_VERSION = "2.2"
 
 UA = "AppointedDataBot/2.0 (+https://github.com/appointeduk-cyber/appointed-data; appointeduk@gmail.com)"
@@ -519,7 +520,8 @@ def publish(notices, events, q, today, fetch_totals):
 
 def publish_constituencies(events, today):
     """Quarterly counts by Westminster constituency (July 2024 boundaries), from Q3 2024.
-    Counts of public events only; no names. Quarters are dated by first notice."""
+    Counts of public events only; no names. Quarters are dated by first notice.
+    Members-only depth: written to the private cache, not the public site."""
     this_q = f"{today.year}-Q{(today.month - 1) // 3 + 1}"
     cnt = Counter()
     for comp, date, ed, reg, extra, *rest in events:
@@ -533,7 +535,8 @@ def publish_constituencies(events, today):
         if group: cnt[(qtr, con, reg, group)] += 1
         if comp in ("ADM", "CVL", "WUO"): cnt[(qtr, con, reg, comp)] += 1
     keys = sorted({(qt, con, reg) for qt, con, reg, _ in cnt})
-    with open(os.path.join(OUT, "constituency_quarterly.csv"), "w", newline="") as f:
+    os.makedirs(PRIVATE, exist_ok=True)
+    with open(os.path.join(PRIVATE, "constituency_quarterly.csv"), "w", newline="") as f:
         wr = csv.writer(f)
         wr.writerow(["quarter", "constituency", "region", "insolvencies", "administrations", "cvl",
                      "winding_up_orders", "petitions"])
@@ -603,6 +606,8 @@ def main():
         log(f"month {tag}")
         rows, totals, geo = fetch_month(ms, me, geo)
         write_notice_cache(tag, rows, totals); save_geo(geo); fetch_totals[tag] = totals
+    old_public = os.path.join(OUT, "constituency_quarterly.csv")   # constituency figures are members-only
+    if os.path.exists(old_public): os.remove(old_public)
     notices = load_notices()
     office_stats = filter_office_points(notices)
     log(f"office addresses: {office_stats}")
@@ -614,7 +619,7 @@ def main():
                    and needs_constituency(os.path.join(NOTICE_CACHE, f), f[:7])]
         if pending:
             log(f"constituencies: {len(pending)} months still to be refetched overnight; table not published yet")
-            stale = os.path.join(OUT, "constituency_quarterly.csv")
+            stale = os.path.join(PRIVATE, "constituency_quarterly.csv")
             if os.path.exists(stale): os.remove(stale)
         else:
             publish_constituencies(events, today)
