@@ -153,8 +153,11 @@ Promise.all([
   get("data/index_weekly.csv"), get("data/meta.json",true), get("data/summary.json",true),
   get("data/index_regional.csv"), get("data/diffusion_regions.csv"),
   get("data/reconciliation.csv").catch(function(){return null}),
-  get("data/reconciliation_summary.json",true).catch(function(){return null})
-]).then(function(r){ render(parseCSV(r[0]), r[1], r[2], parseCSV(r[3]), parseCSV(r[4]), r[5]?parseCSV(r[5]):[], r[6]); })
+  get("data/reconciliation_summary.json",true).catch(function(){return null}),
+  get("data/annotations.csv").catch(function(){return null})
+]).then(function(r){
+  if(r[7]) ANN=parseCSV(r[7]).map(function(a){ var d=new Date(a.week_start+"T00:00:00Z"); d.setUTCDate(d.getUTCDate()+27); a.until=d.toISOString().slice(0,10); return a; });
+  render(parseCSV(r[0]), r[1], r[2], parseCSV(r[3]), parseCSV(r[4]), r[5]?parseCSV(r[5]):[], r[6]); })
 .catch(function(){
   document.getElementById("loading").innerHTML='<div class="notice" style="max-width:640px;margin:0 auto;text-align:left"><b>The index is being built.</b><br>The first full history of Gazette notices since January 2020 is still being processed. This page will fill in automatically when it is ready.</div>';
 });
@@ -188,6 +191,10 @@ function lineChart(host, opt){
     se.values.forEach(function(v,i){ if(v===null||v===""||isNaN(v)){ if(pts.length) segs.push(pts); pts=[]; } else pts.push(X(i)+","+Y(+v)); }); if(pts.length) segs.push(pts);
     segs.forEach(function(sg){ s+='<polyline fill="none" stroke="#fff" stroke-width="'+((se.width||2)+3)+'" stroke-linejoin="round" points="'+sg.join(" ")+'"/>';
       s+='<polyline fill="none" stroke="'+se.color+'" stroke-width="'+(se.width||2)+'" stroke-linejoin="round" stroke-linecap="round"'+(se.dash?' stroke-dasharray="'+se.dash+'"':'')+' points="'+sg.join(" ")+'"/>'; }); });
+  (opt.notes||[]).forEach(function(nt){ var i=opt.x.indexOf(nt.x); if(i<0) return; var xx=X(i);
+    s+='<line x1="'+xx+'" x2="'+xx+'" y1="'+(p.t+4)+'" y2="'+(H-p.b)+'" stroke="'+C.muted+'" stroke-width="1" stroke-dasharray="2 3"/>';
+    var anchor=xx>W*0.6?"end":"start", tx=anchor==="end"?xx-6:xx+6;
+    s+='<text x="'+tx+'" y="'+(p.t+12)+'" text-anchor="'+anchor+'" font-size="11" font-weight="600" fill="'+C.ink+'">'+nt.text+'</text>'; });
   // end labels
   if(!narrow){ var labs=[]; opt.series.forEach(function(se){ for(var i=n-1;i>=0;i--){ var v=se.values[i]; if(v!==null&&v!==""&&!isNaN(v)){ labs.push({se:se,y:Y(+v),v:+v,i:i}); break; } } });
     labs.sort(function(a,b){return a.y-b.y}); for(var k=1;k<labs.length;k++) if(labs[k].y-labs[k-1].y<15) labs[k].y=labs[k-1].y+15;
@@ -210,7 +217,9 @@ function lineChart(host, opt){
 function holBands(rows){ var out=[], st=null, prev=null;
   rows.forEach(function(r){ if(r.holiday_affected==="1"){ if(st===null) st=r.week_start; prev=r.week_start; } else if(st!==null){ out.push([st,prev]); st=null; } });
   if(st!==null) out.push([st,prev]); return out; }
-function holNote(rows){ return function(i){ return rows[i]&&rows[i].holiday_affected==="1"?'<div class="small" style="margin-top:6px;color:#8a5a00">Christmas or Easter in this window: fewer notices are published, so the index dips for calendar reasons.</div>':""; }; }
+var ANN=[];
+function annNote(w){ var a=ANN.filter(function(x){return x.week_start<=w && w<=x.until}); return a.length?'<div class="small" style="margin-top:6px">'+a[0].detail+'</div>':""; }
+function holNote(rows){ return function(i){ return (rows[i]?annNote(rows[i].week_start):"")+(rows[i]&&rows[i].holiday_affected==="1"?'<div class="small" style="margin-top:6px;color:#8a5a00">Christmas or Easter in this window: fewer notices are published, so the index dips for calendar reasons.</div>':""); }; }
 
 /* ---------- page ---------- */
 var STATE={range:"all",rob:false,ck:"ADM"}, LASTW=0;
@@ -248,7 +257,7 @@ function render(idx, meta, sum, reg, diff, recon, rsum){
     if(rob){ series.push({name:"Equal weights",short:"Equal weights",color:C.s2,width:1.5,dash:"5 3",values:slice(idx.map(function(r){return r.equal_weight}))});
              series.push({name:"Plain count",short:"Plain count",color:C.s3,width:1.5,dash:"2 3",values:slice(idx.map(function(r){return r.plain_count}))}); }
     var sr=slice(idx);
-    lineChart(document.getElementById("c-main"),{x:x,series:series,ref:100,refLabel:"2024–25 = 100",shade:["2020-03-01","2022-03-31"],shadeLabel:"Petitions restricted by law",bands:holBands(sr),extra:holNote(sr),xLabel:wlab,label:"Distress index since 2020"});
+    lineChart(document.getElementById("c-main"),{x:x,series:series,ref:100,refLabel:"2024–25 = 100",shade:["2020-03-01","2022-03-31"],shadeLabel:"Petitions restricted by law",bands:holBands(sr),extra:holNote(sr),notes:ANN.map(function(a){return {x:a.week_start,text:a.label}}),xLabel:wlab,label:"Distress index since 2020"});
     document.getElementById("lg-main").innerHTML=series.map(function(s){return '<span><i style="background:'+s.color+'"></i>'+s.name+'</span>'}).join("")+'<span><i class="box" style="background:'+C.shade+';border:1px solid #dfe3e7"></i>Petition restrictions (Mar 2020 – Mar 2022)</span><span><i class="box" style="background:'+C.hol+';border:1px solid #f0dcb4"></i>Christmas and Easter: fewer notices published</span>';
   }
   drawMain();
