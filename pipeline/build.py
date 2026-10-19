@@ -557,7 +557,12 @@ def main():
     events, q = build_events(notices)
     if complete:
         publish(notices, events, q, today, fetch_totals)
-        publish_constituencies(events, today)
+        pending = [f[:7] for f in os.listdir(NOTICE_CACHE) if f.endswith(".csv")
+                   and needs_constituency(os.path.join(NOTICE_CACHE, f), f[:7])]
+        if pending:
+            log(f"constituencies: {len(pending)} months still to be refetched overnight; table not published yet")
+        else:
+            publish_constituencies(events, today)
     else:
         log("backfill incomplete: published files left unchanged until the history is complete")
     with open(os.path.join(OUT, "backfill_status.json"), "w") as f:
