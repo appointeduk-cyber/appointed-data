@@ -1,6 +1,6 @@
 {
- "method_version": "2.0",
- "updated_utc": "2026-10-19T02:57:13+00:00",
+ "method_version": "2.1",
+ "updated_utc": "2026-10-19T07:05:57+00:00",
  "first_week": "2019-12-30",
  "last_complete_week": "2026-10-12",
  "baseline": {
@@ -37,18 +37,18 @@
  },
  "index": {
   "weights": {
-   "ADM": 0.3261,
-   "CVL": 0.4393,
-   "WUO": 0.2345
+   "ADM": 0.3183,
+   "CVL": 0.4528,
+   "WUO": 0.2289
   },
   "sd_13wk_log_change": {
    "ADM": 0.1119,
-   "CVL": 0.0831,
+   "CVL": 0.0787,
    "WUO": 0.1556
   },
   "baseline_4wk_mean": {
    "ADM": 126.53,
-   "CVL": 2442.68,
+   "CVL": 1527.48,
    "WUO": 265.59,
    "PET": 472.05,
    "PET_HMRC": 0.0,
@@ -92,9 +92,9 @@
    "ADM_duplicates": 128,
    "ADM_events": 10154,
    "ADM_notices": 10282,
-   "CVL_duplicates": 31111,
-   "CVL_events": 207665,
-   "CVL_notices": 238776,
+   "CVL_duplicates": 30221,
+   "CVL_events": 120989,
+   "CVL_notices": 151210,
    "MEMO_AR_events": 4,
    "MEMO_AR_notices": 4,
    "MEMO_DIS_duplicates": 1503,
@@ -111,7 +111,7 @@
    "WUO_events": 16647,
    "WUO_notices": 16890,
    "ADM_notices_per_event": 1.013,
-   "CVL_notices_per_event": 1.15,
+   "CVL_notices_per_event": 1.25,
    "WUO_notices_per_event": 1.015,
    "PET_notices_per_event": 1.022
   }
@@ -9141,8 +9141,8 @@
  "rules": {
   "unit": "One event per company per procedure (company number from the notice; company name where no number is shown). Repeat notices for the same company within 365 days (120 for CVLs, 180 for petitions) are not counted again.",
   "date_basis": "Week (Monday start) in which the first notice for the event was published in The Gazette. The free feed does not expose the appointment or order date.",
-  "cvl": "Resolution (2441) and liquidator appointment (2443) notices are merged into one event. Companies with an administration in the previous 18 months are counted separately as administration-to-CVL moves, not as new CVLs.",
-  "petitions": "Separate indicator from 4 April 2022, after Covid restrictions ended. HMRC share counts petitions where HMRC is visible in the notice summary; the summary is sometimes truncated, so this is a lower bound.",
+  "cvl": "Counted from liquidator appointment notices (2443), plus resolution notices (2441) only where they show a company number, one event per company. Companies with an administration in the previous 18 months are counted separately as administration-to-CVL moves, not as new CVLs.",
+  "petitions": "Separate indicator from 4 April 2022, after Covid restrictions ended. The HMRC share of petitions is published only if HMRC can be detected in the free feed; at present the notice summary is truncated before the petitioner in most notices, so it is not shown.",
   "small_numbers": "Regional figures use 13-week totals; cells with fewer than 20 events are not shown.",
   "weights": "Each headline component weighted by 1 / (standard deviation of its 13-week log change during 2024-25), normalised to sum to 1 (Conference Board method).",
   "provisional": "The latest 4 weeks are provisional.",

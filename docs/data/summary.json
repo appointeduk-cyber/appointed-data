@@ -1,15 +1,15 @@
 {
  "latest_week": "2026-10-12",
- "index": 93.8,
+ "index": 94.5,
  "provisional": true,
- "change_vs_4wk_ago": 5.7,
- "change_vs_year_ago": -3.8,
+ "change_vs_4wk_ago": 5.5,
+ "change_vs_year_ago": -3.2,
  "components": {
   "administrations": 105.9,
-  "cvl": 86.7,
+  "cvl": 88.6,
   "winding_up_orders": 90.4
  },
  "petitions_index": 123.5,
- "equal_weight": 94.3,
- "plain_count": 87.9
+ "equal_weight": 95.0,
+ "plain_count": 90.0
 }
