@@ -1,6 +1,6 @@
 {
  "method_version": "2.1",
- "updated_utc": "2026-10-19T07:18:11+00:00",
+ "updated_utc": "2026-10-19T07:25:59+00:00",
  "first_week": "2019-12-30",
  "last_complete_week": "2026-10-12",
  "baseline": {
@@ -9146,6 +9146,7 @@
   "small_numbers": "Regional figures use 13-week totals; cells with fewer than 20 events are not shown.",
   "weights": "Each headline component weighted by 1 / (standard deviation of its 13-week log change during 2024-25), normalised to sum to 1 (Conference Board method).",
   "provisional": "The latest 4 weeks are provisional.",
+  "holidays": "Weeks whose four-week window includes Christmas/New Year (24 Dec - 14 Jan, allowing for the slow restart) or the Easter bank holidays are flagged holiday_affected: far fewer notices are published then, so the index dips for calendar reasons. Compare those weeks with the same weeks a year earlier. The index is not yet seasonally adjusted.",
   "restricted_period": "Winding-up petitions were restricted by law from spring 2020 to 31 March 2022 (Corporate Insolvency and Governance Act 2020 and follow-on regulations)."
  },
  "sources": [

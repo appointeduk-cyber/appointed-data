@@ -11,5 +11,6 @@
  },
  "petitions_index": 123.5,
  "equal_weight": 95.0,
- "plain_count": 90.0
+ "plain_count": 90.0,
+ "holiday_affected": false
 }
