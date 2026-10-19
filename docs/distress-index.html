@@ -88,6 +88,7 @@ section{padding:40px 0;border-bottom:1px solid var(--rule)}
 @media(max-width:860px){.reg-grid{grid-template-columns:1fr}}
 .tilemap text{font:600 11px Inter,sans-serif;pointer-events:none}
 .tilemap rect{stroke:#fff;stroke-width:3;cursor:pointer}
+#rt tr[data-r]{cursor:pointer}
 table.t{width:100%;border-collapse:collapse;font-size:14px}
 table.t th{text-align:left;font-size:12px;color:var(--muted);font-weight:600;border-bottom:1px solid var(--rule);padding:7px 6px;vertical-align:bottom}
 @media(max-width:560px){table.t{font-size:13px}table.t td,table.t th{padding:7px 4px}}
@@ -113,7 +114,7 @@ footer{padding:32px 0 48px;font-size:13px;color:var(--muted)}
 <body>
 <header><div class="wrap">
   <a href="./"><img src="assets/appointed-logo.svg" alt="Appointed"></a>
-  <nav><a href="https://appointed.beehiiv.com/">Latest issues</a><a href="distress-index.html" style="color:var(--ink);font-weight:700">Distress Index</a><a href="how-we-work.html">How we work</a><a href="./#signup" style="background:var(--ink);color:#fff;padding:8px 12px;border-radius:6px;font-weight:700">Subscribe free</a></nav>
+  <nav><a href="https://appointed.beehiiv.com/">Latest issues</a><a href="distress-index.html" style="color:var(--ink);font-weight:700">Distress Index</a><a href="how-we-work.html">How we work</a><a href="https://appointed.beehiiv.com/login">Sign in</a><a href="./#signup" style="background:var(--ink);color:#fff;padding:8px 12px;border-radius:6px;font-weight:700">Subscribe free</a></nav>
 </div></header>
 
 <main id="app">
@@ -300,7 +301,8 @@ function render(idx, meta, sum, reg, diff, recon, rsum){
     '<div class="card"><div class="reg-grid"><div><div id="tm"></div><div class="scale">'+DIV.map(function(d){return '<i style="background:'+d[0]+'"></i>'+d[1]}).join(" ")+'</div>'+
     (dl?'<p style="margin:14px 0 0;max-width:290px"><b class="num" style="font-size:22px">'+Math.round(+dl.diffusion)+'</b> <span class="small">breadth score: share of regions where insolvencies are up on a year earlier (50 = as many up as down)</span></p>':'')+
     '</div><div class="tblwrap" style="margin:0"><table class="t num" id="rt"><tr><th>Region</th><th class="r">Last 13<br>weeks</th><th class="r">Index</th><th class="r">vs year<br>ago</th></tr></table></div></div>'+
-    '<p class="small" style="margin:12px 0 0">Region is taken from the map point The Gazette attaches to each notice, which appears to reflect the registered office. Registered offices can be an accountant\'s or insolvency practitioner\'s address, so regional figures show where companies are registered, not necessarily where they trade.</p></div></div>';
+    '<div id="rhist" style="margin-top:22px;border-top:1px solid var(--rule);padding-top:18px"><h3 style="font-size:17px;font-weight:800;margin:0 0 4px" id="rh-title">Region over time</h3><p class="small" style="margin:0 0 10px">Click a region on the map or in the table to see its index since 2020, on rolling 13-week totals. 100 = that region\'s own 2024–25 average.</p><div id="c-reg"></div></div>'+
+    '<p class="small" style="margin:12px 0 0">Region is taken from the map point The Gazette attaches to each notice, which reflects the registered office. After an insolvency that is often the insolvency practitioner\'s office, so addresses shared by many different companies (practitioners\', formation agents\' and virtual offices) are being taken out of regional figures and will count only towards the UK total. This correction is being applied over the next few days.</p></div></div>';
   app.appendChild(rg);
   var size=64,gap=5,svg='<svg class="tilemap" width="'+(4*size+3*gap)+'" height="'+(5*size+4*gap)+'" viewBox="0 0 '+(4*size+3*gap)+' '+(5*size+4*gap)+'" role="img" aria-label="Regional index map">';
   REGIONS.forEach(function(R){ var r=byName[R[1]]||{}, v=r.index_13wk, X=R[2]*(size+gap), Y=R[3]*(size+gap);
@@ -311,9 +313,21 @@ function render(idx, meta, sum, reg, diff, recon, rsum){
   var rt=document.getElementById("rt");
   rows.forEach(function(r){ var tr=el("tr",{"data-r":r.region}); tr.innerHTML='<td><span class="chip" style="background:'+divColor(r.index_13wk)+'"></span>'+r.region.replace(" and The Humber"," & Humber")+'</td><td class="r">'+r.events_13wk+'</td><td class="r"><b>'+(r.index_13wk!==""?Math.round(+r.index_13wk):"–")+'</b></td><td class="r">'+(r.vs_year_earlier_pct!==""?sign(Math.round(+r.vs_year_earlier_pct))+"%":"–")+'</td>'; rt.appendChild(tr); });
   var unk=byName["Unknown"]; if(unk){ var tr=el("tr"); tr.innerHTML='<td class="small">Region unknown</td><td class="r small">'+unk.events_13wk+'</td><td></td><td></td>'; rt.appendChild(tr); }
-  function hl(name){ document.querySelectorAll("#rt tr").forEach(function(t){t.classList.toggle("on",t.dataset.r===name)}); document.querySelectorAll("#tm rect").forEach(function(t){t.setAttribute("stroke",t.dataset.r===name?"#0a1014":"#fff")}); }
+  function hl(name){ document.querySelectorAll("#rt tr").forEach(function(t){t.classList.toggle("on",t.dataset.r===name)}); document.querySelectorAll("#tm rect").forEach(function(t){t.setAttribute("stroke",t.dataset.r===name?"#0a1014":"#fff")}); drawReg(name); }
+  function drawReg(name){
+    var rr=reg.filter(function(r){return r.region===name});
+    document.getElementById("rh-title").textContent=name+" over time";
+    lineChart(document.getElementById("c-reg"),{x:rr.map(function(r){return r.week_start}),
+      series:[{name:name,short:name.replace(" and The Humber"," & Humber"),color:C.blue,width:2.5,values:rr.map(function(r){return r.index_13wk})}],
+      ref:100,refLabel:"2024–25 = 100",shade:["2020-03-01","2022-03-31"],shadeLabel:"Petitions restricted by law",
+      notes:ANN.filter(function(a){return name==="London"}).map(function(a){return {x:a.week_start,text:a.label}}),
+      extra:function(i){ var r=rr[i]; return r?'<div class="small" style="margin-top:4px">'+(+r.events_13wk).toLocaleString("en-GB")+' insolvencies in 13 weeks'+(r.vs_year_earlier_pct!==""?' · '+sign(Math.round(+r.vs_year_earlier_pct))+'% on a year earlier':'')+'</div>':""; },
+      xLabel:wlab,height:260,label:name+" regional index since 2020"});
+    STATE.region=name;
+  }
   document.querySelectorAll("#tm rect").forEach(function(t){t.addEventListener("click",function(){hl(t.dataset.r)})});
   document.querySelectorAll("#rt tr[data-r]").forEach(function(t){t.addEventListener("click",function(){hl(t.dataset.r)})});
+  hl(STATE.region||(rows[0]&&rows[0].region));
 
   // OFFICIAL CHECK
   var ck=el("section",{id:"check"});
