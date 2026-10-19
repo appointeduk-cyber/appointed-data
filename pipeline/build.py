@@ -29,7 +29,7 @@ OUT = os.path.join(ROOT, "docs", "data")
 CACHE = os.path.join(ROOT, ".cache")
 NOTICE_CACHE = os.path.join(CACHE, "notices")
 GEO_CACHE = os.path.join(CACHE, "geo.csv")
-METHOD_VERSION = "2.1"
+METHOD_VERSION = "2.2"
 
 UA = "AppointedDataBot/2.0 (+https://github.com/appointeduk-cyber/appointed-data; appointeduk@gmail.com)"
 GAZETTE = "https://www.thegazette.co.uk/all-notices/notice/data.json"
@@ -198,7 +198,8 @@ def geocode(points, cache):
 
 
 # ---------------------------------------------------------------- stage 1: fetch
-FIELDS = ["id", "code", "edition", "date", "key", "has_number", "region", "located", "hmrc", "constituency"]
+FIELDS = ["id", "code", "edition", "date", "key", "has_number", "region", "located", "hmrc", "constituency", "pt"]
+OFFICE_MIN = 20   # a map point shared by this many different companies is an office address, not where they traded
 CONST_START = "2024-07"   # Westminster boundaries in force from the July 2024 general election
 
 
@@ -232,6 +233,7 @@ def fetch_month(m_start, m_end, geo):
                 for b in batch:
                     reg, con = geo_split(geo.get(gkey(b["_lat"], b["_lon"]))) if b["_lat"] is not None else (UNKNOWN, UNKNOWN)
                     b["constituency"] = con
+                    b["pt"] = gkey(b["_lat"], b["_lon"]) if b["_lat"] is not None else ""
                     b["located"] = "1" if reg != UNKNOWN else "0"
                     if reg == UNKNOWN and ed in ("Edinburgh", "Belfast"):
                         reg = EDITIONS[ed]          # nation is certain from the edition even without a map point
@@ -501,6 +503,7 @@ def publish(notices, events, q, today, fetch_totals):
             "cvl": "Counted from liquidator appointment notices (2443), plus resolution notices (2441) only where they show a company number, one event per company. Companies with an administration in the previous 18 months are counted separately as administration-to-CVL moves, not as new CVLs.",
             "petitions": "Separate indicator from 4 April 2022, after Covid restrictions ended. The HMRC share of petitions is published only if HMRC can be detected in the free feed; at present the notice summary is truncated before the petitioner in most notices, so it is not shown.",
             "small_numbers": f"Regional figures use 13-week totals; cells with fewer than {MIN_CELL} events are not shown.",
+            "location": f"Regions and constituencies come from the notice's map point (the registered office). A point shared by {OFFICE_MIN} or more different companies is an insolvency practitioner's, formation agent's or virtual office, not where the business traded, so those notices count towards their nation and the UK but not towards a region or constituency.",
             "weights": "Each headline component weighted by 1 / (standard deviation of its 13-week log change during 2024-25), normalised to sum to 1 (Conference Board method).",
             "provisional": "The latest 4 weeks are provisional.",
             "holidays": "Weeks whose four-week window includes Christmas/New Year (24 Dec - 14 Jan, allowing for the slow restart) or the Easter bank holidays are flagged holiday_affected: far fewer notices are published then, so the index dips for calendar reasons. Compare those weeks with the same weeks a year earlier. The index is not yet seasonally adjusted.",
@@ -541,12 +544,31 @@ def publish_constituencies(events, today):
 
 
 def needs_constituency(path, tag):
-    """Months from July 2024 cached before constituencies were recorded are fetched again once,
-    and only inside the Gazette's overnight window for bulk requests (21:00-07:00 UK)."""
-    if tag < CONST_START: return False
+    """Months cached before map points (and, from July 2024, constituencies) were recorded are
+    fetched again once, only inside the Gazette's overnight window for bulk requests."""
     with open(path, newline="") as f:
         header = f.readline()
-    return "constituency" not in header
+    if "pt" not in header.strip().split(","): return True
+    return tag >= CONST_START and "constituency" not in header
+
+
+def filter_office_points(notices):
+    """Gazette map points are the company's registered office, which after an insolvency is usually
+    moved to the insolvency practitioner's office (or was a formation agent / virtual office). A point
+    shared by OFFICE_MIN or more different companies is treated as such an office: those notices keep
+    their nation but lose region and constituency, so local figures reflect where companies traded."""
+    comp = defaultdict(set)
+    for n in notices:
+        if n.get("pt"): comp[n["pt"]].add(n["key"])
+    office = {pt for pt, ks in comp.items() if len(ks) >= OFFICE_MIN}
+    moved = 0
+    for n in notices:
+        if n.get("pt") in office:
+            n["region"] = EDITIONS[n["edition"]] if n["edition"] in ("Edinburgh", "Belfast") else UNKNOWN
+            n["constituency"] = UNKNOWN; n["located"] = "0"; moved += 1
+    return {"office_points": len(office), "notices_at_office_points": moved,
+            "share_at_office_points": round(moved / len(notices), 4) if notices else None,
+            "notices_without_point_field": sum(1 for n in notices if "pt" not in n or n["pt"] is None)}
 
 
 # ---------------------------------------------------------------- main
@@ -582,7 +604,10 @@ def main():
         rows, totals, geo = fetch_month(ms, me, geo)
         write_notice_cache(tag, rows, totals); save_geo(geo); fetch_totals[tag] = totals
     notices = load_notices()
+    office_stats = filter_office_points(notices)
+    log(f"office addresses: {office_stats}")
     events, q = build_events(notices)
+    q["office_" + "points"] = office_stats["office_points"]; q["office_notices"] = office_stats["notices_at_office_points"]
     if complete:
         publish(notices, events, q, today, fetch_totals)
         pending = [f[:7] for f in os.listdir(NOTICE_CACHE) if f.endswith(".csv")
