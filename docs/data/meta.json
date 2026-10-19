@@ -1,6 +1,6 @@
 {
- "method_version": "2.1",
- "updated_utc": "2026-10-19T07:47:50+00:00",
+ "method_version": "2.2",
+ "updated_utc": "2026-10-19T08:05:59+00:00",
  "first_week": "2019-12-30",
  "last_complete_week": "2026-10-12",
  "baseline": {
@@ -86,8 +86,8 @@
    "2603": 0.0694,
    "2421": 1.0
   },
-  "share_located_by_map_point": 0.9039,
-  "share_region_unknown": 0.0792,
+  "share_located_by_map_point": 0.9029,
+  "share_region_unknown": 0.0801,
   "dedup": {
    "ADM_duplicates": 128,
    "ADM_events": 10154,
@@ -110,6 +110,8 @@
    "WUO_duplicates": 243,
    "WUO_events": 16647,
    "WUO_notices": 16890,
+   "office_notices": 299,
+   "office_points": 8,
    "ADM_notices_per_event": 1.013,
    "CVL_notices_per_event": 1.25,
    "WUO_notices_per_event": 1.015,
@@ -9144,6 +9146,7 @@
   "cvl": "Counted from liquidator appointment notices (2443), plus resolution notices (2441) only where they show a company number, one event per company. Companies with an administration in the previous 18 months are counted separately as administration-to-CVL moves, not as new CVLs.",
   "petitions": "Separate indicator from 4 April 2022, after Covid restrictions ended. The HMRC share of petitions is published only if HMRC can be detected in the free feed; at present the notice summary is truncated before the petitioner in most notices, so it is not shown.",
   "small_numbers": "Regional figures use 13-week totals; cells with fewer than 20 events are not shown.",
+  "location": "Regions and constituencies come from the notice's map point (the registered office). A point shared by 20 or more different companies is an insolvency practitioner's, formation agent's or virtual office, not where the business traded, so those notices count towards their nation and the UK but not towards a region or constituency.",
   "weights": "Each headline component weighted by 1 / (standard deviation of its 13-week log change during 2024-25), normalised to sum to 1 (Conference Board method).",
   "provisional": "The latest 4 weeks are provisional.",
   "holidays": "Weeks whose four-week window includes Christmas/New Year (24 Dec - 14 Jan, allowing for the slow restart) or the Easter bank holidays are flagged holiday_affected: far fewer notices are published then, so the index dips for calendar reasons. Compare those weeks with the same weeks a year earlier. The index is not yet seasonally adjusted.",

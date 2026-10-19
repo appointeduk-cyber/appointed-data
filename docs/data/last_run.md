@@ -1,6 +1,6 @@
 # Last run
 
-- UTC: 2026-10-19T07:48:08Z
+- UTC: 2026-10-19T08:06:20Z
 - Trigger: push
 
 ```
@@ -24,8 +24,9 @@ month 2026-10
   2026-10 2451: 1 notices
   2026-10 2452: 138 notices
   2026-10 2603: 64 notices
+office addresses: {'office_points': 8, 'notices_at_office_points': 299, 'share_at_office_points': 0.001, 'notices_without_point_field': 296407}
 published: 355 weeks, 302951 notices, 182660 events
-constituencies: 3 months still to be refetched overnight; table not published yet
+constituencies: 80 months still to be refetched overnight; table not published yet
 official: company-insolvencies-august-2026, 80 months; reconciled 240 component-months
   ADM: {'months_compared_since_apr_2022': 53, 'ratio_mean': 1.018, 'ratio_sd': 0.162, 'ratio_min': 0.665, 'ratio_max': 1.495, 'share_of_months_within_10pct_of_mean': 0.491, 'corr_monthly_changes': 0.646, 'corr_3month_changes': 0.763, 'latest_month': '2026-08', 'latest_ratio': 0.794}
   CVL: {'months_compared_since_apr_2022': 53, 'ratio_mean': 1.02, 'ratio_sd': 0.108, 'ratio_min': 0.756, 'ratio_max': 1.281, 'share_of_months_within_10pct_of_mean': 0.698, 'corr_monthly_changes': 0.48, 'corr_3month_changes': 0.554, 'latest_month': '2026-08', 'latest_ratio': 0.956}
