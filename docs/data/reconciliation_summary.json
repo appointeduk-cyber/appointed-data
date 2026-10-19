@@ -1,0 +1,44 @@
+{
+ "official_release": "company-insolvencies-august-2026",
+ "official_published": "2026-09-18T09:30:03+01:00",
+ "official_csv": "https://assets.publishing.service.gov.uk/media/6aa95b092f29b388848184fd/Long-Run_Series_in_CSV_Format_-_Company_Insolvency_Statistics_August_2026.csv",
+ "basis_note": "Official: Companies House registration month (compulsory liquidations by order date), England and Wales, not seasonally adjusted. Appointed: London Gazette edition, events dated by publication week, assigned to the calendar month of their first notice.",
+ "components": {
+  "ADM": {
+   "months_compared_since_apr_2022": 53,
+   "ratio_mean": 1.018,
+   "ratio_sd": 0.162,
+   "ratio_min": 0.665,
+   "ratio_max": 1.495,
+   "share_of_months_within_10pct_of_mean": 0.491,
+   "corr_monthly_changes": 0.646,
+   "corr_3month_changes": 0.763,
+   "latest_month": "2026-08",
+   "latest_ratio": 0.794
+  },
+  "CVL": {
+   "months_compared_since_apr_2022": 53,
+   "ratio_mean": 1.759,
+   "ratio_sd": 0.227,
+   "ratio_min": 1.199,
+   "ratio_max": 2.264,
+   "share_of_months_within_10pct_of_mean": 0.566,
+   "corr_monthly_changes": 0.487,
+   "corr_3month_changes": 0.568,
+   "latest_month": "2026-08",
+   "latest_ratio": 1.54
+  },
+  "WUO": {
+   "months_compared_since_apr_2022": 53,
+   "ratio_mean": 1.011,
+   "ratio_sd": 0.232,
+   "ratio_min": 0.203,
+   "ratio_max": 1.447,
+   "share_of_months_within_10pct_of_mean": 0.358,
+   "corr_monthly_changes": 0.173,
+   "corr_3month_changes": 0.247,
+   "latest_month": "2026-08",
+   "latest_ratio": 1.151
+  }
+ }
+}
