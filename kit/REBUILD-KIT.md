@@ -6,7 +6,7 @@ Everything needed to rebuild Appointed's emails, sign-up and website from scratc
 
 | Piece | Where it lives | Survives the beehiiv trial ending? |
 |---|---|---|
-| Website (homepage, Distress Index, How we work, Privacy) | GitHub Pages: https://appointeduk-cyber.github.io/appointed-data/ | Yes. Free and nothing to do with beehiiv. |
+| Website (homepage, Distress Index, How we work, Privacy) | GitHub Pages: https://appointed.news/ | Yes. Free and nothing to do with beehiiv. |
 | Data and the Distress Index | GitHub, updated every night automatically | Yes |
 | Sign-up box on the website | beehiiv embedded form | Yes. Embedded forms work on every beehiiv plan. |
 | Backup sign-up link | https://appointed.beehiiv.com/subscribe | Yes |
@@ -60,7 +60,7 @@ If anything in beehiiv is ever lost, rebuild it from the sections below. Each ta
    - `UK company insolvencies over the last four weeks. 100 = the 2024 to 2025 average. Above 100 means more insolvencies than that.`
    - `Administrations [index] · Liquidations [index] · Winding-up orders [index] · Petitions [index]`
    - `[One or two sentences: what moved the index this week, and which regions are running hottest.]`
-   - Blue button **See the live index and regions** → https://appointeduk-cyber.github.io/appointed-data/distress-index.html
+   - Blue button **See the live index and regions** → https://appointed.news/distress-index.html
 10. Heading: **This week's top 5**, then a numbered list of five: `[Trading name] · [process] · [place] · [score]/5`
 11. Heading: **Deal 1 of 5: [Trading name]**, then a white bordered box with these lines:
     - `[Company name] · Overall [score] / 5` (grey)
@@ -127,7 +127,7 @@ If the form is ever deleted: in beehiiv go to Grow → Subscribe forms → New f
 
 ## 5b. Founding place reservations (no payment taken)
 
-- Page: https://appointeduk-cyber.github.io/appointed-data/founding.html (homepage button "Reserve a founding place" goes here).
+- Page: https://appointed.news/founding.html (homepage button "Reserve a founding place" goes here).
 - beehiiv form: **Founding place reservation (inline)**, ID 354628ff-8150-4372-ab35-2d67569fabfd. Email plus a required Yes/No question "Reserve a founding place at £9 a month? Nothing to pay now." Button "Reserve my place".
 - The answer is saved in a beehiiv custom field called **Founding place** (Yes/No).
 - beehiiv segment **Founding places reserved** counts everyone who said Yes (Audience → Segments). Email this list the day paid membership opens.
@@ -135,7 +135,7 @@ If the form is ever deleted: in beehiiv go to Grow → Subscribe forms → New f
 
 ## 6. Website
 
-- Address: https://appointeduk-cyber.github.io/appointed-data/
+- Address: https://appointed.news/
 - Files: in the GitHub repo appointeduk-cyber/appointed-data, folder `docs/`
   - index.html (homepage), distress-index.html, how-we-work.html, privacy.html
   - assets/site.css (shared look), assets/ (logos)
