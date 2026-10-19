@@ -119,7 +119,7 @@ def economy(seat, today):
     for row in names[:80]:
         k = row.pop("company_key")
         if k.startswith("N:"):
-            row["company"] = html.unescape(k[2:].replace("&APOS", "&apos")).title(); continue
+            row["company"] = re.sub(r"(?i)&apos;?\s?", "'", html.unescape(k[2:])).title().replace("'S ", "'s "); continue
         num = k[2:]; row["company_number"] = num
         url = f"https://find-and-update.company-information.service.gov.uk/company/{num}"
         row["companies_house_url"] = url
@@ -142,11 +142,13 @@ def economy(seat, today):
             time.sleep(0.6)
         except Exception as e:  # noqa: BLE001
             row["company"] = ""; log(f"  Companies House lookup failed {num}: {e!r}")
-    def norm(x): return re.sub(r"\b(LIMITED|LTD|PLC|LLP)\b|[^A-Z0-9]", "", html.unescape((x or "").replace("&Apos", "&apos")).upper())
+    def norm(x): return re.sub(r"\b(LIMITED|LTD|PLC|LLP)\b|[^A-Z0-9]", "", re.sub(r"(?i)&apos;?\s?", "'", x or "").upper())
     keep, seen_names = [], set()
     for row in sorted(names, key=lambda r: ("company_number" not in r, r["date"])):   # numbered rows first
         k = (norm(row.get("company")), row["type"])
         if k[0] and k in seen_names: continue
+        if "company_number" not in row and k[0] and any(t == k[1] and n.startswith(k[0]) for n, t in seen_names):
+            continue    # unnumbered resolution notice for a company already listed from its numbered notice
         seen_names.add(k); keep.append(row)
     names = sorted(keep, key=lambda r: r["date"], reverse=True)
     months = sorted({m for m, _ in cnt})
