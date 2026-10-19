@@ -32,7 +32,7 @@ NOW = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 def log(*a): print(*a, flush=True)
 
 
-def get(url, data=None, accept="application/json", tries=4, form=False):
+def get(url, data=None, accept="application/json", tries=4):
     headers = {"User-Agent": UA, "Accept": accept}
     body = None
     if data is not None:
@@ -96,8 +96,6 @@ def economy(seat, today):
     if not notices: return fail(sec, "notice cache is empty")
     build.filter_office_points(notices)
     events, _ = build.build_events(notices)
-    by_id = {}
-    for n in notices: by_id[(n["code"], n["date"], n["key"])] = n["id"]
     months_missing = sorted({n["date"][:7] for n in notices
                              if n["date"][:7] >= build.CONST_START and "constituency" not in n})
     cnt, names = Counter(), []
@@ -119,13 +117,24 @@ def economy(seat, today):
         names.append({"date": n["date"], "type": label[n["code"]], "notice_id": n["id"],
                       "notice_url": f"https://www.thegazette.co.uk/notice/{n['id']}", "company_key": n["key"]})
     for row in names[:80]:
+        k = row.pop("company_key")
+        if k.startswith("N:"):
+            row["company"] = k[2:].title(); continue
+        num = k[2:]; row["company_number"] = num
+        url = f"https://find-and-update.company-information.service.gov.uk/company/{num}"
+        row["companies_house_url"] = url
         try:
-            page = get(row["notice_url"], accept="text/html")
-            m = re.search(r'<meta property="og:title" content="([^"]+)"', page) or re.search(r"<title>([^<]+)</title>", page)
-            row["title"] = html.unescape(m.group(1)).strip() if m else ""
-            time.sleep(1.5)
+            page = get(url, accept="text/html")
+            m = re.search(r"<title>\s*(.+?) overview", page, re.S)
+            row["company"] = html.unescape(m.group(1)).strip() if m else ""
+            row["sic"] = [html.unescape(x).strip() for x in re.findall(r'<span id="sic\d+">\s*([^<]+?)\s*</span>', page)]
+            m = re.search(r'id="company-creation-date">\s*([^<]+?)\s*<', page)
+            row["incorporated"] = m.group(1) if m else ""
+            m = re.search(r'id="company-status">\s*([^<]+?)\s*<', page)
+            row["status_at_companies_house"] = m.group(1) if m else ""
+            time.sleep(0.6)
         except Exception as e:  # noqa: BLE001
-            row["title"] = ""; log(f"  title fetch failed {row['notice_id']}: {e!r}")
+            row["company"] = ""; log(f"  Companies House lookup failed {num}: {e!r}")
     months = sorted({m for m, _ in cnt})
     sec["monthly"] = [{"month": m,
                        "insolvencies": cnt[(m, "ADM")] + cnt[(m, "CVL")] + cnt[(m, "WUO")],
@@ -230,17 +239,35 @@ SELECT ?month ?avg ?annual ?vol WHERE {{
   ?r ukhpi:refRegion <http://landregistry.data.gov.uk/id/region/{la}> ; ukhpi:refMonth ?month ; ukhpi:averagePrice ?avg .
   OPTIONAL {{ ?r ukhpi:percentageAnnualChange ?annual }} OPTIONAL {{ ?r ukhpi:salesVolume ?vol }}
 }} ORDER BY DESC(?month) LIMIT 30"""
-    try:
-        doc = json.loads(get(HPI_SPARQL + "?" + urllib.parse.urlencode({"query": q}),
-                             accept="application/sparql-results+json"))
-    except Exception as e:  # noqa: BLE001
-        return fail(sec, f"query failed: {e!r}")
     rows = []
-    for b in doc.get("results", {}).get("bindings", []):
-        def v(k): return b[k]["value"] if k in b else None
-        rows.append({"month": v("month")[:7], "average_price": float(v("avg")),
-                     "annual_change_pct": float(v("annual")) if v("annual") else None,
-                     "sales_volume": int(float(v("vol"))) if v("vol") else None})
+    try:
+        doc = json.loads(get(HPI_SPARQL, data={"query": q}, accept="application/sparql-results+json"))
+        for b in doc.get("results", {}).get("bindings", []):
+            def v(k): return b[k]["value"] if k in b else None
+            rows.append({"month": v("month")[:7], "average_price": float(v("avg")),
+                         "annual_change_pct": float(v("annual")) if v("annual") else None,
+                         "sales_volume": int(float(v("vol"))) if v("vol") else None})
+        sec["method"] = "sparql"
+    except Exception as e:  # noqa: BLE001
+        log(f"  housing: SPARQL failed ({e!r}); trying the month-by-month API")
+        m0 = dt.date.today().replace(day=1)
+        for i in range(1, 30):
+            y, mo = divmod(m0.year * 12 + m0.month - 1 - i, 12); tag = f"{y}-{mo + 1:02d}"
+            url = f"https://landregistry.data.gov.uk/data/ukhpi/region/{la}/month/{tag}.json"
+            try:
+                doc = json.loads(get(url, tries=2))
+            except Exception as e2:  # noqa: BLE001
+                log(f"  housing {tag}: {e2!r}"); continue
+            t = doc.get("result", {}).get("primaryTopic", {})
+            if "averagePrice" not in t: continue
+            def num(x):
+                x = x[0] if isinstance(x, list) else x
+                return float(x) if x not in (None, "") else None
+            rows.append({"month": tag, "average_price": num(t.get("averagePrice")),
+                         "annual_change_pct": num(t.get("percentageAnnualChange")),
+                         "sales_volume": int(num(t.get("salesVolume"))) if t.get("salesVolume") not in (None, "") else None})
+            if len(rows) >= 25: break
+        sec["method"] = "linked-data"
     rows.sort(key=lambda r: r["month"])
     if not rows: return fail(sec, f"no rows for region '{la}'")
     sec["monthly"] = rows; sec["area"] = la
