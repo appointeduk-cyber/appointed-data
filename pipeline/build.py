@@ -561,6 +561,8 @@ def main():
                    and needs_constituency(os.path.join(NOTICE_CACHE, f), f[:7])]
         if pending:
             log(f"constituencies: {len(pending)} months still to be refetched overnight; table not published yet")
+            stale = os.path.join(OUT, "constituency_quarterly.csv")
+            if os.path.exists(stale): os.remove(stale)
         else:
             publish_constituencies(events, today)
     else:
