@@ -260,13 +260,17 @@ function render(idx, meta, sum, reg, diff, recon, rsum){
   // CREDITOR PRESSURE
   var pr=el("section",{id:"pressure"});
   var pet=idx.filter(function(r){return r.petitions_index!==""});
+  var hasHmrc=pet.some(function(r){return r.petitions_hmrc_share_detected!==""&&r.petitions_hmrc_share_detected!=null});
   pr.innerHTML='<div class="wrap"><h2>Creditor pressure</h2><p class="sub">Winding-up petitions: creditors asking a court to close a company. A petition is a request, not a failure, and many are paid or dismissed, so petitions are tracked separately from the index. Shown from April 2022, after Covid restrictions ended.</p>'+
     '<div class="grid2"><div class="card"><h3 style="font-size:16px;font-weight:700;margin-bottom:8px">Petitions, 2024–25 = 100</h3><div id="c-pet"></div></div>'+
-    '<div class="card"><h3 style="font-size:16px;font-weight:700;margin-bottom:8px">Share of petitions brought by HMRC</h3><div id="c-hmrc"></div><p class="small" style="margin:8px 0 0">Counts petitions where HMRC is named in the notice summary. Summaries are sometimes cut short, so this is a lower bound.</p></div></div></div>';
+    (hasHmrc
+      ?'<div class="card"><h3 style="font-size:16px;font-weight:700;margin-bottom:8px">Share of petitions brought by HMRC</h3><div id="c-hmrc"></div><p class="small" style="margin:8px 0 0">Counts petitions where HMRC is named in the notice summary. Summaries are sometimes cut short, so this is a lower bound.</p></div>'
+      :'<div class="card"><h3 style="font-size:16px;font-weight:700;margin-bottom:8px">Who is petitioning?</h3><p style="margin:0;color:var(--ink-2)">The free Gazette feed cuts most notice summaries short before the petitioner is named, so we can\'t yet say reliably how many petitions come from HMRC. We\'ll add this when we can measure it properly.</p></div>')+
+    '</div></div>';
   app.appendChild(pr);
   if(pet.length){
     lineChart(document.getElementById("c-pet"),{x:pet.map(function(r){return r.week_start}),series:[{name:"Petitions index",short:"Petitions",color:C.s2,values:pet.map(function(r){return r.petitions_index})}],ref:100,xLabel:wlab,height:240,label:"Petitions index"});
-    lineChart(document.getElementById("c-hmrc"),{x:pet.map(function(r){return r.week_start}),series:[{name:"HMRC share",short:"HMRC",color:C.s1,values:pet.map(function(r){return r.petitions_hmrc_share_detected})}],yMin:0,pct:true,fmt:function(v){return Math.round(v*100)+"%"},xLabel:wlab,height:240,label:"HMRC share of petitions"});
+    if(hasHmrc) lineChart(document.getElementById("c-hmrc"),{x:pet.map(function(r){return r.week_start}),series:[{name:"HMRC share",short:"HMRC",color:C.s1,values:pet.map(function(r){return r.petitions_hmrc_share_detected})}],yMin:0,pct:true,fmt:function(v){return Math.round(v*100)+"%"},xLabel:wlab,height:240,label:"HMRC share of petitions"});
   }
 
   // REGIONS

@@ -29,7 +29,7 @@ OUT = os.path.join(ROOT, "docs", "data")
 CACHE = os.path.join(ROOT, ".cache")
 NOTICE_CACHE = os.path.join(CACHE, "notices")
 GEO_CACHE = os.path.join(CACHE, "geo.csv")
-METHOD_VERSION = "2.0"
+METHOD_VERSION = "2.1"
 
 UA = "AppointedDataBot/2.0 (+https://github.com/appointeduk-cyber/appointed-data; appointeduk@gmail.com)"
 GAZETTE = "https://www.thegazette.co.uk/all-notices/notice/data.json"
@@ -149,12 +149,19 @@ def hmrc_flag(code, txt):
 
 # ---------------------------------------------------------------- geo
 def load_geo():
+    """Map point -> "region|constituency". Older cache rows hold the region only;
+    those points are looked up again so the constituency can be added."""
     m = {}
     if os.path.exists(GEO_CACHE):
         with open(GEO_CACHE, newline="") as f:
             for row in csv.reader(f):
-                if len(row) == 2: m[row[0]] = row[1]
+                if len(row) == 2 and "|" in row[1]: m[row[0]] = row[1]
     return m
+
+
+def geo_split(v):
+    reg, _, con = (v or "").partition("|")
+    return (reg or UNKNOWN), (con or UNKNOWN)
 
 
 def save_geo(m):
@@ -182,12 +189,17 @@ def geocode(points, cache):
                                   "radius": 2000, "limit": 1} for k in batch]}
         doc = http(POSTCODES, data=body, delay=PC_DELAY)
         for k, item in zip(batch, doc.get("result") or []):
-            cache[k] = region_of((item or {}).get("result"))
+            res = (item or {}).get("result")
+            con = UNKNOWN
+            if res:
+                con = res[0].get("parliamentary_constituency_2024") or res[0].get("parliamentary_constituency") or UNKNOWN
+            cache[k] = f"{region_of(res)}|{con.replace('|', ' ')}"
     return cache
 
 
 # ---------------------------------------------------------------- stage 1: fetch
-FIELDS = ["id", "code", "edition", "date", "key", "has_number", "region", "located", "hmrc"]
+FIELDS = ["id", "code", "edition", "date", "key", "has_number", "region", "located", "hmrc", "constituency"]
+CONST_START = "2024-07"   # Westminster boundaries in force from the July 2024 general election
 
 
 def fetch_month(m_start, m_end, geo):
@@ -218,7 +230,8 @@ def fetch_month(m_start, m_end, geo):
                                   "_lat": lat, "_lon": lon, "hmrc": hmrc_flag(code, txt)})
                 geo = geocode([(b["_lat"], b["_lon"]) for b in batch], geo)
                 for b in batch:
-                    reg = geo.get(gkey(b["_lat"], b["_lon"]), UNKNOWN) if b["_lat"] is not None else UNKNOWN
+                    reg, con = geo_split(geo.get(gkey(b["_lat"], b["_lon"]))) if b["_lat"] is not None else (UNKNOWN, UNKNOWN)
+                    b["constituency"] = con
                     b["located"] = "1" if reg != UNKNOWN else "0"
                     if reg == UNKNOWN and ed in ("Edinburgh", "Belfast"):
                         reg = EDITIONS[ed]          # nation is certain from the edition even without a map point
@@ -276,32 +289,40 @@ def build_events(notices):
         q[f"{comp}_notices"] += len(rows); q[f"{comp}_events"] += len(out)
         return out
 
+    def ev(comp, r, extra=""):
+        events.append((comp, r["date"], r["edition"], r["region"], extra, r.get("constituency") or ""))
+
     adm = collapse(by_code["2410"], 365, "ADM")
     adm_dates = defaultdict(list)
     for r in adm:
-        events.append(("ADM", r["date"], r["edition"], r["region"], ""))
+        ev("ADM", r)
         adm_dates[r["key"]].append(d(r["date"]))
 
-    cvl_rows = sorted(by_code["2441"] + by_code["2443"], key=lambda r: r["date"])
+    # CVLs: the liquidator appointment notice (2443) carries a company number in >99% of cases.
+    # Resolution notices (2441) are used only when they carry a number too; most do not, and a
+    # name-keyed resolution can't be matched to its numbered appointment notice, so including it
+    # double-counted about three in four CVLs (v2.0 counted ~1.76x the official figure).
+    cvl_rows = sorted(by_code["2443"] + [r for r in by_code["2441"] if r["has_number"] == "1"],
+                      key=lambda r: r["date"])
     for r in collapse(cvl_rows, 120, "CVL"):
         t = d(r["date"])
         if any(0 <= (t - a).days <= 548 for a in adm_dates.get(r["key"], [])):
-            events.append(("ADM_TO_CVL", r["date"], r["edition"], r["region"], "")); continue
-        events.append(("CVL", r["date"], r["edition"], r["region"], ""))
+            ev("ADM_TO_CVL", r); continue
+        ev("CVL", r)
 
     for r in collapse(by_code["2452"], 365, "WUO"):
-        events.append(("WUO", r["date"], r["edition"], r["region"], ""))
+        ev("WUO", r)
 
     pet_rows = sorted(by_code["2450"] + by_code["2451"], key=lambda r: r["date"])
     for r in collapse(pet_rows, 180, "PET"):
-        events.append(("PET", r["date"], r["edition"], r["region"], r["hmrc"]))
+        ev("PET", r, r["hmrc"])
         if r["hmrc"] == "1":
-            events.append(("PET_HMRC", r["date"], r["edition"], r["region"], ""))
+            ev("PET_HMRC", r)
         q[f"PET_hmrc_{ {'1': 'yes', '0': 'no', '?': 'unknown'}.get(r['hmrc'], 'unknown') }"] += 1
 
     for code, comp in (("2421", "MEMO_AR"), ("2423", "MEMO_REC"), ("2603", "MEMO_DIS")):
         for r in collapse(by_code[code], 365, comp):
-            events.append((comp, r["date"], r["edition"], r["region"], ""))
+            ev(comp, r)
     return events, q
 
 
@@ -321,7 +342,7 @@ def publish(notices, events, q, today, fetch_totals):
 
     # weekly counts: component x nation x region
     cnt = Counter()
-    for comp, date, ed, reg, _ in events:
+    for comp, date, ed, reg, *_ in events:
         wk = monday(d(date)).isoformat()
         if wk in wset: cnt[(wk, comp, EDITIONS[ed], reg)] += 1
     nations = list(EDITIONS.values())
@@ -332,7 +353,7 @@ def publish(notices, events, q, today, fetch_totals):
 
     # monthly England & Wales (London edition) for reconciliation with Insolvency Service
     mon = Counter()
-    for comp, date, ed, reg, _ in events:
+    for comp, date, ed, reg, *_ in events:
         if ed == "London": mon[(date[:7], comp)] += 1
     with open(os.path.join(OUT, "monthly_england_wales.csv"), "w", newline="") as f:
         wr = csv.writer(f); wr.writerow(["month", "component", "count"])
@@ -362,6 +383,9 @@ def publish(notices, events, q, today, fetch_totals):
         wts = {k: inv[k] / sum(inv.values()) for k in HEADLINE}
         Bpet_idx = [i for i in base_idx if weeks[i] >= PET_START]
         Bpet = sum(S4["PET"][i] for i in Bpet_idx) / len(Bpet_idx)
+        # The free feed's notice summary is truncated before the petitioner's name in most notices,
+        # so HMRC can't be detected reliably. Publish the share only if detection actually works.
+        hmrc_ok = sum(uk["PET_HMRC"].values()) >= 0.05 * max(1, sum(uk["PET"].values()))
         for i, wk in enumerate(weeks):
             if i < 3: continue
             ci = {k: 100 * S4[k][i] / B4[k] if B4[k] else None for k in HEADLINE}
@@ -369,7 +393,7 @@ def publish(notices, events, q, today, fetch_totals):
             eq = sum(ci.values()) / 3
             plain = 100 * sum(S4[k][i] for k in HEADLINE) / sum(B4[k] for k in HEADLINE)
             pet = 100 * S4["PET"][i] / Bpet if wk >= PET_START else None
-            hm = S4["PET_HMRC"][i] / S4["PET"][i] if wk >= PET_START and S4["PET"][i] else None
+            hm = S4["PET_HMRC"][i] / S4["PET"][i] if hmrc_ok and wk >= PET_START and S4["PET"][i] else None
             idx_rows.append({
                 "week_start": wk, "index": round(head, 1), "equal_weight": round(eq, 1), "plain_count": round(plain, 1),
                 "administrations": round(ci["ADM"], 1), "cvl": round(ci["CVL"], 1), "winding_up_orders": round(ci["WUO"], 1),
@@ -447,8 +471,8 @@ def publish(notices, events, q, today, fetch_totals):
         "rules": {
             "unit": "One event per company per procedure (company number from the notice; company name where no number is shown). Repeat notices for the same company within 365 days (120 for CVLs, 180 for petitions) are not counted again.",
             "date_basis": "Week (Monday start) in which the first notice for the event was published in The Gazette. The free feed does not expose the appointment or order date.",
-            "cvl": "Resolution (2441) and liquidator appointment (2443) notices are merged into one event. Companies with an administration in the previous 18 months are counted separately as administration-to-CVL moves, not as new CVLs.",
-            "petitions": "Separate indicator from 4 April 2022, after Covid restrictions ended. HMRC share counts petitions where HMRC is visible in the notice summary; the summary is sometimes truncated, so this is a lower bound.",
+            "cvl": "Counted from liquidator appointment notices (2443), plus resolution notices (2441) only where they show a company number, one event per company. Companies with an administration in the previous 18 months are counted separately as administration-to-CVL moves, not as new CVLs.",
+            "petitions": "Separate indicator from 4 April 2022, after Covid restrictions ended. The HMRC share of petitions is published only if HMRC can be detected in the free feed; at present the notice summary is truncated before the petitioner in most notices, so it is not shown.",
             "small_numbers": f"Regional figures use 13-week totals; cells with fewer than {MIN_CELL} events are not shown.",
             "weights": "Each headline component weighted by 1 / (standard deviation of its 13-week log change during 2024-25), normalised to sum to 1 (Conference Board method).",
             "provisional": "The latest 4 weeks are provisional.",
@@ -460,6 +484,41 @@ def publish(notices, events, q, today, fetch_totals):
     }
     with open(os.path.join(OUT, "meta.json"), "w") as f: json.dump(meta, f, indent=1)
     log(f"published: {len(weeks)} weeks, {tot} notices, {len(events)} events")
+
+
+def publish_constituencies(events, today):
+    """Quarterly counts by Westminster constituency (July 2024 boundaries), from Q3 2024.
+    Counts of public events only; no names. Quarters are dated by first notice."""
+    this_q = f"{today.year}-Q{(today.month - 1) // 3 + 1}"
+    cnt = Counter()
+    for comp, date, ed, reg, extra, *rest in events:
+        con = rest[0] if rest else ""
+        if not con or con == UNKNOWN or date[:7] < CONST_START: continue
+        y, m = int(date[:4]), int(date[5:7])
+        qtr = f"{y}-Q{(m - 1) // 3 + 1}"
+        if qtr >= this_q: continue                      # complete quarters only
+        group = {"ADM": "insolvencies", "ADM_TO_CVL": None, "CVL": "insolvencies", "WUO": "insolvencies",
+                 "PET": "petitions"}.get(comp)
+        if group: cnt[(qtr, con, reg, group)] += 1
+        if comp in ("ADM", "CVL", "WUO"): cnt[(qtr, con, reg, comp)] += 1
+    keys = sorted({(qt, con, reg) for qt, con, reg, _ in cnt})
+    with open(os.path.join(OUT, "constituency_quarterly.csv"), "w", newline="") as f:
+        wr = csv.writer(f)
+        wr.writerow(["quarter", "constituency", "region", "insolvencies", "administrations", "cvl",
+                     "winding_up_orders", "petitions"])
+        for qt, con, reg in keys:
+            wr.writerow([qt, con, reg] + [cnt[(qt, con, reg, g)] for g in
+                                          ("insolvencies", "ADM", "CVL", "WUO", "petitions")])
+    log(f"constituencies: {len({k[1] for k in keys})} seats, {len({k[0] for k in keys})} quarters")
+
+
+def needs_constituency(path, tag):
+    """Months from July 2024 cached before constituencies were recorded are fetched again once,
+    and only inside the Gazette's overnight window for bulk requests (21:00-07:00 UK)."""
+    if tag < CONST_START: return False
+    with open(path, newline="") as f:
+        header = f.readline()
+    return "constituency" not in header
 
 
 # ---------------------------------------------------------------- main
@@ -484,7 +543,8 @@ def main():
     for ms, me in months(start, end):
         tag = f"{ms:%Y-%m}"
         p = os.path.join(NOTICE_CACHE, f"{tag}.csv")
-        if os.path.exists(p) and (today - me).days > a.refresh_days:
+        night = dt.datetime.now(dt.timezone.utc).hour >= 21 or dt.datetime.now(dt.timezone.utc).hour < 7
+        if os.path.exists(p) and (today - me).days > a.refresh_days and not (night and needs_constituency(p, tag)):
             tp = os.path.join(NOTICE_CACHE, f"{tag}.totals.json")
             if os.path.exists(tp): fetch_totals[tag] = json.load(open(tp))
             continue
@@ -497,6 +557,7 @@ def main():
     events, q = build_events(notices)
     if complete:
         publish(notices, events, q, today, fetch_totals)
+        publish_constituencies(events, today)
     else:
         log("backfill incomplete: published files left unchanged until the history is complete")
     with open(os.path.join(OUT, "backfill_status.json"), "w") as f:

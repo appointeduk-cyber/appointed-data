@@ -43,6 +43,13 @@ jobs:
       - name: Compare with official statistics
         if: success()
         run: python pipeline/official.py 2>&1 | tee -a build.log
+      - name: Make email chart images
+        if: success()
+        continue-on-error: true
+        run: |
+          sudo apt-get install -y -qq fonts-inter > /dev/null 2>&1 || true
+          pip install -q matplotlib
+          python pipeline/charts.py 2>&1 | tee -a build.log
       - name: Save run log
         if: always()
         run: |
@@ -54,6 +61,7 @@ jobs:
           git config user.name "appointed-bot"
           git config user.email "appointeduk@gmail.com"
           git add docs/data
+          [ -d docs/charts ] && git add docs/charts
           git commit -m "Data update $(date -u +%Y-%m-%d)" || echo "nothing to commit"
           git pull --rebase origin main
           git push origin HEAD:main
