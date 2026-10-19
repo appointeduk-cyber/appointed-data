@@ -125,10 +125,15 @@ def economy(seat, today):
         row["companies_house_url"] = url
         try:
             page = get(url, accept="text/html")
-            m = (re.search(r'id="company-name"[^>]*>\s*([^<]+?)\s*<', page)
-                 or re.search(r"<title>\s*(.+?)\s+overview", page, re.S | re.I))
-            row["company"] = html.unescape(m.group(1)).strip() if m else ""
-            if not row["company"]: log(f"  no name found on Companies House page for {num}: {page[:300]!r}")
+            def clean(x): return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", x))).strip()
+            m = (re.search(r'id="company-name"[^>]*>(.*?)</', page, re.S)
+                 or re.search(r"<h1[^>]*>(.*?)</h1>", page, re.S)
+                 or re.search(r"<title[^>]*>(.*?)</title>", page, re.S))
+            nm = clean(m.group(1)) if m else ""
+            row["company"] = re.split(r"\s+(?:overview|-)\s", nm)[0].strip()
+            if not row["company"]:
+                t = re.search(r"<title[^>]*>.{0,200}", page, re.S)
+                log(f"  no name found on Companies House page for {num}: {(t.group(0) if t else page[1500:1900])!r}")
             row["sic"] = [html.unescape(x).strip() for x in re.findall(r'<span id="sic\d+">\s*([^<]+?)\s*</span>', page)]
             m = re.search(r'id="company-creation-date">\s*([^<]+?)\s*<', page)
             row["incorporated"] = m.group(1) if m else ""
