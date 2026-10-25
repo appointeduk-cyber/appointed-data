@@ -1,6 +1,6 @@
 {
  "method_version": "2.2",
- "updated_utc": "2026-10-24T02:59:47+00:00",
+ "updated_utc": "2026-10-25T03:01:02+00:00",
  "first_week": "2019-12-30",
  "last_complete_week": "2026-10-12",
  "baseline": {
@@ -60,7 +60,7 @@
   "petitions_baseline_4wk_mean": 472.05
  },
  "quality": {
-  "notices": 303817,
+  "notices": 303829,
   "notices_by_code": {
    "2410": 10311,
    "2421": 4,
@@ -68,11 +68,11 @@
    "2443": 121535,
    "2450": 29592,
    "2451": 113,
-   "2452": 16935,
+   "2452": 16947,
    "2603": 7435
   },
   "notices_by_edition": {
-   "London": 288088,
+   "London": 288100,
    "Edinburgh": 12340,
    "Belfast": 3389
   },
@@ -82,12 +82,12 @@
    "2443": 0.9932,
    "2450": 0.6334,
    "2451": 0.0088,
-   "2452": 0.9611,
+   "2452": 0.9612,
    "2603": 0.0694,
    "2421": 1.0
   },
   "share_located_by_map_point": 0.72,
-  "share_region_unknown": 0.2604,
+  "share_region_unknown": 0.2605,
   "dedup": {
    "ADM_duplicates": 128,
    "ADM_events": 10183,
@@ -108,9 +108,9 @@
    "PET_hmrc_unknown": 23151,
    "PET_notices": 29705,
    "WUO_duplicates": 243,
-   "WUO_events": 16692,
-   "WUO_notices": 16935,
-   "office_notices": 55874,
+   "WUO_events": 16704,
+   "WUO_notices": 16947,
+   "office_notices": 55878,
    "office_points": 669,
    "ADM_notices_per_event": 1.013,
    "CVL_notices_per_event": 1.25,
@@ -9115,8 +9115,8 @@
     "rows": 0
    },
    "2452/London": {
-    "gazette_total": 170,
-    "rows": 170
+    "gazette_total": 182,
+    "rows": 182
    },
    "2452/Edinburgh": {
     "gazette_total": 0,
