@@ -1,6 +1,6 @@
 # Last run
 
-- UTC: 2026-10-26T03:03:36Z
+- UTC: 2026-10-27T03:12:17Z
 - Trigger: schedule
 
 ```
@@ -15,18 +15,27 @@ month 2026-09
   2026-09 2452: 332 notices
   2026-09 2603: 99 notices
 month 2026-10
-  2026-10 2410: 120 notices
+  2026-10 2410: 125 notices
   2026-10 2421: 0 notices
   2026-10 2423: 0 notices
-  2026-10 2441: 1201 notices
-  2026-10 2443: 1226 notices
-  2026-10 2450: 571 notices
-  2026-10 2451: 2 notices
-  2026-10 2452: 220 notices
-  2026-10 2603: 77 notices
-office addresses: {'office_points': 669, 'notices_at_office_points': 55898, 'share_at_office_points': 0.1839, 'notices_without_point_field': 0}
-published: 356 weeks, 303912 notices, 183271 events
-constituencies: 632 seats, 9 quarters
+  network/parse error JSONDecodeError('Expecting value: line 1 column 1 (char 0)'), waiting 10s (1/6)
+  network/parse error JSONDecodeError('Expecting value: line 1 column 1 (char 0)'), waiting 20s (2/6)
+  network/parse error JSONDecodeError('Expecting value: line 1 column 1 (char 0)'), waiting 40s (3/6)
+  network/parse error JSONDecodeError('Expecting value: line 1 column 1 (char 0)'), waiting 80s (4/6)
+  network/parse error JSONDecodeError('Expecting value: line 1 column 1 (char 0)'), waiting 160s (5/6)
+  network/parse error JSONDecodeError('Expecting value: line 1 column 1 (char 0)'), waiting 300s (6/6)
+Traceback (most recent call last):
+  File "/home/runner/work/appointed-data/appointed-data/pipeline/build.py", line 635, in <module>
+    main()
+  File "/home/runner/work/appointed-data/appointed-data/pipeline/build.py", line 607, in main
+    rows, totals, geo = fetch_month(ms, me, geo)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/appointed-data/appointed-data/pipeline/build.py", line 216, in fetch_month
+    ents, t = entries_of(http(GAZETTE + "?" + urllib.parse.urlencode(q)))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/appointed-data/appointed-data/pipeline/build.py", line 103, in http
+    raise RuntimeError(f"giving up on {url}")
+RuntimeError: giving up on https://www.thegazette.co.uk/all-notices/notice/data.json?noticetypes=2441&edition=London&start-publish-date=2026-10-01&end-publish-date=2026-10-27&results-page-size=100&results-page=5&sort-by=oldest-date
 official: company-insolvencies-september-2026, 81 months; reconciled 243 component-months
   ADM: {'months_compared_since_apr_2022': 54, 'ratio_mean': 1.02, 'ratio_sd': 0.161, 'ratio_min': 0.665, 'ratio_max': 1.495, 'share_of_months_within_10pct_of_mean': 0.5, 'corr_monthly_changes': 0.642, 'corr_3month_changes': 0.786, 'latest_month': '2026-09', 'latest_ratio': 1.14}
   CVL: {'months_compared_since_apr_2022': 54, 'ratio_mean': 1.02, 'ratio_sd': 0.107, 'ratio_min': 0.756, 'ratio_max': 1.281, 'share_of_months_within_10pct_of_mean': 0.704, 'corr_monthly_changes': 0.479, 'corr_3month_changes': 0.554, 'latest_month': '2026-09', 'latest_ratio': 1.03}
