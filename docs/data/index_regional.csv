@@ -5,33 +5,33 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-03-23,East Midlands,226,77.5,
 2020-03-23,West Midlands,296,72.2,
 2020-03-23,East of England,300,74.5,
-2020-03-23,London,550,71.4,
+2020-03-23,London,550,71.5,
 2020-03-23,South East,436,74.0,
 2020-03-23,South West,227,73.2,
 2020-03-23,Wales,118,75.2,
 2020-03-23,Scotland,105,54.8,
 2020-03-23,Northern Ireland,81,105.7,
-2020-03-23,Unknown,1102,54.4,
+2020-03-23,Unknown,1102,54.3,
 2020-03-30,North East,107,82.2,
 2020-03-30,North West,478,85.0,
 2020-03-30,Yorkshire and The Humber,291,79.2,
 2020-03-30,East Midlands,236,80.9,
 2020-03-30,West Midlands,317,77.4,
 2020-03-30,East of England,314,78.0,
-2020-03-30,London,577,74.9,
+2020-03-30,London,577,75.0,
 2020-03-30,South East,453,76.9,
 2020-03-30,South West,239,77.0,
 2020-03-30,Wales,122,77.7,
 2020-03-30,Scotland,112,58.5,
 2020-03-30,Northern Ireland,76,99.1,
-2020-03-30,Unknown,1171,57.8,
+2020-03-30,Unknown,1171,57.7,
 2020-04-06,North East,109,83.7,
 2020-04-06,North West,479,85.2,
 2020-04-06,Yorkshire and The Humber,298,81.1,
 2020-04-06,East Midlands,238,81.6,
 2020-04-06,West Midlands,321,78.3,
 2020-04-06,East of England,321,79.8,
-2020-04-06,London,609,79.1,
+2020-04-06,London,609,79.2,
 2020-04-06,South East,465,78.9,
 2020-04-06,South West,250,80.6,
 2020-04-06,Wales,126,80.3,
@@ -44,20 +44,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-04-13,East Midlands,237,81.2,
 2020-04-13,West Midlands,321,78.3,
 2020-04-13,East of England,328,81.5,
-2020-04-13,London,610,79.2,
+2020-04-13,London,610,79.3,
 2020-04-13,South East,465,78.9,
 2020-04-13,South West,237,76.4,
 2020-04-13,Wales,118,75.2,
 2020-04-13,Scotland,110,57.4,
 2020-04-13,Northern Ireland,63,82.2,
-2020-04-13,Unknown,1183,58.4,
+2020-04-13,Unknown,1183,58.3,
 2020-04-20,North East,105,80.6,
 2020-04-20,North West,451,80.2,
 2020-04-20,Yorkshire and The Humber,289,78.7,
 2020-04-20,East Midlands,233,79.9,
 2020-04-20,West Midlands,329,80.3,
 2020-04-20,East of England,326,81.0,
-2020-04-20,London,586,76.1,
+2020-04-20,London,586,76.2,
 2020-04-20,South East,461,78.2,
 2020-04-20,South West,231,74.5,
 2020-04-20,Wales,118,75.2,
@@ -70,7 +70,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-04-27,East Midlands,225,77.1,
 2020-04-27,West Midlands,316,77.1,
 2020-04-27,East of England,317,78.8,
-2020-04-27,London,567,73.6,
+2020-04-27,London,567,73.7,
 2020-04-27,South East,471,79.9,
 2020-04-27,South West,233,75.1,
 2020-04-27,Wales,115,73.3,
@@ -83,7 +83,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-05-04,East Midlands,221,75.7,
 2020-05-04,West Midlands,299,73.0,
 2020-05-04,East of England,302,75.0,
-2020-05-04,London,538,69.9,
+2020-05-04,London,538,70.0,
 2020-05-04,South East,441,74.8,
 2020-05-04,South West,232,74.8,
 2020-05-04,Wales,103,65.6,
@@ -96,20 +96,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-05-11,East Midlands,215,73.7,
 2020-05-11,West Midlands,294,71.7,
 2020-05-11,East of England,286,71.1,
-2020-05-11,London,500,64.9,
+2020-05-11,London,500,65.0,
 2020-05-11,South East,436,74.0,
 2020-05-11,South West,218,70.3,
 2020-05-11,Wales,104,66.3,
 2020-05-11,Scotland,102,53.2,
 2020-05-11,Northern Ireland,42,54.8,
-2020-05-11,Unknown,1108,54.7,
+2020-05-11,Unknown,1108,54.6,
 2020-05-18,North East,85,65.3,
 2020-05-18,North West,392,69.7,
 2020-05-18,Yorkshire and The Humber,254,69.1,
 2020-05-18,East Midlands,220,75.4,
 2020-05-18,West Midlands,285,69.5,
 2020-05-18,East of England,277,68.8,
-2020-05-18,London,497,64.5,
+2020-05-18,London,497,64.6,
 2020-05-18,South East,428,72.6,
 2020-05-18,South West,216,69.6,
 2020-05-18,Wales,92,58.6,
@@ -122,7 +122,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-05-25,East Midlands,202,69.2,
 2020-05-25,West Midlands,271,66.1,
 2020-05-25,East of England,265,65.8,
-2020-05-25,London,449,58.3,
+2020-05-25,London,449,58.4,
 2020-05-25,South East,404,68.5,
 2020-05-25,South West,204,65.8,
 2020-05-25,Wales,84,53.5,
@@ -135,7 +135,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-06-01,East Midlands,192,65.8,
 2020-06-01,West Midlands,255,62.2,
 2020-06-01,East of England,251,62.4,
-2020-06-01,London,410,53.2,
+2020-06-01,London,410,53.3,
 2020-06-01,South East,387,65.7,
 2020-06-01,South West,191,61.6,
 2020-06-01,Wales,76,48.4,
@@ -148,7 +148,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-06-08,East Midlands,184,63.1,
 2020-06-08,West Midlands,250,61.0,
 2020-06-08,East of England,233,57.9,
-2020-06-08,London,382,49.6,
+2020-06-08,London,382,49.7,
 2020-06-08,South East,364,61.8,
 2020-06-08,South West,185,59.6,
 2020-06-08,Wales,70,44.6,
@@ -174,7 +174,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-06-22,East Midlands,166,56.9,
 2020-06-22,West Midlands,217,53.0,
 2020-06-22,East of England,213,52.9,
-2020-06-22,London,328,42.6,
+2020-06-22,London,328,42.7,
 2020-06-22,South East,315,53.4,
 2020-06-22,South West,167,53.8,
 2020-06-22,Wales,62,39.5,
@@ -213,7 +213,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-07-13,East Midlands,149,51.1,
 2020-07-13,West Midlands,192,46.9,
 2020-07-13,East of England,205,50.9,
-2020-07-13,London,312,40.5,
+2020-07-13,London,312,40.6,
 2020-07-13,South East,333,56.5,
 2020-07-13,South West,174,56.1,
 2020-07-13,Wales,64,40.8,
@@ -239,33 +239,33 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-07-27,East Midlands,147,50.4,
 2020-07-27,West Midlands,168,41.0,
 2020-07-27,East of England,193,48.0,
-2020-07-27,London,336,43.6,
+2020-07-27,London,336,43.7,
 2020-07-27,South East,318,54.0,
 2020-07-27,South West,159,51.3,
 2020-07-27,Wales,64,40.8,
 2020-07-27,Scotland,97,50.6,
 2020-07-27,Northern Ireland,21,27.4,
-2020-07-27,Unknown,751,37.1,
+2020-07-27,Unknown,751,37.0,
 2020-08-03,North East,59,45.3,
 2020-08-03,North West,246,43.7,
 2020-08-03,Yorkshire and The Humber,181,49.3,
 2020-08-03,East Midlands,145,49.7,
 2020-08-03,West Midlands,173,42.2,
 2020-08-03,East of England,197,48.9,
-2020-08-03,London,352,45.7,
+2020-08-03,London,352,45.8,
 2020-08-03,South East,345,58.5,
 2020-08-03,South West,156,50.3,
 2020-08-03,Wales,62,39.5,
 2020-08-03,Scotland,101,52.7,
 2020-08-03,Northern Ireland,21,27.4,
-2020-08-03,Unknown,745,36.8,
+2020-08-03,Unknown,745,36.7,
 2020-08-10,North East,59,45.3,
 2020-08-10,North West,261,46.4,
 2020-08-10,Yorkshire and The Humber,182,49.5,
 2020-08-10,East Midlands,132,45.2,
 2020-08-10,West Midlands,161,39.3,
 2020-08-10,East of England,195,48.4,
-2020-08-10,London,356,46.2,
+2020-08-10,London,356,46.3,
 2020-08-10,South East,334,56.7,
 2020-08-10,South West,149,48.0,
 2020-08-10,Wales,60,38.2,
@@ -278,7 +278,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-08-17,East Midlands,118,40.4,
 2020-08-17,West Midlands,168,41.0,
 2020-08-17,East of England,193,48.0,
-2020-08-17,London,365,47.4,
+2020-08-17,London,365,47.5,
 2020-08-17,South East,330,56.0,
 2020-08-17,South West,141,45.5,
 2020-08-17,Wales,62,39.5,
@@ -291,7 +291,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-08-24,East Midlands,119,40.8,
 2020-08-24,West Midlands,176,42.9,
 2020-08-24,East of England,191,47.5,
-2020-08-24,London,393,51.0,
+2020-08-24,London,393,51.1,
 2020-08-24,South East,337,57.2,
 2020-08-24,South West,142,45.8,
 2020-08-24,Wales,69,44.0,
@@ -330,7 +330,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-09-14,East Midlands,114,39.1,
 2020-09-14,West Midlands,171,41.7,
 2020-09-14,East of England,191,47.5,
-2020-09-14,London,433,56.2,
+2020-09-14,London,433,56.3,
 2020-09-14,South East,325,55.1,
 2020-09-14,South West,151,48.7,
 2020-09-14,Wales,69,44.0,
@@ -343,7 +343,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-09-21,East Midlands,112,38.4,
 2020-09-21,West Midlands,170,41.5,
 2020-09-21,East of England,191,47.5,
-2020-09-21,London,450,58.4,
+2020-09-21,London,450,58.5,
 2020-09-21,South East,331,56.2,
 2020-09-21,South West,145,46.7,
 2020-09-21,Wales,68,43.3,
@@ -356,7 +356,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-09-28,East Midlands,117,40.1,
 2020-09-28,West Midlands,171,41.7,
 2020-09-28,East of England,183,45.5,
-2020-09-28,London,470,61.0,
+2020-09-28,London,470,61.1,
 2020-09-28,South East,331,56.2,
 2020-09-28,South West,146,47.1,
 2020-09-28,Wales,66,42.1,
@@ -369,7 +369,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-10-05,East Midlands,120,41.1,
 2020-10-05,West Midlands,167,40.8,
 2020-10-05,East of England,175,43.5,
-2020-10-05,London,480,62.3,
+2020-10-05,London,480,62.4,
 2020-10-05,South East,328,55.7,
 2020-10-05,South West,136,43.8,
 2020-10-05,Wales,64,40.8,
@@ -382,26 +382,26 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-10-12,East Midlands,119,40.8,
 2020-10-12,West Midlands,174,42.5,
 2020-10-12,East of England,177,44.0,
-2020-10-12,London,485,63.0,
+2020-10-12,London,485,63.1,
 2020-10-12,South East,301,51.1,
 2020-10-12,South West,130,41.9,
 2020-10-12,Wales,70,44.6,
 2020-10-12,Scotland,95,49.6,
 2020-10-12,Northern Ireland,21,27.4,
-2020-10-12,Unknown,676,33.4,
+2020-10-12,Unknown,676,33.3,
 2020-10-19,North East,64,49.1,
 2020-10-19,North West,266,47.3,
 2020-10-19,Yorkshire and The Humber,218,59.3,
 2020-10-19,East Midlands,117,40.1,
 2020-10-19,West Midlands,181,44.2,
 2020-10-19,East of England,182,45.2,
-2020-10-19,London,476,61.8,
+2020-10-19,London,476,61.9,
 2020-10-19,South East,291,49.4,
 2020-10-19,South West,128,41.3,
 2020-10-19,Wales,68,43.3,
 2020-10-19,Scotland,94,49.1,
 2020-10-19,Northern Ireland,25,32.6,
-2020-10-19,Unknown,670,33.1,
+2020-10-19,Unknown,670,33.0,
 2020-10-26,North East,61,46.8,
 2020-10-26,North West,271,48.2,
 2020-10-26,Yorkshire and The Humber,208,56.6,
@@ -421,7 +421,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-11-02,East Midlands,121,41.5,
 2020-11-02,West Midlands,179,43.7,
 2020-11-02,East of England,187,46.5,
-2020-11-02,London,468,60.8,
+2020-11-02,London,468,60.9,
 2020-11-02,South East,268,45.5,
 2020-11-02,South West,116,37.4,
 2020-11-02,Wales,67,42.7,
@@ -434,7 +434,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-11-09,East Midlands,134,45.9,
 2020-11-09,West Midlands,188,45.9,
 2020-11-09,East of England,200,49.7,
-2020-11-09,London,458,59.5,
+2020-11-09,London,458,59.6,
 2020-11-09,South East,273,46.3,
 2020-11-09,South West,129,41.6,
 2020-11-09,Wales,65,41.4,
@@ -447,7 +447,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-11-16,East Midlands,132,45.2,
 2020-11-16,West Midlands,186,45.4,
 2020-11-16,East of England,189,47.0,
-2020-11-16,London,449,58.3,
+2020-11-16,London,449,58.4,
 2020-11-16,South East,278,47.2,
 2020-11-16,South West,136,43.8,
 2020-11-16,Wales,59,37.6,
@@ -460,20 +460,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-11-23,East Midlands,132,45.2,
 2020-11-23,West Midlands,183,44.7,
 2020-11-23,East of England,193,48.0,
-2020-11-23,London,431,56.0,
+2020-11-23,London,431,56.1,
 2020-11-23,South East,284,48.2,
 2020-11-23,South West,136,43.8,
 2020-11-23,Wales,62,39.5,
 2020-11-23,Scotland,111,57.9,
 2020-11-23,Northern Ireland,29,37.8,
-2020-11-23,Unknown,749,37.0,
+2020-11-23,Unknown,749,36.9,
 2020-11-30,North East,60,46.1,
 2020-11-30,North West,258,45.9,
 2020-11-30,Yorkshire and The Humber,205,55.8,
 2020-11-30,East Midlands,136,46.6,
 2020-11-30,West Midlands,190,46.4,
 2020-11-30,East of England,201,49.9,
-2020-11-30,London,450,58.4,
+2020-11-30,London,450,58.5,
 2020-11-30,South East,299,50.7,
 2020-11-30,South West,140,45.1,
 2020-11-30,Wales,65,41.4,
@@ -486,7 +486,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-12-07,East Midlands,135,46.3,
 2020-12-07,West Midlands,194,47.3,
 2020-12-07,East of England,214,53.2,
-2020-12-07,London,456,59.2,
+2020-12-07,London,456,59.3,
 2020-12-07,South East,306,51.9,
 2020-12-07,South West,137,44.2,
 2020-12-07,Wales,68,43.3,
@@ -499,7 +499,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-12-14,East Midlands,138,47.3,
 2020-12-14,West Midlands,201,49.0,
 2020-12-14,East of England,213,52.9,
-2020-12-14,London,449,58.3,
+2020-12-14,London,449,58.4,
 2020-12-14,South East,296,50.2,
 2020-12-14,South West,130,41.9,
 2020-12-14,Wales,74,47.2,
@@ -512,7 +512,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-12-21,East Midlands,135,46.3,
 2020-12-21,West Midlands,210,51.2,
 2020-12-21,East of England,212,52.7,
-2020-12-21,London,451,58.6,
+2020-12-21,London,451,58.7,
 2020-12-21,South East,297,50.4,
 2020-12-21,South West,128,41.3,
 2020-12-21,Wales,76,48.4,
@@ -525,7 +525,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2020-12-28,East Midlands,130,44.6,
 2020-12-28,West Midlands,208,50.8,
 2020-12-28,East of England,212,52.7,
-2020-12-28,London,441,57.3,
+2020-12-28,London,441,57.4,
 2020-12-28,South East,287,48.7,
 2020-12-28,South West,130,41.9,
 2020-12-28,Wales,77,49.1,
@@ -551,7 +551,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-01-11,East Midlands,122,41.8,306.7
 2021-01-11,West Midlands,195,47.6,441.7
 2021-01-11,East of England,197,48.9,603.6
-2021-01-11,London,396,51.4,692.0
+2021-01-11,London,396,51.5,692.0
 2021-01-11,South East,272,46.1,423.1
 2021-01-11,South West,117,37.7,317.9
 2021-01-11,Wales,73,46.5,
@@ -577,7 +577,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-01-25,East Midlands,113,38.7,85.2
 2021-01-25,West Midlands,190,46.4,126.2
 2021-01-25,East of England,189,47.0,136.2
-2021-01-25,London,376,48.8,157.5
+2021-01-25,London,376,48.9,157.5
 2021-01-25,South East,276,46.8,148.6
 2021-01-25,South West,114,36.7,67.6
 2021-01-25,Wales,71,45.2,129.0
@@ -603,13 +603,13 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-02-08,East Midlands,99,33.9,0.0
 2021-02-08,West Midlands,190,46.4,34.8
 2021-02-08,East of England,165,41.0,18.7
-2021-02-08,London,388,50.4,49.8
+2021-02-08,London,388,50.5,49.8
 2021-02-08,South East,255,43.3,29.4
 2021-02-08,South West,109,35.1,-3.5
 2021-02-08,Wales,67,42.7,26.4
 2021-02-08,Scotland,87,45.4,85.1
 2021-02-08,Northern Ireland,22,28.7,-46.3
-2021-02-08,Unknown,881,43.5,75.8
+2021-02-08,Unknown,881,43.4,75.8
 2021-02-15,North East,49,37.6,-12.5
 2021-02-15,North West,225,40.0,-0.4
 2021-02-15,Yorkshire and The Humber,161,43.8,5.2
@@ -629,20 +629,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-02-22,East Midlands,95,32.6,-34.9
 2021-02-22,West Midlands,191,46.6,1.6
 2021-02-22,East of England,164,40.7,-16.8
-2021-02-22,London,396,51.4,11.2
+2021-02-22,London,396,51.5,11.2
 2021-02-22,South East,234,39.7,-13.3
 2021-02-22,South West,98,31.6,-34.7
 2021-02-22,Wales,58,37.0,-30.1
 2021-02-22,Scotland,79,41.2,2.6
 2021-02-22,Northern Ireland,18,,
-2021-02-22,Unknown,881,43.5,25.1
+2021-02-22,Unknown,881,43.4,25.1
 2021-03-01,North East,46,35.3,-36.1
 2021-03-01,North West,224,39.8,-24.6
 2021-03-01,Yorkshire and The Humber,159,43.3,-20.9
 2021-03-01,East Midlands,93,31.9,-44.3
 2021-03-01,West Midlands,190,46.4,-12.4
 2021-03-01,East of England,162,40.2,-27.0
-2021-03-01,London,388,50.4,-4.9
+2021-03-01,London,388,50.5,-4.9
 2021-03-01,South East,231,39.2,-25.7
 2021-03-01,South West,96,30.9,-42.9
 2021-03-01,Wales,63,40.1,-35.1
@@ -655,7 +655,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-03-08,East Midlands,91,31.2,-51.6
 2021-03-08,West Midlands,182,44.4,-25.1
 2021-03-08,East of England,157,39.0,-37.5
-2021-03-08,London,378,49.1,-17.3
+2021-03-08,London,378,49.2,-17.3
 2021-03-08,South East,235,39.9,-32.7
 2021-03-08,South West,90,29.0,-51.4
 2021-03-08,Wales,62,39.5,-41.0
@@ -668,7 +668,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-03-15,East Midlands,91,31.2,-56.7
 2021-03-15,West Midlands,182,44.4,-32.6
 2021-03-15,East of England,152,37.8,-45.9
-2021-03-15,London,378,49.1,-26.3
+2021-03-15,London,378,49.2,-26.3
 2021-03-15,South East,239,40.6,-39.2
 2021-03-15,South West,96,30.9,-55.6
 2021-03-15,Wales,56,35.7,-50.0
@@ -681,7 +681,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-03-22,East Midlands,89,30.5,-60.6
 2021-03-22,West Midlands,179,43.7,-39.5
 2021-03-22,East of England,148,36.8,-50.7
-2021-03-22,London,389,50.5,-29.3
+2021-03-22,London,389,50.6,-29.3
 2021-03-22,South East,249,42.2,-42.9
 2021-03-22,South West,101,32.6,-55.5
 2021-03-22,Wales,58,37.0,-50.8
@@ -694,7 +694,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-03-29,East Midlands,90,30.8,-61.9
 2021-03-29,West Midlands,188,45.9,-40.7
 2021-03-29,East of England,150,37.3,-52.2
-2021-03-29,London,386,50.1,-33.1
+2021-03-29,London,386,50.2,-33.1
 2021-03-29,South East,254,43.1,-43.9
 2021-03-29,South West,101,32.6,-57.7
 2021-03-29,Wales,60,38.2,-50.8
@@ -720,7 +720,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-04-12,East Midlands,100,34.3,-57.8
 2021-04-12,West Midlands,204,49.8,-36.4
 2021-04-12,East of England,168,41.7,-48.8
-2021-04-12,London,412,53.5,-32.5
+2021-04-12,London,412,53.6,-32.5
 2021-04-12,South East,274,46.5,-41.1
 2021-04-12,South West,102,32.9,-57.0
 2021-04-12,Wales,61,38.9,-48.3
@@ -733,7 +733,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-04-19,East Midlands,105,36.0,-54.9
 2021-04-19,West Midlands,209,51.0,-36.5
 2021-04-19,East of England,173,43.0,-46.9
-2021-04-19,London,425,55.2,-27.5
+2021-04-19,London,425,55.3,-27.5
 2021-04-19,South East,281,47.7,-39.0
 2021-04-19,South West,106,34.2,-54.1
 2021-04-19,Wales,59,37.6,-50.0
@@ -746,20 +746,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-04-26,East Midlands,110,37.7,-51.1
 2021-04-26,West Midlands,210,51.2,-33.5
 2021-04-26,East of England,174,43.2,-45.1
-2021-04-26,London,432,56.1,-23.8
+2021-04-26,London,432,56.2,-23.8
 2021-04-26,South East,278,47.2,-41.0
 2021-04-26,South West,107,34.5,-54.1
 2021-04-26,Wales,61,38.9,-47.0
 2021-04-26,Scotland,89,46.5,-16.0
 2021-04-26,Northern Ireland,16,,
-2021-04-26,Unknown,893,44.1,-22.5
+2021-04-26,Unknown,893,44.0,-22.5
 2021-05-03,North East,52,39.9,-45.3
 2021-05-03,North West,242,43.0,-42.1
 2021-05-03,Yorkshire and The Humber,177,48.2,-31.9
 2021-05-03,East Midlands,110,37.7,-50.2
 2021-05-03,West Midlands,213,52.0,-28.8
 2021-05-03,East of England,173,43.0,-42.7
-2021-05-03,London,428,55.6,-20.4
+2021-05-03,London,428,55.7,-20.4
 2021-05-03,South East,290,49.2,-34.2
 2021-05-03,South West,103,33.2,-55.6
 2021-05-03,Wales,65,41.4,-36.9
@@ -778,14 +778,14 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-05-10,Wales,69,44.0,-33.7
 2021-05-10,Scotland,94,49.1,-7.8
 2021-05-10,Northern Ireland,16,,
-2021-05-10,Unknown,960,47.4,-13.4
+2021-05-10,Unknown,960,47.3,-13.4
 2021-05-17,North East,50,38.4,-41.2
 2021-05-17,North West,255,45.3,-34.9
 2021-05-17,Yorkshire and The Humber,182,49.5,-28.3
 2021-05-17,East Midlands,130,44.6,-40.9
 2021-05-17,West Midlands,207,50.5,-27.4
 2021-05-17,East of England,200,49.7,-27.8
-2021-05-17,London,445,57.8,-10.5
+2021-05-17,London,445,57.9,-10.5
 2021-05-17,South East,293,49.7,-31.5
 2021-05-17,South West,114,36.7,-47.2
 2021-05-17,Wales,70,44.6,-23.9
@@ -798,7 +798,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-05-24,East Midlands,134,45.9,-33.7
 2021-05-24,West Midlands,214,52.2,-21.0
 2021-05-24,East of England,209,51.9,-21.1
-2021-05-24,London,441,57.3,-1.8
+2021-05-24,London,441,57.4,-1.8
 2021-05-24,South East,305,51.7,-24.5
 2021-05-24,South West,114,36.7,-44.1
 2021-05-24,Wales,72,45.9,-14.3
@@ -811,7 +811,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-05-31,East Midlands,138,47.3,-28.1
 2021-05-31,West Midlands,208,50.8,-18.4
 2021-05-31,East of England,205,50.9,-18.3
-2021-05-31,London,435,56.5,6.1
+2021-05-31,London,435,56.6,6.1
 2021-05-31,South East,304,51.6,-21.4
 2021-05-31,South West,111,35.8,-41.9
 2021-05-31,Wales,70,44.6,-7.9
@@ -824,7 +824,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-06-07,East Midlands,141,48.3,-23.4
 2021-06-07,West Midlands,213,52.0,-14.8
 2021-06-07,East of England,212,52.7,-9.0
-2021-06-07,London,451,58.6,18.1
+2021-06-07,London,451,58.7,18.1
 2021-06-07,South East,293,49.7,-19.5
 2021-06-07,South West,107,34.5,-42.2
 2021-06-07,Wales,70,44.6,0.0
@@ -850,7 +850,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-06-21,East Midlands,157,53.8,-5.4
 2021-06-21,West Midlands,218,53.2,0.5
 2021-06-21,East of England,239,59.4,12.2
-2021-06-21,London,458,59.5,39.6
+2021-06-21,London,458,59.6,39.6
 2021-06-21,South East,300,50.9,-4.8
 2021-06-21,South West,114,36.7,-31.7
 2021-06-21,Wales,79,50.3,27.4
@@ -863,7 +863,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-06-28,East Midlands,163,55.9,1.9
 2021-06-28,West Midlands,222,54.2,7.8
 2021-06-28,East of England,241,59.9,13.1
-2021-06-28,London,462,60.0,44.4
+2021-06-28,London,462,60.1,44.4
 2021-06-28,South East,309,52.4,-2.8
 2021-06-28,South West,117,37.7,-27.3
 2021-06-28,Wales,80,51.0,25.0
@@ -876,7 +876,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-07-05,East Midlands,170,58.3,13.3
 2021-07-05,West Midlands,230,56.1,12.2
 2021-07-05,East of England,241,59.9,13.7
-2021-07-05,London,471,61.2,51.9
+2021-07-05,London,471,61.3,51.9
 2021-07-05,South East,305,51.7,-3.8
 2021-07-05,South West,130,41.9,-19.8
 2021-07-05,Wales,79,50.3,25.4
@@ -889,7 +889,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-07-12,East Midlands,172,58.9,15.4
 2021-07-12,West Midlands,228,55.6,18.8
 2021-07-12,East of England,236,58.6,15.1
-2021-07-12,London,472,61.3,51.3
+2021-07-12,London,472,61.4,51.3
 2021-07-12,South East,331,56.2,-0.6
 2021-07-12,South West,131,42.2,-24.7
 2021-07-12,Wales,80,51.0,25.0
@@ -902,7 +902,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-07-19,East Midlands,181,62.0,18.3
 2021-07-19,West Midlands,228,55.6,28.1
 2021-07-19,East of England,244,60.6,25.1
-2021-07-19,London,469,60.9,43.4
+2021-07-19,London,469,61.0,43.4
 2021-07-19,South East,331,56.2,1.8
 2021-07-19,South West,138,44.5,-16.9
 2021-07-19,Wales,92,58.6,46.0
@@ -915,7 +915,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-07-26,East Midlands,184,63.1,25.2
 2021-07-26,West Midlands,235,57.3,39.9
 2021-07-26,East of England,239,59.4,23.8
-2021-07-26,London,470,61.0,39.9
+2021-07-26,London,470,61.1,39.9
 2021-07-26,South East,336,57.0,5.7
 2021-07-26,South West,143,46.1,-10.1
 2021-07-26,Wales,88,56.1,37.5
@@ -928,33 +928,33 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-08-02,East Midlands,186,63.7,28.3
 2021-08-02,West Midlands,246,60.0,42.2
 2021-08-02,East of England,259,64.3,31.5
-2021-08-02,London,490,63.6,39.2
+2021-08-02,London,490,63.7,39.2
 2021-08-02,South East,351,59.6,1.7
 2021-08-02,South West,154,49.6,-1.3
 2021-08-02,Wales,87,55.4,40.3
 2021-08-02,Scotland,186,97.1,84.2
 2021-08-02,Northern Ireland,33,43.0,57.1
-2021-08-02,Unknown,1250,61.7,67.8
+2021-08-02,Unknown,1250,61.6,67.8
 2021-08-09,North East,52,39.9,-11.9
 2021-08-09,North West,341,60.6,30.7
 2021-08-09,Yorkshire and The Humber,222,60.4,22.0
 2021-08-09,East Midlands,190,65.1,43.9
 2021-08-09,West Midlands,257,62.7,59.6
 2021-08-09,East of England,258,64.1,32.3
-2021-08-09,London,486,63.1,36.5
+2021-08-09,London,486,63.2,36.5
 2021-08-09,South East,353,59.9,5.7
 2021-08-09,South West,146,47.1,-2.0
 2021-08-09,Wales,90,57.4,50.0
 2021-08-09,Scotland,199,103.9,97.0
 2021-08-09,Northern Ireland,32,41.7,39.1
-2021-08-09,Unknown,1256,62.0,72.5
+2021-08-09,Unknown,1256,61.9,72.5
 2021-08-16,North East,56,43.0,-11.1
 2021-08-16,North West,357,63.5,36.8
 2021-08-16,Yorkshire and The Humber,222,60.4,20.0
 2021-08-16,East Midlands,189,64.8,60.2
 2021-08-16,West Midlands,266,64.9,58.3
 2021-08-16,East of England,265,65.8,37.3
-2021-08-16,London,487,63.2,33.4
+2021-08-16,London,487,63.3,33.4
 2021-08-16,South East,356,60.4,7.9
 2021-08-16,South West,145,46.7,2.8
 2021-08-16,Wales,90,57.4,45.2
@@ -980,7 +980,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-08-30,East Midlands,184,63.1,61.4
 2021-08-30,West Midlands,263,64.2,53.8
 2021-08-30,East of England,269,66.8,40.1
-2021-08-30,London,488,63.4,19.9
+2021-08-30,London,488,63.5,19.9
 2021-08-30,South East,361,61.2,12.8
 2021-08-30,South West,145,46.7,-2.0
 2021-08-30,Wales,81,51.6,24.6
@@ -993,59 +993,59 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-09-06,East Midlands,187,64.1,61.2
 2021-09-06,West Midlands,260,63.4,53.8
 2021-09-06,East of England,273,67.8,46.0
-2021-09-06,London,483,62.7,13.9
+2021-09-06,London,483,62.8,13.9
 2021-09-06,South East,369,62.6,13.9
 2021-09-06,South West,157,50.6,1.9
 2021-09-06,Wales,84,53.5,25.4
 2021-09-06,Scotland,214,111.7,111.9
 2021-09-06,Northern Ireland,31,40.4,55.0
-2021-09-06,Unknown,1345,66.4,84.2
+2021-09-06,Unknown,1345,66.3,84.2
 2021-09-13,North East,57,43.8,-5.0
 2021-09-13,North West,370,65.8,37.0
 2021-09-13,Yorkshire and The Humber,225,61.3,13.1
 2021-09-13,East Midlands,187,64.1,64.0
 2021-09-13,West Midlands,256,62.5,49.7
 2021-09-13,East of England,259,64.3,35.6
-2021-09-13,London,482,62.6,11.3
+2021-09-13,London,482,62.7,11.3
 2021-09-13,South East,353,59.9,8.6
 2021-09-13,South West,163,52.5,7.9
 2021-09-13,Wales,82,52.3,18.8
 2021-09-13,Scotland,201,104.9,116.1
 2021-09-13,Northern Ireland,32,41.7,
-2021-09-13,Unknown,1339,66.1,84.2
+2021-09-13,Unknown,1339,66.0,84.2
 2021-09-20,North East,58,44.5,-3.3
 2021-09-20,North West,362,64.4,34.6
 2021-09-20,Yorkshire and The Humber,228,62.1,11.2
 2021-09-20,East Midlands,195,66.8,74.1
 2021-09-20,West Midlands,262,63.9,54.1
 2021-09-20,East of England,253,62.9,32.5
-2021-09-20,London,478,62.1,6.2
+2021-09-20,London,478,62.2,6.2
 2021-09-20,South East,353,59.9,6.6
 2021-09-20,South West,163,52.5,12.4
 2021-09-20,Wales,78,49.7,14.7
 2021-09-20,Scotland,197,102.8,114.1
 2021-09-20,Northern Ireland,35,45.7,66.7
-2021-09-20,Unknown,1335,65.9,91.3
+2021-09-20,Unknown,1335,65.8,91.3
 2021-09-27,North East,59,45.3,-1.7
 2021-09-27,North West,367,65.3,38.0
 2021-09-27,Yorkshire and The Humber,235,64.0,11.9
 2021-09-27,East Midlands,192,65.8,64.1
 2021-09-27,West Midlands,264,64.4,54.4
 2021-09-27,East of England,258,64.1,41.0
-2021-09-27,London,469,60.9,-0.2
+2021-09-27,London,469,61.0,-0.2
 2021-09-27,South East,340,57.7,2.7
 2021-09-27,South West,164,52.9,12.3
 2021-09-27,Wales,79,50.3,19.7
 2021-09-27,Scotland,202,105.4,122.0
 2021-09-27,Northern Ireland,33,43.0,
-2021-09-27,Unknown,1347,66.5,97.2
+2021-09-27,Unknown,1347,66.4,97.2
 2021-10-04,North East,59,45.3,-7.8
 2021-10-04,North West,362,64.4,40.3
 2021-10-04,Yorkshire and The Humber,254,69.1,18.7
 2021-10-04,East Midlands,193,66.1,60.8
 2021-10-04,West Midlands,264,64.4,58.1
 2021-10-04,East of England,271,67.3,54.9
-2021-10-04,London,475,61.7,-1.0
+2021-10-04,London,475,61.8,-1.0
 2021-10-04,South East,344,58.4,4.9
 2021-10-04,South West,167,53.8,22.8
 2021-10-04,Wales,81,51.6,26.6
@@ -1058,7 +1058,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-10-11,East Midlands,201,68.9,68.9
 2021-10-11,West Midlands,275,67.1,58.0
 2021-10-11,East of England,272,67.6,53.7
-2021-10-11,London,488,63.4,0.6
+2021-10-11,London,488,63.5,0.6
 2021-10-11,South East,334,56.7,11.0
 2021-10-11,South West,170,54.8,30.8
 2021-10-11,Wales,88,56.1,25.7
@@ -1071,7 +1071,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-10-18,East Midlands,194,66.5,65.8
 2021-10-18,West Midlands,270,65.9,49.2
 2021-10-18,East of England,254,63.1,39.6
-2021-10-18,London,478,62.1,0.4
+2021-10-18,London,478,62.2,0.4
 2021-10-18,South East,325,55.1,11.7
 2021-10-18,South West,163,52.5,27.3
 2021-10-18,Wales,76,48.4,11.8
@@ -1084,7 +1084,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-10-25,East Midlands,194,66.5,61.7
 2021-10-25,West Midlands,277,67.6,50.5
 2021-10-25,East of England,273,67.8,51.7
-2021-10-25,London,492,63.9,3.8
+2021-10-25,London,492,64.0,3.8
 2021-10-25,South East,342,58.0,19.6
 2021-10-25,South West,168,54.2,36.6
 2021-10-25,Wales,81,51.6,24.6
@@ -1097,20 +1097,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-11-01,East Midlands,199,68.2,64.5
 2021-11-01,West Midlands,287,70.0,60.3
 2021-11-01,East of England,257,63.9,37.4
-2021-11-01,London,503,65.3,7.5
+2021-11-01,London,503,65.4,7.5
 2021-11-01,South East,333,56.5,24.3
 2021-11-01,South West,163,52.5,40.5
 2021-11-01,Wales,87,55.4,29.9
 2021-11-01,Scotland,201,104.9,113.8
 2021-11-01,Northern Ireland,32,41.7,14.3
-2021-11-01,Unknown,1623,80.1,133.9
+2021-11-01,Unknown,1623,80.0,133.9
 2021-11-08,North East,73,56.1,19.7
 2021-11-08,North West,373,66.3,45.1
 2021-11-08,Yorkshire and The Humber,256,69.7,21.9
 2021-11-08,East Midlands,191,65.5,42.5
 2021-11-08,West Midlands,295,72.0,56.9
 2021-11-08,East of England,259,64.3,29.5
-2021-11-08,London,513,66.6,12.0
+2021-11-08,London,513,66.7,12.0
 2021-11-08,South East,332,56.3,21.6
 2021-11-08,South West,172,55.4,33.3
 2021-11-08,Wales,86,54.8,32.3
@@ -1123,20 +1123,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-11-15,East Midlands,191,65.5,44.7
 2021-11-15,West Midlands,306,74.7,64.5
 2021-11-15,East of England,251,62.4,32.8
-2021-11-15,London,531,69.0,18.3
+2021-11-15,London,531,69.1,18.3
 2021-11-15,South East,341,57.9,22.7
 2021-11-15,South West,176,56.7,29.4
 2021-11-15,Wales,89,56.7,50.8
 2021-11-15,Scotland,194,101.3,88.3
 2021-11-15,Northern Ireland,36,47.0,38.5
-2021-11-15,Unknown,1702,84.0,133.2
+2021-11-15,Unknown,1702,83.9,133.2
 2021-11-22,North East,78,59.9,36.8
 2021-11-22,North West,369,65.6,51.9
 2021-11-22,Yorkshire and The Humber,248,67.5,15.9
 2021-11-22,East Midlands,190,65.1,43.9
 2021-11-22,West Midlands,330,80.5,80.3
 2021-11-22,East of England,245,60.9,26.9
-2021-11-22,London,546,70.9,26.7
+2021-11-22,London,546,71.0,26.7
 2021-11-22,South East,358,60.7,26.1
 2021-11-22,South West,176,56.7,29.4
 2021-11-22,Wales,96,61.2,54.8
@@ -1149,20 +1149,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-11-29,East Midlands,206,70.6,51.5
 2021-11-29,West Midlands,342,83.5,80.0
 2021-11-29,East of England,255,63.4,26.9
-2021-11-29,London,569,73.9,26.4
+2021-11-29,London,569,74.0,26.4
 2021-11-29,South East,367,62.3,22.7
 2021-11-29,South West,186,60.0,32.9
 2021-11-29,Wales,108,68.8,66.2
 2021-11-29,Scotland,204,106.5,71.4
 2021-11-29,Northern Ireland,36,47.0,20.0
-2021-11-29,Unknown,1791,88.4,130.5
+2021-11-29,Unknown,1791,88.3,130.5
 2021-12-06,North East,75,57.6,27.1
 2021-12-06,North West,388,69.0,53.4
 2021-12-06,Yorkshire and The Humber,261,71.1,26.7
 2021-12-06,East Midlands,205,70.3,51.9
 2021-12-06,West Midlands,363,88.6,87.1
 2021-12-06,East of England,256,63.6,19.6
-2021-12-06,London,582,75.6,27.6
+2021-12-06,London,582,75.7,27.6
 2021-12-06,South East,372,63.1,21.6
 2021-12-06,South West,180,58.0,31.4
 2021-12-06,Wales,114,72.7,67.6
@@ -1175,7 +1175,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-12-13,East Midlands,213,73.0,54.3
 2021-12-13,West Midlands,376,91.8,87.1
 2021-12-13,East of England,260,64.6,22.1
-2021-12-13,London,596,77.4,32.7
+2021-12-13,London,596,77.5,32.7
 2021-12-13,South East,388,65.8,31.1
 2021-12-13,South West,181,58.3,39.2
 2021-12-13,Wales,116,73.9,56.8
@@ -1188,20 +1188,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2021-12-20,East Midlands,217,74.4,60.7
 2021-12-20,West Midlands,402,98.1,91.4
 2021-12-20,East of England,288,71.6,35.8
-2021-12-20,London,643,83.5,42.6
+2021-12-20,London,643,83.6,42.6
 2021-12-20,South East,416,70.6,40.1
 2021-12-20,South West,186,60.0,45.3
 2021-12-20,Wales,124,79.0,63.2
 2021-12-20,Scotland,229,119.5,80.3
 2021-12-20,Northern Ireland,35,45.7,29.6
-2021-12-20,Unknown,1986,98.0,113.8
+2021-12-20,Unknown,1986,97.9,113.8
 2021-12-27,North East,85,65.3,37.1
 2021-12-27,North West,404,71.8,52.5
 2021-12-27,Yorkshire and The Humber,277,75.4,43.5
 2021-12-27,East Midlands,224,76.8,72.3
 2021-12-27,West Midlands,393,95.9,88.9
 2021-12-27,East of England,292,72.5,37.7
-2021-12-27,London,660,85.7,49.7
+2021-12-27,London,660,85.8,49.7
 2021-12-27,South East,419,71.1,46.0
 2021-12-27,South West,179,57.7,37.7
 2021-12-27,Wales,123,78.4,59.7
@@ -1214,7 +1214,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-01-03,East Midlands,210,72.0,69.4
 2022-01-03,West Midlands,380,92.7,85.4
 2022-01-03,East of England,279,69.3,32.9
-2022-01-03,London,628,81.6,51.7
+2022-01-03,London,628,81.7,51.7
 2022-01-03,South East,399,67.7,46.2
 2022-01-03,South West,165,53.2,31.0
 2022-01-03,Wales,116,73.9,48.7
@@ -1227,20 +1227,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-01-10,East Midlands,200,68.5,63.9
 2022-01-10,West Midlands,366,89.3,87.7
 2022-01-10,East of England,280,69.6,42.1
-2022-01-10,London,603,78.3,52.3
+2022-01-10,London,603,78.4,52.3
 2022-01-10,South East,384,65.2,41.2
 2022-01-10,South West,159,51.3,35.9
 2022-01-10,Wales,111,70.7,52.1
 2022-01-10,Scotland,217,113.3,97.3
 2022-01-10,Northern Ireland,28,36.5,3.7
-2022-01-10,Unknown,1811,89.4,99.0
+2022-01-10,Unknown,1811,89.3,99.0
 2022-01-17,North East,82,63.0,49.1
 2022-01-17,North West,389,69.2,64.8
 2022-01-17,Yorkshire and The Humber,269,73.2,50.3
 2022-01-17,East Midlands,197,67.5,69.8
 2022-01-17,West Midlands,372,90.8,95.8
 2022-01-17,East of England,296,73.5,55.0
-2022-01-17,London,620,80.5,62.7
+2022-01-17,London,620,80.6,62.7
 2022-01-17,South East,401,68.0,47.4
 2022-01-17,South West,166,53.5,43.1
 2022-01-17,Wales,118,75.2,68.6
@@ -1253,7 +1253,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-01-24,East Midlands,199,68.2,76.1
 2022-01-24,West Midlands,362,88.3,90.5
 2022-01-24,East of England,287,71.3,51.9
-2022-01-24,London,602,78.2,60.1
+2022-01-24,London,602,78.3,60.1
 2022-01-24,South East,380,64.5,37.7
 2022-01-24,South West,158,50.9,38.6
 2022-01-24,Wales,119,75.8,67.6
@@ -1266,46 +1266,46 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-01-31,East Midlands,192,65.8,69.9
 2022-01-31,West Midlands,358,87.4,86.5
 2022-01-31,East of England,292,72.5,57.8
-2022-01-31,London,580,75.3,55.1
+2022-01-31,London,580,75.4,55.1
 2022-01-31,South East,386,65.5,46.2
 2022-01-31,South West,154,49.6,30.5
 2022-01-31,Wales,115,73.3,69.1
 2022-01-31,Scotland,204,106.5,98.1
 2022-01-31,Northern Ireland,30,39.1,50.0
-2022-01-31,Unknown,1712,84.5,91.9
+2022-01-31,Unknown,1712,84.4,91.9
 2022-02-07,North East,85,65.3,77.1
 2022-02-07,North West,401,71.3,79.8
 2022-02-07,Yorkshire and The Humber,262,71.3,55.0
 2022-02-07,East Midlands,200,68.5,102.0
 2022-02-07,West Midlands,349,85.2,83.7
 2022-02-07,East of England,296,73.5,79.4
-2022-02-07,London,582,75.6,50.0
+2022-02-07,London,582,75.7,50.0
 2022-02-07,South East,412,69.9,61.6
 2022-02-07,South West,153,49.3,40.4
 2022-02-07,Wales,114,72.7,70.1
 2022-02-07,Scotland,206,107.5,136.8
 2022-02-07,Northern Ireland,30,39.1,36.4
-2022-02-07,Unknown,1797,88.7,104.0
+2022-02-07,Unknown,1797,88.6,104.0
 2022-02-14,North East,84,64.5,71.4
 2022-02-14,North West,410,72.9,82.2
 2022-02-14,Yorkshire and The Humber,268,73.0,66.5
 2022-02-14,East Midlands,213,73.0,119.6
 2022-02-14,West Midlands,349,85.2,82.7
 2022-02-14,East of England,297,73.8,80.0
-2022-02-14,London,575,74.7,47.1
+2022-02-14,London,575,74.8,47.1
 2022-02-14,South East,419,71.1,67.6
 2022-02-14,South West,167,53.8,67.0
 2022-02-14,Wales,116,73.9,73.1
 2022-02-14,Scotland,204,106.5,148.8
 2022-02-14,Northern Ireland,31,40.4,55.0
-2022-02-14,Unknown,1789,88.3,101.9
+2022-02-14,Unknown,1789,88.2,101.9
 2022-02-21,North East,81,62.2,72.3
 2022-02-21,North West,408,72.6,82.1
 2022-02-21,Yorkshire and The Humber,280,76.2,83.0
 2022-02-21,East Midlands,215,73.7,126.3
 2022-02-21,West Midlands,345,84.2,80.6
 2022-02-21,East of England,309,76.8,88.4
-2022-02-21,London,576,74.8,45.5
+2022-02-21,London,576,74.9,45.5
 2022-02-21,South East,421,71.4,79.9
 2022-02-21,South West,179,57.7,82.7
 2022-02-21,Wales,119,75.8,105.2
@@ -1318,33 +1318,33 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-02-28,East Midlands,214,73.3,130.1
 2022-02-28,West Midlands,361,88.1,90.0
 2022-02-28,East of England,306,76.0,88.9
-2022-02-28,London,580,75.3,49.5
+2022-02-28,London,580,75.4,49.5
 2022-02-28,South East,428,72.6,85.3
 2022-02-28,South West,182,58.7,89.6
 2022-02-28,Wales,115,73.3,82.5
 2022-02-28,Scotland,197,102.8,181.4
 2022-02-28,Northern Ireland,42,54.8,
-2022-02-28,Unknown,1868,92.2,114.2
+2022-02-28,Unknown,1868,92.1,114.2
 2022-03-07,North East,85,65.3,77.1
 2022-03-07,North West,427,75.9,87.3
 2022-03-07,Yorkshire and The Humber,278,75.7,79.4
 2022-03-07,East Midlands,221,75.7,142.9
 2022-03-07,West Midlands,351,85.7,92.9
 2022-03-07,East of England,310,77.0,97.5
-2022-03-07,London,574,74.5,51.9
+2022-03-07,London,574,74.6,51.9
 2022-03-07,South East,433,73.5,84.3
 2022-03-07,South West,181,58.3,101.1
 2022-03-07,Wales,109,69.5,75.8
 2022-03-07,Scotland,199,103.9,184.3
 2022-03-07,Northern Ireland,47,61.3,
-2022-03-07,Unknown,1893,93.4,124.6
+2022-03-07,Unknown,1893,93.3,124.6
 2022-03-14,North East,81,62.2,72.3
 2022-03-14,North West,440,78.2,102.8
 2022-03-14,Yorkshire and The Humber,277,75.4,72.0
 2022-03-14,East Midlands,215,73.7,136.3
 2022-03-14,West Midlands,346,84.4,90.1
 2022-03-14,East of England,321,79.8,111.2
-2022-03-14,London,574,74.5,51.9
+2022-03-14,London,574,74.6,51.9
 2022-03-14,South East,431,73.1,80.3
 2022-03-14,South West,184,59.3,91.7
 2022-03-14,Wales,106,67.6,89.3
@@ -1357,20 +1357,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-03-21,East Midlands,204,69.9,129.2
 2022-03-21,West Midlands,323,78.8,80.4
 2022-03-21,East of England,306,76.0,106.8
-2022-03-21,London,568,73.8,46.0
+2022-03-21,London,568,73.9,46.0
 2022-03-21,South East,417,70.8,67.5
 2022-03-21,South West,186,60.0,84.2
 2022-03-21,Wales,101,64.4,74.1
 2022-03-21,Scotland,188,98.1,180.6
 2022-03-21,Northern Ireland,40,52.2,
-2022-03-21,Unknown,1874,92.5,134.5
+2022-03-21,Unknown,1874,92.4,134.5
 2022-03-28,North East,87,66.8,85.1
 2022-03-28,North West,448,79.7,105.5
 2022-03-28,Yorkshire and The Humber,284,77.3,77.5
 2022-03-28,East Midlands,201,68.9,123.3
 2022-03-28,West Midlands,330,80.5,75.5
 2022-03-28,East of England,330,82.0,120.0
-2022-03-28,London,583,75.7,51.0
+2022-03-28,London,583,75.8,51.0
 2022-03-28,South East,430,73.0,69.3
 2022-03-28,South West,201,64.8,99.0
 2022-03-28,Wales,105,66.9,75.0
@@ -1383,7 +1383,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-04-04,East Midlands,220,75.4,131.6
 2022-04-04,West Midlands,345,84.2,77.8
 2022-04-04,East of England,366,90.9,139.2
-2022-04-04,London,637,82.7,60.5
+2022-04-04,London,637,82.8,60.5
 2022-04-04,South East,457,77.5,68.6
 2022-04-04,South West,208,67.0,114.4
 2022-04-04,Wales,118,75.2,90.3
@@ -1396,20 +1396,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-04-11,East Midlands,224,76.8,124.0
 2022-04-11,West Midlands,359,87.6,76.0
 2022-04-11,East of England,378,93.9,125.0
-2022-04-11,London,665,86.4,61.4
+2022-04-11,London,665,86.5,61.4
 2022-04-11,South East,475,80.6,73.4
 2022-04-11,South West,213,68.7,108.8
 2022-04-11,Wales,123,78.4,101.6
 2022-04-11,Scotland,214,111.7,177.9
 2022-04-11,Northern Ireland,46,60.0,
-2022-04-11,Unknown,2166,106.9,152.4
+2022-04-11,Unknown,2166,106.8,152.4
 2022-04-18,North East,100,76.8,85.2
 2022-04-18,North West,517,91.9,108.5
 2022-04-18,Yorkshire and The Humber,318,86.6,79.7
 2022-04-18,East Midlands,243,83.3,131.4
 2022-04-18,West Midlands,374,91.3,78.9
 2022-04-18,East of England,381,94.7,120.2
-2022-04-18,London,691,89.7,62.6
+2022-04-18,London,691,89.9,62.6
 2022-04-18,South East,481,81.6,71.2
 2022-04-18,South West,212,68.3,100.0
 2022-04-18,Wales,121,77.1,105.1
@@ -1422,7 +1422,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-04-25,East Midlands,250,85.7,127.3
 2022-04-25,West Midlands,387,94.4,84.3
 2022-04-25,East of England,387,96.2,122.4
-2022-04-25,London,724,94.0,67.6
+2022-04-25,London,724,94.2,67.6
 2022-04-25,South East,493,83.6,77.3
 2022-04-25,South West,218,70.3,103.7
 2022-04-25,Wales,120,76.5,96.7
@@ -1435,7 +1435,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-05-02,East Midlands,265,90.8,140.9
 2022-05-02,West Midlands,386,94.2,81.2
 2022-05-02,East of England,389,96.6,124.9
-2022-05-02,London,737,95.7,72.2
+2022-05-02,London,737,95.8,72.2
 2022-05-02,South East,480,81.4,65.5
 2022-05-02,South West,229,73.8,122.3
 2022-05-02,Wales,129,82.2,98.5
@@ -1448,7 +1448,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-05-09,East Midlands,261,89.4,115.7
 2022-05-09,West Midlands,393,95.9,87.1
 2022-05-09,East of England,388,96.4,107.5
-2022-05-09,London,759,98.6,73.7
+2022-05-09,London,759,98.7,73.7
 2022-05-09,South East,474,80.4,61.2
 2022-05-09,South West,228,73.5,109.2
 2022-05-09,Wales,128,81.6,85.5
@@ -1461,7 +1461,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-05-16,East Midlands,249,85.3,91.5
 2022-05-16,West Midlands,384,93.7,85.5
 2022-05-16,East of England,393,97.6,96.5
-2022-05-16,London,773,100.4,73.7
+2022-05-16,London,773,100.5,73.7
 2022-05-16,South East,478,81.1,63.1
 2022-05-16,South West,220,70.9,93.0
 2022-05-16,Wales,130,82.8,85.7
@@ -1474,20 +1474,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-05-23,East Midlands,249,85.3,85.8
 2022-05-23,West Midlands,374,91.3,74.8
 2022-05-23,East of England,392,97.4,87.6
-2022-05-23,London,780,101.3,76.9
+2022-05-23,London,780,101.4,76.9
 2022-05-23,South East,478,81.1,56.7
 2022-05-23,South West,214,69.0,87.7
 2022-05-23,Wales,129,82.2,79.2
 2022-05-23,Scotland,230,120.1,101.8
 2022-05-23,Northern Ireland,43,56.1,
-2022-05-23,Unknown,2083,102.8,108.1
+2022-05-23,Unknown,2083,102.7,108.1
 2022-05-30,North East,91,69.9,71.7
 2022-05-30,North West,499,88.7,93.4
 2022-05-30,Yorkshire and The Humber,322,87.7,65.1
 2022-05-30,East Midlands,246,84.3,78.3
 2022-05-30,West Midlands,351,85.7,68.8
 2022-05-30,East of England,385,95.7,87.8
-2022-05-30,London,765,99.4,75.9
+2022-05-30,London,765,99.5,75.9
 2022-05-30,South East,470,79.7,54.6
 2022-05-30,South West,203,65.4,82.9
 2022-05-30,Wales,122,77.7,74.3
@@ -1500,7 +1500,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-06-06,East Midlands,239,81.9,69.5
 2022-06-06,West Midlands,351,85.7,64.8
 2022-06-06,East of England,393,97.6,85.4
-2022-06-06,London,762,99.0,69.0
+2022-06-06,London,762,99.1,69.0
 2022-06-06,South East,463,78.6,58.0
 2022-06-06,South West,215,69.3,100.9
 2022-06-06,Wales,122,77.7,74.3
@@ -1513,7 +1513,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-06-13,East Midlands,238,81.6,66.4
 2022-06-13,West Midlands,359,87.6,62.4
 2022-06-13,East of England,390,96.9,70.3
-2022-06-13,London,775,100.6,67.0
+2022-06-13,London,775,100.8,67.0
 2022-06-13,South East,475,80.6,55.7
 2022-06-13,South West,215,69.3,95.5
 2022-06-13,Wales,127,80.9,69.3
@@ -1526,20 +1526,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-06-20,East Midlands,246,84.3,56.7
 2022-06-20,West Midlands,370,90.3,69.7
 2022-06-20,East of England,392,97.4,64.0
-2022-06-20,London,748,97.1,63.3
+2022-06-20,London,748,97.3,63.3
 2022-06-20,South East,479,81.3,59.7
 2022-06-20,South West,204,65.8,78.9
 2022-06-20,Wales,130,82.8,64.6
 2022-06-20,Scotland,215,112.2,44.3
 2022-06-20,Northern Ireland,53,69.1,165.0
-2022-06-20,Unknown,1933,95.4,77.3
+2022-06-20,Unknown,1933,95.3,77.3
 2022-06-27,North East,86,66.0,62.3
 2022-06-27,North West,468,83.2,59.2
 2022-06-27,Yorkshire and The Humber,313,85.2,46.3
 2022-06-27,East Midlands,253,86.7,55.2
 2022-06-27,West Midlands,375,91.5,68.9
 2022-06-27,East of England,379,94.2,57.3
-2022-06-27,London,748,97.1,61.9
+2022-06-27,London,748,97.3,61.9
 2022-06-27,South East,475,80.6,53.7
 2022-06-27,South West,194,62.5,65.8
 2022-06-27,Wales,128,81.6,60.0
@@ -1552,33 +1552,33 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-07-04,East Midlands,250,85.7,47.1
 2022-07-04,West Midlands,385,94.0,67.4
 2022-07-04,East of England,364,90.4,51.0
-2022-07-04,London,719,93.4,52.7
+2022-07-04,London,719,93.5,52.7
 2022-07-04,South East,483,81.9,58.4
 2022-07-04,South West,213,68.7,63.8
 2022-07-04,Wales,140,89.2,77.2
 2022-07-04,Scotland,207,108.0,32.7
 2022-07-04,Northern Ireland,55,71.7,129.2
-2022-07-04,Unknown,1909,94.2,64.4
+2022-07-04,Unknown,1909,94.1,64.4
 2022-07-11,North East,84,64.5,68.0
 2022-07-11,North West,432,76.8,44.5
 2022-07-11,Yorkshire and The Humber,302,82.2,42.5
 2022-07-11,East Midlands,258,88.4,50.0
 2022-07-11,West Midlands,407,99.3,78.5
 2022-07-11,East of England,356,88.4,50.8
-2022-07-11,London,724,94.0,53.4
+2022-07-11,London,724,94.2,53.4
 2022-07-11,South East,489,83.0,47.7
 2022-07-11,South West,220,70.9,67.9
 2022-07-11,Wales,139,88.6,73.8
 2022-07-11,Scotland,212,110.7,28.5
 2022-07-11,Northern Ireland,59,77.0,118.5
-2022-07-11,Unknown,1947,96.1,63.6
+2022-07-11,Unknown,1947,96.0,63.6
 2022-07-18,North East,99,76.0,106.2
 2022-07-18,North West,450,80.0,46.1
 2022-07-18,Yorkshire and The Humber,304,82.8,49.0
 2022-07-18,East Midlands,259,88.8,43.1
 2022-07-18,West Midlands,409,99.8,79.4
 2022-07-18,East of England,360,89.4,47.5
-2022-07-18,London,743,96.5,58.4
+2022-07-18,London,743,96.6,58.4
 2022-07-18,South East,496,84.2,49.8
 2022-07-18,South West,228,73.5,65.2
 2022-07-18,Wales,138,87.9,50.0
@@ -1591,85 +1591,85 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-07-25,East Midlands,255,87.4,38.6
 2022-07-25,West Midlands,421,102.7,79.1
 2022-07-25,East of England,375,93.2,56.9
-2022-07-25,London,744,96.6,58.3
+2022-07-25,London,744,96.8,58.3
 2022-07-25,South East,493,83.6,46.7
 2022-07-25,South West,236,76.1,65.0
 2022-07-25,Wales,143,91.1,62.5
 2022-07-25,Scotland,198,103.4,14.5
 2022-07-25,Northern Ireland,60,78.3,114.3
-2022-07-25,Unknown,1970,97.2,58.7
+2022-07-25,Unknown,1970,97.1,58.7
 2022-08-01,North East,113,86.8,113.2
 2022-08-01,North West,466,82.9,39.1
 2022-08-01,Yorkshire and The Humber,292,79.5,35.2
 2022-08-01,East Midlands,244,83.6,31.2
 2022-08-01,West Midlands,415,101.3,68.7
 2022-08-01,East of England,377,93.7,45.6
-2022-08-01,London,768,99.7,56.7
+2022-08-01,London,768,99.9,56.7
 2022-08-01,South East,498,84.5,41.9
 2022-08-01,South West,231,74.5,50.0
 2022-08-01,Wales,136,86.7,56.3
 2022-08-01,Scotland,206,107.5,10.8
 2022-08-01,Northern Ireland,58,75.7,75.8
-2022-08-01,Unknown,1974,97.4,57.9
+2022-08-01,Unknown,1974,97.3,57.9
 2022-08-08,North East,117,89.8,125.0
 2022-08-08,North West,473,84.1,38.7
 2022-08-08,Yorkshire and The Humber,304,82.8,36.9
 2022-08-08,East Midlands,246,84.3,29.5
 2022-08-08,West Midlands,417,101.8,62.3
 2022-08-08,East of England,368,91.4,42.6
-2022-08-08,London,754,97.9,55.1
+2022-08-08,London,754,98.1,55.1
 2022-08-08,South East,497,84.3,40.8
 2022-08-08,South West,230,74.1,57.5
 2022-08-08,Wales,133,84.8,47.8
 2022-08-08,Scotland,200,104.4,0.5
 2022-08-08,Northern Ireland,60,78.3,87.5
-2022-08-08,Unknown,2012,99.3,60.2
+2022-08-08,Unknown,2012,99.2,60.2
 2022-08-15,North East,117,89.8,108.9
 2022-08-15,North West,489,87.0,37.0
 2022-08-15,Yorkshire and The Humber,315,85.8,41.9
 2022-08-15,East Midlands,247,84.6,30.7
 2022-08-15,West Midlands,424,103.5,59.4
 2022-08-15,East of England,369,91.7,39.2
-2022-08-15,London,758,98.4,55.6
+2022-08-15,London,758,98.6,55.6
 2022-08-15,South East,496,84.2,39.3
 2022-08-15,South West,228,73.5,57.2
 2022-08-15,Wales,132,84.1,46.7
 2022-08-15,Scotland,194,101.3,-4.9
 2022-08-15,Northern Ireland,58,75.7,87.1
-2022-08-15,Unknown,2000,98.7,58.9
+2022-08-15,Unknown,2000,98.6,58.9
 2022-08-22,North East,118,90.6,114.5
 2022-08-22,North West,485,86.2,34.0
 2022-08-22,Yorkshire and The Humber,311,84.7,41.4
 2022-08-22,East Midlands,250,85.7,30.9
 2022-08-22,West Midlands,432,105.4,67.4
 2022-08-22,East of England,366,90.9,39.7
-2022-08-22,London,753,97.8,52.4
+2022-08-22,London,753,97.9,52.4
 2022-08-22,South East,488,82.8,39.4
 2022-08-22,South West,235,75.8,61.0
 2022-08-22,Wales,134,85.4,55.8
 2022-08-22,Scotland,192,100.2,-7.2
 2022-08-22,Northern Ireland,53,69.1,71.0
-2022-08-22,Unknown,2010,99.2,55.8
+2022-08-22,Unknown,2010,99.1,55.8
 2022-08-29,North East,121,92.9,124.1
 2022-08-29,North West,487,86.6,34.9
 2022-08-29,Yorkshire and The Humber,307,83.6,42.8
 2022-08-29,East Midlands,247,84.6,34.2
 2022-08-29,West Midlands,451,110.1,71.5
 2022-08-29,East of England,359,89.2,33.5
-2022-08-29,London,765,99.4,56.8
+2022-08-29,London,765,99.5,56.8
 2022-08-29,South East,486,82.5,34.6
 2022-08-29,South West,242,78.0,66.9
 2022-08-29,Wales,137,87.3,69.1
 2022-08-29,Scotland,200,104.4,-8.7
 2022-08-29,Northern Ireland,51,66.5,64.5
-2022-08-29,Unknown,2016,99.5,52.0
+2022-08-29,Unknown,2016,99.4,52.0
 2022-09-05,North East,129,99.1,115.0
 2022-09-05,North West,472,83.9,27.2
 2022-09-05,Yorkshire and The Humber,312,84.9,41.2
 2022-09-05,East Midlands,248,85.0,32.6
 2022-09-05,West Midlands,444,108.3,70.8
 2022-09-05,East of England,346,86.0,26.7
-2022-09-05,London,769,99.9,59.2
+2022-09-05,London,769,100.0,59.2
 2022-09-05,South East,488,82.8,32.2
 2022-09-05,South West,243,78.3,54.8
 2022-09-05,Wales,134,85.4,59.5
@@ -1682,7 +1682,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-09-12,East Midlands,264,90.5,41.2
 2022-09-12,West Midlands,444,108.3,73.4
 2022-09-12,East of England,348,86.5,34.4
-2022-09-12,London,749,97.3,55.4
+2022-09-12,London,749,97.4,55.4
 2022-09-12,South East,478,81.1,35.4
 2022-09-12,South West,238,76.7,46.0
 2022-09-12,Wales,137,87.3,67.1
@@ -1695,7 +1695,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-09-19,East Midlands,251,86.0,28.7
 2022-09-19,West Midlands,431,105.2,64.5
 2022-09-19,East of England,337,83.7,33.2
-2022-09-19,London,768,99.7,60.7
+2022-09-19,London,768,99.9,60.7
 2022-09-19,South East,478,81.1,35.4
 2022-09-19,South West,241,77.7,47.9
 2022-09-19,Wales,132,84.1,69.2
@@ -1708,7 +1708,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-09-26,East Midlands,248,85.0,29.2
 2022-09-26,West Midlands,435,106.2,64.8
 2022-09-26,East of England,337,83.7,30.6
-2022-09-26,London,766,99.5,63.3
+2022-09-26,London,766,99.6,63.3
 2022-09-26,South East,481,81.6,41.5
 2022-09-26,South West,245,79.0,49.4
 2022-09-26,Wales,128,81.6,62.0
@@ -1721,20 +1721,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-10-03,East Midlands,238,81.6,23.3
 2022-10-03,West Midlands,438,106.9,65.9
 2022-10-03,East of England,326,81.0,20.3
-2022-10-03,London,777,100.9,63.6
+2022-10-03,London,777,101.0,63.6
 2022-10-03,South East,481,81.6,39.8
 2022-10-03,South West,232,74.8,38.9
 2022-10-03,Wales,111,70.7,37.0
 2022-10-03,Scotland,205,107.0,1.5
 2022-10-03,Northern Ireland,49,63.9,32.4
-2022-10-03,Unknown,2055,101.4,49.7
+2022-10-03,Unknown,2055,101.3,49.7
 2022-10-10,North East,132,101.4,116.4
 2022-10-10,North West,510,90.7,36.4
 2022-10-10,Yorkshire and The Humber,314,85.5,25.1
 2022-10-10,East Midlands,231,79.2,14.9
 2022-10-10,West Midlands,428,104.4,55.6
 2022-10-10,East of England,346,86.0,27.2
-2022-10-10,London,772,100.3,58.2
+2022-10-10,London,772,100.4,58.2
 2022-10-10,South East,488,82.8,46.1
 2022-10-10,South West,238,76.7,40.0
 2022-10-10,Wales,109,69.5,23.9
@@ -1747,7 +1747,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-10-17,East Midlands,219,75.1,12.9
 2022-10-17,West Midlands,421,102.7,55.9
 2022-10-17,East of England,336,83.5,32.3
-2022-10-17,London,765,99.4,60.0
+2022-10-17,London,765,99.5,60.0
 2022-10-17,South East,481,81.6,48.0
 2022-10-17,South West,239,77.0,46.6
 2022-10-17,Wales,112,71.4,47.4
@@ -1760,7 +1760,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-10-24,East Midlands,225,77.1,16.0
 2022-10-24,West Midlands,409,99.8,47.7
 2022-10-24,East of England,338,84.0,23.8
-2022-10-24,London,763,99.1,55.1
+2022-10-24,London,763,99.2,55.1
 2022-10-24,South East,480,81.4,40.4
 2022-10-24,South West,233,75.1,38.7
 2022-10-24,Wales,108,68.8,33.3
@@ -1773,7 +1773,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-10-31,East Midlands,223,76.4,12.1
 2022-10-31,West Midlands,415,101.3,44.6
 2022-10-31,East of England,354,88.0,37.7
-2022-10-31,London,772,100.3,53.5
+2022-10-31,London,772,100.4,53.5
 2022-10-31,South East,498,84.5,49.5
 2022-10-31,South West,248,79.9,52.1
 2022-10-31,Wales,127,80.9,46.0
@@ -1786,7 +1786,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-11-07,East Midlands,228,78.1,19.4
 2022-11-07,West Midlands,426,104.0,44.4
 2022-11-07,East of England,354,88.0,36.7
-2022-11-07,London,790,102.6,54.0
+2022-11-07,London,790,102.7,54.0
 2022-11-07,South East,489,83.0,47.3
 2022-11-07,South West,258,83.2,50.0
 2022-11-07,Wales,134,85.4,55.8
@@ -1799,7 +1799,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-11-14,East Midlands,233,79.9,22.0
 2022-11-14,West Midlands,422,103.0,37.9
 2022-11-14,East of England,355,88.2,41.4
-2022-11-14,London,790,102.6,48.8
+2022-11-14,London,790,102.7,48.8
 2022-11-14,South East,482,81.8,41.3
 2022-11-14,South West,275,88.6,56.2
 2022-11-14,Wales,131,83.5,47.2
@@ -1812,7 +1812,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-11-21,East Midlands,239,81.9,25.8
 2022-11-21,West Midlands,408,99.6,23.6
 2022-11-21,East of England,359,89.2,46.5
-2022-11-21,London,804,104.4,47.3
+2022-11-21,London,804,104.6,47.3
 2022-11-21,South East,511,86.7,42.7
 2022-11-21,South West,269,86.7,52.8
 2022-11-21,Wales,132,84.1,37.5
@@ -1825,7 +1825,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-11-28,East Midlands,239,81.9,16.0
 2022-11-28,West Midlands,413,100.8,20.8
 2022-11-28,East of England,378,93.9,48.2
-2022-11-28,London,801,104.0,40.8
+2022-11-28,London,801,104.2,40.8
 2022-11-28,South East,535,90.8,45.8
 2022-11-28,South West,269,86.7,44.6
 2022-11-28,Wales,136,86.7,25.9
@@ -1838,7 +1838,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-12-05,East Midlands,248,85.0,21.0
 2022-12-05,West Midlands,432,105.4,19.0
 2022-12-05,East of England,393,97.6,53.5
-2022-12-05,London,822,106.8,41.2
+2022-12-05,London,822,106.9,41.2
 2022-12-05,South East,544,92.3,46.2
 2022-12-05,South West,270,87.0,50.0
 2022-12-05,Wales,141,89.9,23.7
@@ -1851,20 +1851,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-12-12,East Midlands,257,88.1,20.7
 2022-12-12,West Midlands,429,104.7,14.1
 2022-12-12,East of England,394,97.9,51.5
-2022-12-12,London,847,110.0,42.1
+2022-12-12,London,847,110.2,42.1
 2022-12-12,South East,562,95.4,44.8
 2022-12-12,South West,270,87.0,49.2
 2022-12-12,Wales,134,85.4,15.5
 2022-12-12,Scotland,243,126.8,9.5
 2022-12-12,Northern Ireland,60,78.3,81.8
-2022-12-12,Unknown,2174,107.3,15.8
+2022-12-12,Unknown,2174,107.2,15.8
 2022-12-19,North East,116,89.1,31.8
 2022-12-19,North West,588,104.6,42.7
 2022-12-19,Yorkshire and The Humber,330,89.8,14.2
 2022-12-19,East Midlands,275,94.2,26.7
 2022-12-19,West Midlands,469,114.4,16.7
 2022-12-19,East of England,426,105.8,47.9
-2022-12-19,London,845,109.7,31.4
+2022-12-19,London,845,109.9,31.4
 2022-12-19,South East,576,97.7,38.5
 2022-12-19,South West,282,90.9,51.6
 2022-12-19,Wales,139,88.6,12.1
@@ -1877,46 +1877,46 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2022-12-26,East Midlands,268,91.8,19.6
 2022-12-26,West Midlands,454,110.8,15.5
 2022-12-26,East of England,421,104.6,44.2
-2022-12-26,London,828,107.5,25.5
+2022-12-26,London,828,107.7,25.5
 2022-12-26,South East,588,99.8,40.3
 2022-12-26,South West,282,90.9,57.5
 2022-12-26,Wales,136,86.7,10.6
 2022-12-26,Scotland,250,130.5,8.7
 2022-12-26,Northern Ireland,49,63.9,40.0
-2022-12-26,Unknown,2190,108.1,13.6
+2022-12-26,Unknown,2190,108.0,13.6
 2023-01-02,North East,118,90.6,43.9
 2023-01-02,North West,547,97.3,38.8
 2023-01-02,Yorkshire and The Humber,312,84.9,21.9
 2023-01-02,East Midlands,263,90.1,25.2
 2023-01-02,West Midlands,428,104.4,12.6
 2023-01-02,East of England,417,103.6,49.5
-2023-01-02,London,803,104.3,27.9
+2023-01-02,London,803,104.4,27.9
 2023-01-02,South East,568,96.4,42.4
 2023-01-02,South West,276,89.0,67.3
 2023-01-02,Wales,136,86.7,17.2
 2023-01-02,Scotland,243,126.8,11.5
 2023-01-02,Northern Ireland,46,60.0,53.3
-2023-01-02,Unknown,2067,102.0,12.5
+2023-01-02,Unknown,2067,101.9,12.5
 2023-01-09,North East,115,88.3,47.4
 2023-01-09,North West,525,93.4,37.8
 2023-01-09,Yorkshire and The Humber,304,82.8,17.8
 2023-01-09,East Midlands,256,87.7,28.0
 2023-01-09,West Midlands,399,97.4,9.0
 2023-01-09,East of England,390,96.9,39.3
-2023-01-09,London,775,100.6,28.5
+2023-01-09,London,775,100.8,28.5
 2023-01-09,South East,537,91.1,39.8
 2023-01-09,South West,259,83.5,62.9
 2023-01-09,Wales,132,84.1,18.9
 2023-01-09,Scotland,228,119.0,5.1
 2023-01-09,Northern Ireland,42,54.8,50.0
-2023-01-09,Unknown,1968,97.1,8.7
+2023-01-09,Unknown,1968,97.0,8.7
 2023-01-16,North East,116,89.1,41.5
 2023-01-16,North West,507,90.2,30.3
 2023-01-16,Yorkshire and The Humber,300,81.7,11.5
 2023-01-16,East Midlands,249,85.3,26.4
 2023-01-16,West Midlands,398,97.1,7.0
 2023-01-16,East of England,396,98.4,33.8
-2023-01-16,London,749,97.3,20.8
+2023-01-16,London,749,97.4,20.8
 2023-01-16,South East,530,89.9,32.2
 2023-01-16,South West,251,80.9,51.2
 2023-01-16,Wales,135,86.0,14.4
@@ -1929,7 +1929,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-01-23,East Midlands,241,82.6,21.1
 2023-01-23,West Midlands,398,97.1,9.9
 2023-01-23,East of England,389,96.6,35.5
-2023-01-23,London,746,96.9,23.9
+2023-01-23,London,746,97.0,23.9
 2023-01-23,South East,540,91.6,42.1
 2023-01-23,South West,261,84.1,65.2
 2023-01-23,Wales,137,87.3,15.1
@@ -1942,20 +1942,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-01-30,East Midlands,249,85.3,29.7
 2023-01-30,West Midlands,404,98.6,12.8
 2023-01-30,East of England,378,93.9,29.5
-2023-01-30,London,721,93.6,24.3
+2023-01-30,London,721,93.8,24.3
 2023-01-30,South East,536,90.9,38.9
 2023-01-30,South West,261,84.1,69.5
 2023-01-30,Wales,125,79.7,8.7
 2023-01-30,Scotland,224,116.9,9.8
 2023-01-30,Northern Ireland,44,57.4,46.7
-2023-01-30,Unknown,1943,95.9,13.5
+2023-01-30,Unknown,1943,95.8,13.5
 2023-02-06,North East,110,84.5,29.4
 2023-02-06,North West,488,86.8,21.7
 2023-02-06,Yorkshire and The Humber,324,88.2,23.7
 2023-02-06,East Midlands,246,84.3,23.0
 2023-02-06,West Midlands,395,96.4,13.2
 2023-02-06,East of England,404,100.4,36.5
-2023-02-06,London,706,91.7,21.3
+2023-02-06,London,706,91.8,21.3
 2023-02-06,South East,551,93.5,33.7
 2023-02-06,South West,258,83.2,68.6
 2023-02-06,Wales,124,79.0,8.8
@@ -1968,7 +1968,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-02-13,East Midlands,244,83.6,14.6
 2023-02-13,West Midlands,405,98.8,16.0
 2023-02-13,East of England,400,99.4,34.7
-2023-02-13,London,702,91.2,22.1
+2023-02-13,London,702,91.3,22.1
 2023-02-13,South East,557,94.5,32.9
 2023-02-13,South West,254,81.9,52.1
 2023-02-13,Wales,128,81.6,10.3
@@ -1981,33 +1981,33 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-02-20,East Midlands,239,81.9,11.2
 2023-02-20,West Midlands,418,102.0,21.2
 2023-02-20,East of England,393,97.6,27.2
-2023-02-20,London,683,88.7,18.6
+2023-02-20,London,683,88.8,18.6
 2023-02-20,South East,536,90.9,27.3
 2023-02-20,South West,261,84.1,45.8
 2023-02-20,Wales,130,82.8,9.2
 2023-02-20,Scotland,216,112.7,8.5
 2023-02-20,Northern Ireland,39,50.9,5.4
-2023-02-20,Unknown,1965,97.0,6.3
+2023-02-20,Unknown,1965,96.9,6.3
 2023-02-27,North East,115,88.3,40.2
 2023-02-27,North West,470,83.6,11.9
 2023-02-27,Yorkshire and The Humber,314,85.5,12.5
 2023-02-27,East Midlands,254,87.0,18.7
 2023-02-27,West Midlands,418,102.0,15.8
 2023-02-27,East of England,393,97.6,28.4
-2023-02-27,London,716,93.0,23.4
+2023-02-27,London,716,93.1,23.4
 2023-02-27,South East,531,90.1,24.1
 2023-02-27,South West,270,87.0,48.4
 2023-02-27,Wales,133,84.8,15.7
 2023-02-27,Scotland,221,115.4,12.2
 2023-02-27,Northern Ireland,38,49.6,-9.5
-2023-02-27,Unknown,2008,99.1,7.5
+2023-02-27,Unknown,2008,99.0,7.5
 2023-03-06,North East,119,91.4,40.0
 2023-03-06,North West,479,85.2,12.2
 2023-03-06,Yorkshire and The Humber,324,88.2,16.5
 2023-03-06,East Midlands,249,85.3,12.7
 2023-03-06,West Midlands,420,102.5,19.7
 2023-03-06,East of England,394,97.9,27.1
-2023-03-06,London,715,92.9,24.6
+2023-03-06,London,715,93.0,24.6
 2023-03-06,South East,551,93.5,27.3
 2023-03-06,South West,273,88.0,50.8
 2023-03-06,Wales,129,82.2,18.3
@@ -2020,7 +2020,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-03-13,East Midlands,251,86.0,16.7
 2023-03-13,West Midlands,421,102.7,21.7
 2023-03-13,East of England,398,98.9,24.0
-2023-03-13,London,706,91.7,23.0
+2023-03-13,London,706,91.8,23.0
 2023-03-13,South East,542,92.0,25.8
 2023-03-13,South West,285,91.9,54.9
 2023-03-13,Wales,136,86.7,28.3
@@ -2033,33 +2033,33 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-03-20,East Midlands,249,85.3,22.1
 2023-03-20,West Midlands,394,96.1,22.0
 2023-03-20,East of England,384,95.4,25.5
-2023-03-20,London,708,91.9,24.6
+2023-03-20,London,708,92.1,24.6
 2023-03-20,South East,537,91.1,28.8
 2023-03-20,South West,295,95.1,58.6
 2023-03-20,Wales,137,87.3,35.6
 2023-03-20,Scotland,190,99.2,1.1
 2023-03-20,Northern Ireland,35,45.7,-12.5
-2023-03-20,Unknown,1935,95.5,3.3
+2023-03-20,Unknown,1935,95.4,3.3
 2023-03-27,North East,112,86.0,28.7
 2023-03-27,North West,500,88.9,11.6
 2023-03-27,Yorkshire and The Humber,340,92.6,19.7
 2023-03-27,East Midlands,252,86.4,25.4
 2023-03-27,West Midlands,417,101.8,26.4
 2023-03-27,East of England,390,96.9,18.2
-2023-03-27,London,740,96.1,26.9
+2023-03-27,London,740,96.2,26.9
 2023-03-27,South East,546,92.6,27.0
 2023-03-27,South West,300,96.7,49.3
 2023-03-27,Wales,150,95.6,42.9
 2023-03-27,Scotland,193,100.7,-1.5
 2023-03-27,Northern Ireland,36,47.0,-12.2
-2023-03-27,Unknown,2022,99.8,1.7
+2023-03-27,Unknown,2022,99.7,1.7
 2023-04-03,North East,116,89.1,23.4
 2023-04-03,North West,532,94.6,7.5
 2023-04-03,Yorkshire and The Humber,351,95.6,16.2
 2023-04-03,East Midlands,272,93.2,23.6
 2023-04-03,West Midlands,432,105.4,25.2
 2023-04-03,East of England,408,101.4,11.5
-2023-04-03,London,781,101.4,22.6
+2023-04-03,London,781,101.6,22.6
 2023-04-03,South East,571,96.9,24.9
 2023-04-03,South West,320,103.2,53.8
 2023-04-03,Wales,155,98.8,31.4
@@ -2072,33 +2072,33 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-04-10,East Midlands,287,98.4,28.1
 2023-04-10,West Midlands,470,114.7,30.9
 2023-04-10,East of England,428,106.3,13.2
-2023-04-10,London,839,109.0,26.2
+2023-04-10,London,839,109.1,26.2
 2023-04-10,South East,609,103.3,28.2
 2023-04-10,South West,340,109.6,59.6
 2023-04-10,Wales,163,103.9,32.5
 2023-04-10,Scotland,207,108.0,-3.3
 2023-04-10,Northern Ireland,44,57.4,-4.3
-2023-04-10,Unknown,2193,108.2,1.2
+2023-04-10,Unknown,2193,108.1,1.2
 2023-04-17,North East,125,96.0,25.0
 2023-04-17,North West,593,105.4,14.7
 2023-04-17,Yorkshire and The Humber,377,102.6,18.6
 2023-04-17,East Midlands,303,103.8,24.7
 2023-04-17,West Midlands,477,116.4,27.5
 2023-04-17,East of England,429,106.6,12.6
-2023-04-17,London,833,108.2,20.5
+2023-04-17,London,833,108.3,20.5
 2023-04-17,South East,624,105.9,29.7
 2023-04-17,South West,345,111.2,62.7
 2023-04-17,Wales,162,103.2,33.9
 2023-04-17,Scotland,219,114.3,-4.4
 2023-04-17,Northern Ireland,43,56.1,-8.5
-2023-04-17,Unknown,2225,109.8,-0.0
+2023-04-17,Unknown,2225,109.7,-0.0
 2023-04-24,North East,123,94.5,29.5
 2023-04-24,North West,591,105.1,12.8
 2023-04-24,Yorkshire and The Humber,378,102.9,19.2
 2023-04-24,East Midlands,309,105.9,23.6
 2023-04-24,West Midlands,482,117.6,24.5
 2023-04-24,East of England,418,103.9,8.0
-2023-04-24,London,830,107.8,14.6
+2023-04-24,London,830,107.9,14.6
 2023-04-24,South East,639,108.4,29.6
 2023-04-24,South West,341,109.9,56.4
 2023-04-24,Wales,167,106.4,39.2
@@ -2111,7 +2111,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-05-01,East Midlands,307,105.2,15.8
 2023-05-01,West Midlands,476,116.2,23.3
 2023-05-01,East of England,413,102.6,6.2
-2023-05-01,London,858,111.4,16.4
+2023-05-01,London,858,111.6,16.4
 2023-05-01,South East,643,109.1,34.0
 2023-05-01,South West,329,106.1,43.7
 2023-05-01,Wales,159,101.3,23.3
@@ -2124,33 +2124,33 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-05-08,East Midlands,327,112.1,25.3
 2023-05-08,West Midlands,484,118.1,23.2
 2023-05-08,East of England,403,100.1,3.9
-2023-05-08,London,878,114.0,15.7
+2023-05-08,London,878,114.2,15.7
 2023-05-08,South East,645,109.4,36.1
 2023-05-08,South West,328,105.7,43.9
 2023-05-08,Wales,162,103.2,26.6
 2023-05-08,Scotland,219,114.3,-2.7
 2023-05-08,Northern Ireland,34,44.4,-17.1
-2023-05-08,Unknown,2211,109.1,5.6
+2023-05-08,Unknown,2211,109.0,5.6
 2023-05-15,North East,121,92.9,31.5
 2023-05-15,North West,605,107.6,21.0
 2023-05-15,Yorkshire and The Humber,370,100.7,11.1
 2023-05-15,East Midlands,332,113.8,33.3
 2023-05-15,West Midlands,478,116.6,24.5
 2023-05-15,East of England,410,101.9,4.3
-2023-05-15,London,868,112.7,12.3
+2023-05-15,London,868,112.9,12.3
 2023-05-15,South East,642,108.9,34.3
 2023-05-15,South West,313,100.9,42.3
 2023-05-15,Wales,160,102.0,23.1
 2023-05-15,Scotland,216,112.7,-5.7
 2023-05-15,Northern Ireland,38,49.6,-7.3
-2023-05-15,Unknown,2199,108.5,3.4
+2023-05-15,Unknown,2199,108.4,3.4
 2023-05-22,North East,120,92.2,33.3
 2023-05-22,North West,622,110.6,22.2
 2023-05-22,Yorkshire and The Humber,374,101.8,12.7
 2023-05-22,East Midlands,331,113.4,32.9
 2023-05-22,West Midlands,474,115.7,26.7
 2023-05-22,East of England,431,107.1,9.9
-2023-05-22,London,892,115.8,14.4
+2023-05-22,London,892,116.0,14.4
 2023-05-22,South East,659,111.8,37.9
 2023-05-22,South West,310,99.9,44.9
 2023-05-22,Wales,155,98.8,20.2
@@ -2163,20 +2163,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-05-29,East Midlands,326,111.7,32.5
 2023-05-29,West Midlands,462,112.7,31.6
 2023-05-29,East of England,426,105.8,10.6
-2023-05-29,London,873,113.4,14.1
+2023-05-29,London,873,113.5,14.1
 2023-05-29,South East,647,109.8,37.7
 2023-05-29,South West,303,97.7,49.3
 2023-05-29,Wales,154,98.1,26.2
 2023-05-29,Scotland,218,113.8,-0.9
 2023-05-29,Northern Ireland,36,47.0,-10.0
-2023-05-29,Unknown,2107,104.0,4.0
+2023-05-29,Unknown,2107,103.9,4.0
 2023-06-05,North East,112,86.0,27.3
 2023-06-05,North West,625,111.1,26.0
 2023-06-05,Yorkshire and The Humber,364,99.1,14.8
 2023-06-05,East Midlands,328,112.4,37.2
 2023-06-05,West Midlands,443,108.1,26.2
 2023-06-05,East of England,418,103.9,6.4
-2023-06-05,London,874,113.5,14.7
+2023-06-05,London,874,113.7,14.7
 2023-06-05,South East,629,106.7,35.9
 2023-06-05,South West,296,95.4,37.7
 2023-06-05,Wales,165,105.2,35.2
@@ -2189,59 +2189,59 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-06-12,East Midlands,311,106.6,30.7
 2023-06-12,West Midlands,441,107.6,22.8
 2023-06-12,East of England,417,103.6,6.9
-2023-06-12,London,873,113.4,12.6
+2023-06-12,London,873,113.5,12.6
 2023-06-12,South East,635,107.7,33.7
 2023-06-12,South West,295,95.1,37.2
 2023-06-12,Wales,171,109.0,34.6
 2023-06-12,Scotland,222,115.9,5.7
 2023-06-12,Northern Ireland,32,41.7,-34.7
-2023-06-12,Unknown,2114,104.3,7.9
+2023-06-12,Unknown,2114,104.2,7.9
 2023-06-19,North East,117,89.8,27.2
 2023-06-19,North West,635,112.9,30.4
 2023-06-19,Yorkshire and The Humber,359,97.7,14.3
 2023-06-19,East Midlands,296,101.4,20.3
 2023-06-19,West Midlands,445,108.6,20.3
 2023-06-19,East of England,406,100.9,3.6
-2023-06-19,London,860,111.7,15.0
+2023-06-19,London,860,111.8,15.0
 2023-06-19,South East,625,106.0,30.5
 2023-06-19,South West,279,89.9,36.8
 2023-06-19,Wales,166,105.8,27.7
 2023-06-19,Scotland,225,117.4,4.7
 2023-06-19,Northern Ireland,35,45.7,-34.0
-2023-06-19,Unknown,2111,104.2,9.2
+2023-06-19,Unknown,2111,104.1,9.2
 2023-06-26,North East,123,94.5,43.0
 2023-06-26,North West,620,110.2,32.5
 2023-06-26,Yorkshire and The Humber,358,97.5,14.4
 2023-06-26,East Midlands,302,103.5,19.4
 2023-06-26,West Midlands,435,106.2,16.0
 2023-06-26,East of England,399,99.1,5.3
-2023-06-26,London,830,107.8,11.0
+2023-06-26,London,830,107.9,11.0
 2023-06-26,South East,605,102.6,27.4
 2023-06-26,South West,283,91.2,45.9
 2023-06-26,Wales,162,103.2,26.6
 2023-06-26,Scotland,228,119.0,11.2
 2023-06-26,Northern Ireland,39,50.9,-27.8
-2023-06-26,Unknown,2087,103.0,8.2
+2023-06-26,Unknown,2087,102.9,8.2
 2023-07-03,North East,127,97.5,53.0
 2023-07-03,North West,620,110.2,40.9
 2023-07-03,Yorkshire and The Humber,369,100.5,20.6
 2023-07-03,East Midlands,307,105.2,22.8
 2023-07-03,West Midlands,444,108.3,15.3
 2023-07-03,East of England,403,100.1,10.7
-2023-07-03,London,833,108.2,15.9
+2023-07-03,London,833,108.3,15.9
 2023-07-03,South East,599,101.6,24.0
 2023-07-03,South West,291,93.8,36.6
 2023-07-03,Wales,168,107.1,20.0
 2023-07-03,Scotland,230,120.1,11.1
 2023-07-03,Northern Ireland,35,45.7,-36.4
-2023-07-03,Unknown,2083,102.8,9.1
+2023-07-03,Unknown,2083,102.7,9.1
 2023-07-10,North East,137,105.2,63.1
 2023-07-10,North West,607,107.9,40.5
 2023-07-10,Yorkshire and The Humber,354,96.4,17.2
 2023-07-10,East Midlands,310,106.2,20.2
 2023-07-10,West Midlands,436,106.4,7.1
 2023-07-10,East of England,397,98.6,11.5
-2023-07-10,London,818,106.2,13.0
+2023-07-10,London,818,106.4,13.0
 2023-07-10,South East,580,98.4,18.6
 2023-07-10,South West,291,93.8,32.3
 2023-07-10,Wales,167,106.4,20.1
@@ -2254,7 +2254,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-07-17,East Midlands,304,104.2,17.4
 2023-07-17,West Midlands,444,108.3,8.6
 2023-07-17,East of England,414,102.9,15.0
-2023-07-17,London,836,108.6,12.5
+2023-07-17,London,836,108.7,12.5
 2023-07-17,South East,599,101.6,20.8
 2023-07-17,South West,294,94.8,28.9
 2023-07-17,Wales,166,105.8,20.3
@@ -2267,46 +2267,46 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-07-24,East Midlands,301,103.2,18.0
 2023-07-24,West Midlands,435,106.2,3.3
 2023-07-24,East of England,417,103.6,11.2
-2023-07-24,London,831,107.9,11.7
+2023-07-24,London,831,108.1,11.7
 2023-07-24,South East,586,99.4,18.9
 2023-07-24,South West,288,92.8,22.0
 2023-07-24,Wales,164,104.5,14.7
 2023-07-24,Scotland,200,104.4,1.0
 2023-07-24,Northern Ireland,33,43.0,-45.0
-2023-07-24,Unknown,2085,102.9,5.8
+2023-07-24,Unknown,2085,102.8,5.8
 2023-07-31,North East,136,104.4,20.4
 2023-07-31,North West,622,110.6,33.5
 2023-07-31,Yorkshire and The Humber,361,98.3,23.6
 2023-07-31,East Midlands,309,105.9,26.6
 2023-07-31,West Midlands,435,106.2,4.8
 2023-07-31,East of England,430,106.8,14.1
-2023-07-31,London,813,105.6,5.9
+2023-07-31,London,813,105.7,5.9
 2023-07-31,South East,599,101.6,20.3
 2023-07-31,South West,305,98.3,32.0
 2023-07-31,Wales,168,107.1,23.5
 2023-07-31,Scotland,208,108.6,1.0
 2023-07-31,Northern Ireland,37,48.3,-36.2
-2023-07-31,Unknown,2113,104.3,7.0
+2023-07-31,Unknown,2113,104.2,7.0
 2023-08-07,North East,130,99.8,11.1
 2023-08-07,North West,620,110.2,31.1
 2023-08-07,Yorkshire and The Humber,359,97.7,18.1
 2023-08-07,East Midlands,297,101.8,20.7
 2023-08-07,West Midlands,422,103.0,1.2
 2023-08-07,East of England,423,105.1,14.9
-2023-08-07,London,793,103.0,5.2
+2023-08-07,London,793,103.1,5.2
 2023-08-07,South East,592,100.4,19.1
 2023-08-07,South West,320,103.2,39.1
 2023-08-07,Wales,167,106.4,25.6
 2023-08-07,Scotland,211,110.1,5.5
 2023-08-07,Northern Ireland,38,49.6,-36.7
-2023-08-07,Unknown,2115,104.4,5.1
+2023-08-07,Unknown,2115,104.3,5.1
 2023-08-14,North East,137,105.2,17.1
 2023-08-14,North West,620,110.2,26.8
 2023-08-14,Yorkshire and The Humber,353,96.1,12.1
 2023-08-14,East Midlands,290,99.4,17.4
 2023-08-14,West Midlands,426,104.0,0.5
 2023-08-14,East of England,419,104.1,13.6
-2023-08-14,London,817,106.1,7.8
+2023-08-14,London,817,106.2,7.8
 2023-08-14,South East,603,102.3,21.6
 2023-08-14,South West,328,105.7,43.9
 2023-08-14,Wales,171,109.0,29.5
@@ -2319,20 +2319,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-08-21,East Midlands,286,98.0,14.4
 2023-08-21,West Midlands,420,102.5,-2.8
 2023-08-21,East of England,414,102.9,13.1
-2023-08-21,London,804,104.4,6.8
+2023-08-21,London,804,104.6,6.8
 2023-08-21,South East,608,103.2,24.6
 2023-08-21,South West,331,106.7,40.9
 2023-08-21,Wales,171,109.0,27.6
 2023-08-21,Scotland,206,107.5,7.3
 2023-08-21,Northern Ireland,33,43.0,-37.7
-2023-08-21,Unknown,2158,106.5,7.4
+2023-08-21,Unknown,2158,106.4,7.4
 2023-08-28,North East,150,115.2,24.0
 2023-08-28,North West,584,103.8,19.9
 2023-08-28,Yorkshire and The Humber,349,95.0,13.7
 2023-08-28,East Midlands,274,93.9,10.9
 2023-08-28,West Midlands,413,100.8,-8.4
 2023-08-28,East of England,409,101.6,13.9
-2023-08-28,London,802,104.2,4.8
+2023-08-28,London,802,104.3,4.8
 2023-08-28,South East,604,102.5,24.3
 2023-08-28,South West,326,105.1,34.7
 2023-08-28,Wales,166,105.8,21.2
@@ -2345,7 +2345,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-09-04,East Midlands,279,95.6,12.5
 2023-09-04,West Midlands,430,104.9,-3.2
 2023-09-04,East of England,414,102.9,19.7
-2023-09-04,London,807,104.8,4.9
+2023-09-04,London,807,104.9,4.9
 2023-09-04,South East,615,104.3,26.0
 2023-09-04,South West,320,103.2,31.7
 2023-09-04,Wales,158,100.7,17.9
@@ -2358,33 +2358,33 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-09-11,East Midlands,280,96.0,6.1
 2023-09-11,West Midlands,436,106.4,-1.8
 2023-09-11,East of England,409,101.6,17.5
-2023-09-11,London,802,104.2,7.1
+2023-09-11,London,802,104.3,7.1
 2023-09-11,South East,625,106.0,30.8
 2023-09-11,South West,311,100.3,30.7
 2023-09-11,Wales,151,96.2,10.2
 2023-09-11,Scotland,201,104.9,-1.0
 2023-09-11,Northern Ireland,47,61.3,9.3
-2023-09-11,Unknown,2073,102.3,1.8
+2023-09-11,Unknown,2073,102.2,1.8
 2023-09-18,North East,148,113.7,8.8
 2023-09-18,North West,569,101.2,20.0
 2023-09-18,Yorkshire and The Humber,366,99.6,21.2
 2023-09-18,East Midlands,285,97.7,13.5
 2023-09-18,West Midlands,431,105.2,0.0
 2023-09-18,East of England,413,102.6,22.6
-2023-09-18,London,807,104.8,5.1
+2023-09-18,London,807,104.9,5.1
 2023-09-18,South East,642,108.9,34.3
 2023-09-18,South West,317,102.2,31.5
 2023-09-18,Wales,161,102.6,22.0
 2023-09-18,Scotland,192,100.2,-3.0
 2023-09-18,Northern Ireland,52,67.8,15.6
-2023-09-18,Unknown,2055,101.4,1.7
+2023-09-18,Unknown,2055,101.3,1.7
 2023-09-25,North East,142,109.0,4.4
 2023-09-25,North West,556,98.9,13.7
 2023-09-25,Yorkshire and The Humber,372,101.3,19.2
 2023-09-25,East Midlands,279,95.6,12.5
 2023-09-25,West Midlands,425,103.7,-2.3
 2023-09-25,East of England,413,102.6,22.6
-2023-09-25,London,828,107.5,8.1
+2023-09-25,London,828,107.7,8.1
 2023-09-25,South East,651,110.5,35.3
 2023-09-25,South West,313,100.9,27.8
 2023-09-25,Wales,163,103.9,27.3
@@ -2397,20 +2397,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-10-02,East Midlands,273,93.6,14.7
 2023-10-02,West Midlands,419,102.2,-4.3
 2023-10-02,East of England,397,98.6,21.8
-2023-10-02,London,822,106.8,5.8
+2023-10-02,London,822,106.9,5.8
 2023-10-02,South East,686,116.4,42.6
 2023-10-02,South West,301,97.0,29.7
 2023-10-02,Wales,159,101.3,43.2
 2023-10-02,Scotland,192,100.2,-6.3
 2023-10-02,Northern Ireland,60,78.3,22.4
-2023-10-02,Unknown,2085,102.9,1.5
+2023-10-02,Unknown,2085,102.8,1.5
 2023-10-09,North East,135,103.7,2.3
 2023-10-09,North West,574,102.1,12.5
 2023-10-09,Yorkshire and The Humber,372,101.3,18.5
 2023-10-09,East Midlands,274,93.9,18.6
 2023-10-09,West Midlands,425,103.7,-0.7
 2023-10-09,East of England,405,100.6,17.1
-2023-10-09,London,816,106.0,5.7
+2023-10-09,London,816,106.1,5.7
 2023-10-09,South East,695,117.9,42.4
 2023-10-09,South West,301,97.0,26.5
 2023-10-09,Wales,159,101.3,45.9
@@ -2423,20 +2423,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-10-16,East Midlands,276,94.6,26.0
 2023-10-16,West Midlands,418,102.0,-0.7
 2023-10-16,East of England,399,99.1,18.8
-2023-10-16,London,825,107.1,7.8
+2023-10-16,London,825,107.3,7.8
 2023-10-16,South East,682,115.7,41.8
 2023-10-16,South West,299,96.4,25.1
 2023-10-16,Wales,162,103.2,44.6
 2023-10-16,Scotland,201,104.9,-9.0
 2023-10-16,Northern Ireland,70,91.3,42.9
-2023-10-16,Unknown,2091,103.2,0.3
+2023-10-16,Unknown,2091,103.1,0.3
 2023-10-23,North East,139,106.7,18.8
 2023-10-23,North West,558,99.2,9.8
 2023-10-23,Yorkshire and The Humber,368,100.2,17.2
 2023-10-23,East Midlands,281,96.3,24.9
 2023-10-23,West Midlands,426,104.0,4.2
 2023-10-23,East of England,406,100.9,20.1
-2023-10-23,London,830,107.8,8.8
+2023-10-23,London,830,107.9,8.8
 2023-10-23,South East,695,117.9,44.8
 2023-10-23,South West,307,99.0,31.8
 2023-10-23,Wales,158,100.7,46.3
@@ -2449,7 +2449,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-10-30,East Midlands,279,95.6,25.1
 2023-10-30,West Midlands,425,103.7,2.4
 2023-10-30,East of England,393,97.6,11.0
-2023-10-30,London,818,106.2,6.0
+2023-10-30,London,818,106.4,6.0
 2023-10-30,South East,687,116.6,38.0
 2023-10-30,South West,291,93.8,17.3
 2023-10-30,Wales,153,97.5,20.5
@@ -2462,7 +2462,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-11-06,East Midlands,278,95.3,21.9
 2023-11-06,West Midlands,429,104.7,0.7
 2023-11-06,East of England,398,98.9,12.4
-2023-11-06,London,834,108.3,5.6
+2023-11-06,London,834,108.5,5.6
 2023-11-06,South East,695,117.9,42.1
 2023-11-06,South West,287,92.5,11.2
 2023-11-06,Wales,155,98.8,15.7
@@ -2475,7 +2475,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-11-13,East Midlands,279,95.6,19.7
 2023-11-13,West Midlands,439,107.1,4.0
 2023-11-13,East of England,406,100.9,14.4
-2023-11-13,London,826,107.3,4.6
+2023-11-13,London,826,107.4,4.6
 2023-11-13,South East,697,118.3,44.6
 2023-11-13,South West,294,94.8,6.9
 2023-11-13,Wales,151,96.2,15.3
@@ -2488,20 +2488,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-11-20,East Midlands,284,97.3,18.8
 2023-11-20,West Midlands,446,108.8,9.3
 2023-11-20,East of England,400,99.4,11.4
-2023-11-20,London,827,107.4,2.9
+2023-11-20,London,827,107.6,2.9
 2023-11-20,South East,684,116.1,33.9
 2023-11-20,South West,290,93.5,7.8
 2023-11-20,Wales,159,101.3,20.5
 2023-11-20,Scotland,207,108.0,-5.9
 2023-11-20,Northern Ireland,82,107.0,36.7
-2023-11-20,Unknown,2122,104.7,2.2
+2023-11-20,Unknown,2122,104.6,2.2
 2023-11-27,North East,139,106.7,12.1
 2023-11-27,North West,563,100.1,0.2
 2023-11-27,Yorkshire and The Humber,376,102.4,17.1
 2023-11-27,East Midlands,298,102.1,24.7
 2023-11-27,West Midlands,457,111.5,10.7
 2023-11-27,East of England,408,101.4,7.9
-2023-11-27,London,839,109.0,4.7
+2023-11-27,London,839,109.1,4.7
 2023-11-27,South East,692,117.4,29.3
 2023-11-27,South West,310,99.9,15.2
 2023-11-27,Wales,161,102.6,18.4
@@ -2514,59 +2514,59 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2023-12-04,East Midlands,286,98.0,15.3
 2023-12-04,West Midlands,463,113.0,7.2
 2023-12-04,East of England,399,99.1,1.5
-2023-12-04,London,826,107.3,0.5
+2023-12-04,London,826,107.4,0.5
 2023-12-04,South East,697,118.3,28.1
 2023-12-04,South West,314,101.2,16.3
 2023-12-04,Wales,161,102.6,14.2
 2023-12-04,Scotland,223,116.4,-4.3
 2023-12-04,Northern Ireland,90,117.4,50.0
-2023-12-04,Unknown,2215,109.3,4.3
+2023-12-04,Unknown,2215,109.2,4.3
 2023-12-11,North East,144,110.6,32.1
 2023-12-11,North West,562,99.9,-0.9
 2023-12-11,Yorkshire and The Humber,374,101.8,12.7
 2023-12-11,East Midlands,282,96.6,9.7
 2023-12-11,West Midlands,451,110.1,5.1
 2023-12-11,East of England,405,100.6,2.8
-2023-12-11,London,827,107.4,-2.4
+2023-12-11,London,827,107.6,-2.4
 2023-12-11,South East,686,116.4,22.1
 2023-12-11,South West,336,108.3,24.4
 2023-12-11,Wales,163,103.9,21.6
 2023-12-11,Scotland,226,118.0,-7.0
 2023-12-11,Northern Ireland,83,108.3,38.3
-2023-12-11,Unknown,2270,112.0,4.4
+2023-12-11,Unknown,2270,111.9,4.4
 2023-12-18,North East,143,109.8,23.3
 2023-12-18,North West,584,103.8,-0.7
 2023-12-18,Yorkshire and The Humber,382,104.0,15.8
 2023-12-18,East Midlands,291,99.7,5.8
 2023-12-18,West Midlands,454,110.8,-3.2
 2023-12-18,East of England,409,101.6,-4.0
-2023-12-18,London,831,107.9,-1.7
+2023-12-18,London,831,108.1,-1.7
 2023-12-18,South East,683,115.9,18.6
 2023-12-18,South West,354,114.1,25.5
 2023-12-18,Wales,164,104.5,18.0
 2023-12-18,Scotland,233,121.6,-8.6
 2023-12-18,Northern Ireland,86,112.2,45.8
-2023-12-18,Unknown,2347,115.8,3.1
+2023-12-18,Unknown,2347,115.7,3.1
 2023-12-25,North East,149,114.4,26.3
 2023-12-25,North West,592,105.3,3.3
 2023-12-25,Yorkshire and The Humber,368,100.2,15.0
 2023-12-25,East Midlands,299,102.5,11.6
 2023-12-25,West Midlands,461,112.5,1.5
 2023-12-25,East of England,410,101.9,-2.6
-2023-12-25,London,830,107.8,0.2
+2023-12-25,London,830,107.9,0.2
 2023-12-25,South East,679,115.2,15.5
 2023-12-25,South West,345,111.2,22.3
 2023-12-25,Wales,158,100.7,16.2
 2023-12-25,Scotland,225,117.4,-10.0
 2023-12-25,Northern Ireland,81,105.7,65.3
-2023-12-25,Unknown,2329,114.9,6.3
+2023-12-25,Unknown,2329,114.8,6.3
 2024-01-01,North East,140,107.5,18.6
 2024-01-01,North West,557,99.0,1.8
 2024-01-01,Yorkshire and The Humber,358,97.5,14.7
 2024-01-01,East Midlands,288,98.7,9.5
 2024-01-01,West Midlands,443,108.1,3.5
 2024-01-01,East of England,400,99.4,-4.1
-2024-01-01,London,786,102.1,-2.1
+2024-01-01,London,786,102.2,-2.1
 2024-01-01,South East,626,106.2,10.2
 2024-01-01,South West,327,105.4,18.5
 2024-01-01,Wales,145,92.4,6.6
@@ -2579,33 +2579,33 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2024-01-08,East Midlands,276,94.6,7.8
 2024-01-08,West Midlands,416,101.5,4.3
 2024-01-08,East of England,378,93.9,-3.1
-2024-01-08,London,758,98.4,-2.2
+2024-01-08,London,758,98.6,-2.2
 2024-01-08,South East,597,101.3,11.2
 2024-01-08,South West,311,100.3,20.1
 2024-01-08,Wales,141,89.9,6.8
 2024-01-08,Scotland,204,106.5,-10.5
 2024-01-08,Northern Ireland,70,91.3,66.7
-2024-01-08,Unknown,2134,105.3,8.4
+2024-01-08,Unknown,2134,105.2,8.4
 2024-01-15,North East,130,99.8,12.1
 2024-01-15,North West,533,94.8,5.1
 2024-01-15,Yorkshire and The Humber,341,92.8,13.7
 2024-01-15,East Midlands,272,93.2,9.2
 2024-01-15,West Midlands,418,102.0,5.0
 2024-01-15,East of England,358,88.9,-9.6
-2024-01-15,London,738,95.8,-1.5
+2024-01-15,London,738,96.0,-1.5
 2024-01-15,South East,578,98.1,9.1
 2024-01-15,South West,306,98.6,21.9
 2024-01-15,Wales,137,87.3,1.5
 2024-01-15,Scotland,202,105.4,-10.6
 2024-01-15,Northern Ireland,74,96.5,89.7
-2024-01-15,Unknown,2091,103.2,8.0
+2024-01-15,Unknown,2091,103.1,8.0
 2024-01-22,North East,131,100.6,19.1
 2024-01-22,North West,545,96.9,7.5
 2024-01-22,Yorkshire and The Humber,342,93.1,12.9
 2024-01-22,East Midlands,271,92.9,12.4
 2024-01-22,West Midlands,421,102.7,5.8
 2024-01-22,East of England,361,89.7,-7.2
-2024-01-22,London,736,95.6,-1.3
+2024-01-22,London,736,95.7,-1.3
 2024-01-22,South East,565,95.9,4.6
 2024-01-22,South West,308,99.3,18.0
 2024-01-22,Wales,138,87.9,0.7
@@ -2618,280 +2618,280 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2024-01-29,East Midlands,265,90.8,6.4
 2024-01-29,West Midlands,423,103.2,4.7
 2024-01-29,East of England,364,90.4,-3.7
-2024-01-29,London,755,98.1,4.7
+2024-01-29,London,755,98.2,4.7
 2024-01-29,South East,574,97.4,7.1
 2024-01-29,South West,310,99.9,18.8
 2024-01-29,Wales,150,95.6,20.0
 2024-01-29,Scotland,204,106.5,-8.9
 2024-01-29,Northern Ireland,72,93.9,63.6
-2024-01-29,Unknown,2067,102.0,6.4
+2024-01-29,Unknown,2067,101.9,6.4
 2024-02-05,North East,131,100.6,19.1
 2024-02-05,North West,548,97.4,12.3
 2024-02-05,Yorkshire and The Humber,348,94.7,7.4
 2024-02-05,East Midlands,272,93.2,10.6
 2024-02-05,West Midlands,424,103.5,7.3
 2024-02-05,East of England,362,89.9,-10.4
-2024-02-05,London,760,98.7,7.6
+2024-02-05,London,759,98.7,7.5
 2024-02-05,South East,584,99.1,6.0
 2024-02-05,South West,306,98.6,18.6
 2024-02-05,Wales,168,107.1,35.5
 2024-02-05,Scotland,199,103.9,-7.9
 2024-02-05,Northern Ireland,77,100.4,71.1
-2024-02-05,Unknown,2108,104.0,8.9
+2024-02-05,Unknown,2109,104.0,8.9
 2024-02-12,North East,135,103.7,19.5
 2024-02-12,North West,534,95.0,9.4
 2024-02-12,Yorkshire and The Humber,345,93.9,2.7
 2024-02-12,East Midlands,268,91.8,9.8
 2024-02-12,West Midlands,415,101.3,2.5
 2024-02-12,East of England,357,88.7,-10.8
-2024-02-12,London,764,99.2,8.8
+2024-02-12,London,763,99.2,8.7
 2024-02-12,South East,600,101.8,7.7
 2024-02-12,South West,300,96.7,18.1
 2024-02-12,Wales,171,109.0,33.6
 2024-02-12,Scotland,196,102.3,-12.9
 2024-02-12,Northern Ireland,77,100.4,97.4
-2024-02-12,Unknown,2105,103.9,9.2
+2024-02-12,Unknown,2106,103.9,9.2
 2024-02-19,North East,134,102.9,21.8
 2024-02-19,North West,527,93.7,10.9
 2024-02-19,Yorkshire and The Humber,353,96.1,7.6
 2024-02-19,East Midlands,275,94.2,15.1
 2024-02-19,West Midlands,429,104.7,2.6
 2024-02-19,East of England,361,89.7,-8.1
-2024-02-19,London,759,98.6,11.1
+2024-02-19,London,758,98.6,11.0
 2024-02-19,South East,605,102.6,12.9
 2024-02-19,South West,301,97.0,15.3
 2024-02-19,Wales,167,106.4,28.5
 2024-02-19,Scotland,194,101.3,-10.2
 2024-02-19,Northern Ireland,73,95.2,87.2
-2024-02-19,Unknown,2120,104.6,7.9
+2024-02-19,Unknown,2121,104.6,7.9
 2024-02-26,North East,131,100.6,13.9
 2024-02-26,North West,536,95.3,14.0
 2024-02-26,Yorkshire and The Humber,342,93.1,8.9
 2024-02-26,East Midlands,274,93.9,7.9
 2024-02-26,West Midlands,432,105.4,3.3
 2024-02-26,East of England,347,86.2,-11.7
-2024-02-26,London,764,99.2,6.7
+2024-02-26,London,763,99.2,6.6
 2024-02-26,South East,611,103.7,15.1
 2024-02-26,South West,294,94.8,8.9
 2024-02-26,Wales,167,106.4,25.6
 2024-02-26,Scotland,188,98.1,-14.9
 2024-02-26,Northern Ireland,72,93.9,89.5
-2024-02-26,Unknown,2142,105.7,6.7
+2024-02-26,Unknown,2143,105.7,6.7
 2024-03-04,North East,137,105.2,15.1
 2024-03-04,North West,547,97.3,14.2
 2024-03-04,Yorkshire and The Humber,351,95.6,8.3
 2024-03-04,East Midlands,281,96.3,12.9
 2024-03-04,West Midlands,415,101.3,-1.2
 2024-03-04,East of England,344,85.5,-12.7
-2024-03-04,London,761,98.8,6.4
+2024-03-04,London,760,98.8,6.3
 2024-03-04,South East,600,101.8,8.9
 2024-03-04,South West,300,96.7,9.9
 2024-03-04,Wales,167,106.4,29.5
 2024-03-04,Scotland,184,96.0,-15.2
 2024-03-04,Northern Ireland,78,101.8,95.0
-2024-03-04,Unknown,2128,105.0,4.7
+2024-03-04,Unknown,2129,105.0,4.7
 2024-03-11,North East,138,106.0,15.0
 2024-03-11,North West,548,97.4,14.9
 2024-03-11,Yorkshire and The Humber,353,96.1,10.0
 2024-03-11,East Midlands,279,95.6,11.2
 2024-03-11,West Midlands,427,104.2,1.4
 2024-03-11,East of England,356,88.4,-10.6
-2024-03-11,London,762,99.0,7.9
+2024-03-11,London,759,98.7,7.5
 2024-03-11,South East,589,99.9,8.7
 2024-03-11,South West,289,93.2,1.4
 2024-03-11,Wales,159,101.3,16.9
 2024-03-11,Scotland,182,95.0,-9.0
 2024-03-11,Northern Ireland,76,99.1,90.0
-2024-03-11,Unknown,2106,103.9,5.7
+2024-03-11,Unknown,2109,104.0,5.8
 2024-03-18,North East,137,105.2,19.1
 2024-03-18,North West,552,98.2,18.7
 2024-03-18,Yorkshire and The Humber,344,93.6,5.2
 2024-03-18,East Midlands,282,96.6,13.3
 2024-03-18,West Midlands,428,104.4,8.6
 2024-03-18,East of England,357,88.7,-7.0
-2024-03-18,London,776,100.8,9.6
+2024-03-18,London,773,100.5,9.2
 2024-03-18,South East,595,101.0,10.8
 2024-03-18,South West,269,86.7,-8.8
 2024-03-18,Wales,160,102.0,16.8
 2024-03-18,Scotland,180,94.0,-5.3
 2024-03-18,Northern Ireland,71,92.6,102.9
-2024-03-18,Unknown,2043,100.8,5.6
+2024-03-18,Unknown,2046,100.9,5.7
 2024-03-25,North East,133,102.1,18.8
 2024-03-25,North West,552,98.2,10.4
 2024-03-25,Yorkshire and The Humber,350,95.3,2.9
 2024-03-25,East Midlands,275,94.2,9.1
 2024-03-25,West Midlands,433,105.7,3.8
 2024-03-25,East of England,370,91.9,-5.1
-2024-03-25,London,771,100.1,4.2
+2024-03-25,London,768,99.9,3.8
 2024-03-25,South East,604,102.5,10.6
 2024-03-25,South West,276,89.0,-8.0
 2024-03-25,Wales,162,103.2,8.0
 2024-03-25,Scotland,188,98.1,-2.6
 2024-03-25,Northern Ireland,73,95.2,102.8
-2024-03-25,Unknown,2073,102.3,2.5
+2024-03-25,Unknown,2076,102.4,2.7
 2024-04-01,North East,137,105.2,18.1
 2024-04-01,North West,570,101.4,7.1
 2024-04-01,Yorkshire and The Humber,367,99.9,4.6
 2024-04-01,East Midlands,290,99.4,6.6
 2024-04-01,West Midlands,448,109.3,3.7
 2024-04-01,East of England,400,99.4,-2.0
-2024-04-01,London,803,104.3,2.8
+2024-04-01,London,800,104.0,2.4
 2024-04-01,South East,620,105.2,8.6
 2024-04-01,South West,295,95.1,-7.8
 2024-04-01,Wales,172,109.6,11.0
 2024-04-01,Scotland,209,109.1,10.0
 2024-04-01,Northern Ireland,70,91.3,70.7
-2024-04-01,Unknown,2202,108.6,3.8
+2024-04-01,Unknown,2205,108.7,4.0
 2024-04-08,North East,142,109.0,20.3
 2024-04-08,North West,578,102.8,2.7
 2024-04-08,Yorkshire and The Humber,380,103.4,2.7
 2024-04-08,East Midlands,294,100.8,2.4
 2024-04-08,West Midlands,461,112.5,-1.9
 2024-04-08,East of England,408,101.4,-4.7
-2024-04-08,London,834,108.3,-0.6
+2024-04-08,London,831,108.1,-1.0
 2024-04-08,South East,642,108.9,5.4
 2024-04-08,South West,301,97.0,-11.5
 2024-04-08,Wales,177,112.8,8.6
 2024-04-08,Scotland,214,111.7,3.4
 2024-04-08,Northern Ireland,73,95.2,65.9
-2024-04-08,Unknown,2258,111.4,3.0
+2024-04-08,Unknown,2261,111.5,3.1
 2024-04-15,North East,142,109.0,13.6
 2024-04-15,North West,599,106.5,1.0
 2024-04-15,Yorkshire and The Humber,386,105.1,2.4
 2024-04-15,East Midlands,305,104.5,0.7
 2024-04-15,West Midlands,457,111.5,-4.2
 2024-04-15,East of England,428,106.3,-0.2
-2024-04-15,London,856,111.2,2.8
+2024-04-15,London,853,110.9,2.4
 2024-04-15,South East,677,114.9,8.5
 2024-04-15,South West,319,102.8,-7.5
 2024-04-15,Wales,186,118.5,14.8
 2024-04-15,Scotland,216,112.7,-1.4
 2024-04-15,Northern Ireland,74,96.5,72.1
-2024-04-15,Unknown,2315,114.2,4.0
+2024-04-15,Unknown,2318,114.3,4.2
 2024-04-22,North East,140,107.5,13.8
 2024-04-22,North West,595,105.8,0.7
 2024-04-22,Yorkshire and The Humber,383,104.3,1.3
 2024-04-22,East Midlands,304,104.2,-1.6
 2024-04-22,West Midlands,453,110.5,-6.0
 2024-04-22,East of England,424,105.3,1.4
-2024-04-22,London,867,112.6,4.5
+2024-04-22,London,864,112.4,4.1
 2024-04-22,South East,675,114.5,5.6
 2024-04-22,South West,319,102.8,-6.5
 2024-04-22,Wales,185,117.9,10.8
 2024-04-22,Scotland,217,113.3,-1.8
 2024-04-22,Northern Ireland,79,103.1,107.9
-2024-04-22,Unknown,2330,115.0,3.4
+2024-04-22,Unknown,2333,115.0,3.5
 2024-04-29,North East,130,99.8,8.3
 2024-04-29,North West,601,106.9,1.2
 2024-04-29,Yorkshire and The Humber,393,107.0,8.6
 2024-04-29,East Midlands,306,104.9,-0.3
 2024-04-29,West Midlands,451,110.1,-5.3
 2024-04-29,East of England,422,104.8,2.2
-2024-04-29,London,865,112.3,0.8
+2024-04-29,London,862,112.1,0.5
 2024-04-29,South East,655,111.1,1.9
 2024-04-29,South West,323,104.1,-1.8
 2024-04-29,Wales,175,111.5,10.1
 2024-04-29,Scotland,214,111.7,-0.5
 2024-04-29,Northern Ireland,86,112.2,138.9
-2024-04-29,Unknown,2347,115.8,5.5
+2024-04-29,Unknown,2350,115.9,5.7
 2024-05-06,North East,129,99.1,2.4
 2024-05-06,North West,589,104.7,-0.2
 2024-05-06,Yorkshire and The Humber,384,104.5,7.0
 2024-05-06,East Midlands,291,99.7,-11.0
 2024-05-06,West Midlands,444,108.3,-8.3
 2024-05-06,East of England,412,102.4,2.2
-2024-05-06,London,830,107.8,-5.5
+2024-05-06,London,828,107.7,-5.7
 2024-05-06,South East,634,107.6,-1.7
 2024-05-06,South West,312,100.6,-4.9
 2024-05-06,Wales,155,98.8,-4.3
 2024-05-06,Scotland,213,111.2,-2.7
 2024-05-06,Northern Ireland,93,121.3,173.5
-2024-05-06,Unknown,2308,113.9,4.4
+2024-05-06,Unknown,2310,113.9,4.5
 2024-05-13,North East,131,100.6,8.3
 2024-05-13,North West,600,106.7,-0.8
 2024-05-13,Yorkshire and The Humber,391,106.4,5.7
 2024-05-13,East Midlands,298,102.1,-10.2
 2024-05-13,West Midlands,445,108.6,-6.9
 2024-05-13,East of England,410,101.9,0.0
-2024-05-13,London,821,106.6,-5.4
+2024-05-13,London,819,106.5,-5.6
 2024-05-13,South East,611,103.7,-4.8
 2024-05-13,South West,304,98.0,-2.9
 2024-05-13,Wales,157,100.1,-1.9
 2024-05-13,Scotland,208,108.6,-3.7
 2024-05-13,Northern Ireland,95,123.9,150.0
-2024-05-13,Unknown,2310,114.0,5.0
+2024-05-13,Unknown,2312,114.0,5.1
 2024-05-20,North East,132,101.4,10.0
 2024-05-20,North West,605,107.6,-2.7
 2024-05-20,Yorkshire and The Humber,390,106.2,4.3
 2024-05-20,East Midlands,297,101.8,-10.3
 2024-05-20,West Midlands,422,103.0,-11.0
 2024-05-20,East of England,404,100.4,-6.3
-2024-05-20,London,836,108.6,-6.3
+2024-05-20,London,834,108.5,-6.5
 2024-05-20,South East,597,101.3,-9.4
 2024-05-20,South West,312,100.6,0.6
 2024-05-20,Wales,162,103.2,4.5
 2024-05-20,Scotland,217,113.3,-3.6
 2024-05-20,Northern Ireland,97,126.5,155.3
-2024-05-20,Unknown,2316,114.3,6.7
+2024-05-20,Unknown,2318,114.3,6.8
 2024-05-27,North East,123,94.5,7.0
 2024-05-27,North West,602,107.0,-3.1
 2024-05-27,Yorkshire and The Humber,394,107.3,5.3
 2024-05-27,East Midlands,296,101.4,-9.2
 2024-05-27,West Midlands,419,102.2,-9.3
 2024-05-27,East of England,408,101.4,-4.2
-2024-05-27,London,803,104.3,-8.0
+2024-05-27,London,801,104.2,-8.2
 2024-05-27,South East,586,99.4,-9.4
 2024-05-27,South West,297,95.7,-2.0
 2024-05-27,Wales,163,103.9,5.8
 2024-05-27,Scotland,218,113.8,0.0
 2024-05-27,Northern Ireland,92,120.0,155.6
-2024-05-27,Unknown,2262,111.6,7.4
+2024-05-27,Unknown,2264,111.6,7.5
 2024-06-03,North East,119,91.4,6.2
 2024-06-03,North West,594,105.6,-5.0
 2024-06-03,Yorkshire and The Humber,389,105.9,6.9
 2024-06-03,East Midlands,297,101.8,-9.5
 2024-06-03,West Midlands,423,103.2,-4.5
 2024-06-03,East of England,408,101.4,-2.4
-2024-06-03,London,772,100.3,-11.7
+2024-06-03,London,770,100.1,-11.9
 2024-06-03,South East,576,97.7,-8.4
 2024-06-03,South West,291,93.8,-1.7
 2024-06-03,Wales,166,105.8,0.6
 2024-06-03,Scotland,218,113.8,-0.5
 2024-06-03,Northern Ireland,85,110.9,165.6
-2024-06-03,Unknown,2253,111.2,7.6
+2024-06-03,Unknown,2255,111.2,7.7
 2024-06-10,North East,120,92.2,3.4
 2024-06-10,North West,576,102.4,-8.9
 2024-06-10,Yorkshire and The Humber,386,105.1,6.3
 2024-06-10,East Midlands,301,103.2,-3.2
 2024-06-10,West Midlands,426,104.0,-3.4
 2024-06-10,East of England,407,101.1,-2.4
-2024-06-10,London,792,102.9,-9.3
+2024-06-10,London,792,103.0,-9.3
 2024-06-10,South East,586,99.4,-7.7
 2024-06-10,South West,288,92.8,-2.4
 2024-06-10,Wales,168,107.1,-1.8
 2024-06-10,Scotland,220,114.8,-0.9
 2024-06-10,Northern Ireland,85,110.9,165.6
-2024-06-10,Unknown,2237,110.4,5.8
+2024-06-10,Unknown,2237,110.3,5.8
 2024-06-17,North East,118,90.6,0.9
 2024-06-17,North West,549,97.6,-13.5
 2024-06-17,Yorkshire and The Humber,375,102.1,4.5
 2024-06-17,East Midlands,290,99.4,-2.0
 2024-06-17,West Midlands,417,101.8,-6.3
 2024-06-17,East of England,404,100.4,-0.5
-2024-06-17,London,782,101.6,-9.1
+2024-06-17,London,782,101.7,-9.1
 2024-06-17,South East,576,97.7,-7.8
 2024-06-17,South West,293,94.4,5.0
 2024-06-17,Wales,156,99.4,-6.0
 2024-06-17,Scotland,220,114.8,-2.2
 2024-06-17,Northern Ireland,83,108.3,137.1
-2024-06-17,Unknown,2213,109.2,4.8
+2024-06-17,Unknown,2213,109.1,4.8
 2024-06-24,North East,122,93.7,-0.8
 2024-06-24,North West,549,97.6,-11.5
 2024-06-24,Yorkshire and The Humber,373,101.5,4.2
 2024-06-24,East Midlands,300,102.8,-0.7
 2024-06-24,West Midlands,417,101.8,-4.1
 2024-06-24,East of England,403,100.1,1.0
-2024-06-24,London,798,103.6,-3.9
+2024-06-24,London,798,103.8,-3.9
 2024-06-24,South East,581,98.6,-4.0
 2024-06-24,South West,296,95.4,4.6
 2024-06-24,Wales,154,98.1,-4.9
@@ -2904,7 +2904,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2024-07-01,East Midlands,299,102.5,-2.6
 2024-07-01,West Midlands,422,103.0,-5.0
 2024-07-01,East of England,403,100.1,0.0
-2024-07-01,London,812,105.5,-2.5
+2024-07-01,London,812,105.6,-2.5
 2024-07-01,South East,581,98.6,-3.0
 2024-07-01,South West,290,93.5,-0.3
 2024-07-01,Wales,155,98.8,-7.7
@@ -2917,46 +2917,46 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2024-07-08,East Midlands,306,104.9,-1.3
 2024-07-08,West Midlands,425,103.7,-2.5
 2024-07-08,East of England,416,103.4,4.8
-2024-07-08,London,783,101.7,-4.3
+2024-07-08,London,783,101.8,-4.3
 2024-07-08,South East,574,97.4,-1.0
 2024-07-08,South West,296,95.4,1.7
 2024-07-08,Wales,159,101.3,-4.8
 2024-07-08,Scotland,224,116.9,6.7
 2024-07-08,Northern Ireland,91,118.7,184.4
-2024-07-08,Unknown,2186,107.9,3.1
+2024-07-08,Unknown,2186,107.8,3.1
 2024-07-15,North East,124,95.2,-2.4
 2024-07-15,North West,584,103.8,-2.5
 2024-07-15,Yorkshire and The Humber,366,99.6,3.1
 2024-07-15,East Midlands,294,100.8,-3.3
 2024-07-15,West Midlands,430,104.9,-3.2
 2024-07-15,East of England,405,100.6,-2.2
-2024-07-15,London,776,100.8,-7.2
+2024-07-15,London,776,100.9,-7.2
 2024-07-15,South East,551,93.5,-8.0
 2024-07-15,South West,281,90.6,-4.4
 2024-07-15,Wales,152,96.9,-8.4
 2024-07-15,Scotland,225,117.4,9.2
 2024-07-15,Northern Ireland,82,107.0,127.8
-2024-07-15,Unknown,2156,106.4,1.8
+2024-07-15,Unknown,2156,106.3,1.8
 2024-07-22,North East,128,98.3,-4.5
 2024-07-22,North West,591,105.1,-3.0
 2024-07-22,Yorkshire and The Humber,372,101.3,5.4
 2024-07-22,East Midlands,293,100.4,-2.7
 2024-07-22,West Midlands,427,104.2,-1.8
 2024-07-22,East of England,403,100.1,-3.4
-2024-07-22,London,766,99.5,-7.8
+2024-07-22,London,766,99.6,-7.8
 2024-07-22,South East,553,93.8,-5.6
 2024-07-22,South West,272,87.7,-5.6
 2024-07-22,Wales,153,97.5,-6.7
 2024-07-22,Scotland,224,116.9,12.0
 2024-07-22,Northern Ireland,75,97.8,127.3
-2024-07-22,Unknown,2158,106.5,3.5
+2024-07-22,Unknown,2158,106.4,3.5
 2024-07-29,North East,136,104.4,0.0
 2024-07-29,North West,591,105.1,-5.0
 2024-07-29,Yorkshire and The Humber,373,101.5,3.3
 2024-07-29,East Midlands,304,104.2,-1.6
 2024-07-29,West Midlands,417,101.8,-4.1
 2024-07-29,East of England,402,99.9,-6.5
-2024-07-29,London,758,98.4,-6.8
+2024-07-29,London,758,98.6,-6.8
 2024-07-29,South East,564,95.7,-5.8
 2024-07-29,South West,274,88.3,-10.2
 2024-07-29,Wales,155,98.8,-7.7
@@ -2969,20 +2969,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2024-08-05,East Midlands,307,105.2,3.4
 2024-08-05,West Midlands,416,101.5,-1.4
 2024-08-05,East of England,405,100.6,-4.3
-2024-08-05,London,765,99.4,-3.5
+2024-08-05,London,765,99.5,-3.5
 2024-08-05,South East,565,95.9,-4.6
 2024-08-05,South West,290,93.5,-9.4
 2024-08-05,Wales,154,98.1,-7.8
 2024-08-05,Scotland,232,121.1,10.0
 2024-08-05,Northern Ireland,58,75.7,52.6
-2024-08-05,Unknown,2114,104.3,-0.0
+2024-08-05,Unknown,2114,104.2,-0.0
 2024-08-12,North East,141,108.3,2.9
 2024-08-12,North West,594,105.6,-4.2
 2024-08-12,Yorkshire and The Humber,359,97.7,1.7
 2024-08-12,East Midlands,299,102.5,3.1
 2024-08-12,West Midlands,409,99.8,-4.0
 2024-08-12,East of England,408,101.4,-2.6
-2024-08-12,London,739,96.0,-9.5
+2024-08-12,London,739,96.1,-9.5
 2024-08-12,South East,559,94.8,-7.3
 2024-08-12,South West,296,95.4,-9.8
 2024-08-12,Wales,146,93.0,-14.6
@@ -2995,33 +2995,33 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2024-08-19,East Midlands,297,101.8,3.8
 2024-08-19,West Midlands,421,102.7,0.2
 2024-08-19,East of England,406,100.9,-1.9
-2024-08-19,London,722,93.8,-10.2
+2024-08-19,London,722,93.9,-10.2
 2024-08-19,South East,574,97.4,-5.6
 2024-08-19,South West,287,92.5,-13.3
 2024-08-19,Wales,147,93.7,-14.0
 2024-08-19,Scotland,220,114.8,6.8
 2024-08-19,Northern Ireland,49,63.9,48.5
-2024-08-19,Unknown,2103,103.8,-2.5
+2024-08-19,Unknown,2103,103.7,-2.5
 2024-08-26,North East,146,112.1,-2.7
 2024-08-26,North West,583,103.7,-0.2
 2024-08-26,Yorkshire and The Humber,352,95.8,0.9
 2024-08-26,East Midlands,293,100.4,6.9
 2024-08-26,West Midlands,421,102.7,1.9
 2024-08-26,East of England,407,101.1,-0.5
-2024-08-26,London,713,92.6,-11.1
+2024-08-26,London,713,92.7,-11.1
 2024-08-26,South East,585,99.3,-3.1
 2024-08-26,South West,287,92.5,-12.0
 2024-08-26,Wales,144,91.8,-13.3
 2024-08-26,Scotland,225,117.4,12.5
 2024-08-26,Northern Ireland,44,57.4,29.4
-2024-08-26,Unknown,2113,104.3,-2.2
+2024-08-26,Unknown,2113,104.2,-2.2
 2024-09-02,North East,142,109.0,-4.1
 2024-09-02,North West,583,103.7,0.0
 2024-09-02,Yorkshire and The Humber,351,95.6,-1.7
 2024-09-02,East Midlands,299,102.5,7.2
 2024-09-02,West Midlands,419,102.2,-2.6
 2024-09-02,East of England,410,101.9,-1.0
-2024-09-02,London,745,96.8,-7.7
+2024-09-02,London,745,96.9,-7.7
 2024-09-02,South East,588,99.8,-4.4
 2024-09-02,South West,289,93.2,-9.7
 2024-09-02,Wales,140,89.2,-11.4
@@ -3034,7 +3034,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2024-09-09,East Midlands,301,103.2,7.5
 2024-09-09,West Midlands,411,100.3,-5.7
 2024-09-09,East of England,393,97.6,-3.9
-2024-09-09,London,711,92.3,-11.3
+2024-09-09,London,711,92.5,-11.3
 2024-09-09,South East,568,96.4,-9.1
 2024-09-09,South West,281,90.6,-9.6
 2024-09-09,Wales,140,89.2,-7.3
@@ -3047,7 +3047,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2024-09-16,East Midlands,315,108.0,10.5
 2024-09-16,West Midlands,416,101.5,-3.5
 2024-09-16,East of England,395,98.1,-4.4
-2024-09-16,London,704,91.4,-12.8
+2024-09-16,London,704,91.6,-12.8
 2024-09-16,South East,550,93.3,-14.3
 2024-09-16,South West,278,89.6,-12.3
 2024-09-16,Wales,138,87.9,-14.3
@@ -3060,7 +3060,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2024-09-23,East Midlands,311,106.6,11.5
 2024-09-23,West Midlands,407,99.3,-4.2
 2024-09-23,East of England,379,94.2,-8.2
-2024-09-23,London,692,89.9,-16.4
+2024-09-23,London,692,90.0,-16.4
 2024-09-23,South East,530,89.9,-18.6
 2024-09-23,South West,282,90.9,-9.9
 2024-09-23,Wales,135,86.0,-17.2
@@ -3073,20 +3073,20 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2024-09-30,East Midlands,302,103.5,10.6
 2024-09-30,West Midlands,410,100.1,-2.1
 2024-09-30,East of England,372,92.4,-6.3
-2024-09-30,London,682,88.6,-17.0
+2024-09-30,London,682,88.7,-17.0
 2024-09-30,South East,527,89.4,-23.2
 2024-09-30,South West,279,89.9,-7.3
 2024-09-30,Wales,133,84.8,-16.4
 2024-09-30,Scotland,185,96.6,-3.6
 2024-09-30,Northern Ireland,59,77.0,-1.7
-2024-09-30,Unknown,2038,100.6,-2.3
+2024-09-30,Unknown,2038,100.5,-2.3
 2024-10-07,North East,136,104.4,0.7
 2024-10-07,North West,581,103.3,1.2
 2024-10-07,Yorkshire and The Humber,345,93.9,-7.3
 2024-10-07,East Midlands,298,102.1,8.8
 2024-10-07,West Midlands,403,98.3,-5.2
 2024-10-07,East of England,362,89.9,-10.6
-2024-10-07,London,711,92.3,-12.9
+2024-10-07,London,711,92.5,-12.9
 2024-10-07,South East,534,90.6,-23.2
 2024-10-07,South West,276,89.0,-8.3
 2024-10-07,Wales,131,83.5,-17.6
@@ -3099,7 +3099,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2024-10-14,East Midlands,301,103.2,9.1
 2024-10-14,West Midlands,385,94.0,-7.9
 2024-10-14,East of England,366,90.9,-8.3
-2024-10-14,London,694,90.1,-15.9
+2024-10-14,London,694,90.3,-15.9
 2024-10-14,South East,530,89.9,-22.3
 2024-10-14,South West,282,90.9,-5.7
 2024-10-14,Wales,131,83.5,-19.1
@@ -3112,33 +3112,33 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2024-10-21,East Midlands,306,104.9,8.9
 2024-10-21,West Midlands,385,94.0,-9.6
 2024-10-21,East of England,365,90.7,-10.1
-2024-10-21,London,683,88.7,-17.7
+2024-10-21,London,683,88.8,-17.7
 2024-10-21,South East,523,88.7,-24.7
 2024-10-21,South West,283,91.2,-7.8
 2024-10-21,Wales,134,85.4,-15.2
 2024-10-21,Scotland,184,96.0,-8.5
 2024-10-21,Northern Ireland,74,96.5,0.0
-2024-10-21,Unknown,1959,96.7,-8.1
+2024-10-21,Unknown,1959,96.6,-8.1
 2024-10-28,North East,133,102.1,-10.7
 2024-10-28,North West,544,96.7,-1.6
 2024-10-28,Yorkshire and The Humber,348,94.7,-5.2
 2024-10-28,East Midlands,290,99.4,3.9
 2024-10-28,West Midlands,390,95.2,-8.2
 2024-10-28,East of England,371,92.2,-5.6
-2024-10-28,London,657,85.3,-19.7
+2024-10-28,London,657,85.4,-19.7
 2024-10-28,South East,509,86.4,-25.9
 2024-10-28,South West,272,87.7,-6.5
 2024-10-28,Wales,140,89.2,-8.5
 2024-10-28,Scotland,181,94.5,-8.6
 2024-10-28,Northern Ireland,74,96.5,0.0
-2024-10-28,Unknown,1957,96.6,-8.4
+2024-10-28,Unknown,1957,96.5,-8.4
 2024-11-04,North East,127,97.5,-15.9
 2024-11-04,North West,539,95.8,-1.5
 2024-11-04,Yorkshire and The Humber,358,97.5,-2.5
 2024-11-04,East Midlands,291,99.7,4.7
 2024-11-04,West Midlands,390,95.2,-9.1
 2024-11-04,East of England,380,94.4,-4.5
-2024-11-04,London,670,87.0,-19.7
+2024-11-04,London,670,87.1,-19.7
 2024-11-04,South East,509,86.4,-26.8
 2024-11-04,South West,256,82.5,-10.8
 2024-11-04,Wales,143,91.1,-7.7
@@ -3151,59 +3151,59 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2024-11-11,East Midlands,298,102.1,6.8
 2024-11-11,West Midlands,382,93.2,-13.0
 2024-11-11,East of England,378,93.9,-6.9
-2024-11-11,London,687,89.2,-16.8
+2024-11-11,London,687,89.3,-16.8
 2024-11-11,South East,505,85.7,-27.5
 2024-11-11,South West,250,80.6,-15.0
 2024-11-11,Wales,148,94.3,-2.0
 2024-11-11,Scotland,176,91.9,-15.8
 2024-11-11,Northern Ireland,73,95.2,-7.6
-2024-11-11,Unknown,1949,96.2,-9.2
+2024-11-11,Unknown,1949,96.1,-9.2
 2024-11-18,North East,109,83.7,-19.3
 2024-11-18,North West,529,94.1,-4.3
 2024-11-18,Yorkshire and The Humber,360,98.0,-2.2
 2024-11-18,East Midlands,294,100.8,3.5
 2024-11-18,West Midlands,370,90.3,-17.0
 2024-11-18,East of England,377,93.7,-5.8
-2024-11-18,London,687,89.2,-16.9
+2024-11-18,London,687,89.3,-16.9
 2024-11-18,South East,494,83.8,-27.8
 2024-11-18,South West,254,81.9,-12.4
 2024-11-18,Wales,140,89.2,-11.9
 2024-11-18,Scotland,181,94.5,-12.6
 2024-11-18,Northern Ireland,76,99.1,-7.3
-2024-11-18,Unknown,1888,93.2,-11.0
+2024-11-18,Unknown,1888,93.1,-11.0
 2024-11-25,North East,110,84.5,-20.9
 2024-11-25,North West,536,95.3,-4.8
 2024-11-25,Yorkshire and The Humber,370,100.7,-1.6
 2024-11-25,East Midlands,297,101.8,-0.3
 2024-11-25,West Midlands,373,91.0,-18.4
 2024-11-25,East of England,390,96.9,-4.4
-2024-11-25,London,737,95.7,-12.2
+2024-11-25,London,737,95.8,-12.2
 2024-11-25,South East,492,83.5,-28.9
 2024-11-25,South West,270,87.0,-12.9
 2024-11-25,Wales,143,91.1,-11.2
 2024-11-25,Scotland,177,92.4,-17.7
 2024-11-25,Northern Ireland,82,107.0,-10.9
-2024-11-25,Unknown,1899,93.7,-11.7
+2024-11-25,Unknown,1899,93.6,-11.7
 2024-12-02,North East,117,89.8,-18.8
 2024-12-02,North West,535,95.1,-3.9
 2024-12-02,Yorkshire and The Humber,372,101.3,0.0
 2024-12-02,East Midlands,289,99.0,1.0
 2024-12-02,West Midlands,369,90.0,-20.3
 2024-12-02,East of England,404,100.4,1.3
-2024-12-02,London,743,96.5,-10.0
+2024-12-02,London,743,96.6,-10.0
 2024-12-02,South East,496,84.2,-28.8
 2024-12-02,South West,280,90.3,-10.8
 2024-12-02,Wales,152,96.9,-5.6
 2024-12-02,Scotland,176,91.9,-21.1
 2024-12-02,Northern Ireland,81,105.7,-10.0
-2024-12-02,Unknown,1905,94.0,-14.0
+2024-12-02,Unknown,1905,93.9,-14.0
 2024-12-09,North East,110,84.5,-23.6
 2024-12-09,North West,547,97.3,-2.7
 2024-12-09,Yorkshire and The Humber,395,107.5,5.6
 2024-12-09,East Midlands,281,96.3,-0.4
 2024-12-09,West Midlands,366,89.3,-18.8
 2024-12-09,East of England,408,101.4,0.7
-2024-12-09,London,754,97.9,-8.8
+2024-12-09,London,754,98.1,-8.8
 2024-12-09,South East,520,88.2,-24.2
 2024-12-09,South West,287,92.5,-14.6
 2024-12-09,Wales,155,98.8,-4.9
@@ -3216,7 +3216,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2024-12-16,East Midlands,277,94.9,-4.8
 2024-12-16,West Midlands,372,90.8,-18.1
 2024-12-16,East of England,416,103.4,1.7
-2024-12-16,London,773,100.4,-7.0
+2024-12-16,London,773,100.5,-7.0
 2024-12-16,South East,540,91.6,-20.9
 2024-12-16,South West,291,93.8,-17.8
 2024-12-16,Wales,164,104.5,0.0
@@ -3229,33 +3229,33 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2024-12-23,East Midlands,272,93.2,-9.0
 2024-12-23,West Midlands,372,90.8,-19.3
 2024-12-23,East of England,432,107.3,5.4
-2024-12-23,London,791,102.7,-4.7
+2024-12-23,London,791,102.9,-4.7
 2024-12-23,South East,558,94.7,-17.8
 2024-12-23,South West,292,94.1,-15.4
 2024-12-23,Wales,166,105.8,5.1
 2024-12-23,Scotland,174,90.8,-22.7
 2024-12-23,Northern Ireland,75,97.8,-7.4
-2024-12-23,Unknown,2036,100.5,-12.6
+2024-12-23,Unknown,2036,100.4,-12.6
 2024-12-30,North East,95,73.0,-32.1
 2024-12-30,North West,513,91.2,-7.9
 2024-12-30,Yorkshire and The Humber,391,106.4,9.2
 2024-12-30,East Midlands,255,87.4,-11.5
 2024-12-30,West Midlands,344,83.9,-22.3
 2024-12-30,East of England,408,101.4,2.0
-2024-12-30,London,760,98.7,-3.3
+2024-12-30,London,760,98.8,-3.3
 2024-12-30,South East,536,90.9,-14.4
 2024-12-30,South West,278,89.6,-15.0
 2024-12-30,Wales,162,103.2,11.7
 2024-12-30,Scotland,174,90.8,-19.4
 2024-12-30,Northern Ireland,63,82.2,-18.2
-2024-12-30,Unknown,1923,94.9,-13.1
+2024-12-30,Unknown,1923,94.8,-13.1
 2025-01-06,North East,97,74.5,-28.7
 2025-01-06,North West,499,88.7,-7.1
 2025-01-06,Yorkshire and The Humber,377,102.6,7.4
 2025-01-06,East Midlands,246,84.3,-10.9
 2025-01-06,West Midlands,338,82.5,-18.8
 2025-01-06,East of England,395,98.1,4.5
-2025-01-06,London,740,96.1,-2.4
+2025-01-06,London,740,96.2,-2.4
 2025-01-06,South East,522,88.6,-12.6
 2025-01-06,South West,266,85.7,-14.5
 2025-01-06,Wales,153,97.5,8.5
@@ -3268,7 +3268,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2025-01-13,East Midlands,243,83.3,-10.7
 2025-01-13,West Midlands,335,81.7,-19.9
 2025-01-13,East of England,386,95.9,7.8
-2025-01-13,London,730,94.8,-1.1
+2025-01-13,London,730,94.9,-1.1
 2025-01-13,South East,500,84.8,-13.5
 2025-01-13,South West,255,82.2,-16.7
 2025-01-13,Wales,149,95.0,8.8
@@ -3281,826 +3281,826 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2025-01-20,East Midlands,237,81.2,-12.5
 2025-01-20,West Midlands,336,82.0,-20.2
 2025-01-20,East of England,387,96.2,7.2
-2025-01-20,London,724,94.0,-1.6
+2025-01-20,London,724,94.2,-1.6
 2025-01-20,South East,499,84.7,-11.7
 2025-01-20,South West,252,81.2,-18.2
 2025-01-20,Wales,144,91.8,4.3
 2025-01-20,Scotland,166,86.6,-18.6
 2025-01-20,Northern Ireland,59,77.0,-20.3
-2025-01-20,Unknown,1785,88.1,-13.9
+2025-01-20,Unknown,1785,88.0,-13.9
 2025-01-27,North East,108,82.9,-15.0
 2025-01-27,North West,502,89.3,-6.2
 2025-01-27,Yorkshire and The Humber,358,97.5,4.4
 2025-01-27,East Midlands,245,84.0,-7.5
 2025-01-27,West Midlands,339,82.7,-19.9
 2025-01-27,East of England,386,95.9,6.0
-2025-01-27,London,757,98.3,0.3
+2025-01-27,London,757,98.4,0.3
 2025-01-27,South East,496,84.2,-13.6
 2025-01-27,South West,258,83.2,-16.8
 2025-01-27,Wales,139,88.6,-7.3
 2025-01-27,Scotland,163,85.1,-20.1
 2025-01-27,Northern Ireland,62,80.9,-13.9
-2025-01-27,Unknown,1787,88.2,-13.5
+2025-01-27,Unknown,1787,88.1,-13.5
 2025-02-03,North East,107,82.2,-18.3
 2025-02-03,North West,522,92.8,-4.7
 2025-02-03,Yorkshire and The Humber,362,98.5,4.0
 2025-02-03,East Midlands,256,87.7,-5.9
 2025-02-03,West Midlands,352,85.9,-17.0
 2025-02-03,East of England,398,98.9,9.9
-2025-02-03,London,756,98.2,-0.5
+2025-02-03,London,756,98.3,-0.4
 2025-02-03,South East,519,88.1,-11.1
 2025-02-03,South West,280,90.3,-8.5
 2025-02-03,Wales,140,89.2,-16.7
 2025-02-03,Scotland,162,84.6,-18.6
 2025-02-03,Northern Ireland,66,86.1,-14.3
-2025-02-03,Unknown,1800,88.8,-14.6
+2025-02-03,Unknown,1800,88.8,-14.7
 2025-02-10,North East,110,84.5,-18.5
 2025-02-10,North West,537,95.5,0.6
 2025-02-10,Yorkshire and The Humber,364,99.1,5.5
 2025-02-10,East Midlands,257,88.1,-4.1
 2025-02-10,West Midlands,365,89.1,-12.0
 2025-02-10,East of England,409,101.6,14.6
-2025-02-10,London,764,99.2,0.0
+2025-02-10,London,764,99.4,0.1
 2025-02-10,South East,535,90.8,-10.8
 2025-02-10,South West,297,95.7,-1.0
 2025-02-10,Wales,148,94.3,-13.5
 2025-02-10,Scotland,164,85.6,-16.3
 2025-02-10,Northern Ireland,67,87.4,-13.0
-2025-02-10,Unknown,1813,89.5,-13.9
+2025-02-10,Unknown,1813,89.4,-13.9
 2025-02-17,North East,117,89.8,-12.7
 2025-02-17,North West,527,93.7,0.0
 2025-02-17,Yorkshire and The Humber,373,101.5,5.7
 2025-02-17,East Midlands,260,89.1,-5.5
 2025-02-17,West Midlands,371,90.5,-13.5
 2025-02-17,East of England,425,105.6,17.7
-2025-02-17,London,768,99.7,1.2
+2025-02-17,London,768,99.9,1.3
 2025-02-17,South East,542,92.0,-10.4
 2025-02-17,South West,297,95.7,-1.3
 2025-02-17,Wales,152,96.9,-9.0
 2025-02-17,Scotland,170,88.7,-12.4
 2025-02-17,Northern Ireland,65,84.8,-11.0
-2025-02-17,Unknown,1852,91.4,-12.6
+2025-02-17,Unknown,1852,91.3,-12.7
 2025-02-24,North East,120,92.2,-8.4
 2025-02-24,North West,530,94.2,-1.1
 2025-02-24,Yorkshire and The Humber,386,105.1,12.9
 2025-02-24,East Midlands,266,91.2,-2.9
 2025-02-24,West Midlands,383,93.5,-11.3
 2025-02-24,East of England,426,105.8,22.8
-2025-02-24,London,742,96.4,-2.9
+2025-02-24,London,742,96.5,-2.8
 2025-02-24,South East,540,91.6,-11.6
 2025-02-24,South West,306,98.6,4.1
 2025-02-24,Wales,155,98.8,-7.2
 2025-02-24,Scotland,162,84.6,-13.8
 2025-02-24,Northern Ireland,61,79.6,-15.3
-2025-02-24,Unknown,1899,93.7,-11.3
+2025-02-24,Unknown,1899,93.6,-11.4
 2025-03-03,North East,124,95.2,-9.5
 2025-03-03,North West,525,93.4,-4.0
 2025-03-03,Yorkshire and The Humber,386,105.1,10.0
 2025-03-03,East Midlands,262,89.8,-6.8
 2025-03-03,West Midlands,404,98.6,-2.7
 2025-03-03,East of England,422,104.8,22.7
-2025-03-03,London,740,96.1,-2.8
+2025-03-03,London,740,96.2,-2.6
 2025-03-03,South East,549,93.1,-8.5
 2025-03-03,South West,311,100.3,3.7
 2025-03-03,Wales,152,96.9,-9.0
 2025-03-03,Scotland,168,87.7,-8.7
 2025-03-03,Northern Ireland,64,83.5,-17.9
-2025-03-03,Unknown,1900,93.7,-10.7
+2025-03-03,Unknown,1900,93.7,-10.8
 2025-03-10,North East,128,98.3,-7.2
 2025-03-10,North West,532,94.6,-2.9
 2025-03-10,Yorkshire and The Humber,376,102.4,6.5
 2025-03-10,East Midlands,281,96.3,0.7
 2025-03-10,West Midlands,407,99.3,-4.7
 2025-03-10,East of England,419,104.1,17.7
-2025-03-10,London,728,94.5,-4.5
+2025-03-10,London,728,94.7,-4.1
 2025-03-10,South East,556,94.3,-5.6
 2025-03-10,South West,312,100.6,8.0
 2025-03-10,Wales,152,96.9,-4.4
 2025-03-10,Scotland,174,90.8,-4.4
 2025-03-10,Northern Ireland,63,82.2,-17.1
-2025-03-10,Unknown,1911,94.3,-9.3
+2025-03-10,Unknown,1911,94.2,-9.4
 2025-03-17,North East,132,101.4,-3.6
 2025-03-17,North West,511,90.9,-7.4
 2025-03-17,Yorkshire and The Humber,370,100.7,7.6
 2025-03-17,East Midlands,270,92.5,-4.3
 2025-03-17,West Midlands,394,96.1,-7.9
 2025-03-17,East of England,410,101.9,14.8
-2025-03-17,London,718,93.2,-7.5
+2025-03-17,London,718,93.4,-7.1
 2025-03-17,South East,552,93.7,-7.2
 2025-03-17,South West,317,102.2,17.8
 2025-03-17,Wales,156,99.4,-2.5
 2025-03-17,Scotland,174,90.8,-3.3
 2025-03-17,Northern Ireland,69,90.0,-2.8
-2025-03-17,Unknown,1877,92.6,-8.1
+2025-03-17,Unknown,1877,92.6,-8.3
 2025-03-24,North East,133,102.1,0.0
 2025-03-24,North West,504,89.6,-8.7
 2025-03-24,Yorkshire and The Humber,375,102.1,7.1
 2025-03-24,East Midlands,287,98.4,4.4
 2025-03-24,West Midlands,403,98.3,-6.9
 2025-03-24,East of England,392,97.4,5.9
-2025-03-24,London,709,92.1,-8.0
+2025-03-24,London,709,92.2,-7.7
 2025-03-24,South East,555,94.2,-8.1
 2025-03-24,South West,318,102.5,15.2
 2025-03-24,Wales,155,98.8,-4.3
 2025-03-24,Scotland,169,88.2,-10.1
 2025-03-24,Northern Ireland,67,87.4,-8.2
-2025-03-24,Unknown,1855,91.5,-10.5
+2025-03-24,Unknown,1855,91.5,-10.6
 2025-03-31,North East,146,112.1,6.6
 2025-03-31,North West,552,98.2,-3.2
 2025-03-31,Yorkshire and The Humber,400,108.9,9.0
 2025-03-31,East Midlands,306,104.9,5.5
 2025-03-31,West Midlands,424,103.5,-5.4
 2025-03-31,East of England,418,103.9,4.5
-2025-03-31,London,752,97.7,-6.4
+2025-03-31,London,752,97.8,-6.0
 2025-03-31,South East,603,102.3,-2.7
 2025-03-31,South West,341,109.9,15.6
 2025-03-31,Wales,160,102.0,-7.0
 2025-03-31,Scotland,171,89.3,-18.2
 2025-03-31,Northern Ireland,71,92.6,1.4
-2025-03-31,Unknown,2004,98.9,-9.0
+2025-03-31,Unknown,2004,98.8,-9.1
 2025-04-07,North East,149,114.4,4.9
 2025-04-07,North West,580,103.1,0.3
 2025-04-07,Yorkshire and The Humber,412,112.2,8.4
 2025-04-07,East Midlands,317,108.6,7.8
 2025-04-07,West Midlands,435,106.2,-5.6
 2025-04-07,East of England,450,111.8,10.3
-2025-04-07,London,781,101.4,-6.4
+2025-04-07,London,781,101.6,-6.0
 2025-04-07,South East,630,106.9,-1.9
 2025-04-07,South West,359,115.7,19.3
 2025-04-07,Wales,170,108.3,-4.0
 2025-04-07,Scotland,180,94.0,-15.9
 2025-04-07,Northern Ireland,74,96.5,1.4
-2025-04-07,Unknown,2099,103.6,-7.0
+2025-04-07,Unknown,2099,103.5,-7.2
 2025-04-14,North East,145,111.4,2.1
 2025-04-14,North West,594,105.6,-0.8
 2025-04-14,Yorkshire and The Humber,427,116.2,10.6
 2025-04-14,East Midlands,324,111.0,6.2
 2025-04-14,West Midlands,449,109.6,-1.8
 2025-04-14,East of England,457,113.5,6.8
-2025-04-14,London,796,103.4,-7.0
+2025-04-14,London,796,103.5,-6.7
 2025-04-14,South East,651,110.5,-3.8
 2025-04-14,South West,366,118.0,14.7
 2025-04-14,Wales,180,114.7,-3.2
 2025-04-14,Scotland,173,90.3,-19.9
 2025-04-14,Northern Ireland,76,99.1,2.7
-2025-04-14,Unknown,2119,104.5,-8.5
+2025-04-14,Unknown,2119,104.5,-8.6
 2025-04-21,North East,140,107.5,0.0
 2025-04-21,North West,608,108.1,2.2
 2025-04-21,Yorkshire and The Humber,426,116.0,11.2
 2025-04-21,East Midlands,328,112.4,7.9
 2025-04-21,West Midlands,441,107.6,-2.6
 2025-04-21,East of England,457,113.5,7.8
-2025-04-21,London,801,104.0,-7.6
+2025-04-21,London,801,104.2,-7.3
 2025-04-21,South East,666,113.0,-1.3
 2025-04-21,South West,386,124.4,21.0
 2025-04-21,Wales,188,119.8,1.6
 2025-04-21,Scotland,179,93.4,-17.5
 2025-04-21,Northern Ireland,79,103.1,0.0
-2025-04-21,Unknown,2180,107.6,-6.4
+2025-04-21,Unknown,2180,107.5,-6.6
 2025-04-28,North East,140,107.5,7.7
 2025-04-28,North West,606,107.8,0.8
 2025-04-28,Yorkshire and The Humber,429,116.8,9.2
 2025-04-28,East Midlands,330,113.1,7.8
 2025-04-28,West Midlands,439,107.1,-2.7
 2025-04-28,East of England,447,111.1,5.9
-2025-04-28,London,783,101.7,-9.5
+2025-04-28,London,783,101.8,-9.2
 2025-04-28,South East,670,113.7,2.3
 2025-04-28,South West,389,125.4,20.4
 2025-04-28,Wales,192,122.4,9.7
 2025-04-28,Scotland,180,94.0,-15.9
 2025-04-28,Northern Ireland,77,100.4,-10.5
-2025-04-28,Unknown,2213,109.2,-5.7
+2025-04-28,Unknown,2213,109.1,-5.8
 2025-05-05,North East,143,109.8,10.9
 2025-05-05,North West,599,106.5,1.7
 2025-05-05,Yorkshire and The Humber,409,111.3,6.5
 2025-05-05,East Midlands,313,107.3,7.6
 2025-05-05,West Midlands,425,103.7,-4.3
 2025-05-05,East of England,432,107.3,4.9
-2025-05-05,London,772,100.3,-7.0
+2025-05-05,London,772,100.4,-6.8
 2025-05-05,South East,655,111.1,3.3
 2025-05-05,South West,377,121.5,20.8
 2025-05-05,Wales,182,116.0,17.4
 2025-05-05,Scotland,186,97.1,-12.7
 2025-05-05,Northern Ireland,82,107.0,-11.8
-2025-05-05,Unknown,2222,109.6,-3.7
+2025-05-05,Unknown,2222,109.6,-3.8
 2025-05-12,North East,148,113.7,13.0
 2025-05-12,North West,597,106.2,-0.5
 2025-05-12,Yorkshire and The Humber,404,110.0,3.3
 2025-05-12,East Midlands,312,106.9,4.7
 2025-05-12,West Midlands,427,104.2,-4.0
 2025-05-12,East of England,423,105.1,3.2
-2025-05-12,London,778,101.0,-5.2
+2025-05-12,London,778,101.2,-5.0
 2025-05-12,South East,662,112.3,8.3
 2025-05-12,South West,373,120.2,22.7
 2025-05-12,Wales,175,111.5,11.5
 2025-05-12,Scotland,189,98.7,-9.1
 2025-05-12,Northern Ireland,85,110.9,-10.5
-2025-05-12,Unknown,2221,109.6,-3.9
+2025-05-12,Unknown,2221,109.5,-3.9
 2025-05-19,North East,144,110.6,9.1
 2025-05-19,North West,600,106.7,-0.8
 2025-05-19,Yorkshire and The Humber,385,104.8,-1.3
 2025-05-19,East Midlands,308,105.6,3.7
 2025-05-19,West Midlands,420,102.5,-0.5
 2025-05-19,East of England,421,104.6,4.2
-2025-05-19,London,798,103.6,-4.5
+2025-05-19,London,798,103.8,-4.3
 2025-05-19,South East,676,114.7,13.2
 2025-05-19,South West,372,119.9,19.2
 2025-05-19,Wales,169,107.7,4.3
 2025-05-19,Scotland,184,96.0,-15.2
 2025-05-19,Northern Ireland,93,121.3,-4.1
-2025-05-19,Unknown,2197,108.4,-5.1
+2025-05-19,Unknown,2197,108.3,-5.2
 2025-05-26,North East,146,112.1,18.7
 2025-05-26,North West,596,106.0,-1.0
 2025-05-26,Yorkshire and The Humber,361,98.3,-8.4
 2025-05-26,East Midlands,301,103.2,1.7
 2025-05-26,West Midlands,400,97.6,-4.5
 2025-05-26,East of England,413,102.6,1.2
-2025-05-26,London,799,103.8,-0.5
+2025-05-26,London,799,103.9,-0.2
 2025-05-26,South East,677,114.9,15.5
 2025-05-26,South West,353,113.8,18.9
 2025-05-26,Wales,166,105.8,1.8
 2025-05-26,Scotland,185,96.6,-15.1
 2025-05-26,Northern Ireland,93,121.3,1.1
-2025-05-26,Unknown,2136,105.4,-5.6
+2025-05-26,Unknown,2136,105.3,-5.7
 2025-06-02,North East,138,106.0,16.0
 2025-06-02,North West,598,106.3,0.7
 2025-06-02,Yorkshire and The Humber,357,97.2,-8.2
 2025-06-02,East Midlands,308,105.6,3.7
 2025-06-02,West Midlands,388,94.7,-8.3
 2025-06-02,East of England,414,102.9,1.5
-2025-06-02,London,784,101.8,1.6
+2025-06-02,London,784,102.0,1.8
 2025-06-02,South East,666,113.0,15.6
 2025-06-02,South West,340,109.6,16.8
 2025-06-02,Wales,161,102.6,-3.0
 2025-06-02,Scotland,184,96.0,-15.6
 2025-06-02,Northern Ireland,101,131.8,18.8
-2025-06-02,Unknown,2142,105.7,-4.9
+2025-06-02,Unknown,2142,105.6,-5.0
 2025-06-09,North East,144,110.6,20.0
 2025-06-09,North West,604,107.4,4.9
 2025-06-09,Yorkshire and The Humber,349,95.0,-9.6
 2025-06-09,East Midlands,298,102.1,-1.0
 2025-06-09,West Midlands,378,92.2,-11.3
 2025-06-09,East of England,419,104.1,2.9
-2025-06-09,London,810,105.2,2.3
+2025-06-09,London,810,105.3,2.3
 2025-06-09,South East,650,110.3,10.9
 2025-06-09,South West,341,109.9,18.4
 2025-06-09,Wales,163,103.9,-3.0
 2025-06-09,Scotland,185,96.6,-15.9
 2025-06-09,Northern Ireland,105,137.0,23.5
-2025-06-09,Unknown,2107,104.0,-5.8
+2025-06-09,Unknown,2107,103.9,-5.8
 2025-06-16,North East,137,105.2,16.1
 2025-06-16,North West,618,109.9,12.6
 2025-06-16,Yorkshire and The Humber,344,93.6,-8.3
 2025-06-16,East Midlands,304,104.2,4.8
 2025-06-16,West Midlands,385,94.0,-7.7
 2025-06-16,East of England,428,106.3,5.9
-2025-06-16,London,811,105.3,3.7
+2025-06-16,London,810,105.3,3.6
 2025-06-16,South East,644,109.3,11.8
 2025-06-16,South West,338,109.0,15.4
 2025-06-16,Wales,160,102.0,2.6
 2025-06-16,Scotland,186,97.1,-15.5
 2025-06-16,Northern Ireland,102,133.1,22.9
-2025-06-16,Unknown,2114,104.3,-4.5
+2025-06-16,Unknown,2115,104.3,-4.4
 2025-06-23,North East,130,99.8,6.6
 2025-06-23,North West,611,108.6,11.3
 2025-06-23,Yorkshire and The Humber,341,92.8,-8.6
 2025-06-23,East Midlands,294,100.8,-2.0
 2025-06-23,West Midlands,386,94.2,-7.4
 2025-06-23,East of England,444,110.3,10.2
-2025-06-23,London,803,104.3,0.6
+2025-06-23,London,802,104.3,0.5
 2025-06-23,South East,626,106.2,7.7
 2025-06-23,South West,347,111.9,17.2
 2025-06-23,Wales,164,104.5,6.5
 2025-06-23,Scotland,187,97.6,-16.9
 2025-06-23,Northern Ireland,98,127.8,10.1
-2025-06-23,Unknown,2093,103.3,-4.7
+2025-06-23,Unknown,2094,103.3,-4.6
 2025-06-30,North East,127,97.5,-1.6
 2025-06-30,North West,601,106.9,3.3
 2025-06-30,Yorkshire and The Humber,336,91.5,-8.4
 2025-06-30,East Midlands,293,100.4,-2.0
 2025-06-30,West Midlands,398,97.1,-5.7
 2025-06-30,East of England,450,111.8,11.7
-2025-06-30,London,801,104.0,-1.4
+2025-06-30,London,800,104.0,-1.5
 2025-06-30,South East,628,106.6,8.1
 2025-06-30,South West,356,114.8,22.8
 2025-06-30,Wales,170,108.3,9.7
 2025-06-30,Scotland,191,99.7,-15.5
 2025-06-30,Northern Ireland,102,133.1,10.9
-2025-06-30,Unknown,2077,102.5,-4.9
+2025-06-30,Unknown,2078,102.5,-4.8
 2025-07-07,North East,127,97.5,-0.8
 2025-07-07,North West,603,107.2,1.2
 2025-07-07,Yorkshire and The Humber,342,93.1,-6.3
 2025-07-07,East Midlands,295,101.1,-3.6
 2025-07-07,West Midlands,392,95.7,-7.8
 2025-07-07,East of England,430,106.8,3.4
-2025-07-07,London,794,103.1,1.4
+2025-07-07,London,793,103.1,1.3
 2025-07-07,South East,635,107.7,10.6
 2025-07-07,South West,353,113.8,19.3
 2025-07-07,Wales,169,107.7,6.3
 2025-07-07,Scotland,182,95.0,-18.8
 2025-07-07,Northern Ireland,98,127.8,7.7
-2025-07-07,Unknown,2085,102.9,-4.6
+2025-07-07,Unknown,2086,102.9,-4.6
 2025-07-14,North East,131,100.6,5.6
 2025-07-14,North West,620,110.2,6.2
 2025-07-14,Yorkshire and The Humber,338,92.0,-7.7
 2025-07-14,East Midlands,297,101.8,1.0
 2025-07-14,West Midlands,410,100.1,-4.7
 2025-07-14,East of England,438,108.8,8.1
-2025-07-14,London,814,105.7,4.9
+2025-07-14,London,813,105.7,4.8
 2025-07-14,South East,641,108.8,16.3
 2025-07-14,South West,360,116.0,28.1
 2025-07-14,Wales,166,105.8,9.2
 2025-07-14,Scotland,195,101.8,-13.3
 2025-07-14,Northern Ireland,84,109.6,2.4
-2025-07-14,Unknown,2103,103.8,-2.5
+2025-07-14,Unknown,2104,103.8,-2.4
 2025-07-21,North East,132,101.4,3.1
 2025-07-21,North West,604,107.4,2.2
 2025-07-21,Yorkshire and The Humber,345,93.9,-7.3
 2025-07-21,East Midlands,292,100.1,-0.3
 2025-07-21,West Midlands,423,103.2,-0.9
 2025-07-21,East of England,437,108.6,8.4
-2025-07-21,London,831,107.9,8.5
+2025-07-21,London,830,107.9,8.4
 2025-07-21,South East,639,108.4,15.6
 2025-07-21,South West,347,111.9,27.6
 2025-07-21,Wales,156,99.4,2.0
 2025-07-21,Scotland,191,99.7,-14.7
 2025-07-21,Northern Ireland,79,103.1,5.3
-2025-07-21,Unknown,2063,101.8,-4.4
+2025-07-21,Unknown,2064,101.8,-4.4
 2025-07-28,North East,130,99.8,-4.4
 2025-07-28,North West,590,104.9,-0.2
 2025-07-28,Yorkshire and The Humber,331,90.1,-11.3
 2025-07-28,East Midlands,283,97.0,-6.9
 2025-07-28,West Midlands,417,101.8,0.0
 2025-07-28,East of England,450,111.8,11.9
-2025-07-28,London,858,111.4,13.2
+2025-07-28,London,856,111.3,12.9
 2025-07-28,South East,642,108.9,13.8
 2025-07-28,South West,346,111.5,26.3
 2025-07-28,Wales,154,98.1,-0.6
 2025-07-28,Scotland,192,100.2,-16.2
 2025-07-28,Northern Ireland,77,100.4,13.2
-2025-07-28,Unknown,2047,101.0,-4.3
+2025-07-28,Unknown,2049,101.0,-4.2
 2025-08-04,North East,128,98.3,-8.6
 2025-08-04,North West,567,100.8,-4.7
 2025-08-04,Yorkshire and The Humber,349,95.0,-6.4
 2025-08-04,East Midlands,297,101.8,-3.3
 2025-08-04,West Midlands,419,102.2,0.7
 2025-08-04,East of England,454,112.8,12.1
-2025-08-04,London,872,113.2,14.0
+2025-08-04,London,870,113.1,13.7
 2025-08-04,South East,632,107.2,11.9
 2025-08-04,South West,354,114.1,22.1
 2025-08-04,Wales,165,105.2,7.1
 2025-08-04,Scotland,186,97.1,-19.8
 2025-08-04,Northern Ireland,74,96.5,27.6
-2025-08-04,Unknown,2033,100.3,-3.8
+2025-08-04,Unknown,2035,100.4,-3.7
 2025-08-11,North East,119,91.4,-15.6
 2025-08-11,North West,569,101.2,-4.2
 2025-08-11,Yorkshire and The Humber,359,97.7,0.0
 2025-08-11,East Midlands,304,104.2,1.7
 2025-08-11,West Midlands,417,101.8,2.0
 2025-08-11,East of England,455,113.0,11.5
-2025-08-11,London,875,113.6,18.4
+2025-08-11,London,873,113.5,18.1
 2025-08-11,South East,622,105.5,11.3
 2025-08-11,South West,350,112.8,18.2
 2025-08-11,Wales,167,106.4,14.4
 2025-08-11,Scotland,186,97.1,-20.2
 2025-08-11,Northern Ireland,68,88.7,30.8
-2025-08-11,Unknown,2013,99.3,-4.4
+2025-08-11,Unknown,2015,99.4,-4.3
 2025-08-18,North East,127,97.5,-14.8
 2025-08-18,North West,564,100.3,-5.1
 2025-08-18,Yorkshire and The Humber,366,99.6,1.7
 2025-08-18,East Midlands,301,103.2,1.3
 2025-08-18,West Midlands,429,104.7,1.9
 2025-08-18,East of England,444,110.3,9.4
-2025-08-18,London,859,111.6,19.0
+2025-08-18,London,856,111.3,18.6
 2025-08-18,South East,596,101.1,3.8
 2025-08-18,South West,350,112.8,22.0
 2025-08-18,Wales,171,109.0,16.3
 2025-08-18,Scotland,182,95.0,-17.3
 2025-08-18,Northern Ireland,62,80.9,26.5
-2025-08-18,Unknown,2032,100.3,-3.4
+2025-08-18,Unknown,2035,100.4,-3.2
 2025-08-25,North East,129,99.1,-11.6
 2025-08-25,North West,581,103.3,-0.3
 2025-08-25,Yorkshire and The Humber,382,104.0,8.5
 2025-08-25,East Midlands,296,101.4,1.0
 2025-08-25,West Midlands,441,107.6,4.8
 2025-08-25,East of England,446,110.8,9.6
-2025-08-25,London,865,112.3,21.3
+2025-08-25,London,862,112.1,20.9
 2025-08-25,South East,589,99.9,0.7
 2025-08-25,South West,356,114.8,24.0
 2025-08-25,Wales,171,109.0,18.8
 2025-08-25,Scotland,190,99.2,-15.6
 2025-08-25,Northern Ireland,61,79.6,38.6
-2025-08-25,Unknown,2034,100.4,-3.7
+2025-08-25,Unknown,2037,100.5,-3.6
 2025-09-01,North East,131,100.6,-7.7
 2025-09-01,North West,577,102.6,-1.0
 2025-09-01,Yorkshire and The Humber,376,102.4,7.1
 2025-09-01,East Midlands,289,99.0,-3.3
 2025-09-01,West Midlands,448,109.3,6.9
 2025-09-01,East of England,433,107.6,5.6
-2025-09-01,London,856,111.2,14.9
+2025-09-01,London,853,110.9,14.5
 2025-09-01,South East,584,99.1,-0.7
 2025-09-01,South West,362,116.7,25.3
 2025-09-01,Wales,171,109.0,22.1
 2025-09-01,Scotland,186,97.1,-15.1
 2025-09-01,Northern Ireland,46,60.0,-2.1
-2025-09-01,Unknown,1997,98.5,-4.4
+2025-09-01,Unknown,2000,98.6,-4.3
 2025-09-08,North East,128,98.3,-7.2
 2025-09-08,North West,561,99.8,-3.6
 2025-09-08,Yorkshire and The Humber,373,101.5,9.1
 2025-09-08,East Midlands,294,100.8,-2.3
 2025-09-08,West Midlands,449,109.6,9.2
 2025-09-08,East of England,439,109.1,11.7
-2025-09-08,London,829,107.7,16.6
+2025-09-08,London,826,107.4,16.2
 2025-09-08,South East,601,102.0,5.8
 2025-09-08,South West,353,113.8,25.6
 2025-09-08,Wales,167,106.4,19.3
 2025-09-08,Scotland,184,96.0,-15.6
 2025-09-08,Northern Ireland,41,53.5,-10.9
-2025-09-08,Unknown,1989,98.1,-3.2
+2025-09-08,Unknown,1992,98.2,-3.0
 2025-09-15,North East,132,101.4,-11.4
 2025-09-15,North West,546,97.1,-7.9
 2025-09-15,Yorkshire and The Humber,360,98.0,2.9
 2025-09-15,East Midlands,291,99.7,-7.6
 2025-09-15,West Midlands,443,108.1,6.5
 2025-09-15,East of England,430,106.8,8.9
-2025-09-15,London,809,105.1,14.9
+2025-09-15,London,807,104.9,14.6
 2025-09-15,South East,602,102.1,9.5
 2025-09-15,South West,344,110.9,23.7
 2025-09-15,Wales,168,107.1,21.7
 2025-09-15,Scotland,180,94.0,-15.5
 2025-09-15,Northern Ireland,44,57.4,-15.4
-2025-09-15,Unknown,1923,94.9,-6.5
+2025-09-15,Unknown,1925,94.9,-6.4
 2025-09-22,North East,136,104.4,-6.2
 2025-09-22,North West,553,98.3,-8.6
 2025-09-22,Yorkshire and The Humber,365,99.4,5.2
 2025-09-22,East Midlands,295,101.1,-5.1
 2025-09-22,West Midlands,439,107.1,7.9
 2025-09-22,East of England,425,105.6,12.1
-2025-09-22,London,807,104.8,16.6
+2025-09-22,London,805,104.7,16.3
 2025-09-22,South East,605,102.6,14.2
 2025-09-22,South West,333,107.3,18.1
 2025-09-22,Wales,166,105.8,23.0
 2025-09-22,Scotland,178,92.9,-12.3
 2025-09-22,Northern Ireland,53,69.1,1.9
-2025-09-22,Unknown,1898,93.6,-7.3
+2025-09-22,Unknown,1900,93.7,-7.2
 2025-09-29,North East,139,106.7,-1.4
 2025-09-29,North West,537,95.5,-10.8
 2025-09-29,Yorkshire and The Humber,365,99.4,7.0
 2025-09-29,East Midlands,296,101.4,-2.0
 2025-09-29,West Midlands,438,106.9,6.8
 2025-09-29,East of England,411,102.1,10.5
-2025-09-29,London,807,104.8,18.3
+2025-09-29,London,804,104.6,17.9
 2025-09-29,South East,592,100.4,12.3
 2025-09-29,South West,316,101.9,13.3
 2025-09-29,Wales,166,105.8,24.8
 2025-09-29,Scotland,172,89.8,-7.0
 2025-09-29,Northern Ireland,52,67.8,-11.9
-2025-09-29,Unknown,1865,92.0,-8.5
+2025-09-29,Unknown,1868,92.1,-8.3
 2025-10-06,North East,141,108.3,3.7
 2025-10-06,North West,527,93.7,-9.3
 2025-10-06,Yorkshire and The Humber,356,96.9,3.2
 2025-10-06,East Midlands,296,101.4,-0.7
 2025-10-06,West Midlands,443,108.1,9.9
 2025-10-06,East of England,411,102.1,13.5
-2025-10-06,London,821,106.6,15.5
+2025-10-06,London,818,106.4,15.0
 2025-10-06,South East,590,100.1,10.5
 2025-10-06,South West,321,103.5,16.3
 2025-10-06,Wales,165,105.2,26.0
 2025-10-06,Scotland,179,93.4,-4.3
 2025-10-06,Northern Ireland,64,83.5,3.2
-2025-10-06,Unknown,1827,90.1,-8.4
+2025-10-06,Unknown,1830,90.2,-8.3
 2025-10-13,North East,142,109.0,0.0
 2025-10-13,North West,507,90.2,-12.3
 2025-10-13,Yorkshire and The Humber,351,95.6,0.0
 2025-10-13,East Midlands,294,100.8,-2.3
 2025-10-13,West Midlands,427,104.2,10.9
 2025-10-13,East of England,401,99.6,9.6
-2025-10-13,London,804,104.4,15.9
+2025-10-13,London,801,104.2,15.4
 2025-10-13,South East,607,103.0,14.5
 2025-10-13,South West,324,104.4,14.9
 2025-10-13,Wales,159,101.3,21.4
 2025-10-13,Scotland,171,89.3,-7.1
 2025-10-13,Northern Ireland,70,91.3,0.0
-2025-10-13,Unknown,1831,90.3,-8.0
+2025-10-13,Unknown,1834,90.4,-7.9
 2025-10-20,North East,144,110.6,6.7
 2025-10-20,North West,531,94.4,-4.7
 2025-10-20,Yorkshire and The Humber,351,95.6,-4.1
 2025-10-20,East Midlands,301,103.2,-1.6
 2025-10-20,West Midlands,423,103.2,9.9
 2025-10-20,East of England,398,98.9,9.0
-2025-10-20,London,798,103.6,16.8
+2025-10-20,London,795,103.4,16.4
 2025-10-20,South East,612,103.8,17.0
 2025-10-20,South West,323,104.1,14.1
 2025-10-20,Wales,157,100.1,17.2
 2025-10-20,Scotland,182,95.0,-1.1
 2025-10-20,Northern Ireland,86,112.2,16.2
-2025-10-20,Unknown,1819,89.7,-7.1
+2025-10-20,Unknown,1822,89.8,-7.0
 2025-10-27,North East,140,107.5,5.3
 2025-10-27,North West,548,97.4,0.7
 2025-10-27,Yorkshire and The Humber,360,98.0,3.4
 2025-10-27,East Midlands,311,106.6,7.2
 2025-10-27,West Midlands,425,103.7,9.0
 2025-10-27,East of England,389,96.6,4.9
-2025-10-27,London,775,100.6,18.0
+2025-10-27,London,772,100.4,17.5
 2025-10-27,South East,613,104.0,20.4
 2025-10-27,South West,328,105.7,20.6
 2025-10-27,Wales,155,98.8,10.7
 2025-10-27,Scotland,184,96.0,1.7
 2025-10-27,Northern Ireland,93,121.3,25.7
-2025-10-27,Unknown,1778,87.7,-9.1
+2025-10-27,Unknown,1781,87.8,-9.0
 2025-11-03,North East,141,108.3,11.0
 2025-11-03,North West,562,99.9,4.3
 2025-11-03,Yorkshire and The Humber,359,97.7,0.3
 2025-11-03,East Midlands,307,105.2,5.5
 2025-11-03,West Midlands,416,101.5,6.7
 2025-11-03,East of England,383,95.2,0.8
-2025-11-03,London,767,99.6,14.5
+2025-11-03,London,764,99.4,14.0
 2025-11-03,South East,631,107.1,24.0
 2025-11-03,South West,314,101.2,22.7
 2025-11-03,Wales,161,102.6,12.6
 2025-11-03,Scotland,182,95.0,1.7
 2025-11-03,Northern Ireland,90,117.4,23.3
-2025-11-03,Unknown,1750,86.3,-11.2
+2025-11-03,Unknown,1753,86.4,-11.1
 2025-11-10,North East,143,109.8,15.3
 2025-11-10,North West,542,96.4,2.8
 2025-11-10,Yorkshire and The Humber,355,96.6,-2.5
 2025-11-10,East Midlands,298,102.1,0.0
 2025-11-10,West Midlands,402,98.1,5.2
 2025-11-10,East of England,369,91.7,-2.4
-2025-11-10,London,732,95.1,6.6
+2025-11-10,London,728,94.7,6.0
 2025-11-10,South East,626,106.2,24.0
 2025-11-10,South West,328,105.7,31.2
 2025-11-10,Wales,157,100.1,6.1
 2025-11-10,Scotland,179,93.4,1.7
 2025-11-10,Northern Ireland,106,138.3,45.2
-2025-11-10,Unknown,1724,85.1,-11.5
+2025-11-10,Unknown,1728,85.2,-11.3
 2025-11-17,North East,137,105.2,25.7
 2025-11-17,North West,544,96.7,2.8
 2025-11-17,Yorkshire and The Humber,351,95.6,-2.5
 2025-11-17,East Midlands,301,103.2,2.4
 2025-11-17,West Midlands,399,97.4,7.8
 2025-11-17,East of England,370,91.9,-1.9
-2025-11-17,London,701,91.0,2.0
+2025-11-17,London,698,90.8,1.6
 2025-11-17,South East,628,106.6,27.1
 2025-11-17,South West,324,104.4,27.6
 2025-11-17,Wales,154,98.1,10.0
 2025-11-17,Scotland,180,94.0,-0.6
 2025-11-17,Northern Ireland,110,143.5,44.7
-2025-11-17,Unknown,1697,83.7,-10.1
+2025-11-17,Unknown,1700,83.8,-10.0
 2025-11-24,North East,129,99.1,17.3
 2025-11-24,North West,530,94.2,-1.1
 2025-11-24,Yorkshire and The Humber,345,93.9,-6.8
 2025-11-24,East Midlands,301,103.2,1.3
 2025-11-24,West Midlands,392,95.7,5.1
 2025-11-24,East of England,364,90.4,-6.7
-2025-11-24,London,692,89.9,-6.1
+2025-11-24,London,689,89.6,-6.5
 2025-11-24,South East,626,106.2,27.2
 2025-11-24,South West,321,103.5,18.9
 2025-11-24,Wales,148,94.3,3.5
 2025-11-24,Scotland,178,92.9,0.6
 2025-11-24,Northern Ireland,117,152.6,42.7
-2025-11-24,Unknown,1692,83.5,-10.9
+2025-11-24,Unknown,1695,83.6,-10.7
 2025-12-01,North East,127,97.5,8.5
 2025-12-01,North West,533,94.8,-0.4
 2025-12-01,Yorkshire and The Humber,354,96.4,-4.8
 2025-12-01,East Midlands,322,110.4,11.4
 2025-12-01,West Midlands,392,95.7,6.2
 2025-12-01,East of England,370,91.9,-8.4
-2025-12-01,London,722,93.8,-2.8
+2025-12-01,London,719,93.5,-3.2
 2025-12-01,South East,634,107.6,27.8
 2025-12-01,South West,312,100.6,11.4
 2025-12-01,Wales,150,95.6,-1.3
 2025-12-01,Scotland,189,98.7,7.4
 2025-12-01,Northern Ireland,119,155.2,46.9
-2025-12-01,Unknown,1709,84.3,-10.3
+2025-12-01,Unknown,1712,84.4,-10.1
 2025-12-08,North East,124,95.2,12.7
 2025-12-08,North West,539,95.8,-1.5
 2025-12-08,Yorkshire and The Humber,367,99.9,-7.1
 2025-12-08,East Midlands,308,105.6,9.6
 2025-12-08,West Midlands,392,95.7,7.1
 2025-12-08,East of England,363,90.2,-11.0
-2025-12-08,London,730,94.8,-3.2
+2025-12-08,London,727,94.5,-3.6
 2025-12-08,South East,625,106.0,20.2
 2025-12-08,South West,307,99.0,7.0
 2025-12-08,Wales,147,93.7,-5.2
 2025-12-08,Scotland,186,97.1,11.4
 2025-12-08,Northern Ireland,118,153.9,40.5
-2025-12-08,Unknown,1703,84.0,-12.4
+2025-12-08,Unknown,1706,84.1,-12.2
 2025-12-15,North East,127,97.5,29.6
 2025-12-15,North West,551,98.0,-2.1
 2025-12-15,Yorkshire and The Humber,398,108.3,-2.7
 2025-12-15,East Midlands,312,106.9,12.6
 2025-12-15,West Midlands,409,99.8,9.9
 2025-12-15,East of England,379,94.2,-8.9
-2025-12-15,London,756,98.2,-2.2
+2025-12-15,London,753,97.9,-2.6
 2025-12-15,South East,635,107.7,17.6
 2025-12-15,South West,322,103.8,10.7
 2025-12-15,Wales,140,89.2,-14.6
 2025-12-15,Scotland,198,103.4,19.3
 2025-12-15,Northern Ireland,118,153.9,51.3
-2025-12-15,Unknown,1765,87.1,-11.6
+2025-12-15,Unknown,1768,87.2,-11.5
 2025-12-22,North East,121,92.9,15.2
 2025-12-22,North West,553,98.3,-1.8
 2025-12-22,Yorkshire and The Humber,394,107.3,-4.1
 2025-12-22,East Midlands,304,104.2,11.8
 2025-12-22,West Midlands,394,96.1,5.9
 2025-12-22,East of England,369,91.7,-14.6
-2025-12-22,London,748,97.1,-5.4
+2025-12-22,London,744,96.8,-5.9
 2025-12-22,South East,632,107.2,13.3
 2025-12-22,South West,312,100.6,6.8
 2025-12-22,Wales,136,86.7,-18.1
 2025-12-22,Scotland,202,105.4,16.1
 2025-12-22,Northern Ireland,109,142.2,45.3
-2025-12-22,Unknown,1759,86.8,-13.6
+2025-12-22,Unknown,1763,86.9,-13.4
 2025-12-29,North East,110,84.5,15.8
 2025-12-29,North West,536,95.3,4.5
 2025-12-29,Yorkshire and The Humber,389,105.9,-0.5
 2025-12-29,East Midlands,291,99.7,14.1
 2025-12-29,West Midlands,368,89.8,7.0
 2025-12-29,East of England,362,89.9,-11.3
-2025-12-29,London,719,93.4,-5.4
+2025-12-29,London,716,93.1,-5.8
 2025-12-29,South East,619,105.0,15.5
 2025-12-29,South West,306,98.6,10.1
 2025-12-29,Wales,127,80.9,-21.6
 2025-12-29,Scotland,205,107.0,17.8
 2025-12-29,Northern Ireland,109,142.2,73.0
-2025-12-29,Unknown,1681,82.9,-12.6
+2025-12-29,Unknown,1684,83.0,-12.4
 2026-01-05,North East,103,79.1,6.2
 2026-01-05,North West,516,91.8,3.4
 2026-01-05,Yorkshire and The Humber,376,102.4,-0.3
 2026-01-05,East Midlands,280,96.0,13.8
 2026-01-05,West Midlands,363,88.6,7.4
 2026-01-05,East of England,353,87.7,-10.6
-2026-01-05,London,686,89.1,-7.3
+2026-01-05,London,683,88.8,-7.7
 2026-01-05,South East,589,99.9,12.8
 2026-01-05,South West,294,94.8,10.5
 2026-01-05,Wales,125,79.7,-18.3
 2026-01-05,Scotland,207,108.0,25.5
 2026-01-05,Northern Ireland,95,123.9,58.3
-2026-01-05,Unknown,1631,80.5,-12.7
+2026-01-05,Unknown,1634,80.6,-12.6
 2026-01-12,North East,99,76.0,2.1
 2026-01-12,North West,499,88.7,2.9
 2026-01-12,Yorkshire and The Humber,370,100.7,1.9
 2026-01-12,East Midlands,272,93.2,11.9
 2026-01-12,West Midlands,348,84.9,3.9
 2026-01-12,East of England,344,85.5,-10.9
-2026-01-12,London,685,89.0,-6.2
+2026-01-12,London,682,88.7,-6.6
 2026-01-12,South East,548,93.0,9.6
 2026-01-12,South West,276,89.0,8.2
 2026-01-12,Wales,122,77.7,-18.1
 2026-01-12,Scotland,202,105.4,20.2
 2026-01-12,Northern Ireland,93,121.3,47.6
-2026-01-12,Unknown,1578,77.9,-13.2
+2026-01-12,Unknown,1581,78.0,-13.0
 2026-01-19,North East,97,74.5,-8.5
 2026-01-19,North West,478,85.0,-2.4
 2026-01-19,Yorkshire and The Humber,360,98.0,2.9
 2026-01-19,East Midlands,259,88.8,9.3
 2026-01-19,West Midlands,338,82.5,0.6
 2026-01-19,East of England,344,85.5,-11.1
-2026-01-19,London,676,87.8,-6.6
+2026-01-19,London,673,87.5,-7.0
 2026-01-19,South East,540,91.6,8.2
 2026-01-19,South West,271,87.4,7.5
 2026-01-19,Wales,125,79.7,-13.2
 2026-01-19,Scotland,187,97.6,12.7
 2026-01-19,Northern Ireland,80,104.4,35.6
-2026-01-19,Unknown,1549,76.4,-13.2
+2026-01-19,Unknown,1552,76.5,-13.1
 2026-01-26,North East,98,75.3,-9.3
 2026-01-26,North West,478,85.0,-4.8
 2026-01-26,Yorkshire and The Humber,351,95.6,-2.0
 2026-01-26,East Midlands,248,85.0,1.2
 2026-01-26,West Midlands,353,86.1,4.1
 2026-01-26,East of England,355,88.2,-8.0
-2026-01-26,London,672,87.3,-11.2
+2026-01-26,London,670,87.1,-11.5
 2026-01-26,South East,549,93.1,10.7
 2026-01-26,South West,270,87.0,4.7
 2026-01-26,Wales,127,80.9,-8.6
 2026-01-26,Scotland,174,90.8,6.7
 2026-01-26,Northern Ireland,75,97.8,21.0
-2026-01-26,Unknown,1562,77.1,-12.6
+2026-01-26,Unknown,1564,77.1,-12.5
 2026-02-02,North East,95,73.0,-11.2
 2026-02-02,North West,491,87.3,-5.9
 2026-02-02,Yorkshire and The Humber,353,96.1,-2.5
 2026-02-02,East Midlands,251,86.0,-2.0
 2026-02-02,West Midlands,367,89.6,4.3
 2026-02-02,East of England,361,89.7,-9.3
-2026-02-02,London,687,89.2,-9.1
+2026-02-02,London,685,89.1,-9.4
 2026-02-02,South East,554,94.0,6.7
 2026-02-02,South West,279,89.9,-0.4
 2026-02-02,Wales,118,75.2,-15.7
 2026-02-02,Scotland,172,89.8,6.2
 2026-02-02,Northern Ireland,79,103.1,19.7
-2026-02-02,Unknown,1584,78.2,-12.0
+2026-02-02,Unknown,1586,78.2,-11.9
 2026-02-09,North East,96,73.7,-12.7
 2026-02-09,North West,507,90.2,-5.6
 2026-02-09,Yorkshire and The Humber,355,96.6,-2.5
 2026-02-09,East Midlands,263,90.1,2.3
 2026-02-09,West Midlands,382,93.2,4.7
 2026-02-09,East of England,371,92.2,-9.3
-2026-02-09,London,717,93.1,-6.2
+2026-02-09,London,716,93.1,-6.3
 2026-02-09,South East,558,94.7,4.3
 2026-02-09,South West,261,84.1,-12.1
 2026-02-09,Wales,119,75.8,-19.6
 2026-02-09,Scotland,178,92.9,8.5
 2026-02-09,Northern Ireland,64,83.5,-4.5
-2026-02-09,Unknown,1601,79.0,-11.7
+2026-02-09,Unknown,1602,79.0,-11.6
 2026-02-16,North East,101,77.6,-13.7
 2026-02-16,North West,522,92.8,-0.9
 2026-02-16,Yorkshire and The Humber,362,98.5,-2.9
 2026-02-16,East Midlands,273,93.6,5.0
 2026-02-16,West Midlands,381,93.0,2.7
 2026-02-16,East of England,382,94.9,-10.1
-2026-02-16,London,752,97.7,-2.1
+2026-02-16,London,751,97.7,-2.2
 2026-02-16,South East,558,94.7,3.0
 2026-02-16,South West,270,87.0,-9.1
 2026-02-16,Wales,117,74.6,-23.0
 2026-02-16,Scotland,179,93.4,5.3
 2026-02-16,Northern Ireland,59,77.0,-9.2
-2026-02-16,Unknown,1618,79.8,-12.6
+2026-02-16,Unknown,1619,79.8,-12.6
 2026-02-23,North East,108,82.9,-10.0
 2026-02-23,North West,525,93.4,-0.9
 2026-02-23,Yorkshire and The Humber,386,105.1,0.0
 2026-02-23,East Midlands,278,95.3,4.5
 2026-02-23,West Midlands,382,93.2,-0.3
 2026-02-23,East of England,379,94.2,-11.0
-2026-02-23,London,756,98.2,1.9
+2026-02-23,London,755,98.2,1.8
 2026-02-23,South East,567,96.2,5.0
 2026-02-23,South West,275,88.6,-10.1
 2026-02-23,Wales,121,77.1,-21.9
 2026-02-23,Scotland,176,91.9,8.6
 2026-02-23,Northern Ireland,53,69.1,-13.1
-2026-02-23,Unknown,1616,79.7,-14.9
+2026-02-23,Unknown,1617,79.7,-14.8
 2026-03-02,North East,108,82.9,-12.9
 2026-03-02,North West,530,94.2,1.0
 2026-03-02,Yorkshire and The Humber,389,105.9,0.8
 2026-03-02,East Midlands,261,89.4,-0.4
 2026-03-02,West Midlands,372,90.8,-7.9
 2026-03-02,East of England,386,95.9,-8.5
-2026-03-02,London,761,98.8,2.8
+2026-03-02,London,760,98.8,2.7
 2026-03-02,South East,565,95.9,2.9
 2026-03-02,South West,275,88.6,-11.6
 2026-03-02,Wales,123,78.4,-19.1
 2026-03-02,Scotland,166,86.6,-1.2
 2026-03-02,Northern Ireland,59,77.0,-7.8
-2026-03-02,Unknown,1595,78.7,-16.1
+2026-03-02,Unknown,1596,78.7,-16.0
 2026-03-09,North East,111,85.2,-13.3
 2026-03-09,North West,534,95.0,0.4
 2026-03-09,Yorkshire and The Humber,393,107.0,4.5
 2026-03-09,East Midlands,274,93.9,-2.5
 2026-03-09,West Midlands,394,96.1,-3.2
 2026-03-09,East of England,391,97.1,-6.7
-2026-03-09,London,783,101.7,7.6
+2026-03-09,London,782,101.7,7.4
 2026-03-09,South East,551,93.5,-0.9
 2026-03-09,South West,290,93.5,-7.1
 2026-03-09,Wales,130,82.8,-14.5
 2026-03-09,Scotland,175,91.3,0.6
 2026-03-09,Northern Ireland,57,74.4,-9.5
-2026-03-09,Unknown,1618,79.8,-15.3
+2026-03-09,Unknown,1619,79.8,-15.3
 2026-03-16,North East,106,81.4,-19.7
 2026-03-16,North West,542,96.4,6.1
 2026-03-16,Yorkshire and The Humber,377,102.6,1.9
 2026-03-16,East Midlands,268,91.8,-0.7
 2026-03-16,West Midlands,379,92.5,-3.8
 2026-03-16,East of England,386,95.9,-5.9
-2026-03-16,London,756,98.2,5.3
+2026-03-16,London,755,98.2,5.2
 2026-03-16,South East,547,92.8,-0.9
 2026-03-16,South West,281,90.6,-11.4
 2026-03-16,Wales,134,85.4,-14.1
 2026-03-16,Scotland,171,89.3,-1.7
 2026-03-16,Northern Ireland,59,77.0,-14.5
-2026-03-16,Unknown,1672,82.5,-10.9
+2026-03-16,Unknown,1673,82.5,-10.9
 2026-03-23,North East,114,87.5,-14.3
 2026-03-23,North West,561,99.8,11.3
 2026-03-23,Yorkshire and The Humber,385,104.8,2.7
 2026-03-23,East Midlands,281,96.3,-2.1
 2026-03-23,West Midlands,421,102.7,4.5
 2026-03-23,East of England,403,100.1,2.8
-2026-03-23,London,783,101.7,10.4
+2026-03-23,London,783,101.8,10.4
 2026-03-23,South East,545,92.5,-1.8
 2026-03-23,South West,300,96.7,-5.7
 2026-03-23,Wales,153,97.5,-1.3
 2026-03-23,Scotland,170,88.7,0.6
 2026-03-23,Northern Ireland,73,95.2,9.0
-2026-03-23,Unknown,1787,88.2,-3.7
+2026-03-23,Unknown,1787,88.1,-3.7
 2026-03-30,North East,120,92.2,-17.8
 2026-03-30,North West,587,104.4,6.3
 2026-03-30,Yorkshire and The Humber,382,104.0,-4.5
 2026-03-30,East Midlands,295,101.1,-3.6
 2026-03-30,West Midlands,438,106.9,3.3
 2026-03-30,East of England,409,101.6,-2.2
-2026-03-30,London,804,104.4,6.9
+2026-03-30,London,804,104.6,6.9
 2026-03-30,South East,554,94.0,-8.1
 2026-03-30,South West,306,98.6,-10.3
 2026-03-30,Wales,149,95.0,-6.9
 2026-03-30,Scotland,165,86.1,-3.5
 2026-03-30,Northern Ireland,75,97.8,5.6
-2026-03-30,Unknown,1836,90.6,-8.4
+2026-03-30,Unknown,1836,90.5,-8.4
 2026-04-06,North East,120,92.2,-19.5
 2026-04-06,North West,610,108.5,5.2
 2026-04-06,Yorkshire and The Humber,396,107.8,-3.9
 2026-04-06,East Midlands,308,105.6,-2.8
 2026-04-06,West Midlands,450,109.8,3.4
 2026-04-06,East of England,424,105.3,-5.8
-2026-04-06,London,816,106.0,4.5
+2026-04-06,London,816,106.1,4.5
 2026-04-06,South East,569,96.5,-9.7
 2026-04-06,South West,314,101.2,-12.5
 2026-04-06,Wales,148,94.3,-12.9
@@ -4113,33 +4113,33 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2026-04-13,East Midlands,321,110.0,-0.9
 2026-04-13,West Midlands,466,113.7,3.8
 2026-04-13,East of England,438,108.8,-4.2
-2026-04-13,London,810,105.2,1.8
+2026-04-13,London,810,105.3,1.8
 2026-04-13,South East,590,100.1,-9.4
 2026-04-13,South West,323,104.1,-11.7
 2026-04-13,Wales,156,99.4,-13.3
 2026-04-13,Scotland,179,93.4,3.5
 2026-04-13,Northern Ireland,78,101.8,2.6
-2026-04-13,Unknown,1943,95.9,-8.3
+2026-04-13,Unknown,1943,95.8,-8.3
 2026-04-20,North East,119,91.4,-15.0
 2026-04-20,North West,630,112.0,3.6
 2026-04-20,Yorkshire and The Humber,427,116.2,0.2
 2026-04-20,East Midlands,322,110.4,-1.8
 2026-04-20,West Midlands,476,116.2,7.9
 2026-04-20,East of England,446,110.8,-2.4
-2026-04-20,London,820,106.5,2.4
+2026-04-20,London,820,106.6,2.4
 2026-04-20,South East,596,101.1,-10.5
 2026-04-20,South West,333,107.3,-13.7
 2026-04-20,Wales,160,102.0,-14.9
 2026-04-20,Scotland,181,94.5,1.1
 2026-04-20,Northern Ireland,88,114.8,11.4
-2026-04-20,Unknown,2016,99.5,-7.5
+2026-04-20,Unknown,2016,99.4,-7.5
 2026-04-27,North East,125,96.0,-10.7
 2026-04-27,North West,639,113.6,5.4
 2026-04-27,Yorkshire and The Humber,436,118.7,1.6
 2026-04-27,East Midlands,339,116.2,2.7
 2026-04-27,West Midlands,473,115.4,7.7
 2026-04-27,East of England,441,109.6,-1.3
-2026-04-27,London,831,107.9,6.1
+2026-04-27,London,831,108.1,6.1
 2026-04-27,South East,583,98.9,-13.0
 2026-04-27,South West,337,108.6,-13.4
 2026-04-27,Wales,160,102.0,-16.7
@@ -4152,7 +4152,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2026-05-04,East Midlands,342,117.2,9.3
 2026-05-04,West Midlands,467,114.0,9.9
 2026-05-04,East of England,447,111.1,3.5
-2026-05-04,London,811,105.3,5.1
+2026-05-04,London,811,105.5,5.1
 2026-05-04,South East,579,98.2,-11.6
 2026-05-04,South West,339,109.3,-10.1
 2026-05-04,Wales,160,102.0,-12.1
@@ -4165,7 +4165,7 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2026-05-11,East Midlands,337,115.5,8.0
 2026-05-11,West Midlands,473,115.4,10.8
 2026-05-11,East of England,453,112.5,7.1
-2026-05-11,London,800,103.9,2.8
+2026-05-11,London,800,104.0,2.8
 2026-05-11,South East,600,101.8,-9.4
 2026-05-11,South West,355,114.4,-4.8
 2026-05-11,Wales,161,102.6,-8.0
@@ -4178,85 +4178,85 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2026-05-18,East Midlands,328,112.4,6.5
 2026-05-18,West Midlands,477,116.4,13.6
 2026-05-18,East of England,444,110.3,5.5
-2026-05-18,London,803,104.3,0.6
+2026-05-18,London,803,104.4,0.6
 2026-05-18,South East,616,104.5,-8.9
 2026-05-18,South West,347,111.9,-6.7
 2026-05-18,Wales,160,102.0,-5.3
 2026-05-18,Scotland,195,101.8,6.0
 2026-05-18,Northern Ireland,98,127.8,5.4
-2026-05-18,Unknown,2055,101.4,-6.5
+2026-05-18,Unknown,2055,101.3,-6.5
 2026-05-25,North East,123,94.5,-15.8
 2026-05-25,North West,600,106.7,0.7
 2026-05-25,Yorkshire and The Humber,398,108.3,10.2
 2026-05-25,East Midlands,319,109.3,6.0
 2026-05-25,West Midlands,464,113.2,16.0
 2026-05-25,East of England,450,111.8,9.0
-2026-05-25,London,793,103.0,-0.8
+2026-05-25,London,793,103.1,-0.8
 2026-05-25,South East,602,102.1,-11.1
 2026-05-25,South West,344,110.9,-2.5
 2026-05-25,Wales,155,98.8,-6.6
 2026-05-25,Scotland,193,100.7,4.3
 2026-05-25,Northern Ireland,106,138.3,14.0
-2026-05-25,Unknown,2039,100.6,-4.5
+2026-05-25,Unknown,2039,100.5,-4.5
 2026-06-01,North East,125,96.0,-9.4
 2026-06-01,North West,586,104.2,-2.0
 2026-06-01,Yorkshire and The Humber,385,104.8,7.8
 2026-06-01,East Midlands,312,106.9,1.3
 2026-06-01,West Midlands,459,112.0,18.3
 2026-06-01,East of England,438,108.8,5.8
-2026-06-01,London,756,98.2,-3.6
+2026-06-01,London,756,98.3,-3.6
 2026-06-01,South East,594,100.8,-10.8
 2026-06-01,South West,347,111.9,2.1
 2026-06-01,Wales,154,98.1,-4.3
 2026-06-01,Scotland,192,100.2,4.3
 2026-06-01,Northern Ireland,103,134.4,2.0
-2026-06-01,Unknown,2107,104.0,-1.6
+2026-06-01,Unknown,2107,103.9,-1.6
 2026-06-08,North East,125,96.0,-13.2
 2026-06-08,North West,593,105.4,-1.8
 2026-06-08,Yorkshire and The Humber,378,102.9,8.3
 2026-06-08,East Midlands,313,107.3,5.0
 2026-06-08,West Midlands,458,111.8,21.2
 2026-06-08,East of England,442,109.8,5.5
-2026-06-08,London,759,98.6,-6.3
+2026-06-08,London,759,98.7,-6.3
 2026-06-08,South East,615,104.3,-5.4
 2026-06-08,South West,360,116.0,5.6
 2026-06-08,Wales,149,95.0,-8.6
 2026-06-08,Scotland,189,98.7,2.2
 2026-06-08,Northern Ireland,105,137.0,0.0
-2026-06-08,Unknown,2093,103.3,-0.7
+2026-06-08,Unknown,2093,103.2,-0.7
 2026-06-15,North East,122,93.7,-10.9
 2026-06-15,North West,571,101.5,-7.6
 2026-06-15,Yorkshire and The Humber,376,102.4,9.3
 2026-06-15,East Midlands,306,104.9,0.7
 2026-06-15,West Midlands,454,110.8,17.9
 2026-06-15,East of England,426,105.8,-0.5
-2026-06-15,London,789,102.5,-2.7
+2026-06-15,London,789,102.6,-2.6
 2026-06-15,South East,609,103.3,-5.4
 2026-06-15,South West,361,116.4,6.8
 2026-06-15,Wales,147,93.7,-8.1
 2026-06-15,Scotland,188,98.1,1.1
 2026-06-15,Northern Ireland,99,129.1,-2.9
-2026-06-15,Unknown,1991,98.2,-5.8
+2026-06-15,Unknown,1991,98.2,-5.9
 2026-06-22,North East,113,86.8,-13.1
 2026-06-22,North West,551,98.0,-9.8
 2026-06-22,Yorkshire and The Humber,375,102.1,10.0
 2026-06-22,East Midlands,288,98.7,-2.0
 2026-06-22,West Midlands,425,103.7,10.1
 2026-06-22,East of England,417,103.6,-6.1
-2026-06-22,London,778,101.0,-3.1
+2026-06-22,London,778,101.2,-3.0
 2026-06-22,South East,615,104.3,-1.8
 2026-06-22,South West,347,111.9,0.0
 2026-06-22,Wales,128,81.6,-22.0
 2026-06-22,Scotland,183,95.5,-2.1
 2026-06-22,Northern Ireland,93,121.3,-5.1
-2026-06-22,Unknown,1905,94.0,-9.0
+2026-06-22,Unknown,1905,93.9,-9.0
 2026-06-29,North East,114,87.5,-10.2
 2026-06-29,North West,554,98.5,-7.8
 2026-06-29,Yorkshire and The Humber,386,105.1,14.9
 2026-06-29,East Midlands,290,99.4,-1.0
 2026-06-29,West Midlands,429,104.7,7.8
 2026-06-29,East of England,422,104.8,-6.2
-2026-06-29,London,803,104.3,0.2
+2026-06-29,London,803,104.4,0.4
 2026-06-29,South East,633,107.4,0.8
 2026-06-29,South West,354,114.1,-0.6
 2026-06-29,Wales,141,89.9,-17.1
@@ -4269,205 +4269,205 @@ week_start,region,events_13wk,index_13wk,vs_year_earlier_pct
 2026-07-06,East Midlands,286,98.0,-3.1
 2026-07-06,West Midlands,429,104.7,9.4
 2026-07-06,East of England,427,106.1,-0.7
-2026-07-06,London,805,104.5,1.4
+2026-07-06,London,805,104.7,1.5
 2026-07-06,South East,633,107.4,-0.3
 2026-07-06,South West,347,111.9,-1.7
 2026-07-06,Wales,145,92.4,-14.2
 2026-07-06,Scotland,187,97.6,2.7
 2026-07-06,Northern Ireland,89,116.1,-9.2
-2026-07-06,Unknown,1945,96.0,-6.7
+2026-07-06,Unknown,1945,95.9,-6.8
 2026-07-13,North East,130,99.8,-0.8
 2026-07-13,North West,565,100.5,-8.9
 2026-07-13,Yorkshire and The Humber,370,100.7,9.5
 2026-07-13,East Midlands,280,96.0,-5.7
 2026-07-13,West Midlands,432,105.4,5.4
 2026-07-13,East of England,429,106.6,-2.1
-2026-07-13,London,823,106.9,1.1
+2026-07-13,London,823,107.0,1.2
 2026-07-13,South East,638,108.2,-0.5
 2026-07-13,South West,354,114.1,-1.7
 2026-07-13,Wales,144,91.8,-13.3
 2026-07-13,Scotland,185,96.6,-5.1
 2026-07-13,Northern Ireland,89,116.1,6.0
-2026-07-13,Unknown,1919,94.7,-8.7
+2026-07-13,Unknown,1919,94.6,-8.8
 2026-07-20,North East,138,106.0,4.5
 2026-07-20,North West,570,101.4,-5.6
 2026-07-20,Yorkshire and The Humber,368,100.2,6.7
 2026-07-20,East Midlands,287,98.4,-1.7
 2026-07-20,West Midlands,429,104.7,1.4
 2026-07-20,East of England,420,104.3,-3.9
-2026-07-20,London,813,105.6,-2.2
+2026-07-20,London,813,105.7,-2.0
 2026-07-20,South East,639,108.4,0.0
 2026-07-20,South West,349,112.5,0.6
 2026-07-20,Wales,148,94.3,-5.1
 2026-07-20,Scotland,182,95.0,-4.7
 2026-07-20,Northern Ireland,75,97.8,-5.1
-2026-07-20,Unknown,1868,92.2,-9.5
+2026-07-20,Unknown,1868,92.1,-9.5
 2026-07-27,North East,134,102.9,3.1
 2026-07-27,North West,556,98.9,-5.8
 2026-07-27,Yorkshire and The Humber,371,101.0,12.1
 2026-07-27,East Midlands,291,99.7,2.8
 2026-07-27,West Midlands,427,104.2,2.4
 2026-07-27,East of England,429,106.6,-4.7
-2026-07-27,London,803,104.3,-6.4
+2026-07-27,London,803,104.4,-6.2
 2026-07-27,South East,643,109.1,0.2
 2026-07-27,South West,332,107.0,-4.0
 2026-07-27,Wales,145,92.4,-5.8
 2026-07-27,Scotland,184,96.0,-4.2
 2026-07-27,Northern Ireland,67,87.4,-13.0
-2026-07-27,Unknown,1859,91.7,-9.2
+2026-07-27,Unknown,1859,91.7,-9.3
 2026-08-03,North East,126,96.8,-1.6
 2026-08-03,North West,553,98.3,-2.5
 2026-08-03,Yorkshire and The Humber,364,99.1,4.3
 2026-08-03,East Midlands,279,95.6,-6.1
 2026-08-03,West Midlands,429,104.7,2.4
 2026-08-03,East of England,417,103.6,-8.1
-2026-08-03,London,816,106.0,-6.4
+2026-08-03,London,816,106.1,-6.2
 2026-08-03,South East,637,108.1,0.8
 2026-08-03,South West,336,108.3,-5.1
 2026-08-03,Wales,148,94.3,-10.3
 2026-08-03,Scotland,173,90.3,-7.0
 2026-08-03,Northern Ireland,64,83.5,-13.5
-2026-08-03,Unknown,1829,90.2,-10.0
+2026-08-03,Unknown,1829,90.2,-10.1
 2026-08-10,North East,120,92.2,0.8
 2026-08-10,North West,556,98.9,-2.3
 2026-08-10,Yorkshire and The Humber,373,101.5,3.9
 2026-08-10,East Midlands,280,96.0,-7.9
 2026-08-10,West Midlands,417,101.8,0.0
 2026-08-10,East of England,418,103.9,-8.1
-2026-08-10,London,822,106.8,-6.1
+2026-08-10,London,822,106.9,-5.8
 2026-08-10,South East,619,105.0,-0.5
 2026-08-10,South West,321,103.5,-8.3
 2026-08-10,Wales,146,93.0,-12.6
 2026-08-10,Scotland,167,87.2,-10.2
 2026-08-10,Northern Ireland,58,75.7,-14.7
-2026-08-10,Unknown,1808,89.2,-10.2
+2026-08-10,Unknown,1808,89.2,-10.3
 2026-08-17,North East,118,90.6,-7.1
 2026-08-17,North West,572,101.7,1.4
 2026-08-17,Yorkshire and The Humber,367,99.9,0.3
 2026-08-17,East Midlands,284,97.3,-5.6
 2026-08-17,West Midlands,422,103.0,-1.6
 2026-08-17,East of England,414,102.9,-6.8
-2026-08-17,London,808,104.9,-5.9
+2026-08-17,London,808,105.1,-5.6
 2026-08-17,South East,609,103.3,2.2
 2026-08-17,South West,328,105.7,-6.3
 2026-08-17,Wales,151,96.2,-11.7
 2026-08-17,Scotland,153,79.9,-15.9
 2026-08-17,Northern Ireland,54,70.4,-12.9
-2026-08-17,Unknown,1742,85.9,-14.3
+2026-08-17,Unknown,1742,85.9,-14.4
 2026-08-24,North East,128,98.3,-0.8
 2026-08-24,North West,566,100.6,-2.6
 2026-08-24,Yorkshire and The Humber,368,100.2,-3.7
 2026-08-24,East Midlands,294,100.8,-0.7
 2026-08-24,West Midlands,419,102.2,-5.0
 2026-08-24,East of England,418,103.9,-6.3
-2026-08-24,London,817,106.1,-5.5
+2026-08-24,London,816,106.1,-5.3
 2026-08-24,South East,618,104.9,4.9
 2026-08-24,South West,328,105.7,-7.9
 2026-08-24,Wales,164,104.5,-4.1
 2026-08-24,Scotland,164,85.6,-13.7
 2026-08-24,Northern Ireland,44,57.4,-27.9
-2026-08-24,Unknown,1735,85.6,-14.7
+2026-08-24,Unknown,1736,85.6,-14.8
 2026-08-31,North East,122,93.7,-6.9
 2026-08-31,North West,567,100.8,-1.7
 2026-08-31,Yorkshire and The Humber,368,100.2,-2.1
 2026-08-31,East Midlands,304,104.2,5.2
 2026-08-31,West Midlands,417,101.8,-6.9
 2026-08-31,East of England,410,101.9,-5.3
-2026-08-31,London,823,106.9,-3.9
+2026-08-31,London,822,106.9,-3.6
 2026-08-31,South East,619,105.0,6.0
 2026-08-31,South West,329,106.1,-9.1
 2026-08-31,Wales,164,104.5,-4.1
 2026-08-31,Scotland,159,83.0,-14.5
 2026-08-31,Northern Ireland,44,57.4,-4.3
-2026-08-31,Unknown,1639,80.9,-17.9
+2026-08-31,Unknown,1640,80.9,-18.0
 2026-09-07,North East,125,96.0,-2.3
 2026-09-07,North West,542,96.4,-3.4
 2026-09-07,Yorkshire and The Humber,366,99.6,-1.9
 2026-09-07,East Midlands,298,102.1,1.4
 2026-09-07,West Midlands,399,97.4,-11.1
 2026-09-07,East of England,398,98.9,-9.3
-2026-09-07,London,811,105.3,-2.2
+2026-09-07,London,810,105.3,-1.9
 2026-09-07,South East,599,101.6,-0.3
 2026-09-07,South West,309,99.6,-12.5
 2026-09-07,Wales,165,105.2,-1.2
 2026-09-07,Scotland,163,85.1,-11.4
 2026-09-07,Northern Ireland,45,58.7,9.8
-2026-09-07,Unknown,1664,82.1,-16.3
+2026-09-07,Unknown,1665,82.1,-16.4
 2026-09-14,North East,127,97.5,-3.8
 2026-09-14,North West,540,96.0,-1.1
 2026-09-14,Yorkshire and The Humber,362,98.5,0.6
 2026-09-14,East Midlands,301,103.2,3.4
 2026-09-14,West Midlands,400,97.6,-9.7
 2026-09-14,East of England,395,98.1,-8.1
-2026-09-14,London,794,103.1,-1.9
+2026-09-14,London,793,103.1,-1.7
 2026-09-14,South East,587,99.6,-2.5
 2026-09-14,South West,299,96.4,-13.1
 2026-09-14,Wales,163,103.9,-3.0
 2026-09-14,Scotland,166,86.6,-7.8
 2026-09-14,Northern Ireland,48,62.6,9.1
-2026-09-14,Unknown,1686,83.2,-12.3
+2026-09-14,Unknown,1687,83.2,-12.4
 2026-09-21,North East,137,105.2,0.7
 2026-09-21,North West,531,94.4,-4.0
 2026-09-21,Yorkshire and The Humber,357,97.2,-2.2
 2026-09-21,East Midlands,304,104.2,3.1
 2026-09-21,West Midlands,395,96.4,-10.0
 2026-09-21,East of England,396,98.4,-6.8
-2026-09-21,London,793,103.0,-1.7
+2026-09-21,London,792,103.0,-1.6
 2026-09-21,South East,587,99.6,-3.0
 2026-09-21,South West,295,95.1,-11.4
 2026-09-21,Wales,165,105.2,-0.6
 2026-09-21,Scotland,174,90.8,-2.2
 2026-09-21,Northern Ireland,60,78.3,13.2
-2026-09-21,Unknown,1686,83.2,-11.2
+2026-09-21,Unknown,1687,83.2,-11.2
 2026-09-28,North East,132,101.4,-5.0
 2026-09-28,North West,525,93.4,-2.2
 2026-09-28,Yorkshire and The Humber,358,97.5,-1.9
 2026-09-28,East Midlands,296,101.4,0.0
 2026-09-28,West Midlands,389,94.9,-11.2
 2026-09-28,East of England,400,99.4,-2.7
-2026-09-28,London,774,100.5,-4.1
+2026-09-28,London,773,100.5,-3.9
 2026-09-28,South East,565,95.9,-4.6
 2026-09-28,South West,296,95.4,-6.3
 2026-09-28,Wales,160,102.0,-3.6
 2026-09-28,Scotland,171,89.3,-0.6
 2026-09-28,Northern Ireland,61,79.6,17.3
-2026-09-28,Unknown,1665,82.1,-10.7
+2026-09-28,Unknown,1666,82.2,-10.8
 2026-10-05,North East,120,92.2,-14.9
 2026-10-05,North West,521,92.6,-1.1
 2026-10-05,Yorkshire and The Humber,365,99.4,2.5
 2026-10-05,East Midlands,292,100.1,-1.4
 2026-10-05,West Midlands,376,91.8,-15.1
 2026-10-05,East of England,393,97.6,-4.4
-2026-10-05,London,763,99.1,-7.1
+2026-10-05,London,762,99.1,-6.8
 2026-10-05,South East,554,94.0,-6.1
 2026-10-05,South West,296,95.4,-7.8
 2026-10-05,Wales,158,100.7,-4.2
 2026-10-05,Scotland,174,90.8,-2.8
 2026-10-05,Northern Ireland,68,88.7,6.2
-2026-10-05,Unknown,1671,82.4,-8.5
+2026-10-05,Unknown,1672,82.5,-8.6
 2026-10-12,North East,113,86.8,-20.4
 2026-10-12,North West,519,92.3,2.4
 2026-10-12,Yorkshire and The Humber,363,98.8,3.4
 2026-10-12,East Midlands,295,101.1,0.3
 2026-10-12,West Midlands,366,89.3,-14.3
 2026-10-12,East of England,384,95.4,-4.2
-2026-10-12,London,749,97.3,-6.8
+2026-10-12,London,748,97.3,-6.6
 2026-10-12,South East,552,93.7,-9.1
 2026-10-12,South West,292,94.1,-9.9
 2026-10-12,Wales,155,98.8,-2.5
 2026-10-12,Scotland,172,89.8,0.6
 2026-10-12,Northern Ireland,68,88.7,-2.9
-2026-10-12,Unknown,1642,81.0,-10.3
+2026-10-12,Unknown,1643,81.0,-10.4
 2026-10-19,North East,113,86.8,-21.5
 2026-10-19,North West,519,92.3,-2.3
 2026-10-19,Yorkshire and The Humber,365,99.4,4.0
 2026-10-19,East Midlands,297,101.8,-1.3
 2026-10-19,West Midlands,360,87.8,-14.9
 2026-10-19,East of England,401,99.6,0.8
-2026-10-19,London,762,99.0,-4.5
+2026-10-19,London,761,99.0,-4.3
 2026-10-19,South East,541,91.8,-11.6
 2026-10-19,South West,294,94.8,-9.0
 2026-10-19,Wales,154,98.1,-1.9
 2026-10-19,Scotland,177,92.4,-2.7
 2026-10-19,Northern Ireland,70,91.3,-18.6
-2026-10-19,Unknown,1656,81.7,-9.0
+2026-10-19,Unknown,1657,81.7,-9.1
