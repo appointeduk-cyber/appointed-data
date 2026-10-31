@@ -1,6 +1,6 @@
 {
  "method_version": "2.2",
- "updated_utc": "2026-10-30T03:13:33+00:00",
+ "updated_utc": "2026-10-31T03:13:11+00:00",
  "first_week": "2019-12-30",
  "last_complete_week": "2026-10-19",
  "baseline": {
@@ -60,58 +60,58 @@
   "petitions_baseline_4wk_mean": 472.05
  },
  "quality": {
-  "notices": 304683,
+  "notices": 304839,
   "notices_by_code": {
-   "2410": 10338,
+   "2410": 10340,
    "2421": 4,
-   "2441": 118197,
-   "2443": 121848,
-   "2450": 29735,
+   "2441": 118241,
+   "2443": 121888,
+   "2450": 29754,
    "2451": 113,
-   "2452": 17005,
-   "2603": 7443
+   "2452": 17040,
+   "2603": 7459
   },
   "notices_by_edition": {
-   "London": 288924,
-   "Edinburgh": 12369,
-   "Belfast": 3390
+   "London": 289053,
+   "Edinburgh": 12388,
+   "Belfast": 3398
   },
   "share_with_company_number": {
-   "2410": 0.9296,
-   "2441": 0.2562,
+   "2410": 0.9294,
+   "2441": 0.2563,
    "2443": 0.9932,
-   "2450": 0.634,
+   "2450": 0.6339,
    "2451": 0.0088,
    "2452": 0.9613,
-   "2603": 0.0699,
+   "2603": 0.0703,
    "2421": 1.0
   },
-  "share_located_by_map_point": 0.72,
-  "share_region_unknown": 0.2605,
+  "share_located_by_map_point": 0.7198,
+  "share_region_unknown": 0.2606,
   "dedup": {
    "ADM_duplicates": 128,
-   "ADM_events": 10210,
-   "ADM_notices": 10338,
-   "CVL_duplicates": 30493,
-   "CVL_events": 121633,
-   "CVL_notices": 152126,
+   "ADM_events": 10212,
+   "ADM_notices": 10340,
+   "CVL_duplicates": 30526,
+   "CVL_events": 121673,
+   "CVL_notices": 152199,
    "MEMO_AR_events": 4,
    "MEMO_AR_notices": 4,
-   "MEMO_DIS_duplicates": 1504,
-   "MEMO_DIS_events": 5939,
-   "MEMO_DIS_notices": 7443,
+   "MEMO_DIS_duplicates": 1506,
+   "MEMO_DIS_events": 5953,
+   "MEMO_DIS_notices": 7459,
    "MEMO_REC_events": 0,
    "MEMO_REC_notices": 0,
-   "PET_duplicates": 631,
-   "PET_events": 29217,
-   "PET_hmrc_no": 5946,
-   "PET_hmrc_unknown": 23271,
-   "PET_notices": 29848,
+   "PET_duplicates": 632,
+   "PET_events": 29235,
+   "PET_hmrc_no": 5947,
+   "PET_hmrc_unknown": 23288,
+   "PET_notices": 29867,
    "WUO_duplicates": 245,
-   "WUO_events": 16760,
-   "WUO_notices": 17005,
-   "office_notices": 56055,
-   "office_points": 670,
+   "WUO_events": 16795,
+   "WUO_notices": 17040,
+   "office_notices": 56113,
+   "office_points": 671,
    "ADM_notices_per_event": 1.013,
    "CVL_notices_per_event": 1.251,
    "WUO_notices_per_event": 1.015,
@@ -9031,16 +9031,16 @@
   },
   "2026-10": {
    "2410/London": {
-    "gazette_total": 138,
-    "rows": 138
+    "gazette_total": 139,
+    "rows": 139
    },
    "2410/Edinburgh": {
     "gazette_total": 4,
     "rows": 4
    },
    "2410/Belfast": {
-    "gazette_total": 3,
-    "rows": 3
+    "gazette_total": 4,
+    "rows": 4
    },
    "2421/London": {
     "gazette_total": 0,
@@ -9067,36 +9067,36 @@
     "rows": 0
    },
    "2441/London": {
-    "gazette_total": 1426,
-    "rows": 1426
+    "gazette_total": 1464,
+    "rows": 1464
    },
    "2441/Edinburgh": {
-    "gazette_total": 46,
-    "rows": 46
+    "gazette_total": 49,
+    "rows": 49
    },
    "2441/Belfast": {
-    "gazette_total": 8,
-    "rows": 8
+    "gazette_total": 11,
+    "rows": 11
    },
    "2443/London": {
-    "gazette_total": 1453,
-    "rows": 1453
+    "gazette_total": 1487,
+    "rows": 1487
    },
    "2443/Edinburgh": {
-    "gazette_total": 51,
-    "rows": 51
+    "gazette_total": 54,
+    "rows": 54
    },
    "2443/Belfast": {
-    "gazette_total": 8,
-    "rows": 8
+    "gazette_total": 11,
+    "rows": 11
    },
    "2450/London": {
-    "gazette_total": 636,
-    "rows": 636
+    "gazette_total": 644,
+    "rows": 644
    },
    "2450/Edinburgh": {
-    "gazette_total": 71,
-    "rows": 71
+    "gazette_total": 82,
+    "rows": 82
    },
    "2450/Belfast": {
     "gazette_total": 4,
@@ -9115,24 +9115,24 @@
     "rows": 0
    },
    "2452/London": {
-    "gazette_total": 240,
-    "rows": 240
+    "gazette_total": 274,
+    "rows": 274
    },
    "2452/Edinburgh": {
     "gazette_total": 0,
     "rows": 0
    },
    "2452/Belfast": {
-    "gazette_total": 13,
-    "rows": 13
+    "gazette_total": 14,
+    "rows": 14
    },
    "2603/London": {
-    "gazette_total": 78,
-    "rows": 78
+    "gazette_total": 92,
+    "rows": 92
    },
    "2603/Edinburgh": {
-    "gazette_total": 5,
-    "rows": 5
+    "gazette_total": 7,
+    "rows": 7
    },
    "2603/Belfast": {
     "gazette_total": 2,
