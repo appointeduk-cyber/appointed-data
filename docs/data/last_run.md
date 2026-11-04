@@ -1,6 +1,6 @@
 # Last run
 
-- UTC: 2026-11-03T03:22:53Z
+- UTC: 2026-11-04T03:23:24Z
 - Trigger: schedule
 
 ```
@@ -11,21 +11,36 @@ month 2026-09
   network/parse error JSONDecodeError('Expecting value: line 1 column 1 (char 0)'), waiting 10s (1/6)
   network/parse error JSONDecodeError('Expecting value: line 1 column 1 (char 0)'), waiting 20s (2/6)
   network/parse error JSONDecodeError('Expecting value: line 1 column 1 (char 0)'), waiting 40s (3/6)
-  network/parse error JSONDecodeError('Expecting value: line 1 column 1 (char 0)'), waiting 80s (4/6)
-  network/parse error JSONDecodeError('Expecting value: line 1 column 1 (char 0)'), waiting 160s (5/6)
-  network/parse error JSONDecodeError('Expecting value: line 1 column 1 (char 0)'), waiting 300s (6/6)
-Traceback (most recent call last):
-  File "/home/runner/work/appointed-data/appointed-data/pipeline/build.py", line 635, in <module>
-    main()
-  File "/home/runner/work/appointed-data/appointed-data/pipeline/build.py", line 607, in main
-    rows, totals, geo = fetch_month(ms, me, geo)
-                        ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/appointed-data/appointed-data/pipeline/build.py", line 216, in fetch_month
-    ents, t = entries_of(http(GAZETTE + "?" + urllib.parse.urlencode(q)))
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/appointed-data/appointed-data/pipeline/build.py", line 103, in http
-    raise RuntimeError(f"giving up on {url}")
-RuntimeError: giving up on https://www.thegazette.co.uk/all-notices/notice/data.json?noticetypes=2441&edition=London&start-publish-date=2026-09-01&end-publish-date=2026-09-30&results-page-size=100&results-page=7&sort-by=oldest-date
+  2026-09 2441: 1495 notices
+  2026-09 2443: 1503 notices
+  2026-09 2450: 534 notices
+  2026-09 2451: 1 notices
+  2026-09 2452: 332 notices
+  2026-09 2603: 99 notices
+month 2026-10
+  2026-10 2410: 147 notices
+  2026-10 2421: 0 notices
+  2026-10 2423: 0 notices
+  2026-10 2441: 1524 notices
+  2026-10 2443: 1552 notices
+  2026-10 2450: 730 notices
+  2026-10 2451: 2 notices
+  HTTP 500, waiting 10s (1/6)
+  2026-10 2452: 304 notices
+  2026-10 2603: 101 notices
+month 2026-11
+  2026-11 2410: 16 notices
+  2026-11 2421: 0 notices
+  2026-11 2423: 0 notices
+  2026-11 2441: 126 notices
+  2026-11 2443: 132 notices
+  2026-11 2450: 20 notices
+  2026-11 2451: 0 notices
+  2026-11 2452: 11 notices
+  2026-11 2603: 8 notices
+office addresses: {'office_points': 672, 'notices_at_office_points': 56180, 'share_at_office_points': 0.1841, 'notices_without_point_field': 0}
+published: 357 weeks, 305168 notices, 184075 events
+constituencies: 632 seats, 9 quarters
 official: company-insolvencies-september-2026, 81 months; reconciled 243 component-months
   ADM: {'months_compared_since_apr_2022': 54, 'ratio_mean': 1.02, 'ratio_sd': 0.161, 'ratio_min': 0.665, 'ratio_max': 1.495, 'share_of_months_within_10pct_of_mean': 0.5, 'corr_monthly_changes': 0.642, 'corr_3month_changes': 0.786, 'latest_month': '2026-09', 'latest_ratio': 1.14}
   CVL: {'months_compared_since_apr_2022': 54, 'ratio_mean': 1.02, 'ratio_sd': 0.107, 'ratio_min': 0.756, 'ratio_max': 1.281, 'share_of_months_within_10pct_of_mean': 0.704, 'corr_monthly_changes': 0.479, 'corr_3month_changes': 0.554, 'latest_month': '2026-09', 'latest_ratio': 1.03}
