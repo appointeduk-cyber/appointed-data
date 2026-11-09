@@ -1,16 +1,16 @@
 {
- "latest_week": "2026-10-26",
- "index": 94.6,
+ "latest_week": "2026-11-02",
+ "index": 102.9,
  "provisional": true,
- "change_vs_4wk_ago": -4.8,
- "change_vs_year_ago": -3.9,
+ "change_vs_4wk_ago": 7.9,
+ "change_vs_year_ago": 11.8,
  "components": {
-  "administrations": 104.3,
-  "cvl": 89.8,
-  "winding_up_orders": 90.4
+  "administrations": 110.6,
+  "cvl": 91.1,
+  "winding_up_orders": 115.6
  },
- "petitions_index": 122.9,
- "equal_weight": 94.8,
- "plain_count": 90.9,
+ "petitions_index": 123.3,
+ "equal_weight": 105.8,
+ "plain_count": 95.8,
  "holiday_affected": false
 }

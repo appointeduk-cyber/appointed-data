@@ -1,8 +1,8 @@
 {
  "method_version": "2.2",
- "updated_utc": "2026-11-08T03:25:54+00:00",
+ "updated_utc": "2026-11-09T03:15:51+00:00",
  "first_week": "2019-12-30",
- "last_complete_week": "2026-10-26",
+ "last_complete_week": "2026-11-02",
  "baseline": {
   "from": "2024-01-01",
   "to": "2025-12-31",
@@ -60,19 +60,19 @@
   "petitions_baseline_4wk_mean": 472.05
  },
  "quality": {
-  "notices": 305893,
+  "notices": 305976,
   "notices_by_code": {
-   "2410": 10379,
+   "2410": 10382,
    "2421": 4,
-   "2441": 118592,
-   "2443": 122251,
+   "2441": 118622,
+   "2443": 122281,
    "2450": 29914,
    "2451": 113,
-   "2452": 17143,
+   "2452": 17163,
    "2603": 7497
   },
   "notices_by_edition": {
-   "London": 290058,
+   "London": 290141,
    "Edinburgh": 12425,
    "Belfast": 3410
   },
@@ -90,11 +90,11 @@
   "share_region_unknown": 0.2606,
   "dedup": {
    "ADM_duplicates": 128,
-   "ADM_events": 10251,
-   "ADM_notices": 10379,
+   "ADM_events": 10254,
+   "ADM_notices": 10382,
    "CVL_duplicates": 30675,
-   "CVL_events": 122036,
-   "CVL_notices": 152711,
+   "CVL_events": 122066,
+   "CVL_notices": 152741,
    "MEMO_AR_events": 4,
    "MEMO_AR_notices": 4,
    "MEMO_DIS_duplicates": 1517,
@@ -107,10 +107,10 @@
    "PET_hmrc_no": 5967,
    "PET_hmrc_unknown": 23422,
    "PET_notices": 30027,
-   "WUO_duplicates": 246,
-   "WUO_events": 16897,
-   "WUO_notices": 17143,
-   "office_notices": 56311,
+   "WUO_duplicates": 247,
+   "WUO_events": 16916,
+   "WUO_notices": 17163,
+   "office_notices": 56337,
    "office_points": 672,
    "ADM_notices_per_event": 1.012,
    "CVL_notices_per_event": 1.251,
@@ -9141,8 +9141,8 @@
   },
   "2026-11": {
    "2410/London": {
-    "gazette_total": 39,
-    "rows": 39
+    "gazette_total": 42,
+    "rows": 42
    },
    "2410/Edinburgh": {
     "gazette_total": 0,
@@ -9177,8 +9177,8 @@
     "rows": 0
    },
    "2441/London": {
-    "gazette_total": 337,
-    "rows": 337
+    "gazette_total": 367,
+    "rows": 367
    },
    "2441/Edinburgh": {
     "gazette_total": 13,
@@ -9189,8 +9189,8 @@
     "rows": 1
    },
    "2443/London": {
-    "gazette_total": 348,
-    "rows": 348
+    "gazette_total": 378,
+    "rows": 378
    },
    "2443/Edinburgh": {
     "gazette_total": 14,
@@ -9225,8 +9225,8 @@
     "rows": 0
    },
    "2452/London": {
-    "gazette_total": 87,
-    "rows": 87
+    "gazette_total": 107,
+    "rows": 107
    },
    "2452/Edinburgh": {
     "gazette_total": 0,
