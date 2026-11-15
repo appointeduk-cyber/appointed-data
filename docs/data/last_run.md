@@ -1,20 +1,9 @@
 # Last run
 
-- UTC: 2026-11-14T03:27:45Z
+- UTC: 2026-11-15T03:21:53Z
 - Trigger: schedule
 
 ```
-month 2026-09
-  2026-09 2410: 124 notices
-  2026-09 2421: 0 notices
-  2026-09 2423: 0 notices
-  network/parse error TimeoutError('The read operation timed out'), waiting 10s (1/6)
-  2026-09 2441: 1495 notices
-  2026-09 2443: 1503 notices
-  2026-09 2450: 534 notices
-  2026-09 2451: 1 notices
-  2026-09 2452: 332 notices
-  2026-09 2603: 99 notices
 month 2026-10
   2026-10 2410: 147 notices
   2026-10 2421: 0 notices
@@ -29,14 +18,20 @@ month 2026-11
   2026-11 2410: 82 notices
   2026-11 2421: 0 notices
   2026-11 2423: 0 notices
-  2026-11 2441: 694 notices
-  2026-11 2443: 721 notices
-  2026-11 2450: 303 notices
+  network/parse error TimeoutError('The read operation timed out'), waiting 10s (1/6)
+  2026-11 2441: 695 notices
+  HTTP 500, waiting 10s (1/6)
+  HTTP 500, waiting 20s (2/6)
+  HTTP 500, waiting 40s (3/6)
+  HTTP 500, waiting 80s (4/6)
+  HTTP 500, waiting 160s (5/6)
+  2026-11 2443: 722 notices
+  2026-11 2450: 304 notices
   2026-11 2451: 1 notices
-  2026-11 2452: 158 notices
+  2026-11 2452: 170 notices
   2026-11 2603: 52 notices
-office addresses: {'office_points': 672, 'notices_at_office_points': 56466, 'share_at_office_points': 0.184, 'notices_without_point_field': 0}
-published: 358 weeks, 306866 notices, 185178 events
+office addresses: {'office_points': 672, 'notices_at_office_points': 56468, 'share_at_office_points': 0.184, 'notices_without_point_field': 0}
+published: 358 weeks, 306881 notices, 185192 events
 constituencies: 632 seats, 9 quarters
 official: company-insolvencies-september-2026, 81 months; reconciled 243 component-months
   ADM: {'months_compared_since_apr_2022': 54, 'ratio_mean': 1.02, 'ratio_sd': 0.161, 'ratio_min': 0.665, 'ratio_max': 1.495, 'share_of_months_within_10pct_of_mean': 0.5, 'corr_monthly_changes': 0.642, 'corr_3month_changes': 0.786, 'latest_month': '2026-09', 'latest_ratio': 1.14}
