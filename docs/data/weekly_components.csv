@@ -17840,3 +17840,58 @@ week_start,component,nation,region,count
 2026-11-02,WUO,England and Wales,Wales,5
 2026-11-02,WUO,England and Wales,West Midlands,7
 2026-11-02,WUO,England and Wales,Yorkshire and The Humber,8
+2026-11-09,ADM,England and Wales,East Midlands,2
+2026-11-09,ADM,England and Wales,East of England,3
+2026-11-09,ADM,England and Wales,London,1
+2026-11-09,ADM,England and Wales,North West,9
+2026-11-09,ADM,England and Wales,South East,5
+2026-11-09,ADM,England and Wales,South West,6
+2026-11-09,ADM,England and Wales,Unknown,1
+2026-11-09,ADM,England and Wales,Wales,2
+2026-11-09,ADM,England and Wales,West Midlands,7
+2026-11-09,ADM,England and Wales,Yorkshire and The Humber,4
+2026-11-09,ADM,Northern Ireland,Northern Ireland,1
+2026-11-09,ADM,Scotland,Scotland,2
+2026-11-09,ADM_TO_CVL,England and Wales,Unknown,1
+2026-11-09,CVL,England and Wales,East Midlands,15
+2026-11-09,CVL,England and Wales,East of England,19
+2026-11-09,CVL,England and Wales,London,38
+2026-11-09,CVL,England and Wales,North East,3
+2026-11-09,CVL,England and Wales,North West,43
+2026-11-09,CVL,England and Wales,Scotland,1
+2026-11-09,CVL,England and Wales,South East,40
+2026-11-09,CVL,England and Wales,South West,15
+2026-11-09,CVL,England and Wales,Unknown,108
+2026-11-09,CVL,England and Wales,Wales,7
+2026-11-09,CVL,England and Wales,West Midlands,26
+2026-11-09,CVL,England and Wales,Yorkshire and The Humber,23
+2026-11-09,CVL,Northern Ireland,Northern Ireland,5
+2026-11-09,CVL,Scotland,Scotland,13
+2026-11-09,MEMO_DIS,England and Wales,North West,1
+2026-11-09,MEMO_DIS,England and Wales,Unknown,9
+2026-11-09,MEMO_DIS,Scotland,Scotland,2
+2026-11-09,PET,England and Wales,East Midlands,3
+2026-11-09,PET,England and Wales,East of England,10
+2026-11-09,PET,England and Wales,London,28
+2026-11-09,PET,England and Wales,North East,4
+2026-11-09,PET,England and Wales,North West,13
+2026-11-09,PET,England and Wales,South East,15
+2026-11-09,PET,England and Wales,South West,7
+2026-11-09,PET,England and Wales,Unknown,24
+2026-11-09,PET,England and Wales,Wales,2
+2026-11-09,PET,England and Wales,West Midlands,6
+2026-11-09,PET,England and Wales,Yorkshire and The Humber,12
+2026-11-09,PET,Northern Ireland,Northern Ireland,1
+2026-11-09,PET,Scotland,Scotland,16
+2026-11-09,WUO,England and Wales,East Midlands,6
+2026-11-09,WUO,England and Wales,East of England,4
+2026-11-09,WUO,England and Wales,London,22
+2026-11-09,WUO,England and Wales,North East,1
+2026-11-09,WUO,England and Wales,North West,4
+2026-11-09,WUO,England and Wales,South East,8
+2026-11-09,WUO,England and Wales,South West,3
+2026-11-09,WUO,England and Wales,Unknown,18
+2026-11-09,WUO,England and Wales,Wales,2
+2026-11-09,WUO,England and Wales,West Midlands,1
+2026-11-09,WUO,England and Wales,Yorkshire and The Humber,5
+2026-11-09,WUO,Northern Ireland,Northern Ireland,2

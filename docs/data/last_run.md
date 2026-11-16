@@ -1,6 +1,6 @@
 # Last run
 
-- UTC: 2026-11-15T03:21:53Z
+- UTC: 2026-11-16T03:28:20Z
 - Trigger: schedule
 
 ```
@@ -15,27 +15,21 @@ month 2026-10
   2026-10 2452: 304 notices
   2026-10 2603: 101 notices
 month 2026-11
-  2026-11 2410: 82 notices
+  2026-11 2410: 86 notices
   2026-11 2421: 0 notices
   2026-11 2423: 0 notices
-  network/parse error TimeoutError('The read operation timed out'), waiting 10s (1/6)
-  2026-11 2441: 695 notices
-  HTTP 500, waiting 10s (1/6)
-  HTTP 500, waiting 20s (2/6)
-  HTTP 500, waiting 40s (3/6)
-  HTTP 500, waiting 80s (4/6)
-  HTTP 500, waiting 160s (5/6)
-  2026-11 2443: 722 notices
-  2026-11 2450: 304 notices
+  2026-11 2441: 716 notices
+  2026-11 2443: 743 notices
+  2026-11 2450: 306 notices
   2026-11 2451: 1 notices
-  2026-11 2452: 170 notices
+  2026-11 2452: 184 notices
   2026-11 2603: 52 notices
-office addresses: {'office_points': 672, 'notices_at_office_points': 56468, 'share_at_office_points': 0.184, 'notices_without_point_field': 0}
-published: 358 weeks, 306881 notices, 185192 events
+office addresses: {'office_points': 672, 'notices_at_office_points': 56476, 'share_at_office_points': 0.184, 'notices_without_point_field': 0}
+published: 359 weeks, 306943 notices, 185231 events
 constituencies: 632 seats, 9 quarters
 official: company-insolvencies-september-2026, 81 months; reconciled 243 component-months
   ADM: {'months_compared_since_apr_2022': 54, 'ratio_mean': 1.02, 'ratio_sd': 0.161, 'ratio_min': 0.665, 'ratio_max': 1.495, 'share_of_months_within_10pct_of_mean': 0.5, 'corr_monthly_changes': 0.642, 'corr_3month_changes': 0.786, 'latest_month': '2026-09', 'latest_ratio': 1.14}
   CVL: {'months_compared_since_apr_2022': 54, 'ratio_mean': 1.02, 'ratio_sd': 0.107, 'ratio_min': 0.756, 'ratio_max': 1.281, 'share_of_months_within_10pct_of_mean': 0.704, 'corr_monthly_changes': 0.479, 'corr_3month_changes': 0.554, 'latest_month': '2026-09', 'latest_ratio': 1.03}
   WUO: {'months_compared_since_apr_2022': 54, 'ratio_mean': 1.009, 'ratio_sd': 0.23, 'ratio_min': 0.203, 'ratio_max': 1.447, 'share_of_months_within_10pct_of_mean': 0.37, 'corr_monthly_changes': 0.168, 'corr_3month_changes': 0.247, 'latest_month': '2026-09', 'latest_ratio': 0.91}
-charts: regional map for week starting 2026-11-02
+charts: regional map for week starting 2026-11-09
 ```
