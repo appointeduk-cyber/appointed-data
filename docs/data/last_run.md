@@ -1,6 +1,6 @@
 # Last run
 
-- UTC: 2026-11-17T03:14:49Z
+- UTC: 2026-11-18T03:18:14Z
 - Trigger: schedule
 
 ```
@@ -15,21 +15,21 @@ month 2026-10
   2026-10 2452: 304 notices
   2026-10 2603: 101 notices
 month 2026-11
-  2026-11 2410: 93 notices
+  2026-11 2410: 94 notices
   2026-11 2421: 0 notices
   2026-11 2423: 0 notices
-  2026-11 2441: 788 notices
-  2026-11 2443: 823 notices
-  2026-11 2450: 313 notices
+  2026-11 2441: 853 notices
+  2026-11 2443: 891 notices
+  2026-11 2450: 331 notices
   2026-11 2451: 1 notices
-  2026-11 2452: 186 notices
-  2026-11 2603: 53 notices
-office addresses: {'office_points': 673, 'notices_at_office_points': 56541, 'share_at_office_points': 0.1841, 'notices_without_point_field': 0}
-published: 359 weeks, 307112 notices, 185328 events
+  2026-11 2452: 189 notices
+  2026-11 2603: 54 notices
+office addresses: {'office_points': 673, 'notices_at_office_points': 56557, 'share_at_office_points': 0.1841, 'notices_without_point_field': 0}
+published: 359 weeks, 307268 notices, 185419 events
 constituencies: 632 seats, 9 quarters
-official: company-insolvencies-september-2026, 81 months; reconciled 243 component-months
-  ADM: {'months_compared_since_apr_2022': 54, 'ratio_mean': 1.02, 'ratio_sd': 0.161, 'ratio_min': 0.665, 'ratio_max': 1.495, 'share_of_months_within_10pct_of_mean': 0.5, 'corr_monthly_changes': 0.642, 'corr_3month_changes': 0.786, 'latest_month': '2026-09', 'latest_ratio': 1.14}
-  CVL: {'months_compared_since_apr_2022': 54, 'ratio_mean': 1.02, 'ratio_sd': 0.107, 'ratio_min': 0.756, 'ratio_max': 1.281, 'share_of_months_within_10pct_of_mean': 0.704, 'corr_monthly_changes': 0.479, 'corr_3month_changes': 0.554, 'latest_month': '2026-09', 'latest_ratio': 1.03}
-  WUO: {'months_compared_since_apr_2022': 54, 'ratio_mean': 1.009, 'ratio_sd': 0.23, 'ratio_min': 0.203, 'ratio_max': 1.447, 'share_of_months_within_10pct_of_mean': 0.37, 'corr_monthly_changes': 0.168, 'corr_3month_changes': 0.247, 'latest_month': '2026-09', 'latest_ratio': 0.91}
+official: company-insolvencies-october-2026, 82 months; reconciled 246 component-months
+  ADM: {'months_compared_since_apr_2022': 55, 'ratio_mean': 1.022, 'ratio_sd': 0.16, 'ratio_min': 0.665, 'ratio_max': 1.495, 'share_of_months_within_10pct_of_mean': 0.545, 'corr_monthly_changes': 0.643, 'corr_3month_changes': 0.786, 'latest_month': '2026-10', 'latest_ratio': 1.124}
+  CVL: {'months_compared_since_apr_2022': 55, 'ratio_mean': 1.022, 'ratio_sd': 0.107, 'ratio_min': 0.756, 'ratio_max': 1.281, 'share_of_months_within_10pct_of_mean': 0.691, 'corr_monthly_changes': 0.477, 'corr_3month_changes': 0.558, 'latest_month': '2026-10', 'latest_ratio': 1.141}
+  WUO: {'months_compared_since_apr_2022': 55, 'ratio_mean': 1.006, 'ratio_sd': 0.229, 'ratio_min': 0.203, 'ratio_max': 1.447, 'share_of_months_within_10pct_of_mean': 0.364, 'corr_monthly_changes': 0.168, 'corr_3month_changes': 0.248, 'latest_month': '2026-10', 'latest_ratio': 0.836}
 charts: regional map for week starting 2026-11-09
 ```

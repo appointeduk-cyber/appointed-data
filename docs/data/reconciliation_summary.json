@@ -1,44 +1,44 @@
 {
- "official_release": "company-insolvencies-september-2026",
- "official_published": "2026-10-20T09:30:00+01:00",
- "official_csv": "https://assets.publishing.service.gov.uk/media/6ad0e2bb67af5c09d0479675/Long-Run_Series_in_CSV_Format_-_Company_Insolvency_Statistics_September_2026.csv",
+ "official_release": "company-insolvencies-october-2026",
+ "official_published": "2026-11-17T09:30:02+00:00",
+ "official_csv": "https://assets.publishing.service.gov.uk/media/6af73003740e16c0699ca831/Long-Run_Series_in_CSV_Format_-_Company_Insolvency_Statistics_October_2026.csv",
  "basis_note": "Official: Companies House registration month (compulsory liquidations by order date), England and Wales, not seasonally adjusted. Appointed: London Gazette edition, events dated by publication week, assigned to the calendar month of their first notice.",
  "components": {
   "ADM": {
-   "months_compared_since_apr_2022": 54,
-   "ratio_mean": 1.02,
-   "ratio_sd": 0.161,
+   "months_compared_since_apr_2022": 55,
+   "ratio_mean": 1.022,
+   "ratio_sd": 0.16,
    "ratio_min": 0.665,
    "ratio_max": 1.495,
-   "share_of_months_within_10pct_of_mean": 0.5,
-   "corr_monthly_changes": 0.642,
+   "share_of_months_within_10pct_of_mean": 0.545,
+   "corr_monthly_changes": 0.643,
    "corr_3month_changes": 0.786,
-   "latest_month": "2026-09",
-   "latest_ratio": 1.14
+   "latest_month": "2026-10",
+   "latest_ratio": 1.124
   },
   "CVL": {
-   "months_compared_since_apr_2022": 54,
-   "ratio_mean": 1.02,
+   "months_compared_since_apr_2022": 55,
+   "ratio_mean": 1.022,
    "ratio_sd": 0.107,
    "ratio_min": 0.756,
    "ratio_max": 1.281,
-   "share_of_months_within_10pct_of_mean": 0.704,
-   "corr_monthly_changes": 0.479,
-   "corr_3month_changes": 0.554,
-   "latest_month": "2026-09",
-   "latest_ratio": 1.03
+   "share_of_months_within_10pct_of_mean": 0.691,
+   "corr_monthly_changes": 0.477,
+   "corr_3month_changes": 0.558,
+   "latest_month": "2026-10",
+   "latest_ratio": 1.141
   },
   "WUO": {
-   "months_compared_since_apr_2022": 54,
-   "ratio_mean": 1.009,
-   "ratio_sd": 0.23,
+   "months_compared_since_apr_2022": 55,
+   "ratio_mean": 1.006,
+   "ratio_sd": 0.229,
    "ratio_min": 0.203,
    "ratio_max": 1.447,
-   "share_of_months_within_10pct_of_mean": 0.37,
+   "share_of_months_within_10pct_of_mean": 0.364,
    "corr_monthly_changes": 0.168,
-   "corr_3month_changes": 0.247,
-   "latest_month": "2026-09",
-   "latest_ratio": 0.91
+   "corr_3month_changes": 0.248,
+   "latest_month": "2026-10",
+   "latest_ratio": 0.836
   }
  }
 }
