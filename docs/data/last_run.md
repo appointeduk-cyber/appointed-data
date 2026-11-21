@@ -1,6 +1,6 @@
 # Last run
 
-- UTC: 2026-11-20T10:17:16Z
+- UTC: 2026-11-21T10:06:59Z
 - Trigger: schedule
 
 ```
@@ -15,17 +15,17 @@ month 2026-10
   2026-10 2452: 304 notices
   2026-10 2603: 101 notices
 month 2026-11
-  2026-11 2410: 111 notices
+  2026-11 2410: 114 notices
   2026-11 2421: 0 notices
   2026-11 2423: 0 notices
-  2026-11 2441: 1000 notices
-  2026-11 2443: 1038 notices
-  2026-11 2450: 426 notices
+  2026-11 2441: 1030 notices
+  2026-11 2443: 1069 notices
+  2026-11 2450: 444 notices
   2026-11 2451: 1 notices
-  2026-11 2452: 231 notices
-  2026-11 2603: 59 notices
-office addresses: {'office_points': 676, 'notices_at_office_points': 56682, 'share_at_office_points': 0.1842, 'notices_without_point_field': 0}
-published: 359 weeks, 307721 notices, 185724 events
+  2026-11 2452: 259 notices
+  2026-11 2603: 61 notices
+office addresses: {'office_points': 676, 'notices_at_office_points': 56686, 'share_at_office_points': 0.1841, 'notices_without_point_field': 0}
+published: 359 weeks, 307833 notices, 185805 events
 constituencies: 632 seats, 9 quarters
 official: company-insolvencies-october-2026, 82 months; reconciled 246 component-months
   ADM: {'months_compared_since_apr_2022': 55, 'ratio_mean': 1.022, 'ratio_sd': 0.16, 'ratio_min': 0.665, 'ratio_max': 1.495, 'share_of_months_within_10pct_of_mean': 0.545, 'corr_monthly_changes': 0.643, 'corr_3month_changes': 0.786, 'latest_month': '2026-10', 'latest_ratio': 1.124}
