@@ -15316,14 +15316,14 @@ week_start,component,nation,region,count
 2025-12-01,ADM_TO_CVL,England and Wales,South East,1
 2025-12-01,ADM_TO_CVL,England and Wales,Unknown,2
 2025-12-01,CVL,England and Wales,East Midlands,33
-2025-12-01,CVL,England and Wales,East of England,24
+2025-12-01,CVL,England and Wales,East of England,23
 2025-12-01,CVL,England and Wales,London,52
 2025-12-01,CVL,England and Wales,North East,9
 2025-12-01,CVL,England and Wales,North West,34
 2025-12-01,CVL,England and Wales,Scotland,1
 2025-12-01,CVL,England and Wales,South East,34
 2025-12-01,CVL,England and Wales,South West,17
-2025-12-01,CVL,England and Wales,Unknown,126
+2025-12-01,CVL,England and Wales,Unknown,127
 2025-12-01,CVL,England and Wales,Wales,10
 2025-12-01,CVL,England and Wales,West Midlands,26
 2025-12-01,CVL,England and Wales,Yorkshire and The Humber,23
@@ -15365,13 +15365,13 @@ week_start,component,nation,region,count
 2025-12-08,ADM,England and Wales,Yorkshire and The Humber,1
 2025-12-08,ADM_TO_CVL,England and Wales,Unknown,1
 2025-12-08,CVL,England and Wales,East Midlands,13
-2025-12-08,CVL,England and Wales,East of England,19
+2025-12-08,CVL,England and Wales,East of England,18
 2025-12-08,CVL,England and Wales,London,31
 2025-12-08,CVL,England and Wales,North East,7
 2025-12-08,CVL,England and Wales,North West,35
 2025-12-08,CVL,England and Wales,South East,42
 2025-12-08,CVL,England and Wales,South West,11
-2025-12-08,CVL,England and Wales,Unknown,108
+2025-12-08,CVL,England and Wales,Unknown,109
 2025-12-08,CVL,England and Wales,Wales,4
 2025-12-08,CVL,England and Wales,West Midlands,23
 2025-12-08,CVL,England and Wales,Yorkshire and The Humber,21
@@ -15419,13 +15419,13 @@ week_start,component,nation,region,count
 2025-12-15,ADM_TO_CVL,England and Wales,Unknown,1
 2025-12-15,ADM_TO_CVL,England and Wales,Yorkshire and The Humber,1
 2025-12-15,CVL,England and Wales,East Midlands,23
-2025-12-15,CVL,England and Wales,East of England,41
+2025-12-15,CVL,England and Wales,East of England,38
 2025-12-15,CVL,England and Wales,London,51
 2025-12-15,CVL,England and Wales,North East,7
 2025-12-15,CVL,England and Wales,North West,37
 2025-12-15,CVL,England and Wales,South East,40
 2025-12-15,CVL,England and Wales,South West,26
-2025-12-15,CVL,England and Wales,Unknown,148
+2025-12-15,CVL,England and Wales,Unknown,151
 2025-12-15,CVL,England and Wales,Wales,9
 2025-12-15,CVL,England and Wales,West Midlands,39
 2025-12-15,CVL,England and Wales,Yorkshire and The Humber,39
@@ -15655,13 +15655,13 @@ week_start,component,nation,region,count
 2026-01-19,ADM_TO_CVL,England and Wales,Unknown,2
 2026-01-19,ADM_TO_CVL,England and Wales,Wales,1
 2026-01-19,CVL,England and Wales,East Midlands,11
-2026-01-19,CVL,England and Wales,East of England,22
+2026-01-19,CVL,England and Wales,East of England,21
 2026-01-19,CVL,England and Wales,London,31
 2026-01-19,CVL,England and Wales,North East,6
 2026-01-19,CVL,England and Wales,North West,26
 2026-01-19,CVL,England and Wales,South East,31
 2026-01-19,CVL,England and Wales,South West,12
-2026-01-19,CVL,England and Wales,Unknown,79
+2026-01-19,CVL,England and Wales,Unknown,80
 2026-01-19,CVL,England and Wales,Wales,6
 2026-01-19,CVL,England and Wales,West Midlands,16
 2026-01-19,CVL,England and Wales,Yorkshire and The Humber,17
@@ -15901,14 +15901,14 @@ week_start,component,nation,region,count
 2026-02-16,WUO,England and Wales,West Midlands,1
 2026-02-16,WUO,England and Wales,Yorkshire and The Humber,3
 2026-02-16,WUO,Northern Ireland,Northern Ireland,2
-2026-02-23,ADM,England and Wales,East of England,2
+2026-02-23,ADM,England and Wales,East of England,1
 2026-02-23,ADM,England and Wales,London,1
 2026-02-23,ADM,England and Wales,North East,1
 2026-02-23,ADM,England and Wales,North West,4
 2026-02-23,ADM,England and Wales,Scotland,1
 2026-02-23,ADM,England and Wales,South East,7
 2026-02-23,ADM,England and Wales,South West,3
-2026-02-23,ADM,England and Wales,Unknown,5
+2026-02-23,ADM,England and Wales,Unknown,6
 2026-02-23,ADM,England and Wales,Wales,1
 2026-02-23,ADM,England and Wales,West Midlands,2
 2026-02-23,ADM,England and Wales,Yorkshire and The Humber,5
@@ -16079,14 +16079,14 @@ week_start,component,nation,region,count
 2026-03-16,ADM_TO_CVL,England and Wales,Unknown,1
 2026-03-16,ADM_TO_CVL,England and Wales,West Midlands,1
 2026-03-16,CVL,England and Wales,East Midlands,15
-2026-03-16,CVL,England and Wales,East of England,34
+2026-03-16,CVL,England and Wales,East of England,33
 2026-03-16,CVL,England and Wales,London,30
 2026-03-16,CVL,England and Wales,North East,6
 2026-03-16,CVL,England and Wales,North West,42
 2026-03-16,CVL,England and Wales,Scotland,1
 2026-03-16,CVL,England and Wales,South East,38
 2026-03-16,CVL,England and Wales,South West,22
-2026-03-16,CVL,England and Wales,Unknown,129
+2026-03-16,CVL,England and Wales,Unknown,130
 2026-03-16,CVL,England and Wales,Wales,9
 2026-03-16,CVL,England and Wales,West Midlands,23
 2026-03-16,CVL,England and Wales,Yorkshire and The Humber,26
@@ -16119,13 +16119,13 @@ week_start,component,nation,region,count
 2026-03-16,WUO,England and Wales,Yorkshire and The Humber,4
 2026-03-16,WUO,Northern Ireland,Northern Ireland,8
 2026-03-23,ADM,England and Wales,East Midlands,3
-2026-03-23,ADM,England and Wales,East of England,2
+2026-03-23,ADM,England and Wales,East of England,1
 2026-03-23,ADM,England and Wales,London,14
 2026-03-23,ADM,England and Wales,North East,3
 2026-03-23,ADM,England and Wales,North West,4
 2026-03-23,ADM,England and Wales,South East,1
 2026-03-23,ADM,England and Wales,South West,3
-2026-03-23,ADM,England and Wales,Unknown,83
+2026-03-23,ADM,England and Wales,Unknown,84
 2026-03-23,ADM,England and Wales,Wales,3
 2026-03-23,ADM,England and Wales,West Midlands,7
 2026-03-23,ADM,England and Wales,Yorkshire and The Humber,3
@@ -16339,13 +16339,13 @@ week_start,component,nation,region,count
 2026-04-20,ADM_TO_CVL,England and Wales,Unknown,4
 2026-04-20,ADM_TO_CVL,England and Wales,West Midlands,1
 2026-04-20,CVL,England and Wales,East Midlands,10
-2026-04-20,CVL,England and Wales,East of England,28
+2026-04-20,CVL,England and Wales,East of England,27
 2026-04-20,CVL,England and Wales,London,39
 2026-04-20,CVL,England and Wales,North East,6
 2026-04-20,CVL,England and Wales,North West,34
 2026-04-20,CVL,England and Wales,South East,32
 2026-04-20,CVL,England and Wales,South West,14
-2026-04-20,CVL,England and Wales,Unknown,137
+2026-04-20,CVL,England and Wales,Unknown,138
 2026-04-20,CVL,England and Wales,Wales,7
 2026-04-20,CVL,England and Wales,West Midlands,17
 2026-04-20,CVL,England and Wales,Yorkshire and The Humber,24
@@ -16447,13 +16447,13 @@ week_start,component,nation,region,count
 2026-05-04,ADM_TO_CVL,England and Wales,East Midlands,1
 2026-05-04,ADM_TO_CVL,England and Wales,Unknown,1
 2026-05-04,CVL,England and Wales,East Midlands,20
-2026-05-04,CVL,England and Wales,East of England,25
+2026-05-04,CVL,England and Wales,East of England,24
 2026-05-04,CVL,England and Wales,London,32
 2026-05-04,CVL,England and Wales,North East,12
 2026-05-04,CVL,England and Wales,North West,33
 2026-05-04,CVL,England and Wales,South East,39
 2026-05-04,CVL,England and Wales,South West,20
-2026-05-04,CVL,England and Wales,Unknown,129
+2026-05-04,CVL,England and Wales,Unknown,130
 2026-05-04,CVL,England and Wales,Wales,7
 2026-05-04,CVL,England and Wales,West Midlands,24
 2026-05-04,CVL,England and Wales,Yorkshire and The Humber,17
@@ -16653,13 +16653,13 @@ week_start,component,nation,region,count
 2026-06-01,ADM,England and Wales,Yorkshire and The Humber,4
 2026-06-01,ADM_TO_CVL,England and Wales,Unknown,2
 2026-06-01,CVL,England and Wales,East Midlands,9
-2026-06-01,CVL,England and Wales,East of England,24
+2026-06-01,CVL,England and Wales,East of England,23
 2026-06-01,CVL,England and Wales,London,31
 2026-06-01,CVL,England and Wales,North East,9
 2026-06-01,CVL,England and Wales,North West,25
 2026-06-01,CVL,England and Wales,South East,29
 2026-06-01,CVL,England and Wales,South West,18
-2026-06-01,CVL,England and Wales,Unknown,128
+2026-06-01,CVL,England and Wales,Unknown,129
 2026-06-01,CVL,England and Wales,Wales,11
 2026-06-01,CVL,England and Wales,West Midlands,22
 2026-06-01,CVL,England and Wales,Yorkshire and The Humber,17
@@ -17334,13 +17334,13 @@ week_start,component,nation,region,count
 2026-08-31,ADM_TO_CVL,England and Wales,South East,1
 2026-08-31,ADM_TO_CVL,England and Wales,Unknown,1
 2026-08-31,CVL,England and Wales,East Midlands,19
-2026-08-31,CVL,England and Wales,East of England,15
+2026-08-31,CVL,England and Wales,East of England,14
 2026-08-31,CVL,England and Wales,London,34
 2026-08-31,CVL,England and Wales,North East,4
 2026-08-31,CVL,England and Wales,North West,28
 2026-08-31,CVL,England and Wales,South East,24
 2026-08-31,CVL,England and Wales,South West,18
-2026-08-31,CVL,England and Wales,Unknown,91
+2026-08-31,CVL,England and Wales,Unknown,92
 2026-08-31,CVL,England and Wales,Wales,12
 2026-08-31,CVL,England and Wales,West Midlands,19
 2026-08-31,CVL,England and Wales,Yorkshire and The Humber,17
@@ -17907,13 +17907,13 @@ week_start,component,nation,region,count
 2026-11-16,ADM,Scotland,Scotland,2
 2026-11-16,ADM_TO_CVL,England and Wales,South West,1
 2026-11-16,CVL,England and Wales,East Midlands,15
-2026-11-16,CVL,England and Wales,East of England,17
+2026-11-16,CVL,England and Wales,East of England,16
 2026-11-16,CVL,England and Wales,London,49
 2026-11-16,CVL,England and Wales,North East,4
 2026-11-16,CVL,England and Wales,North West,28
 2026-11-16,CVL,England and Wales,South East,41
 2026-11-16,CVL,England and Wales,South West,12
-2026-11-16,CVL,England and Wales,Unknown,127
+2026-11-16,CVL,England and Wales,Unknown,128
 2026-11-16,CVL,England and Wales,Wales,10
 2026-11-16,CVL,England and Wales,West Midlands,19
 2026-11-16,CVL,England and Wales,Yorkshire and The Humber,15
